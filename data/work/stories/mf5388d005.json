@@ -1,0 +1,259 @@
+{
+  "id": "mf5388d005",
+  "name": "도천마을 송림 숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "도천마을 송림 숲은 경상남도 함양군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 함양군"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲에는 소나무가 주로 자라요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "원래 울창했던 숲은 일제시대에 일본인들이 벌채해 갔고 그 후 다시 자란 것이 대부분이에요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "원래 울창했던 숲은 일제시대에 일본인들이 벌채해 갔고"
+            },
+            {
+              "text": "벌채당하지 않은 것은 100년이 넘었을 것이고, 다시 자란 것은 70년 정도 되었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "벌채당하지 않은 것은 100년이 넘었을 것이고 다시자란 것은 70년 정도 되었다."
+            },
+            {
+              "text": "이 숲은 위천 물길이 급하게 도는 곳에 자리잡아 마을을 지키는 뜻으로 가꾼 숲이라고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "위천 물길이 급하게 도는 곳에 자리잡은 이 숲은 소위 비보림 목적의 마을 숲이다."
+            },
+            {
+              "text": "그리고 각급 학교의 소풍장소나 야외 학습장으로 많이 이용된대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "각급 학교의 소풍장소, 야외 학습장으로 많이 이용되는 곳이다"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "도천마을 송림 숲은 경상남도 함양군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 함양군"
+            },
+            {
+              "text": "주요 수종은 소나무다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "약2ha의 원래 울창했던 숲은 일제시대에 일본인들이 벌채해 갔고 그 후 다시 자란 것이 대부분이다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약2ha의 원래 울창했던 숲은 일제시대에 일본인들이 벌채해 갔고"
+            },
+            {
+              "text": "벌채당하지 않은 것은 100년이 넘었을 것이고 다시자란 것은 70년 정도 되었다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "벌채당하지 않은 것은 100년이 넘었을 것이고 다시자란 것은 70년 정도 되었다."
+            },
+            {
+              "text": "위천 물길이 급하게 도는 곳에 자리잡은 이 숲은 소위 비보림 목적의 마을 숲이다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "위천 물길이 급하게 도는 곳에 자리잡은 이 숲은 소위 비보림 목적의 마을 숲이다."
+            },
+            {
+              "text": "각급 학교의 소풍장소, 야외 학습장으로 많이 이용되는 곳이다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "각급 학교의 소풍장소, 야외 학습장으로 많이 이용되는 곳이다"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 장소가 '경상남도 함양군'으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무가 '소나무'로 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '일제시대에 일본인들이 벌채해 갔고 그 후 다시 자란 것이 대부분'이라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '벌채당하지 않은 것은 100년이 넘었을 것이고, 다시자란 것은 70년 정도 되었다'고 직접 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '위천 물길이 급하게 도는 곳에 자리잡은... 소위 비보림 목적의 마을 숲'이라고 되어 있어 같은 뜻으로 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화기록에 '각급 학교의 소풍장소, 야외 학습장으로 많이 이용되는 곳이다'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문에 위치가 '경상남도 함양군'으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '주요 나무: 소나무'로 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '약2ha의 원래 울창했던 숲은 일제시대에 일본인들이 벌채해 갔고 그 후 다시 자란 것이 대부분'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '벌채당하지 않은 것은 100년이 넘었을 것이고 다시자란 것은 70년 정도 되었다'고 직접 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 동일하게 '위천 물길이 급하게 도는 곳에 자리잡은... 소위 비보림 목적의 마을 숲'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 문화기록과 동일하게 '각급 학교의 소풍장소, 야외 학습장으로 많이 이용되는 곳이다'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 '소나무'가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유 문장은 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "도천마을 송림 숲은 경상남도 함양군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 함양군"
+        },
+        {
+          "text": "이 숲에는 소나무가 주로 자라요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "원래 울창했던 숲은 일제시대에 일본인들이 벌채해 갔고 그 후 다시 자란 것이 대부분이에요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "원래 울창했던 숲은 일제시대에 일본인들이 벌채해 갔고"
+        },
+        {
+          "text": "벌채당하지 않은 것은 100년이 넘었을 것이고, 다시 자란 것은 70년 정도 되었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "벌채당하지 않은 것은 100년이 넘었을 것이고 다시자란 것은 70년 정도 되었다."
+        },
+        {
+          "text": "이 숲은 위천 물길이 급하게 도는 곳에 자리잡아 마을을 지키는 뜻으로 가꾼 숲이라고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "위천 물길이 급하게 도는 곳에 자리잡은 이 숲은 소위 비보림 목적의 마을 숲이다."
+        },
+        {
+          "text": "그리고 각급 학교의 소풍장소나 야외 학습장으로 많이 이용된대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "각급 학교의 소풍장소, 야외 학습장으로 많이 이용되는 곳이다"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "도천마을 송림 숲은 경상남도 함양군에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 함양군"
+        },
+        {
+          "text": "주요 수종은 소나무다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "약2ha의 원래 울창했던 숲은 일제시대에 일본인들이 벌채해 갔고 그 후 다시 자란 것이 대부분이다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약2ha의 원래 울창했던 숲은 일제시대에 일본인들이 벌채해 갔고"
+        },
+        {
+          "text": "벌채당하지 않은 것은 100년이 넘었을 것이고 다시자란 것은 70년 정도 되었다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "벌채당하지 않은 것은 100년이 넘었을 것이고 다시자란 것은 70년 정도 되었다."
+        },
+        {
+          "text": "위천 물길이 급하게 도는 곳에 자리잡은 이 숲은 소위 비보림 목적의 마을 숲이다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "위천 물길이 급하게 도는 곳에 자리잡은 이 숲은 소위 비보림 목적의 마을 숲이다."
+        },
+        {
+          "text": "각급 학교의 소풍장소, 야외 학습장으로 많이 이용되는 곳이다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "각급 학교의 소풍장소, 야외 학습장으로 많이 이용되는 곳이다"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  },
+  "opener_removed": true
+}

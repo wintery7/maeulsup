@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>마을숲, 어디까지 들어봤니?</title>
+<meta name="description" content="가족 여행 가는 곳에 숨어 있는 전통마을숲 이야기를, 가는 길 차 안에서 아이에게 들려주는 서비스. 산림청 공공데이터로 만들었습니다.">
+<meta name="theme-color" content="#1c3a26">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌳</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="top">
+  <a class="brand" href="#">마을숲, 어디까지 들어봤니?</a>
+  <nav aria-label="주요 메뉴">
+    <a href="#map">전국 지도</a>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+  <p class="loading">숲 기록을 불러오는 중이에요…</p>
+</main>
+
+<footer class="foot">
+  <p>이 서비스는 산림청 「전통마을숲위치도(산림공간정보 1:25000)」와 「숲에 사는 식물 정보」 공공데이터를 이용했습니다. 출처: 공공데이터포털(data.go.kr), 산림청.</p>
+  <p>이야기는 산림청 조사 기록을 바탕으로 AI가 아이 눈높이에 맞게 다시 쓴 글이고, 음성은 AI 음성입니다. 모든 이야기는 원문과 대조하는 검증을 거쳤습니다.</p>
+  <p>숲 사진은 한국관광공사 TourAPI와 국가유산청 공개 API의 사진 가운데 숲이 찍힌 것을 골라 썼습니다(공공누리 제1·3·4유형). 제4유형 사진은 비상업 조건이라 이 서비스가 무료로 운영되는 동안에만 씁니다. 사진마다 출처를 함께 적었습니다.</p>
+  <p>지도 © OpenStreetMap 기여자</p>
+  <p class="foot-links">만든 과정이 궁금하다면: <a href="#data">데이터 이야기</a> · <a href="#kit">개발자 키트</a></p>
+</footer>
+
+<div class="player" id="player" hidden>
+  <div class="player-info">
+    <span class="player-count" id="playerCount"></span>
+    <strong id="playerTitle"></strong>
+  </div>
+  <div class="player-ctrl">
+    <button type="button" class="btn-round" id="playerToggle" aria-label="일시정지">❚❚</button>
+    <button type="button" class="btn-ghost" id="playerNext" aria-label="다음 이야기">다음</button>
+    <button type="button" class="btn-ghost" id="playerStop" aria-label="그만 듣기">닫기</button>
+  </div>
+  <div class="player-bar"><span id="playerBar"></span></div>
+</div>
+<audio id="audio" preload="none"></audio>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" defer></script>
+<script src="assets/config.js" defer></script>
+<script src="assets/app.js" defer></script>
+</body>
+</html>

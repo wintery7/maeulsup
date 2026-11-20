@@ -1,0 +1,355 @@
+{
+  "id": "mf88a3aba1",
+  "name": "평동숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "평동숲은 경상남도 진주시 이반성면 평동마을에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시 이반성면 길성리 659번지 일원(평동마을)"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲의 주요 나무는 느티나무예요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "주요 나무(species): 느티나무"
+            },
+            {
+              "text": "기록에는 300년 전 진주 강씨가 입촌했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "300년 전 진주 강씨가 입촌 당시"
+            },
+            {
+              "text": "그때 많은 꿀벌이 안산에서 떼지어 드나드는 형세를 보고 들 복판에 집을 짓고 동명을 벌마을이라고 했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "많은 꿀벌이 안산에서 떼지어 드나드는 형세를 보고 들 복판에 집을 짓고 동명을 벌마을이라고 하였다."
+            },
+            {
+              "text": "마을 중앙에는 영봉재라는 진주 강씨의 재실이 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 중앙에 영봉재란 진주 강씨의 재실이 있다."
+            },
+            {
+              "text": "마을은 양달과 음달로 되어 있고 들판 곳곳에 비슷한 바위 돌 일곱 개가 있어 칠성곡이라고 불렀대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "들판 곳곳에 크기와 모양이 비슷한 바위 돌이 일곱개가 있었다고 하여 칠성곡이라고 하였다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "평동숲은 경상남도 진주시 이반성면 길성리 659번지 일원(평동마을)에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시 이반성면 길성리 659번지 일원(평동마을)"
+            },
+            {
+              "text": "주요 수종은 느티나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "주요 나무(species): 느티나무"
+            },
+            {
+              "text": "기록에는 지금은 평동이라 부르나 300년 전 진주 강씨가 입촌 당시 많은 꿀벌이 안산에서 떼지어 드나드는 형세를 보고 들 복판에 집을 짓고 동명을 벌마을이라고 하였다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "지금은 평동이라 부르고 있으나 300년 전 진주 강씨가 입촌 당시 많은 꿀벌이 안산에서 떼지어 드나드는 형세를 보고 들 복판에 집을 짓고 동명을 벌마을이라고 하였다."
+            },
+            {
+              "text": "마을 중앙에 영봉재란 진주 강씨의 재실이 있고, 마을은 양달과 음달로 나뉘며 들판의 비슷한 바위 일곱 개로 칠성곡이라 불렀다고 전합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 중앙에 영봉재란 진주 강씨의 재실이 있다. 그리고 이 마을은 양달과 음달로 되어 있고 들판 곳곳에 크기와 모양이 비슷한 바위 돌이 일곱개가 있었다고 하여 칠성곡이라고 하였다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "주요 나무(species): 느티나무"
+        }
+      },
+      "problems": [
+        "child 3번 문장: 근거 구절이 원문에 없음 '주요 나무(species): 느티나무'",
+        "adult 2번 문장: 근거 구절이 원문에 없음 '주요 나무(species): 느티나무'",
+        "찾아볼 것: 근거 구절이 원문에 없음"
+      ],
+      "verdicts": null
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "평동숲은 경상남도 진주시 이반성면 길성리 평동마을에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲의 주요 나무는 느티나무래요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "지금은 평동이라 부르는데 300년 전 진주 강씨가 들어왔을 때 많은 꿀벌이 드나들어 벌마을이라고 불렀대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "300년 전"
+            },
+            {
+              "text": "마을 중앙에 영봉재란 진주 강씨의 재실이 있다고 전해져요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 중앙에 영봉재란 진주 강씨의 재실이 있다."
+            },
+            {
+              "text": "들판 곳곳에 크기와 모양이 비슷한 바위 돌이 일곱개 있어 칠성곡이라고 불렀대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "들판 곳곳에 크기와 모양이 비슷한 바위 돌이 일곱개가 있었다고 하여 칠성곡이라고 하였다."
+            },
+            {
+              "text": "길성이란 뜻도 여기에 있는 것과 같대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "길성이란 뜻도 여기에 있는 것과 같다."
+            },
+            {
+              "text": "자, 숲에 가 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "평동숲은 경상남도 진주시 이반성면 길성리 659번지 일원 평동마을에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시 이반성면 길성리 659번지 일원"
+            },
+            {
+              "text": "주요 나무는 느티나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "이제 간단히 둘러보겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "기록에는 지금은 평동이라 부르나 300년 전 진주 강씨가 입촌 당시 많은 꿀벌이 안산에서 떼지어 드나드는 형세를 보고 들 복판에 집을 짓고 동명을 벌마을이라고 하였다고 합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "벌마을이라고 하였다."
+            },
+            {
+              "text": "마을 중앙에는 영봉재란 진주 강씨의 재실이 있고, 들판 곳곳의 바위 일곱 개 때문에 칠성곡이라 불렀다고 전합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 중앙에 영봉재란 진주 강씨의 재실이 있다."
+            },
+            {
+              "text": "길성이란 뜻도 여기에 있는 것과 같다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "길성이란 뜻도 여기에 있는 것과 같다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 주소로 경상남도 진주시 이반성면 길성리 평동마을이 명시되어 있어 일치합니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 명시되어 있어 동일한 내용입니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 300년 전 진주 강씨가 입촌 당시 꿀벌이 드나들어 벌마을이라 했다는 내용이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 문화 기록에 마을 중앙에 영봉재란 진주 강씨의 재실이 있다고 되어 있어 일치합니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 들판 곳곳에 크기와 모양이 비슷한 바위 돌 일곱 개가 있어 칠성곡이라 했다는 기록이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '길성이란 뜻도 여기에 있는 것과 같다'고 되어 있어 같은 내용입니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 주소에 '경상남도 진주시 이반성면 길성리 659번지 일원(평동마을)'이라 표기되어 있어 일치합니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 명시되어 있어 동일한 진술입니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "문장이 원문 역사 기록의 내용을 그대로 옮긴 표현으로 원문에 근거하고 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 영봉재 재실 존재와 들판의 바위 일곱 개로 칠성곡이라 불렀다는 설명이 모두 포함되어 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '길성이란 뜻도 여기에 있는 것과 같다'고 기록되어 있어 일치합니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 느티나무가 주요 나무로 명시되어 있어 '느티나무를 찾아보자'는 권유는 원문에 근거합니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "평동숲은 경상남도 진주시 이반성면 길성리 평동마을에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 진주시"
+        },
+        {
+          "text": "이 숲의 주요 나무는 느티나무래요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "지금은 평동이라 부르는데 300년 전 진주 강씨가 들어왔을 때 많은 꿀벌이 드나들어 벌마을이라고 불렀대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "300년 전"
+        },
+        {
+          "text": "마을 중앙에 영봉재란 진주 강씨의 재실이 있다고 전해져요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 중앙에 영봉재란 진주 강씨의 재실이 있다."
+        },
+        {
+          "text": "들판 곳곳에 크기와 모양이 비슷한 바위 돌이 일곱개 있어 칠성곡이라고 불렀대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "들판 곳곳에 크기와 모양이 비슷한 바위 돌이 일곱개가 있었다고 하여 칠성곡이라고 하였다."
+        },
+        {
+          "text": "길성이란 뜻도 여기에 있는 것과 같대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "길성이란 뜻도 여기에 있는 것과 같다."
+        },
+        {
+          "text": "자, 숲에 가 볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "평동숲은 경상남도 진주시 이반성면 길성리 659번지 일원 평동마을에 위치합니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 진주시 이반성면 길성리 659번지 일원"
+        },
+        {
+          "text": "주요 나무는 느티나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "이제 간단히 둘러보겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "기록에는 지금은 평동이라 부르나 300년 전 진주 강씨가 입촌 당시 많은 꿀벌이 안산에서 떼지어 드나드는 형세를 보고 들 복판에 집을 짓고 동명을 벌마을이라고 하였다고 합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "벌마을이라고 하였다."
+        },
+        {
+          "text": "마을 중앙에는 영봉재란 진주 강씨의 재실이 있고, 들판 곳곳의 바위 일곱 개 때문에 칠성곡이라 불렀다고 전합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 중앙에 영봉재란 진주 강씨의 재실이 있다."
+        },
+        {
+          "text": "길성이란 뜻도 여기에 있는 것과 같다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "길성이란 뜻도 여기에 있는 것과 같다."
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  },
+  "opener_removed": true
+}

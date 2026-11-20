@@ -1,0 +1,300 @@
+{
+  "id": "mf93adad2b",
+  "name": "울리동숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "울리동숲은 경기도 파주시의 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경기도 파주시"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "차에서 천천히 들려줄게요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "마을에서는 느티나무를 주로 심어 숲을 이뤘대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을에서 예부터 느티나무를 심고 가꾸어"
+            },
+            {
+              "text": "옛날에는 말을 많이 기르던 마을이라 마장리라고 불렀대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "말을 많이 기르던 마을이라 마장리라 부르며"
+            },
+            {
+              "text": "덤불을 없애려고 느티나무를 많이 심고 가꾸었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "덤불을 없애려고 느티나무를 많이 심고 가꾸어"
+            },
+            {
+              "text": "울리골이라 부르다가 울리동으로 이름이 바뀌었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "울(蔚)리골이라 부르다가 울리동으로 변화되었다함"
+            },
+            {
+              "text": "마을에는 36세대가 살고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "36세대가 거주하며"
+            },
+            {
+              "text": "마을 전체가 느티나무 숲을 이루고 있는 전통마을이에요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 전체가 느티나무 숲을 이루고 있는 전통마을임"
+            },
+            {
+              "text": "이제 내려서 찾아볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "울리동숲은 경기도 파주시 광탄면 마장리에 위치한 숲입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "광탄면 마장리"
+            },
+            {
+              "text": "주요 수종은 느티나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "마장리는 예전에 말을 많이 기르던 마을이라 마장리라 불렀다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "말을 많이 기르던 마을이라 마장리라 부르며"
+            },
+            {
+              "text": "조선후기에 덤불을 없애려고 느티나무를 많이 심고 가꾸었다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "덤불을 없애려고 느티나무를 많이 심고 가꾸어"
+            },
+            {
+              "text": "초기 명칭인 울리골에서 울리동으로 변화되었다고 합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "울(蔚)리골이라 부르다가 울리동으로 변화되었다함"
+            },
+            {
+              "text": "마을은 36세대가 거주하며 마을 전체가 느티나무 숲을 이루는 전통마을입니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 전체가 느티나무 숲을 이루고 있는 전통마을임"
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 경기도 파주시로 표기되어 있어요."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "문화 기록에 예부터 느티나무를 심고 가꾸어 마을 전체가 느티나무 숲을 이루고 있다고 적혀 있어요."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "역사 기록에 예전에 말을 많이 기르던 마을이라 마장리라 부른다고 적혀 있어요."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "역사 기록에 덤불을 없애려고 느티나무를 많이 심고 가꾸었다고 적혀 있어요."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "역사 기록에 울리골이라 부르다가 울리동으로 변화되었다고 적혀 있어요."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "문화 기록에 36세대가 거주한다고 명시되어 있어요."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "문화 기록에 마을 전체가 느티나무 숲을 이루는 전통마을이라고 적혀 있어요."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 주소에 경기도 파주시 광탄면 마장리 418-3로 위치가 표기되어 있어요."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "주요 나무 항목에 느티나무라고 기재되어 있어요."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "역사 기록에 예전에 말을 많이 기르던 마을이라 마장리라 불렀다고 적혀 있어요."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "역사 기록에 조선후기에 덤불을 없애려고 느티나무를 많이 심고 가꾸었다고 적혀 있어요."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "역사 기록에 초기 명칭인 울리골에서 울리동으로 변화되었다고 적혀 있어요."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "문화 기록에 마을은 36세대가 거주하며 마을 전체가 느티나무 숲을 이루는 전통마을이라고 적혀 있어요."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 느티나무가 기재되어 있고 문화 기록에도 느티나무 숲이라 적혀 있어 찾아볼 대상으로 맞습니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "울리동숲은 경기도 파주시의 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경기도 파주시"
+        },
+        {
+          "text": "차에서 천천히 들려줄게요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "마을에서는 느티나무를 주로 심어 숲을 이뤘대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을에서 예부터 느티나무를 심고 가꾸어"
+        },
+        {
+          "text": "옛날에는 말을 많이 기르던 마을이라 마장리라고 불렀대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "말을 많이 기르던 마을이라 마장리라 부르며"
+        },
+        {
+          "text": "덤불을 없애려고 느티나무를 많이 심고 가꾸었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "덤불을 없애려고 느티나무를 많이 심고 가꾸어"
+        },
+        {
+          "text": "울리골이라 부르다가 울리동으로 이름이 바뀌었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "울(蔚)리골이라 부르다가 울리동으로 변화되었다함"
+        },
+        {
+          "text": "마을에는 36세대가 살고 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "36세대가 거주하며"
+        },
+        {
+          "text": "마을 전체가 느티나무 숲을 이루고 있는 전통마을이에요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 전체가 느티나무 숲을 이루고 있는 전통마을임"
+        },
+        {
+          "text": "이제 내려서 찾아볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "울리동숲은 경기도 파주시 광탄면 마장리에 위치한 숲입니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "광탄면 마장리"
+        },
+        {
+          "text": "주요 수종은 느티나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "마장리는 예전에 말을 많이 기르던 마을이라 마장리라 불렀다고 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "말을 많이 기르던 마을이라 마장리라 부르며"
+        },
+        {
+          "text": "조선후기에 덤불을 없애려고 느티나무를 많이 심고 가꾸었다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "덤불을 없애려고 느티나무를 많이 심고 가꾸어"
+        },
+        {
+          "text": "초기 명칭인 울리골에서 울리동으로 변화되었다고 합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "울(蔚)리골이라 부르다가 울리동으로 변화되었다함"
+        },
+        {
+          "text": "마을은 36세대가 거주하며 마을 전체가 느티나무 숲을 이루는 전통마을입니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 전체가 느티나무 숲을 이루고 있는 전통마을임"
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  },
+  "opener_removed": true
+}

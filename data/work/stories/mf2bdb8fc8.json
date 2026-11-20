@@ -1,0 +1,305 @@
+{
+  "id": "mf2bdb8fc8",
+  "name": "동편마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "동편마을숲은 영광군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 영광군"
+            },
+            {
+              "text": "이 숲에는 해송이 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "100여년전 바닷물이 상류까지 넘실거렸대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "100여년전 바닷물이 상류까지 넘실거리고"
+            },
+            {
+              "text": "마을 사람들이 바닷바람을 막으려고 마을 주변과 천 주변으로 해송을 심었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 주변과 천 주변으로"
+            },
+            {
+              "text": "해송을 심었다는 기록도 전해진대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "해송을 식재 하였다고 한다"
+            },
+            {
+              "text": "여름에는 하천에 낚시와 평상등을 설치해서 단잠을 자고 쉬는 곳으로 쓴대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "단잠을 취하고 휴식을 취하는 공간을 탈바꿈 한 장소로 이용하고 있음"
+            },
+            {
+              "text": "마을의 수호신인 보호수가 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을의 수호신인 보호수가 위치하고 있으며"
+            },
+            {
+              "text": "정월대보름에 달집 태우는 행사에 마을 사람들이 함께 참여한대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정월대보름 달집 태우기에 면민이 동참하는등"
+            },
+            {
+              "text": "마을에서는 이런 행사를 크게 전개하고 있다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "행사를 크게 전개하고 있는 실정이다"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "동편마을숲은 전라남도 영광군에 위치해 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 영광군"
+            },
+            {
+              "text": "주요 수종은 해송이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "기록에 따르면 100여년전 바닷물이 상류까지 넘실거려 바다의 해풍을 방어하기 위하여 마을 주민이 해송을 식재하였다고 한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "해송을 식재 하였다고 한다"
+            },
+            {
+              "text": "여름철에는 하천에 낚시와 평상등을 설치하여 단잠을 취하고 휴식을 취하는 공간으로 이용하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "단잠을 취하고 휴식을 취하는 공간을 탈바꿈 한 장소로 이용하고 있음"
+            },
+            {
+              "text": "마을의 수호신인 보호수가 위치해 있고, 정월대보름 달집 태우기 행사에 면민이 동참하는 등 행사를 크게 전개하고 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을의 수호신인 보호수가 위치하고 있으며"
+            },
+            {
+              "text": "정월대보름 행사에 면민이 동참하는등 지역 행사가 활발하다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정월대보름 달집 태우기에 면민이 동참하는등"
+            }
+          ]
+        },
+        "find": {
+          "text": "보호수를 찾아볼까요?",
+          "target": "보호수",
+          "source_quote": "마을의 수호신인 보호수가 위치하고 있으며"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 전라남도 영광군으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 해송이 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 100여년전 바닷물이 상류까지 넘실거렸다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 마을 주민이 해풍(바닷바람)을 방어하기 위해 마을 주변과 천 주변에 해송을 식재했다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 역사 기록에 해송을 식재했다는 내용이 전해진다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 여름철에 하천에 낚시와 평상 등을 설치해 단잠을 자고 휴식하는 공간으로 이용한다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 마을의 수호신인 보호수가 위치하고 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 정월대보름 달집 태우기에 면민이 동참한다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 행사를 크게 전개하고 있는 실정이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 주소에 전라남도 영광군으로 표기되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 주요 나무(수종)로 해송이 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 역사 기록 문장이 해당 내용과 거의 동일하게 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 여름철에는 하천에 낚시와 평상 등을 설치하여 휴식 공간으로 이용한다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 보호수 위치와 정월대보름 달집 태우기에 면민이 동참하는 등 행사를 크게 전개한다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 행사를 크게 전개하고 있다고 되어 있어 이를 ‘지역 행사가 활발하다’로 해석할 수 있으므로 뒷받침됩니다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 마을의 수호신인 보호수가 위치하고 있다고 적혀 있어 ‘보호수를 찾아보자’는 권유는 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "동편마을숲은 영광군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 영광군"
+        },
+        {
+          "text": "이 숲에는 해송이 자라고 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "해송"
+        },
+        {
+          "text": "100여년전 바닷물이 상류까지 넘실거렸대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "100여년전 바닷물이 상류까지 넘실거리고"
+        },
+        {
+          "text": "마을 사람들이 바닷바람을 막으려고 마을 주변과 천 주변으로 해송을 심었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을 주변과 천 주변으로"
+        },
+        {
+          "text": "해송을 심었다는 기록도 전해진대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "해송을 식재 하였다고 한다"
+        },
+        {
+          "text": "여름에는 하천에 낚시와 평상등을 설치해서 단잠을 자고 쉬는 곳으로 쓴대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "단잠을 취하고 휴식을 취하는 공간을 탈바꿈 한 장소로 이용하고 있음"
+        },
+        {
+          "text": "마을의 수호신인 보호수가 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을의 수호신인 보호수가 위치하고 있으며"
+        },
+        {
+          "text": "정월대보름에 달집 태우는 행사에 마을 사람들이 함께 참여한대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정월대보름 달집 태우기에 면민이 동참하는등"
+        },
+        {
+          "text": "마을에서는 이런 행사를 크게 전개하고 있다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "행사를 크게 전개하고 있는 실정이다"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "동편마을숲은 전라남도 영광군에 위치해 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 영광군"
+        },
+        {
+          "text": "주요 수종은 해송이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "해송"
+        },
+        {
+          "text": "기록에 따르면 100여년전 바닷물이 상류까지 넘실거려 바다의 해풍을 방어하기 위하여 마을 주민이 해송을 식재하였다고 한다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "해송을 식재 하였다고 한다"
+        },
+        {
+          "text": "여름철에는 하천에 낚시와 평상등을 설치하여 단잠을 취하고 휴식을 취하는 공간으로 이용하고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "단잠을 취하고 휴식을 취하는 공간을 탈바꿈 한 장소로 이용하고 있음"
+        },
+        {
+          "text": "마을의 수호신인 보호수가 위치해 있고, 정월대보름 달집 태우기 행사에 면민이 동참하는 등 행사를 크게 전개하고 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을의 수호신인 보호수가 위치하고 있으며"
+        },
+        {
+          "text": "정월대보름 행사에 면민이 동참하는등 지역 행사가 활발하다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정월대보름 달집 태우기에 면민이 동참하는등"
+        }
+      ]
+    },
+    "find": {
+      "text": "보호수를 찾아볼까요?",
+      "target": "보호수",
+      "source_quote": "마을의 수호신인 보호수가 위치하고 있으며"
+    }
+  }
+}

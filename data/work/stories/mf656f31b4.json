@@ -1,0 +1,271 @@
+{
+  "id": "mf656f31b4",
+  "name": "향교마을 솔숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "향교마을 솔숲은 경상남도 함양군에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "향교마을 솔숲"
+            },
+            {
+              "text": "숲에는 주로 소나무가 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "고려 말, 향교를 지은 해에 나무를 함께 심었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "고려말(1300년도) 향교의 건축시기와 같은 해에  식재되었으며"
+            },
+            {
+              "text": "땅 모양 때문에 향교를 감싼다는 이야기도 전해져 내려온대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "향교를 감싼다는 설이 있음."
+            },
+            {
+              "text": "여름철에는 시원한 그늘이 되어 마을 사람들이 쉬고, 어린이들이 뛰어놀기에 참 좋대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을여름철 쉼터공간과 어린이 놀이터장소로 최적이며"
+            },
+            {
+              "text": "숲은 마을 한가운데 있어서 동네 대소사를 의논하기에 좋대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 한 가운데 위치하여 동네대소사를 의논하기에 좋음"
+            },
+            {
+              "text": "아이들이 놀이터장소로 최적이라고도 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을여름철 쉼터공간과 어린이 놀이터장소로 최적이며"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "향교마을 솔숲은 경상남도 함양군에 있다.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "향교마을 솔숲"
+            },
+            {
+              "text": "주요 수종은 소나무이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "고려말(1300년도) 향교의 건축시기와 같은 해에 식재되었다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "고려말(1300년도) 향교의 건축시기와 같은 해에  식재되었으며"
+            },
+            {
+              "text": "지형상 향교를 감싼다는 설이 전해진다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "향교를 감싼다는 설이 있음."
+            },
+            {
+              "text": "마을의 여름철 쉼터이자 어린이 놀이터로 적합하며, 마을 중심에 있어 동네 대소사를 의논하기에 좋다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을여름철 쉼터공간과 어린이 놀이터장소로 최적이며"
+            },
+            {
+              "text": "마을 한가운데 위치하여 동네대소사를 의논하기에 좋음이 특징이다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 한 가운데 위치하여 동네대소사를 의논하기에 좋음"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 위치에 경상남도 함양군(함양읍 교산리 841)으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무(수종)로 소나무가 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 고려말(1300년도) 향교 건축시기와 같은 해에 식재되었다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 지형상 향교를 감싼다는 설이 있다는 내용이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 문화 기록에 마을 여름철 쉼터 공간이자 어린이 놀이터장소로 최적이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 마을 한가운데 위치하여 동네 대소사를 의논하기에 좋다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 어린이 놀이터장소로 최적이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "문장 0과 동일하게 원문에 경상남도 함양군에 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 주요 수종이 소나무라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 역사 기록에 고려말(1300년도) 향교 건축시기와 같은 해에 식재되었다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 지형상 향교를 감싼다는 설이 전해진다는 내용이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 문화 기록에 마을의 여름철 쉼터이자 어린이 놀이터로 적합하며 마을 중심에 있어 동네 대소사를 의논하기에 좋다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 마을 한가운데 위치하여 동네 대소사를 의논하기에 좋음이 특징이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 소나무가 적혀 있으므로 소나무를 찾아보자는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "향교마을 솔숲은 경상남도 함양군에 있어요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "향교마을 솔숲"
+        },
+        {
+          "text": "숲에는 주로 소나무가 자라고 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "고려 말, 향교를 지은 해에 나무를 함께 심었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "고려말(1300년도) 향교의 건축시기와 같은 해에  식재되었으며"
+        },
+        {
+          "text": "땅 모양 때문에 향교를 감싼다는 이야기도 전해져 내려온대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "향교를 감싼다는 설이 있음."
+        },
+        {
+          "text": "여름철에는 시원한 그늘이 되어 마을 사람들이 쉬고, 어린이들이 뛰어놀기에 참 좋대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을여름철 쉼터공간과 어린이 놀이터장소로 최적이며"
+        },
+        {
+          "text": "숲은 마을 한가운데 있어서 동네 대소사를 의논하기에 좋대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 한 가운데 위치하여 동네대소사를 의논하기에 좋음"
+        },
+        {
+          "text": "아이들이 놀이터장소로 최적이라고도 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을여름철 쉼터공간과 어린이 놀이터장소로 최적이며"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "향교마을 솔숲은 경상남도 함양군에 있다.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "향교마을 솔숲"
+        },
+        {
+          "text": "주요 수종은 소나무이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "고려말(1300년도) 향교의 건축시기와 같은 해에 식재되었다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "고려말(1300년도) 향교의 건축시기와 같은 해에  식재되었으며"
+        },
+        {
+          "text": "지형상 향교를 감싼다는 설이 전해진다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "향교를 감싼다는 설이 있음."
+        },
+        {
+          "text": "마을의 여름철 쉼터이자 어린이 놀이터로 적합하며, 마을 중심에 있어 동네 대소사를 의논하기에 좋다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을여름철 쉼터공간과 어린이 놀이터장소로 최적이며"
+        },
+        {
+          "text": "마을 한가운데 위치하여 동네대소사를 의논하기에 좋음이 특징이다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 한 가운데 위치하여 동네대소사를 의논하기에 좋음"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  }
+}

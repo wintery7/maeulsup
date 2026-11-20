@@ -1,0 +1,220 @@
+{
+  "id": "mfe54166fa",
+  "name": "덕산마을 은자산숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "덕산마을 은자산숲은 경상북도 상주시에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "덕산마을 은자산숲"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "숲에는 소나무와 느티나무가 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무,느티나무"
+            },
+            {
+              "text": "옛날에 사람의 생명을 살리는 물건이 둘 있었다고 전해요; 하나는 금으로 된 금자이고, 다른 하나는 은으로 된 은자였대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "하나는 금으로된 금자(金尺)이고, 또 하나는 은으로 된 은자(銀尺)였다."
+            },
+            {
+              "text": "마을 동쪽 들판 가운데에 큰 돌탑이 있고, 그 돌 위에 조그마난 선돌을 세워 마을의 성황신으로 모신대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "조그마난 선돌을 세워 마을 성황신으로 모시고"
+            },
+            {
+              "text": "사람들은 매년 정월에 동신제를 지낸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월에 동신제를 지내고 있다."
+            },
+            {
+              "text": "조용히 둘러보며 이야기를 들어 보아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "덕산마을 은자산숲은 경상북도 상주시 에 위치합니다.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "덕산마을 은자산숲"
+            },
+            {
+              "text": "주요 수종은 소나무와 느티나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무,느티나무"
+            },
+            {
+              "text": "기록에는 옛날에 사람의 생명을 살리는 자가 둘 있었고 하나는 금으로된 금자이고, 또 하나는 은으로 된 은자였다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "하나는 금으로된 금자(金尺)이고, 또 하나는 은으로 된 은자(銀尺)였다."
+            },
+            {
+              "text": "마을 동쪽 들판 가운데 큰 자연 돌탑이 있고 그 위에 조그마난 선돌을 세워 마을 성황신으로 모시며 매년 정월에 동신제를 지낸다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "조그마난 선돌을 세워 마을 성황신으로 모시고"
+            }
+          ]
+        },
+        "find": {
+          "text": "조그마난 선돌을 찾아볼까요?",
+          "target": "조그마난 선돌",
+          "source_quote": "조그마난 선돌을 세워 마을 성황신으로 모시고"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '경상북도 상주시'로 명시되어 있습니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '소나무, 느티나무'라고 적혀 있습니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 부분에 사람의 생명을 살리는 자가 둘 있었고 하나는 금자, 다른 하나는 은자라고 전하고 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '들판가운데에는 큰 자연 돌탑이 있고 ... 조그마난 선돌을 세워 마을 성황신으로 모신'이라고 되어 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '매년 정월에 동신제를 지내고 있다'고 명시되어 있습니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 위치에 '경상북도 상주시'로 기재되어 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 주요 수종이 '소나무와 느티나무'라고 적혀 있습니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 역사 기록에 동일한 내용이 기록되어 있습니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 문화 기록에 큰 자연 돌탑과 그 위의 조그마난 선돌을 세워 마을 성황신으로 모시며 매년 정월에 동신제를 지낸다고 되어 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '돌함위에는 조그마난 선돌을 세워...'라고 되어 있어 '조그마난 선돌'이라는 대상이 원문에 포함되어 있습니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "덕산마을 은자산숲은 경상북도 상주시에 있어요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "덕산마을 은자산숲"
+        },
+        {
+          "text": "숲에는 소나무와 느티나무가 자라고 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무,느티나무"
+        },
+        {
+          "text": "옛날에 사람의 생명을 살리는 물건이 둘 있었다고 전해요; 하나는 금으로 된 금자이고, 다른 하나는 은으로 된 은자였대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "하나는 금으로된 금자(金尺)이고, 또 하나는 은으로 된 은자(銀尺)였다."
+        },
+        {
+          "text": "마을 동쪽 들판 가운데에 큰 돌탑이 있고, 그 돌 위에 조그마난 선돌을 세워 마을의 성황신으로 모신대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "조그마난 선돌을 세워 마을 성황신으로 모시고"
+        },
+        {
+          "text": "사람들은 매년 정월에 동신제를 지낸대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 정월에 동신제를 지내고 있다."
+        },
+        {
+          "text": "조용히 둘러보며 이야기를 들어 보아요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "덕산마을 은자산숲은 경상북도 상주시 에 위치합니다.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "덕산마을 은자산숲"
+        },
+        {
+          "text": "주요 수종은 소나무와 느티나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무,느티나무"
+        },
+        {
+          "text": "기록에는 옛날에 사람의 생명을 살리는 자가 둘 있었고 하나는 금으로된 금자이고, 또 하나는 은으로 된 은자였다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "하나는 금으로된 금자(金尺)이고, 또 하나는 은으로 된 은자(銀尺)였다."
+        },
+        {
+          "text": "마을 동쪽 들판 가운데 큰 자연 돌탑이 있고 그 위에 조그마난 선돌을 세워 마을 성황신으로 모시며 매년 정월에 동신제를 지낸다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "조그마난 선돌을 세워 마을 성황신으로 모시고"
+        }
+      ]
+    },
+    "find": {
+      "text": "조그마난 선돌을 찾아볼까요?",
+      "target": "조그마난 선돌",
+      "source_quote": "조그마난 선돌을 세워 마을 성황신으로 모시고"
+    }
+  },
+  "opener_removed": true
+}

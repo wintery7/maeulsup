@@ -1,0 +1,339 @@
+{
+  "id": "mfbdecd24c",
+  "name": "당우리 마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "당우리 마을숲은 경기도 여주군에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "당우리 마을숲"
+            },
+            {
+              "text": "여기는 소나무로 이루어진 숲이에요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "소나무 고목 20여주로 구성되어 있고 농경지 경계를 따라 줄로 서 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "소나무 고목 20여주로 구성되어 있으며 농경지 경계를 따라 열로 배열되어 있다."
+            },
+            {
+              "text": "나무 나이는 약 200년 정도래요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "소나무의 수령은 약 200년 정도로서"
+            },
+            {
+              "text": "나무 모양이 아름다운 큰 나무들이에요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수형이 수려한 고목의 형태를 띠고 있으나"
+            },
+            {
+              "text": "하지만 경작활동 때문에 계속 피해를 입고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "경작활동에 의하여 지속적으로 피해를 입고 있는 상태이다."
+            },
+            {
+              "text": "옛날에는 1960년대까지 마을을 위한 굿이나 제사를 지냈대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "1960년대까지 마을을 위한 굿이나 제사를 지내왔으나"
+            },
+            {
+              "text": "지금은 그런 문화행사가 전혀 없대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "현재는 이와 관련된 문화행사가 전혀 없는 것으로 파악되고 있다."
+            },
+            {
+              "text": "마을 사람들은 이 숲을 신성하게 여겨 스스로 돌보고 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을에서는 이 숲을 신성시하여 자체적으로 관리하고 있다."
+            },
+            {
+              "text": "줄로 서 있는 모습이 눈에 띈대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "농경지 경계를 따라 열로 배열되어 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "당우리 마을숲은 경기도 여주군에 있다.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "당우리 마을숲"
+            },
+            {
+              "text": "주요 수종은 소나무이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "숲은 소나무 고목 20여주로 구성되어 있으며 농경지 경계를 따라 열로 배열되어 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "소나무 고목 20여주로 구성되어 있으며 농경지 경계를 따라 열로 배열되어 있다."
+            },
+            {
+              "text": "소나무의 수령은 약 200년 정도로 보고되어 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "소나무의 수령은 약 200년 정도로서"
+            },
+            {
+              "text": "수형이 수려한 고목의 형태이나 경작활동에 의하여 지속적으로 피해를 입고 있는 상태이다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수형이 수려한 고목의 형태를 띠고 있으나 경작활동에 의하여 지속적으로 피해를 입고 있는 상태이다."
+            },
+            {
+              "text": "문화적으로는 1960년대까지 마을을 위한 굿이나 제사를 지내왔으나 현재는 관련 행사가 전혀 없는 것으로 파악된다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "1960년대까지 마을을 위한 굿이나 제사를 지내왔으나"
+            },
+            {
+              "text": "마을에서는 이 숲을 신성시하여 자체적으로 관리하고 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을에서는 이 숲을 신성시하여 자체적으로 관리하고 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '경기도 여주군'으로 명시되어 있어 뒷받침됨."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 주요 나무(species)에 '소나무'로 되어 있어 뒷받침됨."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '소나무 고목 20여주'로 구성되고 '농경지 경계를 따라 열로 배열되어 있다'고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '수령은 약 200년 정도'라고 되어 있어 뒷받침됨."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '수형이 수려한 고목의 형태'라고 적혀 있어 '모양이 아름다운 큰 나무'라는 표현으로 뒷받침됨."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '경작활동에 의하여 지속적으로 피해를 입고 있는 상태'라고 되어 있어 뒷받침됨."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '1960년대까지 마을을 위한 굿이나 제사를 지내왔'다고 기록되어 있어 뒷받침됨."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '현재는 이와 관련된 문화행사가 전혀 없는 것으로 파악'된다고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '마을에서는 이 숲을 신성시하여 자체적으로 관리하고 있다'라고 되어 있어 뒷받침됨."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '열로 배열되어 있다'고 되어 있어 '줄로 서 있는 모습'이라는 설명으로 뒷받침됨."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 위치가 '경기도 여주군'으로 명시되어 있어 뒷받침됨."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 주요 수종으로 '소나무'가 명시되어 있어 뒷받침됨."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '소나무 고목 20여주로 구성되어 있으며 농경지 경계를 따라 열로 배열되어 있다'고 정확히 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '소나무의 수령은 약 200년 정도'라고 보고되어 있어 뒷받침됨."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 '수형이 수려한 고목의 형태이나 경작활동에 의하여 지속적으로 피해를 입고 있는 상태'라고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 '1960년대까지 굿이나 제사를 지내왔으나 현재는 관련 행사가 전혀 없는 것으로 파악된다'고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 16,
+          "label": "supported",
+          "reason": "원문에 '마을에서는 이 숲을 신성시하여 자체적으로 관리하고 있다'라고 되어 있어 뒷받침됨."
+        },
+        {
+          "index": 17,
+          "label": "supported",
+          "reason": "원문에 수종으로 '소나무'가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유 문장은 원문으로 뒷받침됨."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "당우리 마을숲은 경기도 여주군에 있어요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "당우리 마을숲"
+        },
+        {
+          "text": "여기는 소나무로 이루어진 숲이에요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "소나무 고목 20여주로 구성되어 있고 농경지 경계를 따라 줄로 서 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "소나무 고목 20여주로 구성되어 있으며 농경지 경계를 따라 열로 배열되어 있다."
+        },
+        {
+          "text": "나무 나이는 약 200년 정도래요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "소나무의 수령은 약 200년 정도로서"
+        },
+        {
+          "text": "나무 모양이 아름다운 큰 나무들이에요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "수형이 수려한 고목의 형태를 띠고 있으나"
+        },
+        {
+          "text": "하지만 경작활동 때문에 계속 피해를 입고 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "경작활동에 의하여 지속적으로 피해를 입고 있는 상태이다."
+        },
+        {
+          "text": "옛날에는 1960년대까지 마을을 위한 굿이나 제사를 지냈대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "1960년대까지 마을을 위한 굿이나 제사를 지내왔으나"
+        },
+        {
+          "text": "지금은 그런 문화행사가 전혀 없대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "현재는 이와 관련된 문화행사가 전혀 없는 것으로 파악되고 있다."
+        },
+        {
+          "text": "마을 사람들은 이 숲을 신성하게 여겨 스스로 돌보고 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을에서는 이 숲을 신성시하여 자체적으로 관리하고 있다."
+        },
+        {
+          "text": "줄로 서 있는 모습이 눈에 띈대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "농경지 경계를 따라 열로 배열되어 있다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "당우리 마을숲은 경기도 여주군에 있다.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "당우리 마을숲"
+        },
+        {
+          "text": "주요 수종은 소나무이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "숲은 소나무 고목 20여주로 구성되어 있으며 농경지 경계를 따라 열로 배열되어 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "소나무 고목 20여주로 구성되어 있으며 농경지 경계를 따라 열로 배열되어 있다."
+        },
+        {
+          "text": "소나무의 수령은 약 200년 정도로 보고되어 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "소나무의 수령은 약 200년 정도로서"
+        },
+        {
+          "text": "수형이 수려한 고목의 형태이나 경작활동에 의하여 지속적으로 피해를 입고 있는 상태이다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "수형이 수려한 고목의 형태를 띠고 있으나 경작활동에 의하여 지속적으로 피해를 입고 있는 상태이다."
+        },
+        {
+          "text": "문화적으로는 1960년대까지 마을을 위한 굿이나 제사를 지내왔으나 현재는 관련 행사가 전혀 없는 것으로 파악된다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "1960년대까지 마을을 위한 굿이나 제사를 지내왔으나"
+        },
+        {
+          "text": "마을에서는 이 숲을 신성시하여 자체적으로 관리하고 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을에서는 이 숲을 신성시하여 자체적으로 관리하고 있다."
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  }
+}

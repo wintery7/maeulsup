@@ -1,0 +1,271 @@
+{
+  "id": "mf3987a6bf",
+  "name": "이사문중숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "이사문중숲은 대전광역시 동구에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "대전광역시 동구"
+            },
+            {
+              "text": "이 숲에는 소나무가 주로 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "이 숲은 은진송씨 송담공파 종중이 가진 숲이래요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "은진송씨 송담공파 종중 소유 숲으로서"
+            },
+            {
+              "text": "송국사의 묘를 비롯해 여러 묘가 있다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "송국사(1612~1690)의 묘를 비롯한 다수의 묘가 있으며"
+            },
+            {
+              "text": "100년 이상 된 소나무가 1,000여 그루나 있어 골고루 자라고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+            },
+            {
+              "text": "넓고 나지막한 야산에 자리해 있다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "넓고 나지막한 야산에 위치하고 있고"
+            },
+            {
+              "text": "진귀한 소나무 숲이라 80년대까지 학교와 단체들이 소풍으로 즐겨 찾았대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "진귀한 소나무 숲으로 인하여 80년대까지만 하여도 인근 학교 및 단체에서 즐겨 찾던 소풍명소로 각광받아온 곳임"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "이사문중숲은 대전광역시 동구 이사동 산3에 위치한 숲입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "대전광역시 동구 이사동 산3 (대전광역시 동구)"
+            },
+            {
+              "text": "주요 수종은 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "은진송씨 송담공파 종중 소유의 숲입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "은진송씨 송담공파 종중 소유 숲으로서"
+            },
+            {
+              "text": "송국사(1612~1690)의 묘를 비롯한 다수의 묘가 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "송국사(1612~1690)의 묘를 비롯한 다수의 묘가 있으며"
+            },
+            {
+              "text": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+            },
+            {
+              "text": "넓고 나지막한 야산에 위치한 진귀한 소나무 숲으로, 80년대까지 인근 학교 및 단체의 소풍명소로 각광받아온 곳입니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "면적 5.2ha, 넓고 나지막한 야산에 위치하고 있고 진귀한 소나무 숲으로 인하여 80년대까지만 하여도 인근 학교 및 단체에서 즐겨 찾던 소풍명소로 각광받아온 곳임"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '대전광역시 동구'로 되어 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무가 '소나무'라고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '은진송씨 송담공파 종중 소유 숲'이라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '송국사의 묘를 비롯한 다수의 묘'가 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포'한다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '넓고 나지막한 야산에 위치'한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '진귀한 소나무 숲'이라 '80년대까지만 인근 학교 및 단체에서 즐겨 찾던 소풍명소'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 정확한 주소로 '대전광역시 동구 이사동 산3'가 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '주요 나무: 소나무'로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '은진송씨 송담공파 종중 소유 숲'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '송국사(1612~1690)의 묘를 비롯한 다수의 묘'가 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포'한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '넓고 나지막한 야산에 위치한 진귀한 소나무 숲'이며 '80년대까지 인근 학교 및 단체의 소풍명소'였다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "제안 대상인 '소나무'는 원문에 주요 수종으로 명시되어 있어 권유 문장으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "이사문중숲은 대전광역시 동구에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "대전광역시 동구"
+        },
+        {
+          "text": "이 숲에는 소나무가 주로 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "이 숲은 은진송씨 송담공파 종중이 가진 숲이래요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "은진송씨 송담공파 종중 소유 숲으로서"
+        },
+        {
+          "text": "송국사의 묘를 비롯해 여러 묘가 있다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "송국사(1612~1690)의 묘를 비롯한 다수의 묘가 있으며"
+        },
+        {
+          "text": "100년 이상 된 소나무가 1,000여 그루나 있어 골고루 자라고 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+        },
+        {
+          "text": "넓고 나지막한 야산에 자리해 있다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "넓고 나지막한 야산에 위치하고 있고"
+        },
+        {
+          "text": "진귀한 소나무 숲이라 80년대까지 학교와 단체들이 소풍으로 즐겨 찾았대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "진귀한 소나무 숲으로 인하여 80년대까지만 하여도 인근 학교 및 단체에서 즐겨 찾던 소풍명소로 각광받아온 곳임"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "이사문중숲은 대전광역시 동구 이사동 산3에 위치한 숲입니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "대전광역시 동구 이사동 산3 (대전광역시 동구)"
+        },
+        {
+          "text": "주요 수종은 소나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "은진송씨 송담공파 종중 소유의 숲입니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "은진송씨 송담공파 종중 소유 숲으로서"
+        },
+        {
+          "text": "송국사(1612~1690)의 묘를 비롯한 다수의 묘가 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "송국사(1612~1690)의 묘를 비롯한 다수의 묘가 있으며"
+        },
+        {
+          "text": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+        },
+        {
+          "text": "넓고 나지막한 야산에 위치한 진귀한 소나무 숲으로, 80년대까지 인근 학교 및 단체의 소풍명소로 각광받아온 곳입니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "면적 5.2ha, 넓고 나지막한 야산에 위치하고 있고 진귀한 소나무 숲으로 인하여 80년대까지만 하여도 인근 학교 및 단체에서 즐겨 찾던 소풍명소로 각광받아온 곳임"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  }
+}

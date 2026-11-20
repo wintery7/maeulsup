@@ -1,0 +1,249 @@
+{
+  "id": "mf0e1d6077",
+  "name": "당산숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "당산숲은 전라남도 함평군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "구산마을에는 할아버지 숲과 할머니 숲이 마을길을 따라 약200m 간격을 두고 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "구산마을에는 할아버지 숲과 할머니 숲이 마을길을 따라 약200m 간격을 두고 위치하고 있다."
+            },
+            {
+              "text": "숲에는 느티나무와 회화나무가 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 회화나무"
+            },
+            {
+              "text": "마을의 액을 막아준다고 하여 신령스러운 나무로 여긴대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 액을 막아준다고 하여 신령스러운 나무로 여김."
+            },
+            {
+              "text": "마을에서는 매년 정월대보름 전날에 당산제를 지낸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월대보름 전날 당산제를 지내는데"
+            },
+            {
+              "text": "제관들이 몸과 마음을 깨끗이 정성껏 당산제를 지내면 당산나무가 액을 막아준다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "제관들이 몸과 마음을 깨끗이 정성껏 당산제를 지내면 당산나무가 액을 막아준다 하여 신령스러운 나무로 여김"
+            },
+            {
+              "text": "조용히 귀 기울여 들으면 왜 소중히 여기는지 알 수 있어요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "당산숲은 전라남도 함평군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "구산마을에는 할아버지 숲과 할머니 숲이 마을길을 따라 약200m 간격을 두고 위치하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "구산마을에는 할아버지 숲과 할머니 숲이 마을길을 따라 약200m 간격을 두고 위치하고 있다."
+            },
+            {
+              "text": "주요 수종은 느티나무와 회화나무이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 회화나무"
+            },
+            {
+              "text": "마을에서는 매년 정월대보름 전날 당산제를 지내며 제관들이 몸과 마음을 깨끗이 정성껏 당산제를 지내면 당산나무가 액을 막아준다고 여긴다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "제관들이 몸과 마음을 깨끗이 정성껏 당산제를 지내면 당산나무가 액을 막아준다 하여 신령스러운 나무로 여김"
+            },
+            {
+              "text": "조용히 둘러보면 마을에서의 역할을 느낄 수 있다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무, 회화나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 전라남도 함평군으로 되어 있어 해당 내용으로 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사·문화 기록에 구산마을의 할아버지 숲과 할머니 숲이 마을길을 따라 약200m 간격으로 위치한다고 되어 있습니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 주요 나무 항목에 느티나무와 회화나무라고 명시되어 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 마을의 액을 막아준다고 하여 신령스러운 나무로 여긴다고 기록되어 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 문화 기록에 매년 정월대보름 전날 당산제를 지낸다고 되어 있습니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 제관들이 몸과 마음을 깨끗이 정성껏 당산제를 지내면 당산나무가 액을 막아준다고 되어 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "(0)과 동일하게 원문 주소에 전라남도 함평군으로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 역사 기록 문장과 동일하게 마을길을 따라 약200m 간격으로 위치한다고 되어 있습니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 주요 나무 항목에 주요 수종으로 느티나무와 회화나무가 적혀 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 문화 기록에 매년 정월대보름 전날 당산제를 지내며 제관들의 정성스러운 제사가 당산나무가 액을 막아준다고 여긴다고 되어 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 느티나무가 주요 수종으로 명시되어 있어 ‘느티나무를 찾아보자’는 권유는 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "당산숲은 전라남도 함평군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 함평군"
+        },
+        {
+          "text": "구산마을에는 할아버지 숲과 할머니 숲이 마을길을 따라 약200m 간격을 두고 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "구산마을에는 할아버지 숲과 할머니 숲이 마을길을 따라 약200m 간격을 두고 위치하고 있다."
+        },
+        {
+          "text": "숲에는 느티나무와 회화나무가 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무, 회화나무"
+        },
+        {
+          "text": "마을의 액을 막아준다고 하여 신령스러운 나무로 여긴대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을의 액을 막아준다고 하여 신령스러운 나무로 여김."
+        },
+        {
+          "text": "마을에서는 매년 정월대보름 전날에 당산제를 지낸대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 정월대보름 전날 당산제를 지내는데"
+        },
+        {
+          "text": "제관들이 몸과 마음을 깨끗이 정성껏 당산제를 지내면 당산나무가 액을 막아준다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "제관들이 몸과 마음을 깨끗이 정성껏 당산제를 지내면 당산나무가 액을 막아준다 하여 신령스러운 나무로 여김"
+        },
+        {
+          "text": "조용히 귀 기울여 들으면 왜 소중히 여기는지 알 수 있어요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "당산숲은 전라남도 함평군에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 함평군"
+        },
+        {
+          "text": "구산마을에는 할아버지 숲과 할머니 숲이 마을길을 따라 약200m 간격을 두고 위치하고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "구산마을에는 할아버지 숲과 할머니 숲이 마을길을 따라 약200m 간격을 두고 위치하고 있다."
+        },
+        {
+          "text": "주요 수종은 느티나무와 회화나무이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무, 회화나무"
+        },
+        {
+          "text": "마을에서는 매년 정월대보름 전날 당산제를 지내며 제관들이 몸과 마음을 깨끗이 정성껏 당산제를 지내면 당산나무가 액을 막아준다고 여긴다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "제관들이 몸과 마음을 깨끗이 정성껏 당산제를 지내면 당산나무가 액을 막아준다 하여 신령스러운 나무로 여김"
+        },
+        {
+          "text": "조용히 둘러보면 마을에서의 역할을 느낄 수 있다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무, 회화나무"
+    }
+  },
+  "opener_removed": true
+}

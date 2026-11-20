@@ -1,0 +1,438 @@
+{
+  "id": "mfa5a6cb51",
+  "name": "상운마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "상운마을숲은 전라남도 광양시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 광양시"
+            },
+            {
+              "text": "숲에는 느티나무와 팽나무가 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무"
+            },
+            {
+              "text": "이 숲은 마을의 입구이며 서쪽에 위치하여 내려오는 능선의 끝자락에 조성되어, 풍수지리설에 의한 청룡맥에 해당한다고 하여 마을에서 보호관리 하고있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 입구이며 서쪽에 위치하여 내려오는 능선의 끝자락에 조성되어 풍수지리설에 의한 청룡맥에 해당한다고 하여 마을에서 보호관리 하고있음."
+            },
+            {
+              "text": "매년 정월보름에는 마을의 안녕과 발전을 위하여 당산제를 지내왔대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월보름에 마을의 안녕과 발전을 위하여 당산제를 지내왔으나,"
+            },
+            {
+              "text": "최근에는 제사를 지내지 않고 제사음식만 차리고 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "최근에는 제사를 지내지 않고 제사음식만 차리고 있음."
+            },
+            {
+              "text": "여름철에는 더위를 피하기 위한 쉬는 곳으로도 이용된대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "여름철 더위를 피하기 위한 휴식의 장소로 이용되기도 함."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "상운마을숲은 전라남도 광양시에 위치해 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 광양시"
+            },
+            {
+              "text": "주요 수종은 느티나무와 팽나무이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무"
+            },
+            {
+              "text": "마을의 입구이며 서쪽에 위치하여 내려오는 능선의 끝자락에 조성되어 풍수지리설에 의한 청룡맥에 해당한다고 하여 마을에서 보호관리하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 입구이며 서쪽에 위치하여 내려오는 능선의 끝자락에 조성되어 풍수지리설에 의한 청룡맥에 해당한다고 하여 마을에서 보호관리 하고있음."
+            },
+            {
+              "text": "매년 정월보름에 마을의 안녕과 발전을 위하여 당산제를 지내왔으나 최근에는 제사를 지내지 않고 제사음식만 차리고 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월보름에 마을의 안녕과 발전을 위하여 당산제를 지내왔으나, 최근에는 제사를 지내지 않고 제사음식만 차리고 있음."
+            },
+            {
+              "text": "또한 여름철에는 더위를 피하기 위한 휴식의 장소로 이용되기도 한다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "여름철 더위를 피하기 위한 휴식의 장소로 이용되기도 함."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무, 팽나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 상운마을숲의 위치가 전라남도 광양시로 명시되어 있다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 느티나무와 팽나무가 기재되어 있다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 마을 입구이자 서쪽 능선 끝자락에 조성되어 풍수지리의 청룡맥으로 마을에서 보호관리하고 있다고 적혀 있다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 문화 기록에 매년 정월보름에 마을의 안녕과 발전을 위해 당산제를 지내왔다고 되어 있다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 최근에는 제사를 지내지 않고 제사음식만 차리고 있다고 명시되어 있다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 여름철 더위를 피하기 위한 휴식의 장소로 이용되기도 한다고 되어 있다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 상운마을숲의 위치가 전라남도 광양시로 명시되어 있다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 느티나무와 팽나무가 기재되어 있다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록이 해당 문장과 동일하게 마을 입구이고 서쪽 능선 끝자락이며 풍수지리상 청룡맥이라 마을에서 보호관리한다고 적고 있다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 매년 정월보름에 당산제를 지내왔으나 최근에는 제사를 지내지 않고 제사음식만 차리고 있다고 명시되어 있다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 여름철 더위를 피하기 위한 휴식의 장소로 이용된다고 되어 있다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 느티나무가 기재되어 있어 찾아볼 대상이 원문에 포함되어 있다."
+        }
+      ],
+      "hard_words": [
+        "조성",
+        "관리"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "상운마을숲은 광양시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 광양시"
+            },
+            {
+              "text": "숲에는 느티나무와 팽나무가 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무"
+            },
+            {
+              "text": "이 숲은 마을의 입구이며 서쪽에 있는 내려오는 능선의 끝자락에 만들어졌대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 입구이며 서쪽에 위치하여 내려오는 능선의 끝자락에 조성되어"
+            },
+            {
+              "text": "사람들은 풍수지리설에 의한 청룡맥에 해당한다고 했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "풍수지리설에 의한 청룡맥에 해당한다고 하여"
+            },
+            {
+              "text": "그래서 마을에서 지켜 왔대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을에서 보호관리 하고있음."
+            },
+            {
+              "text": "매년 정월보름에 마을의 안녕과 발전을 위하여 당산제를 지냈대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월보름에 마을의 안녕과 발전을 위하여 당산제를 지내왔으나,"
+            },
+            {
+              "text": "그런데 요즘은 제사를 지내지 않고 제사음식만 차린대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "최근에는 제사를 지내지 않고 제사음식만 차리고 있음."
+            },
+            {
+              "text": "여름에는 더위를 피하기 위한 쉬는 곳으로도 이용된대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "여름철 더위를 피하기 위한 휴식의 장소로 이용되기도 함."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "상운마을숲은 광양시에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 광양시"
+            },
+            {
+              "text": "주요 수목은 느티나무와 팽나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무"
+            },
+            {
+              "text": "숲은 마을의 입구이며 서쪽에 위치한 내려오는 능선의 끝자락에 조성되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 입구이며 서쪽에 위치하여 내려오는 능선의 끝자락에 조성되어"
+            },
+            {
+              "text": "풍수지리설에 의한 청룡맥에 해당한다고 하여 마을에서 보호관리 하고있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "풍수지리설에 의한 청룡맥에 해당한다고 하여 마을에서 보호관리 하고있음."
+            },
+            {
+              "text": "매년 정월보름에 당산제를 지내왔으나 최근에는 제사를 지내지 않고 제사음식만 차리고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월보름에 마을의 안녕과 발전을 위하여 당산제를 지내왔으나, 최근에는 제사를 지내지 않고 제사음식만 차리고 있음."
+            },
+            {
+              "text": "여름철에는 더위를 피하기 위한 휴식의 장소로 이용되기도 합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "여름철 더위를 피하기 위한 휴식의 장소로 이용되기도 함."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무, 팽나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 전라남도 광양시로 되어 있어 해당 문장을 뒷받침합니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 수목으로 느티나무와 팽나무가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 ‘마을의 입구이며 서쪽에 위치하여 내려오는 능선의 끝자락에 조성되어’라고 되어 있어 같은 내용으로 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 풍수지리설에 의한 청룡맥에 해당한다고 되어 있어 사람들이 그렇게 본다는 표현을 뒷받침합니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 마을에서 보호관리하고 있다고 되어 있어 ‘마을에서 지켜 왔다’는 진술을 뒷받침합니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 매년 정월보름에 당산제를 지내왔다는 내용이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 최근에는 제사를 지내지 않고 제사음식만 차리고 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 여름철 더위를 피하기 위한 휴식의 장소로 이용되기도 한다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "문장(0)과 동일한 내용으로 원문에 광양시 소재로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 느티나무와 팽나무가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 동일하게 ‘마을의 입구이며 서쪽에 위치한 내려오는 능선의 끝자락에 조성되어 있다’고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 풍수지리설에 의한 청룡맥에 해당한다고 하여 마을에서 보호관리하고 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 매년 정월보름에 당산제를 지내왔으나 최근에는 제사를 지내지 않고 제사음식만 차리고 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 여름철 더위를 피하기 위한 휴식의 장소로 이용되기도 한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 느티나무가 주요 나무로 명시되어 있어 ‘느티나무를 찾아볼까요?’라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "상운마을숲은 광양시에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 광양시"
+        },
+        {
+          "text": "숲에는 느티나무와 팽나무가 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무, 팽나무"
+        },
+        {
+          "text": "이 숲은 마을의 입구이며 서쪽에 있는 내려오는 능선의 끝자락에 만들어졌대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을의 입구이며 서쪽에 위치하여 내려오는 능선의 끝자락에 조성되어"
+        },
+        {
+          "text": "사람들은 풍수지리설에 의한 청룡맥에 해당한다고 했대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "풍수지리설에 의한 청룡맥에 해당한다고 하여"
+        },
+        {
+          "text": "그래서 마을에서 지켜 왔대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을에서 보호관리 하고있음."
+        },
+        {
+          "text": "매년 정월보름에 마을의 안녕과 발전을 위하여 당산제를 지냈대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 정월보름에 마을의 안녕과 발전을 위하여 당산제를 지내왔으나,"
+        },
+        {
+          "text": "그런데 요즘은 제사를 지내지 않고 제사음식만 차린대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "최근에는 제사를 지내지 않고 제사음식만 차리고 있음."
+        },
+        {
+          "text": "여름에는 더위를 피하기 위한 쉬는 곳으로도 이용된대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "여름철 더위를 피하기 위한 휴식의 장소로 이용되기도 함."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "상운마을숲은 광양시에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 광양시"
+        },
+        {
+          "text": "주요 수목은 느티나무와 팽나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무, 팽나무"
+        },
+        {
+          "text": "숲은 마을의 입구이며 서쪽에 위치한 내려오는 능선의 끝자락에 조성되어 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을의 입구이며 서쪽에 위치하여 내려오는 능선의 끝자락에 조성되어"
+        },
+        {
+          "text": "풍수지리설에 의한 청룡맥에 해당한다고 하여 마을에서 보호관리 하고있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "풍수지리설에 의한 청룡맥에 해당한다고 하여 마을에서 보호관리 하고있음."
+        },
+        {
+          "text": "매년 정월보름에 당산제를 지내왔으나 최근에는 제사를 지내지 않고 제사음식만 차리고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 정월보름에 마을의 안녕과 발전을 위하여 당산제를 지내왔으나, 최근에는 제사를 지내지 않고 제사음식만 차리고 있음."
+        },
+        {
+          "text": "여름철에는 더위를 피하기 위한 휴식의 장소로 이용되기도 합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "여름철 더위를 피하기 위한 휴식의 장소로 이용되기도 함."
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무, 팽나무"
+    }
+  }
+}

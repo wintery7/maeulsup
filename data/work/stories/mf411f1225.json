@@ -1,0 +1,281 @@
+{
+  "id": "mf411f1225",
+  "name": "옥전마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "옥전마을숲은 전라북도 남원시에 있는 마을 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시"
+            },
+            {
+              "text": "자, 차 안에서 조용히 이야기를 들려줄게요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲은 남원시에서 서북방 9㎞ 거리에 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "남원시를 기점으로 서북방 9㎞ 거리에 위치하여 있으며"
+            },
+            {
+              "text": "교룡산과 풍악산 사이에 있다고 전해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "교룡산과 풍악산 중간에"
+            },
+            {
+              "text": "사람들은 이곳을 크게 길한 곳으로 여겼대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "크게 길한곳으로 여겨진 곳이다."
+            },
+            {
+              "text": "숲에는 소나무와 버드나무가 함께 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무, 버드나무"
+            },
+            {
+              "text": "옛날에는 용전이라고 부르다가 나중에 옥전으로 바뀌었다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "용전(龍田)이라 하였다가 나중에 귀한 터란 의미로 옥전으로 바뀌었으며"
+            },
+            {
+              "text": "마을 입구에는 버드나무가 길가를 아름답게 장식하고 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을입구를 아름드리 버드나무가 아름답게"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "옥전마을숲은 전라북도 남원시에 위치한 숲입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시"
+            },
+            {
+              "text": "자료에는 이 숲이 남원시를 기점으로 서북방 9㎞ 거리에 위치한다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "남원시를 기점으로 서북방 9㎞ 거리에 위치하여 있으며"
+            },
+            {
+              "text": "또 교룡산과 풍악산의 중간 지점에 해당한다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "교룡산과 풍악산 중간에"
+            },
+            {
+              "text": "기록은 이곳을 크게 길한 곳으로 여겼다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "크게 길한곳으로 여겨진 곳이다."
+            },
+            {
+              "text": "주요 수종으로는 소나무와 버드나무가 꼽힙니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무, 버드나무"
+            },
+            {
+              "text": "본래 마을의 명칭은 용전이었다가 이후 옥전으로 바뀌었다고 기록되어 있으며, 마을 입구에 버드나무가 길 자락을 장식하고 있다고 합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "용전(龍田)이라 하였다가 나중에 귀한 터란 의미로 옥전으로 바뀌었으며"
+            }
+          ]
+        },
+        "find": {
+          "text": "버드나무를 찾아볼까요?",
+          "target": "버드나무",
+          "source_quote": "소나무, 버드나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 숲 이름과 주소에 전라북도 남원시로 명시되어 있어 마을 숲이라는 표현도 일치합니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '남원시를 기점으로 서북방 9㎞ 거리에 위치'한다고 기록되어 있습니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '교룡산과 풍악산 중간'에 있다고 되어 있어 사이에 있다는 표현과 일치합니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 이곳을 '크게 길한곳으로 여겨진 곳'이라고 기록되어 있어 사람들(사람들은)이라는 서술로도 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 주요 나무에 '소나무, 버드나무'가 명시되어 있어 함께 있다는 표현을 뒷받침합니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 본래 '용전이라 하였다가 나중에 옥전으로 바뀌었다'고 적혀 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '마을입구를 아름드리 버드나무가 ... 길 자락을 장식하고 있다'고 기록되어 있어 동일한 내용입니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 주소에 전라북도 남원시로 되어 있어 동일한 사실을 전달합니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '남원시를 기점으로 서북방 9㎞ 거리에 위치'라고 명시되어 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '교룡산과 풍악산 중간'이라고 적혀 있어 중간 지점이라는 표현을 지지합니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 기록에 이곳을 '크게 길한곳으로 여겨진 곳'이라고 전하고 있어 일치합니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 주요 나무로 소나무와 버드나무가 제시되어 있어 주요 수종이라는 표현을 뒷받침합니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문 문화 기록에 본래 용전에서 옥전으로 바뀌었다고 하고 마을 입구에 버드나무가 길 자락을 장식한다고 되어 있습니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 마을입구에 버드나무가 있다고 적혀 있어 '버드나무를 찾아볼까요?'라는 권유의 대상도 원문에 있습니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "옥전마을숲은 전라북도 남원시에 있는 마을 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시"
+        },
+        {
+          "text": "자, 차 안에서 조용히 이야기를 들려줄게요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "이 숲은 남원시에서 서북방 9㎞ 거리에 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "남원시를 기점으로 서북방 9㎞ 거리에 위치하여 있으며"
+        },
+        {
+          "text": "교룡산과 풍악산 사이에 있다고 전해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "교룡산과 풍악산 중간에"
+        },
+        {
+          "text": "사람들은 이곳을 크게 길한 곳으로 여겼대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "크게 길한곳으로 여겨진 곳이다."
+        },
+        {
+          "text": "숲에는 소나무와 버드나무가 함께 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무, 버드나무"
+        },
+        {
+          "text": "옛날에는 용전이라고 부르다가 나중에 옥전으로 바뀌었다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "용전(龍田)이라 하였다가 나중에 귀한 터란 의미로 옥전으로 바뀌었으며"
+        },
+        {
+          "text": "마을 입구에는 버드나무가 길가를 아름답게 장식하고 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을입구를 아름드리 버드나무가 아름답게"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "옥전마을숲은 전라북도 남원시에 위치한 숲입니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시"
+        },
+        {
+          "text": "자료에는 이 숲이 남원시를 기점으로 서북방 9㎞ 거리에 위치한다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "남원시를 기점으로 서북방 9㎞ 거리에 위치하여 있으며"
+        },
+        {
+          "text": "또 교룡산과 풍악산의 중간 지점에 해당한다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "교룡산과 풍악산 중간에"
+        },
+        {
+          "text": "기록은 이곳을 크게 길한 곳으로 여겼다고 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "크게 길한곳으로 여겨진 곳이다."
+        },
+        {
+          "text": "주요 수종으로는 소나무와 버드나무가 꼽힙니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무, 버드나무"
+        },
+        {
+          "text": "본래 마을의 명칭은 용전이었다가 이후 옥전으로 바뀌었다고 기록되어 있으며, 마을 입구에 버드나무가 길 자락을 장식하고 있다고 합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "용전(龍田)이라 하였다가 나중에 귀한 터란 의미로 옥전으로 바뀌었으며"
+        }
+      ]
+    },
+    "find": {
+      "text": "버드나무를 찾아볼까요?",
+      "target": "버드나무",
+      "source_quote": "소나무, 버드나무"
+    }
+  }
+}

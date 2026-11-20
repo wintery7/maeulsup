@@ -1,0 +1,307 @@
+{
+  "id": "mf350fa85f",
+  "name": "지전마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "지전마을숲은 전라북도 무주군 설천면 길산리 130-1에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 무주군 설천면 길산리 130-1"
+            },
+            {
+              "text": "이 숲에는 느티나무가 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "큰비가 오면 물이 많이 들어와서 마을 어른들이 하천 주변에 나무를 심어 숲을 만들었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "하천 주변으로 나무를 심어 숲을 조성하였다고 함."
+            },
+            {
+              "text": "지전마을은 풍수지리상 배터 형상을 하고 있어 구멍이 나면 마을에 큰 해가 온다고 생각했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "지전마을이 풍수지리상 배터 형상을 하고 있어"
+            },
+            {
+              "text": "그래서 집집마다 관정을 메우고 공동우물 역시 4년전에 돌로 메웠다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "집집마다 관정을 다 메우고 공동우물 역시 4년전에 돌로 메웠다고 함."
+            },
+            {
+              "text": "지전마을회관 앞에도 큰돌을 놓아 구멍을 누른다고 해두었다고 했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "지전마을회관 앞에 큰돌을 놓은것 역시 구멍을 누른다는 의미로 놓아 두었다고 함."
+            },
+            {
+              "text": "편하게 귀를 기울여 보세요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "조용히 걸어가는 기분으로 상상해 보아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "손을 꼭 잡아도 좋아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "지전마을숲은 전라북도 무주군 설천면 길산리 130-1에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 무주군 설천면 길산리 130-1"
+            },
+            {
+              "text": "주요 수종은 느티나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "간단히 살펴보겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "마을을 끼고 도는 하천의 굴곡과 큰비로 인한 침수 피해를 막기 위해 마을 어른들이 하천 주변으로 나무를 심어 숲을 조성하였다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "하천 주변으로 나무를 심어 숲을 조성하였다고 함."
+            },
+            {
+              "text": "지전마을은 풍수지리상 배터 형상을 하고 있어 구멍이 나면 마을에 큰 해를 입는다고 전합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "지전마을이 풍수지리상 배터 형상을 하고 있어"
+            },
+            {
+              "text": "집집마다 관정을 다 메우고 공동우물 역시 4년전에 돌로 메웠다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "집집마다 관정을 다 메우고 공동우물 역시 4년전에 돌로 메웠다고 함."
+            },
+            {
+              "text": "또한 지전마을회관 앞에 큰돌을 놓은 것은 구멍을 누른다는 의미로 놓아 두었다고 합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "지전마을회관 앞에 큰돌을 놓은것 역시 구멍을 누른다는 의미로 놓아 두었다고 함."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "문장에 적힌 주소가 원문의 주소(전라북도 무주군 설천면 길산리 130-1)와 일치하여 원문으로 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 명시되어 있어 해당 표현이 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 큰비로 침수 피해가 심해 마을 어른들이 하천 주변에 나무를 심어 숲을 조성했다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 지전마을이 풍수지리상 배터 형상이라 구멍이 나면 큰 해가 온다고 전한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 집집마다 관정을 메우고 공동우물을 4년 전에 돌로 메웠다고 그대로 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 마을회관 앞 큰돌을 구멍을 누른다는 의미로 놓아 두었다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "문장 0과 동일하게 주소가 원문의 주소와 일치하여 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 '느티나무'가 명시되어 있어 해당 진술이 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 마을을 끼고 도는 하천의 굴곡과 큰비로 인한 침수 피해를 막기 위해 어른들이 하천 주변에 나무를 심어 숲을 조성했다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 지전마을이 풍수지리상 배터 형상이라 구멍이 나면 마을에 큰 해를 입는다고 전한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 집집마다 관정을 다 메우고 공동우물을 4년 전에 돌로 메웠다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 지전마을회관 앞 큰돌을 구멍을 누른다는 의미로 놓아 두었다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 느티나무가 주요 수종으로 명시되어 있어 '느티나무를 찾아볼까요?'라는 권유 대상이 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "지전마을숲은 전라북도 무주군 설천면 길산리 130-1에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 무주군 설천면 길산리 130-1"
+        },
+        {
+          "text": "이 숲에는 느티나무가 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "큰비가 오면 물이 많이 들어와서 마을 어른들이 하천 주변에 나무를 심어 숲을 만들었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "하천 주변으로 나무를 심어 숲을 조성하였다고 함."
+        },
+        {
+          "text": "지전마을은 풍수지리상 배터 형상을 하고 있어 구멍이 나면 마을에 큰 해가 온다고 생각했대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "지전마을이 풍수지리상 배터 형상을 하고 있어"
+        },
+        {
+          "text": "그래서 집집마다 관정을 메우고 공동우물 역시 4년전에 돌로 메웠다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "집집마다 관정을 다 메우고 공동우물 역시 4년전에 돌로 메웠다고 함."
+        },
+        {
+          "text": "지전마을회관 앞에도 큰돌을 놓아 구멍을 누른다고 해두었다고 했대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "지전마을회관 앞에 큰돌을 놓은것 역시 구멍을 누른다는 의미로 놓아 두었다고 함."
+        },
+        {
+          "text": "편하게 귀를 기울여 보세요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "조용히 걸어가는 기분으로 상상해 보아요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "손을 꼭 잡아도 좋아요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "지전마을숲은 전라북도 무주군 설천면 길산리 130-1에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 무주군 설천면 길산리 130-1"
+        },
+        {
+          "text": "주요 수종은 느티나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "간단히 살펴보겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "마을을 끼고 도는 하천의 굴곡과 큰비로 인한 침수 피해를 막기 위해 마을 어른들이 하천 주변으로 나무를 심어 숲을 조성하였다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "하천 주변으로 나무를 심어 숲을 조성하였다고 함."
+        },
+        {
+          "text": "지전마을은 풍수지리상 배터 형상을 하고 있어 구멍이 나면 마을에 큰 해를 입는다고 전합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "지전마을이 풍수지리상 배터 형상을 하고 있어"
+        },
+        {
+          "text": "집집마다 관정을 다 메우고 공동우물 역시 4년전에 돌로 메웠다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "집집마다 관정을 다 메우고 공동우물 역시 4년전에 돌로 메웠다고 함."
+        },
+        {
+          "text": "또한 지전마을회관 앞에 큰돌을 놓은 것은 구멍을 누른다는 의미로 놓아 두었다고 합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "지전마을회관 앞에 큰돌을 놓은것 역시 구멍을 누른다는 의미로 놓아 두었다고 함."
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  },
+  "opener_removed": true
+}

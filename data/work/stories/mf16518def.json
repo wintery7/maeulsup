@@ -1,0 +1,271 @@
+{
+  "id": "mf16518def",
+  "name": "동백마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "동백마을숲은 전라남도 영광군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 영광군"
+            },
+            {
+              "text": "숲에는 해송과 동백등이 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송, 동백등"
+            },
+            {
+              "text": "차를 타고 가며 천천히 들려줄게요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "예전에는 군사도로 활용 당시 접근성이 어려워 묻혀 있었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "군사도로 활용 당시 접근성이 어려워"
+            },
+            {
+              "text": "그 뒤 국도77호선 개설되고 서해의 아름다운 낙조와 기암절개를 보러 많은 사람이 찾게 되었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "국도77호선 개설되고 서해의 아름다운 낙조와 기암절개"
+            },
+            {
+              "text": "또 마파도 영화 촬영지라 관광객도 많이 온대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마파도 영화 촬영지로 많은 관광객이 찾고 있음"
+            },
+            {
+              "text": "동백마을은 여자의 기운이 강하여 현재 아낙네들로만 구성된 마을이라고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "여자의 기운이 강하여 현재 아낙네들로만 구성된 마을"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "동백마을숲은 전라남도 영광군에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 영광군"
+            },
+            {
+              "text": "주요 수종으로는 해송과 동백등이 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송, 동백등"
+            },
+            {
+              "text": "예전에는 군사도로 활용 당시 접근성이 어려워 묻혀 있던 곳이었습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "군사도로 활용 당시 접근성이 어려워"
+            },
+            {
+              "text": "국도77호선 개설되고 서해의 아름다운 낙조와 기암절개로 알려지며 많은 인파가 찾게 되었습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "국도77호선 개설되고 서해의 아름다운 낙조와 기암절개"
+            },
+            {
+              "text": "또한 마파도 영화 촬영지로 많은 관광객이 찾고 있음이 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마파도 영화 촬영지로 많은 관광객이 찾고 있음"
+            },
+            {
+              "text": "동백마을은 여자의 기운이 강하여 현재 아낙네들로만 구성된 마을이라고 전합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "여자의 기운이 강하여 현재 아낙네들로만 구성된 마을"
+            }
+          ]
+        },
+        "find": {
+          "text": "동백등을 찾아볼까요?",
+          "target": "동백등",
+          "source_quote": "해송, 동백등"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라남도 영광군 백수읍 ... (전라남도 영광군)'로 적혀 있어 전라남도 영광군에 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '해송, 동백등'이 명시되어 있어 그들이 자라고 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '예전 군사도로 활용 당시 접근성이 어려워 묻혀있는'이라고 되어 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '국도77호선 개설되고 서해의 아름다운 낙조와 기암절개 등을 조망하기 좋은 곳으로 알려지면서 많은 인파가 찾고'라고 되어 있어 같은 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '또한 마파도 영화 촬영지로 많은 관광객이 찾고 있음'이라고 적혀 있어 관광객이 많이 온다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '동백마을은 여자의 기운이 강하여 현재 아낙네들로만 구성된 마을'이라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "(0)과 동일하게 원문에 전라남도 영광군 위치가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 '주요 나무(species): 해송, 동백등'에 해당 내용이 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록과 같은 표현으로 접근성이 어려워 묻혀 있었던 곳이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 국도77호선 개설과 서해의 낙조·기암절개로 많은 인파가 찾게 되었다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 마파도 영화 촬영지라 많은 관광객이 찾고 있음이 직접 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 문화 기록에 동일한 문구로 '여자의 기운이 강하여 현재 아낙네들로만 구성된 마을'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문 주요 나무로 '동백등'이 명시되어 있어 '동백등을 찾아볼까요?'라는 권유의 대상은 원문에 있습니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "동백마을숲은 전라남도 영광군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 영광군"
+        },
+        {
+          "text": "숲에는 해송과 동백등이 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "해송, 동백등"
+        },
+        {
+          "text": "차를 타고 가며 천천히 들려줄게요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "예전에는 군사도로 활용 당시 접근성이 어려워 묻혀 있었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "군사도로 활용 당시 접근성이 어려워"
+        },
+        {
+          "text": "그 뒤 국도77호선 개설되고 서해의 아름다운 낙조와 기암절개를 보러 많은 사람이 찾게 되었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "국도77호선 개설되고 서해의 아름다운 낙조와 기암절개"
+        },
+        {
+          "text": "또 마파도 영화 촬영지라 관광객도 많이 온대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마파도 영화 촬영지로 많은 관광객이 찾고 있음"
+        },
+        {
+          "text": "동백마을은 여자의 기운이 강하여 현재 아낙네들로만 구성된 마을이라고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "여자의 기운이 강하여 현재 아낙네들로만 구성된 마을"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "동백마을숲은 전라남도 영광군에 위치합니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 영광군"
+        },
+        {
+          "text": "주요 수종으로는 해송과 동백등이 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "해송, 동백등"
+        },
+        {
+          "text": "예전에는 군사도로 활용 당시 접근성이 어려워 묻혀 있던 곳이었습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "군사도로 활용 당시 접근성이 어려워"
+        },
+        {
+          "text": "국도77호선 개설되고 서해의 아름다운 낙조와 기암절개로 알려지며 많은 인파가 찾게 되었습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "국도77호선 개설되고 서해의 아름다운 낙조와 기암절개"
+        },
+        {
+          "text": "또한 마파도 영화 촬영지로 많은 관광객이 찾고 있음이 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마파도 영화 촬영지로 많은 관광객이 찾고 있음"
+        },
+        {
+          "text": "동백마을은 여자의 기운이 강하여 현재 아낙네들로만 구성된 마을이라고 전합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "여자의 기운이 강하여 현재 아낙네들로만 구성된 마을"
+        }
+      ]
+    },
+    "find": {
+      "text": "동백등을 찾아볼까요?",
+      "target": "동백등",
+      "source_quote": "해송, 동백등"
+    }
+  },
+  "opener_removed": true
+}

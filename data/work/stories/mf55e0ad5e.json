@@ -1,0 +1,420 @@
+{
+  "id": "mf55e0ad5e",
+  "name": "수곡리전통마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "수곡리전통마을숲은 전라남도 신안군에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "수곡리전통마을숲"
+            },
+            {
+              "text": "마을 모양이 범이 드러누워 있는 모습이라고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 형태가 범이 드러누워 있는 모습이고"
+            },
+            {
+              "text": "주위에는 나무가 무성하게 자라고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "주위에는 나무가 무성하게 자라 있음"
+            },
+            {
+              "text": "원래는 땅이 백사로 덮여 척박했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "본래는 주위가 백사로 덮여있는 척박한 땅이었으나"
+            },
+            {
+              "text": "그런데 나뭇잎이 떨어져 쌓이면서 땅이 기름진 곳으로 변했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다."
+            },
+            {
+              "text": "그래서 지금은 나무들이 잘 자라고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "주위에는 나무가 무성하게 자라 있음"
+            },
+            {
+              "text": "이 숲에는 소나무가 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "산과 바다를 동시에 볼 수 있어서 지역 사람들과 관광객에게 마음의 평안을 준대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "지역민과 관광객에게 심신의 평안함을 제공"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "수곡리전통마을숲은 전라남도 신안군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군"
+            },
+            {
+              "text": "주요 수종은 소나무이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "기록에는 마을의 형태가 범이 드러누워 있는 모습이고 주위에는 나무가 무성하게 자라 있음이라고 적혀 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 형태가 범이 드러누워 있는 모습이고 주위에는 나무가 무성하게 자라 있음"
+            },
+            {
+              "text": "또 본래는 주위가 백사로 덮여있는 척박한 땅이었으나 나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다고 기록되어 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다."
+            },
+            {
+              "text": "문화 기록에는 추포해수욕장 마을숲이 약4.73ha(47,390㎡)의 넓은면적으로 산과 바다의경치를 동시에 볼 수 있어서 지역민과 관광객에게 심신의 평안함을 제공한다고 나와 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "약4.73ha(47,390㎡)"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 전라남도 신안군으로 표기되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '마을의 형태가 범이 드러누워 있는 모습'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '주위에는 나무가 무성하게 자라 있음'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '본래는 주위가 백사로 덮여있는 척박한 땅'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다'고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 주위에 나무가 무성하게 자라고 있다고 되어 있어 '지금은 나무들이 잘 자라고 있다'는 표현은 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 주요 나무로 '소나무'가 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 문화 기록에 산과 바다의 경치를 동시에 볼 수 있어 지역민과 관광객에게 심신의 평안함을 제공한다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "(0)과 동일하게 원문 주소에 전라남도 신안군으로 표기되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 '소나무'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 기록에 '마을의 형태가 범이 드러누워 있는 모습이고 주위에는 나무가 무성하게 자라 있음'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '본래는 주위가 백사로 덮여있는 척박한 땅이었으나 나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다'고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문 문화 기록에 추포해수욕장 마을숲의 면적과 산·바다 경치를 동시에 볼 수 있어 지역민과 관광객에게 심신의 평안함을 제공한다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '소나무'가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유 문장은 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "척박"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "수곡리전통마을숲은 전라남도 신안군에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "수곡리전통마을숲"
+            },
+            {
+              "text": "이 숲에는 소나무가 많다고 적혀 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "옛 기록에는 마을 모양이 범이 드러누워 있는 모습이라고 했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 형태가 범이 드러누워 있는 모습이고"
+            },
+            {
+              "text": "원래는 주위가 백사로 덮여 있었지만, 나뭇잎이 떨어져 쌓이면서 땅이 기름진 곳으로 변했다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다."
+            },
+            {
+              "text": "산과 바다를 함께 볼 수 있어서 지역 사람들과 관광객에게 마음의 평안을 준대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "산과 바다의경치를 동시에 볼 수 있어서"
+            },
+            {
+              "text": "여름과 겨울에도 걸을 수 있는 산책길을 제공한대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "여름 · 겨울철 산책로로써 장소 등을 제공함으로써"
+            },
+            {
+              "text": "조용히 숲을 보며 이야기를 상상해 보아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "수곡리전통마을숲은 전라남도 신안군에 위치합니다.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "수곡리전통마을숲"
+            },
+            {
+              "text": "주요 수종은 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "기록에는 마을 주변에 나무가 무성하게 자라고 있다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "주위에는 나무가 무성하게 자라 있음."
+            },
+            {
+              "text": "또한 본래는 백사로 덮여 있던 땅이었으나 나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다."
+            },
+            {
+              "text": "문화 기록에는 추포해수욕장 마을숲은 약4.73ha(47,390㎡)의 넓은면적으로 산과 바다의 경치를 동시에 볼 수 있어 지역민과 관광객에게 심신의 평안함을 제공하며, 여름·겨울철 산책로도 제공한다며 지속적인 관리와 보존이 필요하다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "지속적인 관리와 보존이 필요로 함."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "주소에 전라남도 신안군으로 되어 있어 원문으로 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무가 '소나무'라고 되어 있어 소나무가 많다는 표현은 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "역사 기록에 마을 형태가 '범이 드러누워 있는 모습'이라고 직접 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 역사 기록에 본래 백사로 덮인 척박한 땅이었으나 나뭇잎이 쌓여 비옥해졌다고 적혀 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "문화 기록에 '산과 바다의 경치를 동시에 볼 수 있어 지역민과 관광객에게 심신의 평안함을 제공'한다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "문화 기록에 '여름·겨울철 산책로로써 장소 등을 제공'한다고 적혀 있어 여름·겨울에도 걸을 수 있는 산책길을 제공한다는 표현은 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "(0)과 동일하게 주소에 전라남도 신안군으로 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 나무(species)로 '소나무'가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "역사 기록에 '주위에는 나무가 무성하게 자라 있음'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "역사 기록의 문장과 동일하게 원래 백사로 덮여 있던 땅이 나뭇잎 축적으로 비옥해졌다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "문화 기록에 면적(약 4.73ha), 산과 바다 경치 제공, 심신의 평안함 제공, 여름·겨울철 산책로 제공 및 지속적 관리·보존 필요성이 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 '소나무'가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유는 원문에 근거가 있습니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "수곡리전통마을숲은 전라남도 신안군에 있어요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "수곡리전통마을숲"
+        },
+        {
+          "text": "이 숲에는 소나무가 많다고 적혀 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "옛 기록에는 마을 모양이 범이 드러누워 있는 모습이라고 했대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을의 형태가 범이 드러누워 있는 모습이고"
+        },
+        {
+          "text": "원래는 주위가 백사로 덮여 있었지만, 나뭇잎이 떨어져 쌓이면서 땅이 기름진 곳으로 변했다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다."
+        },
+        {
+          "text": "산과 바다를 함께 볼 수 있어서 지역 사람들과 관광객에게 마음의 평안을 준대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "산과 바다의경치를 동시에 볼 수 있어서"
+        },
+        {
+          "text": "여름과 겨울에도 걸을 수 있는 산책길을 제공한대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "여름 · 겨울철 산책로로써 장소 등을 제공함으로써"
+        },
+        {
+          "text": "조용히 숲을 보며 이야기를 상상해 보아요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "수곡리전통마을숲은 전라남도 신안군에 위치합니다.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "수곡리전통마을숲"
+        },
+        {
+          "text": "주요 수종은 소나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "기록에는 마을 주변에 나무가 무성하게 자라고 있다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "주위에는 나무가 무성하게 자라 있음."
+        },
+        {
+          "text": "또한 본래는 백사로 덮여 있던 땅이었으나 나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다고 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "나뭇잎이 떨어져 쌓이면서 비옥한 토지로 변하였다."
+        },
+        {
+          "text": "문화 기록에는 추포해수욕장 마을숲은 약4.73ha(47,390㎡)의 넓은면적으로 산과 바다의 경치를 동시에 볼 수 있어 지역민과 관광객에게 심신의 평안함을 제공하며, 여름·겨울철 산책로도 제공한다며 지속적인 관리와 보존이 필요하다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "지속적인 관리와 보존이 필요로 함."
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  }
+}

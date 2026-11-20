@@ -1,0 +1,35 @@
+{
+  "stories": 104,
+  "verified": 104,
+  "template": 0,
+  "passed_first_try": 69,
+  "regenerated": 35,
+  "total_attempts": 152,
+  "first_try_rule_check": {
+    "rule_pass": 96,
+    "rule_fail": 8
+  },
+  "problem_types": [
+    [
+      "근거 구절이 원문에 없음",
+      21
+    ],
+    [
+      "AI 판정",
+      13
+    ],
+    [
+      "어린이용에 괄호나 면적 단위가 있음",
+      3
+    ],
+    [
+      "근거 구절이 원문에 없음 \n위치(address):",
+      1
+    ],
+    [
+      "어린이용에 한자가 있음",
+      1
+    ]
+  ],
+  "mock": false
+}

@@ -1,0 +1,300 @@
+{
+  "id": "mf4685460d",
+  "name": "연호사숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "연호사숲은 경상남도 합천군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 합천군"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲에는 소나무가 주로 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "매봉산 정상에는 대야성이 있고,",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "매봉산 정상에는 대야성이 있고,"
+            },
+            {
+              "text": "성 아래로는 많은 시인과 묵객들이 풍류를 즐기는 함벽루가 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "많은 시인과 묵객들이 풍류를 즐기는 함벽루,"
+            },
+            {
+              "text": "또 옛 전사한 신라장수 넋을 기리리 위해 설립한 연호사가 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "옛 전사한 신라장수 넋을 기리리 위해 설립한 연호사가 있으며"
+            },
+            {
+              "text": "매년 10월에는 전통문화를 잇고 군민 화합과 지역발전을 위한 대화문화제가 열려요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 10월에는 전통문화 계승과 군민화합, 지역발전을 위해 대화문화제"
+            },
+            {
+              "text": "정상과 아래로는 조깅코스와 윗몸 일으키기,등 수십개의 운동시설이 설치되어 사람들이 쉬는 쉼터로 쓰여요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "조깅코스와 윗몸 일으키기,등 수십개의 운동시설이 설치되어"
+            },
+            {
+              "text": "손잡고 걸어볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "바람 소리도 들어 보고 냄새도 맡아 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "연호사숲은 경상남도 합천군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 합천군"
+            },
+            {
+              "text": "주요 수종은 소나무다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "해발 90m 매봉산 정상에는 대야성이 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "해발 90m 매봉산 정상에는 대야성이 있고,"
+            },
+            {
+              "text": "성 아래로는 많은 시인과 묵객들이 풍류를 즐기는 함벽루와 옛 전사한 신라장수 넋을 기리리 위해 설립한 연호사가 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "옛 전사한 신라장수 넋을 기리리 위해 설립한 연호사가 있으며"
+            },
+            {
+              "text": "매년 10월에는 전통문화 계승과 군민화합, 지역발전을 위해 대화문화제 축제 행사를 실시하고 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 10월에는 전통문화 계승과 군민화합, 지역발전을 위해 대화문화제 축제 행사를 실시하고 있으며"
+            },
+            {
+              "text": "매봉산 정상과 아래로는 군민건강을 위해 조깅코스와 윗몸 일으키기,등 수십개의 운동시설이 설치되어 군민의 휴식공간 등 쉼터로 활용되고 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매봉산 정상과 아래로 군민건강을 위해 조깅코스와 윗몸 일으키기,등 수십개의 운동시설이 설치되어 군민의 휴식공간등 쉼터로 활용하고 있음."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 위치 항목에 연호사숲이 '경상남도 합천군'에 있다고 명시되어 있어요."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 '주요 나무(species): 소나무'로 소나무가 주요 수종임이 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 항목에 '해발 90m 매봉산 정상에는 대야성이 있고'라고 적혀 있어요."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '성 아래로는 많은 시인과 묵객들이 풍류를 즐기는 함벽루'라고 명시되어 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '옛 전사한 신라장수 넋을 기리리 위해 설립한 연호사'가 있다고 적혀 있어요."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 항목에 '매년 10월에는 전통문화 계승과 군민화합, 지역발전을 위해 대화문화제'가 실시된다고 되어 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '매봉산 정상과 아래로... 조깅코스와 윗몸 일으키기 등 수십개의 운동시설이 설치되어 군민의 휴식공간 등 쉼터로 활용'된다고 적혀 있습니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 위치 항목에 연호사숲이 '경상남도 합천군'에 있다고 명시되어 있어요."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 '주요 나무(species): 소나무'로 주요 수종이 소나무임이 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '해발 90m 매봉산 정상에는 대야성이 있고'라고 명시되어 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 역사 항목에 '성 아래로는 많은 시인과 묵객들이 풍류를 즐기는 함벽루, 옛 전사한 신라장수 넋을 기리리 위해 설립한 연호사'라고 나와 있습니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 문화 항목의 문장과 동일하게 '매년 10월에 전통문화 계승과 군민화합, 지역발전을 위해 대화문화제 축제 행사를 실시'한다고 적혀 있습니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '매봉산 정상과 아래로 군민건강을 위해 조깅코스와 윗몸 일으키기 등 수십개의 운동시설이 설치되어 군민의 휴식공간 등 쉼터로 활용'된다고 명시되어 있습니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '소나무'가 명시되어 있어 '소나무를 찾아보자'는 제안은 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "연호사숲은 경상남도 합천군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 합천군"
+        },
+        {
+          "text": "이 숲에는 소나무가 주로 자라고 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "매봉산 정상에는 대야성이 있고,",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "매봉산 정상에는 대야성이 있고,"
+        },
+        {
+          "text": "성 아래로는 많은 시인과 묵객들이 풍류를 즐기는 함벽루가 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "많은 시인과 묵객들이 풍류를 즐기는 함벽루,"
+        },
+        {
+          "text": "또 옛 전사한 신라장수 넋을 기리리 위해 설립한 연호사가 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "옛 전사한 신라장수 넋을 기리리 위해 설립한 연호사가 있으며"
+        },
+        {
+          "text": "매년 10월에는 전통문화를 잇고 군민 화합과 지역발전을 위한 대화문화제가 열려요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 10월에는 전통문화 계승과 군민화합, 지역발전을 위해 대화문화제"
+        },
+        {
+          "text": "정상과 아래로는 조깅코스와 윗몸 일으키기,등 수십개의 운동시설이 설치되어 사람들이 쉬는 쉼터로 쓰여요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "조깅코스와 윗몸 일으키기,등 수십개의 운동시설이 설치되어"
+        },
+        {
+          "text": "손잡고 걸어볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "바람 소리도 들어 보고 냄새도 맡아 볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "연호사숲은 경상남도 합천군에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 합천군"
+        },
+        {
+          "text": "주요 수종은 소나무다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "해발 90m 매봉산 정상에는 대야성이 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "해발 90m 매봉산 정상에는 대야성이 있고,"
+        },
+        {
+          "text": "성 아래로는 많은 시인과 묵객들이 풍류를 즐기는 함벽루와 옛 전사한 신라장수 넋을 기리리 위해 설립한 연호사가 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "옛 전사한 신라장수 넋을 기리리 위해 설립한 연호사가 있으며"
+        },
+        {
+          "text": "매년 10월에는 전통문화 계승과 군민화합, 지역발전을 위해 대화문화제 축제 행사를 실시하고 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 10월에는 전통문화 계승과 군민화합, 지역발전을 위해 대화문화제 축제 행사를 실시하고 있으며"
+        },
+        {
+          "text": "매봉산 정상과 아래로는 군민건강을 위해 조깅코스와 윗몸 일으키기,등 수십개의 운동시설이 설치되어 군민의 휴식공간 등 쉼터로 활용되고 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매봉산 정상과 아래로 군민건강을 위해 조깅코스와 윗몸 일으키기,등 수십개의 운동시설이 설치되어 군민의 휴식공간등 쉼터로 활용하고 있음."
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  },
+  "opener_removed": true
+}

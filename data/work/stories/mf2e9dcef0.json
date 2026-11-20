@@ -1,0 +1,437 @@
+{
+  "id": "mf2e9dcef0",
+  "name": "장산숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "장산숲은 경상남도 고성군에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "장산숲"
+            },
+            {
+              "text": "여기에는 느티나무와 팽나무가 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무"
+            },
+            {
+              "text": "조선조 성종때 이퇴계 선생의 제자였던 천산재 하찬수 선생이 노산정을 지어 연못을 파고 그 주위에 나무를 심어 고기잡이나 산놀이를 즐기던 곳이라고 전해져요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이퇴계 선생의 제자였던 천산재 하찬수 선생이 노산정을 지어 연못을 파고"
+            },
+            {
+              "text": "1987년에는 지방기념물 제86호로 지정되었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1987년 지방기념물 제86호로 지정되었음."
+            },
+            {
+              "text": "지금은 나무 그늘이 울창하여 여름철 피서지로 적당해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "현재 나무 그늘이 울창하여 여름철 피서지로 적당하며"
+            },
+            {
+              "text": "쉼터에 있는 구들까지 갖춘 돌평상은 옛사람들의 지혜를 보여줘요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "쉼터에 있는 구들까지 갖춘 돌평상은 선인들의 지혜를 엿볼수 있게해 줌."
+            },
+            {
+              "text": "함께 잘 살펴볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "장산숲은 경상남도 고성군에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 고성군"
+            },
+            {
+              "text": "주요 수종은 느티나무와 팽나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무"
+            },
+            {
+              "text": "조선조 성종때 이퇴계 선생의 제자였던 천산재 하찬수 선생이 노산정을 지어 연못을 파고 그 주위에 나무를 심어 고기잡이나 산놀이를 즐기던 곳으로 알려져 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이퇴계 선생의 제자였던 천산재 하찬수 선생이 노산정을 지어 연못을 파고"
+            },
+            {
+              "text": "1987년 지방기념물 제86호로 지정되었습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1987년 지방기념물 제86호로 지정되었음."
+            },
+            {
+              "text": "현재 나무 그늘이 울창하여 여름철 피서지로 적당합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "현재 나무 그늘이 울창하여 여름철 피서지로 적당하며"
+            },
+            {
+              "text": "쉼터에 있는 구들까지 갖춘 돌평상은 선인들의 지혜를 엿볼수 있게 해 줍니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "쉼터에 있는 구들까지 갖춘 돌평상은 선인들의 지혜를 엿볼수 있게해 줌."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문의 위치 정보에 '경상남도 고성군'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 느티나무와 팽나무가 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문의 역사 기록에 동일한 인물·사건과 내용을 담고 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 1987년에 지방기념물 제86호로 지정되었다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 문화 기록에 현재 나무 그늘이 울창하여 여름철 피서지로 적당하다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 쉼터의 돌평상과 구들이 선인들의 지혜를 엿보게 한다고 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 장산숲의 위치가 경상남도 고성군으로 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 느티나무와 팽나무가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문의 역사 기록과 동일한 내용을 담고 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 1987년 지방기념물 제86호로 지정되었다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 문화 기록의 '현재 나무 그늘이 울창하여 여름철 피서지로 적당'이라는 표현과 일치하므로 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 쉼터의 돌평상과 구들이 선인들의 지혜를 보여준다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 느티나무가 주요 나무로 언급되어 있어 '느티나무를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "지정"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "장산숲은 경상남도 고성군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 고성군"
+            },
+            {
+              "text": "숲에는 느티나무와 팽나무가 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무"
+            },
+            {
+              "text": "옛날에 천산재 하찬수 선생이 노산정을 지어 연못을 파고 그 주위에 나무를 심었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천산재 하찬수 선생이 노산정을 지어 연못을 파고 그 주위에 나무를 심어"
+            },
+            {
+              "text": "사람들은 그곳에서 고기잡이랑 산놀이를 즐겼대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "고기잡이나 산놀이를 즐기던 곳으로 알려짐"
+            },
+            {
+              "text": "1987년에 지방기념물 제86호가 되었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1987년 지방기념물 제86호"
+            },
+            {
+              "text": "지금은 나무 그늘이 울창해서 여름에 쉬기 좋은 곳이에요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "나무 그늘이 울창하여 여름철 피서지로 적당하며"
+            },
+            {
+              "text": "쉼터에 있는 구들까지 갖춘 돌평상은 선인들의 지혜를 보여줘요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "쉼터에 있는 구들까지 갖춘 돌평상은 선인들의 지혜를 엿볼수 있게해 줌"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "장산숲은 경상남도 고성군에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 고성군"
+            },
+            {
+              "text": "주요 수종은 느티나무와 팽나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무"
+            },
+            {
+              "text": "조선조 성종때 이퇴계 선생의 제자였던 천산재 하찬수 선생이 노산정을 지어 연못을 파고 그 주위에 나무를 심었다고 전해집니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "조선조 성종때 이퇴계 선생의 제자였던 천산재 하찬수 선생이 노산정을 지어 연못을 파고 그 주위에 나무를 심어"
+            },
+            {
+              "text": "사람들이 고기잡이나 산놀이를 즐기던 곳으로 알려져 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "고기잡이나 산놀이를 즐기던 곳으로 알려짐"
+            },
+            {
+              "text": "1987년 지방기념물 제86호로 알려져 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1987년 지방기념물 제86호"
+            },
+            {
+              "text": "현재 나무 그늘이 울창하여 여름철 피서지로 적당하며, 쉼터의 구들까지 갖춘 돌평상은 선인들의 지혜를 엿보게 합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "나무 그늘이 울창하여 여름철 피서지로 적당하며 쉼터에 있는 구들까지 갖춘 돌평상은 선인들의 지혜를 엿볼수 있게해 줌"
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 경상남도 고성군이라고 명시되어 있어요."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 느티나무와 팽나무가 적혀 있어요."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사에 천산재 하찬수가 노산정을 짓고 연못을 파고 주위에 나무를 심었다고 적혀 있어요."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 그곳에서 고기잡이나 산놀이를 즐겼다고 나와 있어요."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 1987년 지방기념물 제86호로 지정되었다고 적혀 있어요."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 현재 나무 그늘이 울창해 여름철 피서지로 적당하다고 되어 있어요."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 쉼터의 구들까지 갖춘 돌평상이 선인들의 지혜를 엿보게 한다고 적혀 있어요."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 주소에 경상남도 고성군으로 표기되어 있어요."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 주요 수종이 느티나무와 팽나무로 명시되어 있어요."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 역사 문장과 동일하게 조선 성종 때 이퇴계의 제자 천산재 하찬수가 노산정을 지었다고 적혀 있어요."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 사람들이 고기잡이나 산놀이를 즐기던 곳으로 알려졌다고 되어 있어요."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 1987년 지방기념물 제86호로 지정되었다고 나와 있어요."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문 문화 기록 문장과 동일하게 나무 그늘이 울창하고 쉼터의 구들 갖춘 돌평상이 선인들의 지혜를 보여준다고 되어 있어요."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 느티나무가 적혀 있어 찾아보자는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "장산숲은 경상남도 고성군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 고성군"
+        },
+        {
+          "text": "숲에는 느티나무와 팽나무가 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무, 팽나무"
+        },
+        {
+          "text": "옛날에 천산재 하찬수 선생이 노산정을 지어 연못을 파고 그 주위에 나무를 심었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "천산재 하찬수 선생이 노산정을 지어 연못을 파고 그 주위에 나무를 심어"
+        },
+        {
+          "text": "사람들은 그곳에서 고기잡이랑 산놀이를 즐겼대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "고기잡이나 산놀이를 즐기던 곳으로 알려짐"
+        },
+        {
+          "text": "1987년에 지방기념물 제86호가 되었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1987년 지방기념물 제86호"
+        },
+        {
+          "text": "지금은 나무 그늘이 울창해서 여름에 쉬기 좋은 곳이에요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "나무 그늘이 울창하여 여름철 피서지로 적당하며"
+        },
+        {
+          "text": "쉼터에 있는 구들까지 갖춘 돌평상은 선인들의 지혜를 보여줘요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "쉼터에 있는 구들까지 갖춘 돌평상은 선인들의 지혜를 엿볼수 있게해 줌"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "장산숲은 경상남도 고성군에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 고성군"
+        },
+        {
+          "text": "주요 수종은 느티나무와 팽나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무, 팽나무"
+        },
+        {
+          "text": "조선조 성종때 이퇴계 선생의 제자였던 천산재 하찬수 선생이 노산정을 지어 연못을 파고 그 주위에 나무를 심었다고 전해집니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "조선조 성종때 이퇴계 선생의 제자였던 천산재 하찬수 선생이 노산정을 지어 연못을 파고 그 주위에 나무를 심어"
+        },
+        {
+          "text": "사람들이 고기잡이나 산놀이를 즐기던 곳으로 알려져 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "고기잡이나 산놀이를 즐기던 곳으로 알려짐"
+        },
+        {
+          "text": "1987년 지방기념물 제86호로 알려져 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1987년 지방기념물 제86호"
+        },
+        {
+          "text": "현재 나무 그늘이 울창하여 여름철 피서지로 적당하며, 쉼터의 구들까지 갖춘 돌평상은 선인들의 지혜를 엿보게 합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "나무 그늘이 울창하여 여름철 피서지로 적당하며 쉼터에 있는 구들까지 갖춘 돌평상은 선인들의 지혜를 엿볼수 있게해 줌"
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  }
+}

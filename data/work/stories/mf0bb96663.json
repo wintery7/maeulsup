@@ -1,0 +1,620 @@
+{
+  "id": "mf0bb96663",
+  "name": "숲쟁이공원",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "숲쟁이공원은 함평군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "여기에는 팽나무, 느티나무, 개서어나무 같은 나무들이 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무, 느티나무, 개서어나무 등"
+            },
+            {
+              "text": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있다."
+            },
+            {
+              "text": "줄나무는 나무들이 줄을 지어 자라는 모양을 말한대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "줄나무란 종이 다른 나무들이 말 그대로 줄을 지어 자라는 모양을 말하는 것으로"
+            },
+            {
+              "text": "대동면에는 팽나무를 중심으로 개서어나무, 느티나무, 푸조나무, 곰솔, 회화나무도 자란대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "대동면에는 팽나무를 중심으로 개서어나무, 느티나무, 푸조나무, 곰솔, 회화나무가 자라고 있다."
+            },
+            {
+              "text": "함평 향교와도 가까이 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전남유형문화제 제 113호 함평 향교와 근접하다."
+            },
+            {
+              "text": "가서 줄 모양으로 선 나무들을 천천히 찾아보면 재밌겠대요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "숲쟁이공원은 전라남도 함평군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "주요 수종으로 팽나무, 느티나무, 개서어나무 등이 기록되어 있다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무, 느티나무, 개서어나무 등"
+            },
+            {
+              "text": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천연기념물 제108호로 지정된 줄나무 군락이 있다."
+            },
+            {
+              "text": "기록에는 줄나무란 종이 다른 나무들이 말 그대로 줄을 지어 자라는 모양을 말하는 것으로 설명되어 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "줄나무란 종이 다른 나무들이 말 그대로 줄을 지어 자라는 모양을 말하는 것으로"
+            },
+            {
+              "text": "또 조선 초기에 건립된 것으로 보이는 전남유형문화제 제 113호 함평 향교와 근접하다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전남유형문화제 제 113호 함평 향교와 근접하다."
+            }
+          ]
+        },
+        "find": {
+          "text": "줄나무 군락을 찾아볼까요?",
+          "target": "줄나무 군락",
+          "source_quote": "줄나무 군락"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 주소가 전라남도 함평군으로 되어 있어 함평군에 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 팽나무, 느티나무, 개서어나무 등이 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 대동면 향교리에 천연기념물 제108호 줄나무 군락이 있다는 문장이 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에서 줄나무를 ‘나무들이 줄을 지어 자라는 모양’이라고 설명하고 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 대동면에는 팽나무를 중심으로 개서어나무, 느티나무, 푸조나무, 곰솔, 회화나무가 자란다고 나와 있습니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 함평 향교와 ‘근접하다’고 적혀 있어 가까이 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 주소에 전라남도 함평군으로 기재되어 있어 해당 문장이 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 나무(수종)으로 팽나무, 느티나무, 개서어나무 등이 기록되어 있습니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "(2)번과 동일하게 원문 역사 기록에 천연기념물 제108호 줄나무 군락이 있다고 명시되어 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 기록에 줄나무에 대한 동일한 설명이 포함되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 문화 기록에 조선 초기에 건립된 것으로 보이는 전남유형문화제 제113호 함평 향교와 근접하다고 적혀 있습니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '줄나무 군락'이 명시되어 있어 그것을 찾아보자고 권하는 문장은 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "지정"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "숲쟁이공원은 전라남도 함평군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "이 숲에는 팽나무, 느티나무, 개서어나무 등이 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무, 느티나무, 개서어나무 등"
+            },
+            {
+              "text": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천연기념물 제108호로 지정된 줄나무 군락이 있다."
+            },
+            {
+              "text": "줄나무는 나무들이 줄처럼 자라는 모양을 말한대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "줄나무란 종이 다른 나무들이 말 그대로 줄을 지어 자라는 모양을 말하는 것으로"
+            },
+            {
+              "text": "여기에는 팽나무를 중심으로 개서어나무, 느티나무, 푸조나무, 곰솔, 회화나무도 있다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "대동면에는 팽나무를 중심으로 개서어나무, 느티나무, 푸조나무, 곰솔, 회화나무가 자라고 있다."
+            },
+            {
+              "text": "또 이 숲은 전남유형문화제 제 113호인 함평 향교와 가까이 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전남유형문화제 제 113호 함평 향교와 근접하다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "숲쟁이공원은 전라남도 함평군에 위치해 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "주요 수종으로 팽나무, 느티나무, 개서어나무 등이 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무, 느티나무, 개서어나무 등"
+            },
+            {
+              "text": "대동면에는 팽나무를 중심으로 개서어나무, 느티나무, 푸조나무, 곰솔, 회화나무가 자라고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "대동면에는 팽나무를 중심으로 개서어나무, 느티나무, 푸조나무, 곰솔, 회화나무가 자라고 있다."
+            },
+            {
+              "text": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천연기념물 제108호로 지정된 줄나무 군락이 있다."
+            },
+            {
+              "text": "줄나무는 종이 다른 나무들이 말 그대로 줄을 지어 자라는 모양을 말하는 것입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "줄나무란 종이 다른 나무들이 말 그대로 줄을 지어 자라는 모양을 말하는 것으로"
+            },
+            {
+              "text": "이 숲은 전남유형문화제 제 113호인 함평 향교와 근접해 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전남유형문화제 제 113호 함평 향교와 근접하다."
+            }
+          ]
+        },
+        "find": {
+          "text": "팽나무를 찾아볼까요?",
+          "target": "팽나무",
+          "source_quote": "팽나무를 중심으로"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 숲쟁이공원의 위치가 전라남도 함평군 대동면 향교리로 되어 있어 전라남도 함평군에 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 팽나무, 느티나무, 개서어나무 등이 적혀 있어 해당 문장이 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 대동면 향교리에 천연기념물 제108호 줄나무 군락이 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에서 줄나무란 다른 종의 나무들이 줄을 지어 자라는 모양을 말한다고 설명하고 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 팽나무를 중심으로 개서어나무, 느티나무, 푸조나무, 곰솔, 회화나무가 자란다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 함평 향교가 전남유형문화제 제113호로 표기되어 있고 근접하다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문에 위치가 전라남도 함평군으로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 팽나무, 느티나무, 개서어나무 등이 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록에 대동면에는 팽나무를 중심으로 개서어나무, 느티나무, 푸조나무, 곰솔, 회화나무가 자란다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "문장(2)과 동일하게 원문에 대동면 향교리에 천연기념물 제108호 줄나무 군락이 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에서 줄나무를 '종이 다른 나무들이 말 그대로 줄을 지어 자라는 모양'이라 정의하고 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 이 숲이 함평 향교와 근접해 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 팽나무가 이 숲의 주요 수종으로 적혀 있어 '팽나무를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "지정"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "숲쟁이공원은 전라남도 함평군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "이 숲에는 팽나무, 느티나무, 개서어나무 같은 나무들이 자라요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무, 느티나무, 개서어나무 등"
+            },
+            {
+              "text": "대동면 향교리에는 줄나무 군락이 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있다."
+            },
+            {
+              "text": "줄나무는 나무들이 줄을 지어 자라는 모양이에요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "줄을 지어 자라는 모양"
+            },
+            {
+              "text": "팽나무는 이 숲에서 중심 나무래요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "팽나무를 중심으로"
+            },
+            {
+              "text": "푸조나무와 곰솔, 회화나무도 함께 자라요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "푸조나무, 곰솔, 회화나무가 자라고 있다."
+            },
+            {
+              "text": "이 줄나무 군락은 천연기념물 제108호래요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천연기념물 제108호로 지정된"
+            },
+            {
+              "text": "이곳은 함평 향교와 가까워요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "함평 향교와 근접하다."
+            },
+            {
+              "text": "함평 향교는 전남유형문화제 제 113호예요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전남유형문화제 제 113호 함평 향교와 근접하다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "숲쟁이공원은 전라남도 함평군에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "주요 수종으로 팽나무, 느티나무, 개서어나무 등이 보고되어 있습니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무, 느티나무, 개서어나무 등"
+            },
+            {
+              "text": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있다."
+            },
+            {
+              "text": "줄나무는 나무들이 줄을 지어 자라는 모양을 뜻합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "줄을 지어 자라는 모양"
+            },
+            {
+              "text": "군락에는 푸조나무, 곰솔, 회화나무도 자라고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "푸조나무, 곰솔, 회화나무가 자라고 있다."
+            },
+            {
+              "text": "인근에는 전남유형문화제 제 113호인 함평 향교가 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전남유형문화제 제 113호 함평 향교와 근접하다."
+            }
+          ]
+        },
+        "find": {
+          "text": "팽나무를 찾아볼까요?",
+          "target": "팽나무",
+          "source_quote": "팽나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라남도 함평군 대동면 향교리 977-1 (전라남도 함평군)'로 명시되어 있어 전라남도 함평군에 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 주요 나무 항목과 역사 기록에 팽나무, 느티나무, 개서어나무 등이 자라고 있다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '대동면 향교리에는 ... 줄나무 군락이 있다'고 직접 명시되어 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에서 '줄나무란 ... 나무들이 줄을 지어 자라는 모양'이라고 정의하고 있어 같은 의미로 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '대동면에는 팽나무를 중심으로 ... 자라고 있다'고 되어 있어 팽나무가 중심 나무라는 설명이 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 역사 기록에 푸조나무, 곰솔, 회화나무가 함께 자라고 있다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 해당 줄나무 군락이 '천연기념물 제108호로 지정'되었다고 명시되어 있습니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '함평 향교와 근접하다'고 되어 있어 '가깝다'는 표현과 일치합니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '전남유형문화제 제 113호 함평 향교'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "문장 (0)과 동일한 위치 정보를 다른 표현으로 옮긴 것으로 원문 위치 정보와 일치합니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문의 '주요 나무(species): 팽나무, 느티나무, 개서어나무 등'과 동일한 내용입니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 역사 기록 문장과 동일하게 '대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있다'고 되어 있습니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에서 줄나무를 '나무들이 줄을 지어 자라는 모양'이라고 정의하고 있어 같은 뜻입니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문 역사 기록에 군락(대동면) 내에 푸조나무, 곰솔, 회화나무가 자라고 있다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 '함평 향교와 근접하다'고 명시되어 있어 인근에 있다는 표현이 뒷받침됩니다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 팽나무가 주요 수종으로 언급되어 있어 '팽나무를 찾아볼까요?'라는 권유 문장은 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "숲쟁이공원은 전라남도 함평군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 함평군"
+        },
+        {
+          "text": "이 숲에는 팽나무, 느티나무, 개서어나무 같은 나무들이 자라요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "팽나무, 느티나무, 개서어나무 등"
+        },
+        {
+          "text": "대동면 향교리에는 줄나무 군락이 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있다."
+        },
+        {
+          "text": "줄나무는 나무들이 줄을 지어 자라는 모양이에요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "줄을 지어 자라는 모양"
+        },
+        {
+          "text": "팽나무는 이 숲에서 중심 나무래요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "팽나무를 중심으로"
+        },
+        {
+          "text": "푸조나무와 곰솔, 회화나무도 함께 자라요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "푸조나무, 곰솔, 회화나무가 자라고 있다."
+        },
+        {
+          "text": "이 줄나무 군락은 천연기념물 제108호래요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "천연기념물 제108호로 지정된"
+        },
+        {
+          "text": "이곳은 함평 향교와 가까워요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "함평 향교와 근접하다."
+        },
+        {
+          "text": "함평 향교는 전남유형문화제 제 113호예요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "전남유형문화제 제 113호 함평 향교와 근접하다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "숲쟁이공원은 전라남도 함평군에 위치합니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 함평군"
+        },
+        {
+          "text": "주요 수종으로 팽나무, 느티나무, 개서어나무 등이 보고되어 있습니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "팽나무, 느티나무, 개서어나무 등"
+        },
+        {
+          "text": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "대동면 향교리에는 천연기념물 제108호로 지정된 줄나무 군락이 있다."
+        },
+        {
+          "text": "줄나무는 나무들이 줄을 지어 자라는 모양을 뜻합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "줄을 지어 자라는 모양"
+        },
+        {
+          "text": "군락에는 푸조나무, 곰솔, 회화나무도 자라고 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "푸조나무, 곰솔, 회화나무가 자라고 있다."
+        },
+        {
+          "text": "인근에는 전남유형문화제 제 113호인 함평 향교가 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "전남유형문화제 제 113호 함평 향교와 근접하다."
+        }
+      ]
+    },
+    "find": {
+      "text": "팽나무를 찾아볼까요?",
+      "target": "팽나무",
+      "source_quote": "팽나무"
+    }
+  }
+}

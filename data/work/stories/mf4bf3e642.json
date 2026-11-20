@@ -1,0 +1,271 @@
+{
+  "id": "mf4bf3e642",
+  "name": "견훤왕릉",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "견훤왕릉은 충청남도 논산시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "충청남도 논산시"
+            },
+            {
+              "text": "나무로는 리기다소나무랑 참나무가 자라요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "리기다소나무, 참나무"
+            },
+            {
+              "text": "이 무덤은 오래전부터 왕릉으로 알려져 왔대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이 무덤은 오래전부터 왕릉으로 알려져 왔기 때문에"
+            },
+            {
+              "text": "일제 때 호리꾼들의 출입이 잦았대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "일제 때 호리꾼들의 출입이 잦았고"
+            },
+            {
+              "text": "한번은 도굴 중 벼락이 때려 금곡리 뒤쪽 소나무가 부러지는 이변이 일어났다고 전해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "벼락이 때려 금곡리 뒤쪽 소나무가 부러지는"
+            },
+            {
+              "text": "옛 이야기에 왕건과 견훤 이야기가 나온대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "왕건이 견훤의 역자 신검의 항복을 받고 살려주자"
+            },
+            {
+              "text": "전주의 완산 칠봉이 보이는 이곳에 무덤을 썼대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전주의 완산 칠봉이 보이는 이곳에 무덤을 썼다고 한다"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "견훤왕릉은 충청남도 논산시에 위치한다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "충청남도 논산시"
+            },
+            {
+              "text": "주요 수종으로 리기다소나무와 참나무가 확인된다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "리기다소나무, 참나무"
+            },
+            {
+              "text": "이 무덤은 오래전부터 왕릉으로 알려져 왔다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이 무덤은 오래전부터 왕릉으로 알려져 왔기 때문에"
+            },
+            {
+              "text": "일제 때 호리꾼들의 출입이 잦았다고 전해진다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "일제 때 호리꾼들의 출입이 잦았고"
+            },
+            {
+              "text": "한번은 도굴 중 벼락이 때려 금곡리 뒤쪽 소나무가 부러지는 이변이 일어나기도 했다고 한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "벼락이 때려 금곡리 뒤쪽 소나무가 부러지는"
+            },
+            {
+              "text": "전주의 완산 칠봉이 보이는 이곳에 무덤을 썼다고 전한다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전주의 완산 칠봉이 보이는 이곳에 무덤을 썼다고 한다"
+            }
+          ]
+        },
+        "find": {
+          "text": "리기다소나무를 찾아볼까요?",
+          "target": "리기다소나무",
+          "source_quote": "리기다소나무, 참나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 '충청남도 논산시 연무읍 금곡리 산18-1 (충청남도 논산시)'로 되어 있어 같은 위치를 말함."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '리기다소나무, 참나무'가 명시되어 있어 같은 내용을 담고 있음."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사에 '이 무덤은 오래전부터 왕릉으로 알려져 왔다'고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '일제 때 호리꾼들의 출입이 잦았고'라고 되어 있어 같은 주장임."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '한번은 도굴 중 벼락이 때려 금곡리 뒤쪽 소나무가 부러지는 이변이 일어나기도 했다고 전해짐'이라고 적혀 있어 일치함."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 왕건과 견훤 관련 이야기가 서술되어 있어 해당 문장을 뒷받침함."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '전주의 완산 칠봉이 보이는 이곳에 무덤을 썼다고 한다'고 명시되어 있어 같은 내용임."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 논산시 주소가 명시되어 있어 '충청남도 논산시에 위치한다'는 내용이 뒷받침됨."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 주요 나무(species)로 '리기다소나무, 참나무'가 기재되어 있어 주요 수종으로 확인된다고 볼 수 있음."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '이 무덤은 오래전부터 왕릉으로 알려져 왔다'고 적혀 있어 같은 내용임."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '일제 때 호리꾼들의 출입이 잦았고'라고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 동일한 도굴과 벼락 사건이 전해진다고 적혀 있어 일치함."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '전주의 완산 칠봉이 보이는 이곳에 무덤을 썼다고 한다'고 되어 있어 같은 주장임."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 리기다소나무가 주요 나무로 적혀 있어 '리기다소나무를 찾아보자'는 권유의 대상이 원문으로 뒷받침됨."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "견훤왕릉은 충청남도 논산시에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "충청남도 논산시"
+        },
+        {
+          "text": "나무로는 리기다소나무랑 참나무가 자라요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "리기다소나무, 참나무"
+        },
+        {
+          "text": "이 무덤은 오래전부터 왕릉으로 알려져 왔대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "이 무덤은 오래전부터 왕릉으로 알려져 왔기 때문에"
+        },
+        {
+          "text": "일제 때 호리꾼들의 출입이 잦았대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "일제 때 호리꾼들의 출입이 잦았고"
+        },
+        {
+          "text": "한번은 도굴 중 벼락이 때려 금곡리 뒤쪽 소나무가 부러지는 이변이 일어났다고 전해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "벼락이 때려 금곡리 뒤쪽 소나무가 부러지는"
+        },
+        {
+          "text": "옛 이야기에 왕건과 견훤 이야기가 나온대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "왕건이 견훤의 역자 신검의 항복을 받고 살려주자"
+        },
+        {
+          "text": "전주의 완산 칠봉이 보이는 이곳에 무덤을 썼대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "전주의 완산 칠봉이 보이는 이곳에 무덤을 썼다고 한다"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "견훤왕릉은 충청남도 논산시에 위치한다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "충청남도 논산시"
+        },
+        {
+          "text": "주요 수종으로 리기다소나무와 참나무가 확인된다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "리기다소나무, 참나무"
+        },
+        {
+          "text": "이 무덤은 오래전부터 왕릉으로 알려져 왔다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "이 무덤은 오래전부터 왕릉으로 알려져 왔기 때문에"
+        },
+        {
+          "text": "일제 때 호리꾼들의 출입이 잦았다고 전해진다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "일제 때 호리꾼들의 출입이 잦았고"
+        },
+        {
+          "text": "한번은 도굴 중 벼락이 때려 금곡리 뒤쪽 소나무가 부러지는 이변이 일어나기도 했다고 한다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "벼락이 때려 금곡리 뒤쪽 소나무가 부러지는"
+        },
+        {
+          "text": "전주의 완산 칠봉이 보이는 이곳에 무덤을 썼다고 전한다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "전주의 완산 칠봉이 보이는 이곳에 무덤을 썼다고 한다"
+        }
+      ]
+    },
+    "find": {
+      "text": "리기다소나무를 찾아볼까요?",
+      "target": "리기다소나무",
+      "source_quote": "리기다소나무, 참나무"
+    }
+  }
+}

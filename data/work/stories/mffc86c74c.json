@@ -1,0 +1,709 @@
+{
+  "id": "mffc86c74c",
+  "name": "수항리전통마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "수항리전통마을숲은 신안군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군"
+            },
+            {
+              "text": "이 숲은 마을 뒤쪽에 있는 산이라서 주산이라고 불렸대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수항리 마을뒤쪽에 위치한 산으로 주산이라 부르며"
+            },
+            {
+              "text": "온 마을 사람들이 이 산을 보호할 정도로 소중하게 여겼대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "전체주민이 보호할 정도로"
+            },
+            {
+              "text": "여기에는 수령이 300년에서 500여년된 소나무가 많아서 장구한 세월 동안 마을을 지켰대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령이 300년에서 500여년된 소나무가 장구한 세월동안 마을을 지키고 있다."
+            },
+            {
+              "text": "80년대 이전까지는 사람들이 숲 주변을 깨끗이 청소했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "80년대 이전까지 숲주변을 청소하였으며"
+            },
+            {
+              "text": "정월 대보름에는 농악패와 함께 우물가를 돌며 기원제를 지냈대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정월 대보름에는 농악패와 함께 우물가를 돌며 기원제를 지내고"
+            },
+            {
+              "text": "그 뒤에 마을회관에 모여 밤새 민속놀이를 했고",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을회관에 모여 밤새 민속놀이를 하여왔으며"
+            },
+            {
+              "text": "남녀총각들은 뜀뛰기 강강술래를 이틀밤 동안 했다고 전해지고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해지고 있음"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "수항리전통마을숲은 전라남도 신안군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군"
+            },
+            {
+              "text": "마을 뒤쪽에 위치한 주산으로 전체주민이 보호할 정도로 중요한 숲이다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수항리 마을뒤쪽에 위치한 산으로 주산이라 부르며 전체주민이 보호할 정도로"
+            },
+            {
+              "text": "수령이 300년에서 500여년된 소나무가 장구한 세월동안 마을을 지키고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령이 300년에서 500여년된 소나무가 장구한 세월동안 마을을 지키고 있다."
+            },
+            {
+              "text": "문화적으로는 80년대 이전까지 숲 주변을 청소했으며 정월 대보름에 농악패와 함께 우물가를 돌며 기원제를 지내고 마을회관에 모여 밤새 민속놀이를 했고 남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해진다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "80년대 이전까지 숲주변을 청소하였으며 정월 대보름에는 농악패와 함께 우물가를 돌며 기원제를 지내고 마을회관에 모여 밤새 민속놀이를 하여왔으며 남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해지고 있음"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무가 장구한 세월동안 마을을 지키고 있다."
+        }
+      },
+      "problems": [
+        "child 4번 문장: AI 판정 unsupported - 원문은 수령 300~500년 된 소나무가 마을을 지킨다고만 적혀 있고 ‘많다’는 수량 표현은 명시되어 있지 않습니다."
+      ],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 수항리전통마을숲의 위치가 전라남도 신안군으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 숲이 마을 뒤쪽에 위치한 산으로 주산이라고 부른다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 ‘전체주민이 보호할 정도로’라고 되어 있어 마을 사람들이 소중히 여겼다는 해석으로 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "unsupported",
+          "reason": "원문은 수령 300~500년 된 소나무가 마을을 지킨다고만 적혀 있고 ‘많다’는 수량 표현은 명시되어 있지 않습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 80년대 이전까지 숲 주변을 청소하였다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 정월 대보름에 농악패와 함께 우물가를 돌며 기원제를 지낸다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 마을회관에 모여 밤새 민속놀이를 했다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 남녀총각들이 뜀뛰기(강강술래)를 이틀밤 동안 했다고 전해진다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 주소로 전라남도 신안군이 명시되어 있어 동일한 내용으로 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 마을 뒤쪽에 위치한 주산이며 전체주민이 보호할 정도라고 되어 있어 중요한 숲이라는 표현으로 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 수령 300년에서 500여년 된 소나무가 장구한 세월동안 마을을 지킨다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문의 문화 기록 내용 전체를 요약한 것으로 원문에 있는 항목들이 모두 포함되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 ‘소나무’가 명시되어 있어 ‘소나무를 찾아보자’는 권유는 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "수항리전통마을숲은 전라남도 신안군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군 도초면 수항리 산64 (전라남도 신안군)"
+            },
+            {
+              "text": "이곳은 마을뒤쪽에 있는 산이라 주산이라고 불렀대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수항리 마을뒤쪽에 위치한 산으로 주산이라 부르며"
+            },
+            {
+              "text": "숲에는 소나무가 있고, 이 나무들이 오랫동안 마을을 지켜 왔대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "소나무가 장구한 세월동안 마을을 지키고 있다"
+            },
+            {
+              "text": "이 소나무들은 수령이 300년에서 500여년이나 된 나무래요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령이 300년에서 500여년된 소나무가"
+            },
+            {
+              "text": "전체 주민이 참 돌볼 만큼 소중했다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "전체주민이 보호할 정도로"
+            },
+            {
+              "text": "80년대 이전까지 숲주변을 청소하였대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "80년대 이전까지 숲주변을 청소하였으며"
+            },
+            {
+              "text": "정월 대보름에는 농악패와 함께 우물가를 돌며 기원제를 지냈대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정월 대보름에는 농악패와 함께 우물가를 돌며 기원제를 지내고"
+            },
+            {
+              "text": "사람들이 마을회관에 모여 밤새 민속놀이를 했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을회관에 모여 밤새 민속놀이를 하여왔으며"
+            },
+            {
+              "text": "남녀 총각들은 뜀뛰기를 이틀밤 동안 했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해지고 있음"
+            },
+            {
+              "text": "옛이야기처럼 들리는 이야기예요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "수항리전통마을숲은 전라남도 신안군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군 도초면 수항리 산64 (전라남도 신안군)"
+            },
+            {
+              "text": "마을 뒤쪽에 있는 산으로 주산이라 불렸다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수항리 마을뒤쪽에 위치한 산으로 주산이라 부르며"
+            },
+            {
+              "text": "주요 수종은 소나무이며, 이 소나무들이 장구한 세월 동안 마을을 지켜 왔다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "소나무가 장구한 세월동안 마을을 지키고 있다"
+            },
+            {
+              "text": "수령은 300년에서 500여년된 나무로 전해진다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령이 300년에서 500여년된 소나무가"
+            },
+            {
+              "text": "전체 주민이 보호할 정도로 중요하게 여겨져 왔다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "전체주민이 보호할 정도로"
+            },
+            {
+              "text": "80년대 이전까지 숲주변을 청소하였고, 정월 대보름에는 농악패와 함께 우물가를 돌며 기원제를 지냈다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "80년대 이전까지 숲주변을 청소하였으며"
+            },
+            {
+              "text": "마을회관에 모여 밤새 민속놀이를 하고, 남녀총각들은 뜀뛰기를 이틀밤 동안 하였다고 전해진다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을회관에 모여 밤새 민속놀이를 하여왔으며"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "수령이 300년에서 500여년된 소나무가"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라남도 신안군 도초면 수항리 산64 (전라남도 신안군)'으로 명시되어 있어 뒷받침된다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '마을뒤쪽에 위치한 산으로 주산이라 부르며'라고 되어 있어 뒷받침된다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 주요 수종이 소나무이고 '장구한 세월동안 마을을 지키고 있다'고 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 수령이 '300년에서 500여년된 소나무'라고 명시되어 있어 뒷받침된다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '전체주민이 보호할 정도로'라고 되어 있어 주민들이 돌보았다는 의미로 뒷받침된다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '80년대 이전까지 숲주변을 청소하였으며'라고 있어 뒷받침된다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '정월 대보름에는 농악패와 함께 우물가를 돌며 기원제를 지내고'라고 되어 있어 뒷받침된다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '마을회관에 모여 밤새 민속놀이를 하여왔으며'라고 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해지고 있음'이라고 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "문장 0과 동일하게 원문에 신안군 위치가 명시되어 있어 뒷받침된다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '마을뒤쪽에 위치한 산으로 주산이라 부르며'라고 있어 뒷받침된다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 주요 수종이 소나무이며 '장구한 세월동안 마을을 지키고 있다'고 되어 있어 뒷받침된다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '수령이 300년에서 500여년된 소나무'라고 명시되어 있어 뒷받침된다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '전체주민이 보호할 정도로'라고 되어 있어 주민들이 중요하게 여겼다는 뜻으로 뒷받침된다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문 문화 기록에 해당 문장 그대로의 내용이 있어 뒷받침된다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 '마을회관에 모여 밤새 민속놀이를 하여왔으며'와 '남녀총각들은 뜀뛰기...이틀밤 동안 하였다고 전해지고 있음'이라고 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 16,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 '소나무'가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유의 대상이 원문에 있다."
+        }
+      ],
+      "hard_words": [
+        "수령"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "수항리전통마을숲은 신안군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군"
+            },
+            {
+              "text": "이 숲은 마을 뒤에 있는 산이라 주산이라고 불렀대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수항리 마을뒤쪽에 위치한 산으로 주산이라 부르며"
+            },
+            {
+              "text": "숲에는 소나무가 있었대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "나무 나이가 300년에서 500여년이나 되었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "300년에서 500여년된 소나무"
+            },
+            {
+              "text": "그 소나무들이 오래도록 마을을 지켜 왔다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을을 지키고 있다."
+            },
+            {
+              "text": "80년대 이전까지 숲 주변을 청소하였대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "80년대 이전까지 숲주변을 청소하였으며"
+            },
+            {
+              "text": "정월 대보름에는 농악패와 함께 우물가를 돌며 마을을 지켜 달라고 비는 제사도 지냈대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "농악패와 함께 우물가를 돌며 기원제를 지내고"
+            },
+            {
+              "text": "사람들이 마을회관에 모여 밤새 민속놀이를 했고, 남녀총각들은 뜀뛰기를 이틀 밤 동안 했다고 전해져요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해지고 있음"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "수항리전통마을숲은 신안군에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군"
+            },
+            {
+              "text": "마을 뒤에 있는 산으로 주산이라고 불립니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수항리 마을뒤쪽에 위치한 산으로 주산이라 부르며"
+            },
+            {
+              "text": "주요 수종은 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "전체주민이 보호할 정도로 수령이 300년에서 500여년된 소나무가 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령이 300년에서 500여년된 소나무"
+            },
+            {
+              "text": "이 소나무들이 장구한 세월 동안 마을을 지키고 있다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을을 지키고 있다."
+            },
+            {
+              "text": "80년대 이전까지 숲주변을 청소하였으며",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "80년대 이전까지 숲주변을 청소하였으며"
+            },
+            {
+              "text": "정월 대보름에는 농악패와 함께 우물가를 돌며 기원제를 지냈습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "농악패와 함께 우물가를 돌며 기원제를 지내고"
+            },
+            {
+              "text": "마을회관에 모여 밤새 민속놀이를 하였으며",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을회관에 모여 밤새 민속놀이를 하여왔으며"
+            },
+            {
+              "text": "남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해지고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해지고 있음"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 전라남도 신안군으로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사에 ‘마을뒤쪽에 위치한 산’이라 ‘주산’이라고 불린다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 주요 나무 항목과 기록에 소나무라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 수령이 300년에서 500여년이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 소나무가 장구한 세월동안 마을을 지키고 있다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 80년대 이전까지 숲주변을 청소하였다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 정월 대보름에 농악패와 함께 우물가를 돌며 기원제를 지냈다고 되어 있어 뒷받침되며 ‘마을을 지켜 달라’는 기원제의 풀이도 허용됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 마을회관에 모여 밤새 민속놀이를 하고 남녀총각들이 이틀밤 뜀뛰기를 했다고 전해진다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "문장 0과 동일하게 원문 주소에 신안군으로 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 ‘마을뒤쪽에 위치한 산으로 주산이라 부른다’고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 주요 나무 항목에 소나무라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 ‘전체주민이 보호할 정도로 수령이 300년에서 500여년된 소나무’라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문 역사 기록에 그 소나무들이 장구한 세월 동안 마을을 지킨다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문 문화 기록의 문장과 동일하게 80년대 이전까지 숲주변을 청소하였다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 정월 대보름에 농악패와 함께 우물가를 돌며 기원제를 지냈다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 마을회관에 모여 밤새 민속놀이를 하였다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 16,
+          "label": "supported",
+          "reason": "원문에 남녀총각들이 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해진다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 17,
+          "label": "supported",
+          "reason": "원문에 주요 수종이 소나무로 되어 있어 ‘소나무를 찾아볼까요?’라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "수항리전통마을숲은 신안군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 신안군"
+        },
+        {
+          "text": "이 숲은 마을 뒤에 있는 산이라 주산이라고 불렀대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "수항리 마을뒤쪽에 위치한 산으로 주산이라 부르며"
+        },
+        {
+          "text": "숲에는 소나무가 있었대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "나무 나이가 300년에서 500여년이나 되었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "300년에서 500여년된 소나무"
+        },
+        {
+          "text": "그 소나무들이 오래도록 마을을 지켜 왔다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을을 지키고 있다."
+        },
+        {
+          "text": "80년대 이전까지 숲 주변을 청소하였대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "80년대 이전까지 숲주변을 청소하였으며"
+        },
+        {
+          "text": "정월 대보름에는 농악패와 함께 우물가를 돌며 마을을 지켜 달라고 비는 제사도 지냈대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "농악패와 함께 우물가를 돌며 기원제를 지내고"
+        },
+        {
+          "text": "사람들이 마을회관에 모여 밤새 민속놀이를 했고, 남녀총각들은 뜀뛰기를 이틀 밤 동안 했다고 전해져요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해지고 있음"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "수항리전통마을숲은 신안군에 위치합니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 신안군"
+        },
+        {
+          "text": "마을 뒤에 있는 산으로 주산이라고 불립니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "수항리 마을뒤쪽에 위치한 산으로 주산이라 부르며"
+        },
+        {
+          "text": "주요 수종은 소나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "전체주민이 보호할 정도로 수령이 300년에서 500여년된 소나무가 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "수령이 300년에서 500여년된 소나무"
+        },
+        {
+          "text": "이 소나무들이 장구한 세월 동안 마을을 지키고 있다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을을 지키고 있다."
+        },
+        {
+          "text": "80년대 이전까지 숲주변을 청소하였으며",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "80년대 이전까지 숲주변을 청소하였으며"
+        },
+        {
+          "text": "정월 대보름에는 농악패와 함께 우물가를 돌며 기원제를 지냈습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "농악패와 함께 우물가를 돌며 기원제를 지내고"
+        },
+        {
+          "text": "마을회관에 모여 밤새 민속놀이를 하였으며",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을회관에 모여 밤새 민속놀이를 하여왔으며"
+        },
+        {
+          "text": "남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해지고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "남녀총각들은 뜀뛰기(강강술래)를 이틀밤 동안 하였다고 전해지고 있음"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  }
+}

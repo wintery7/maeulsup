@@ -1,0 +1,305 @@
+{
+  "id": "mf471c2bf9",
+  "name": "밤보실마을 숲쟁이공원",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "밤보실마을 숲쟁이공원은 영광군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 영광군"
+            },
+            {
+              "text": "이곳에는 팽나무와 서나무 같은 나무들이 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무, 서나무 등"
+            },
+            {
+              "text": "숲쟁이공원은 자연 숲으로 된 공원이에요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲쟁이(자연림)공원"
+            },
+            {
+              "text": "옛 기록에는 국가재정 중추기관인 조창과 관련이 있다고 적혀 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "국가재정 중추기관인 조창"
+            },
+            {
+              "text": "또 이곳은 백제불교 최초 상륙지로 유명하대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "백제불교 최초 상륙지로 유명"
+            },
+            {
+              "text": "바다에서 하는 일이 무사하기를 빌고 재수대통의 소원을 비는 공간이라고도 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "해상의 일상만사가 무사하고 재수대통의 소원을 비는 공간이다"
+            },
+            {
+              "text": "이 마을은 1000년 역사의 고도라고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1000년 역사의 고도"
+            },
+            {
+              "text": "법성포 단오제는 1637년 경부터 열렸다고 전해 내려오고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "1637년 경부터 개최되었다고 전해 내려오고 있으며"
+            },
+            {
+              "text": "요즘은 많은 관광객이 찾고 있는 실정이라고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "많은 관광객이 찾고 있는 실정이다"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "밤보실마을 숲쟁이공원은 전라남도 영광군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 영광군"
+            },
+            {
+              "text": "주요 수종으로 팽나무와 서나무 등이 확인된다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무, 서나무 등"
+            },
+            {
+              "text": "역사 기록에는 국가재정 중추기관인 조창과 관련이 있다고 적혀 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "국가재정 중추기관인 조창"
+            },
+            {
+              "text": "문헌은 이곳을 1000년 역사의 고도로 표기하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1000년 역사의 고도"
+            },
+            {
+              "text": "기록은 또한 숲쟁이(자연림)공원이라 칭하며 해상의 안전과 재수대통의 소원을 비는 공간이라 언급한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲쟁이(자연림)공원"
+            },
+            {
+              "text": "법성포 단오제는 1637년 경부터 개최되었다고 전해지며 현재 많은 관광객이 찾고 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "1637년 경부터 개최되었다고 전해 내려오고 있으며"
+            }
+          ]
+        },
+        "find": {
+          "text": "팽나무를 찾아볼까요?",
+          "target": "팽나무",
+          "source_quote": "팽나무, 서나무 등"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 '전라남도 영광군'이 명시되어 있어 해당 문장을 뒷받침한다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '주요 나무: 팽나무, 서나무 등'이라고 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '숲쟁이(자연림)공원'이라 표기되어 있어 자연 숲 공원임을 뒷받침한다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "역사 항목에 '국가재정 중추기관인 조창'이 언급되어 있어 뒷받침된다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '백제불교 최초 상륙지로 유명'이라고 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '해상의 일상만사가 무사하고 재수대통의 소원을 비는 공간'이라고 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '1000년 역사의 고도'라고 되어 있어 뒷받침된다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "문화 기록에 '1637년 경부터 개최되었다고 전해 내려오고 있으며'라고 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "문화 기록에 '현재 ... 많은 관광객이 찾고 있는 실정'이라고 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 주소에 '전라남도 영광군'이 명시되어 있어 해당 문장을 뒷받침한다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '주요 나무: 팽나무, 서나무 등'으로 해당 수종이 주요 수종임이 뒷받침된다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "역사 기록에 '국가재정 중추기관인 조창'과의 관련이 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '1000년 역사의 고도'라고 표기되어 있어 그 기술을 뒷받침한다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '숲쟁이(자연림)공원'이며 '해상의 ... 재수대통의 소원을 비는 공간'이라고 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "문화 기록에 '1637년 경부터 개최되었다고 전해지며'와 '현재 많은 관광객이 찾고 있다'고 모두 적혀 있어 뒷받침된다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '팽나무'가 명시되어 있어 '팽나무를 찾아볼까요?'라는 권유는 뒷받침된다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "밤보실마을 숲쟁이공원은 영광군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 영광군"
+        },
+        {
+          "text": "이곳에는 팽나무와 서나무 같은 나무들이 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "팽나무, 서나무 등"
+        },
+        {
+          "text": "숲쟁이공원은 자연 숲으로 된 공원이에요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "숲쟁이(자연림)공원"
+        },
+        {
+          "text": "옛 기록에는 국가재정 중추기관인 조창과 관련이 있다고 적혀 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "국가재정 중추기관인 조창"
+        },
+        {
+          "text": "또 이곳은 백제불교 최초 상륙지로 유명하대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "백제불교 최초 상륙지로 유명"
+        },
+        {
+          "text": "바다에서 하는 일이 무사하기를 빌고 재수대통의 소원을 비는 공간이라고도 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "해상의 일상만사가 무사하고 재수대통의 소원을 비는 공간이다"
+        },
+        {
+          "text": "이 마을은 1000년 역사의 고도라고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1000년 역사의 고도"
+        },
+        {
+          "text": "법성포 단오제는 1637년 경부터 열렸다고 전해 내려오고 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "1637년 경부터 개최되었다고 전해 내려오고 있으며"
+        },
+        {
+          "text": "요즘은 많은 관광객이 찾고 있는 실정이라고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "많은 관광객이 찾고 있는 실정이다"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "밤보실마을 숲쟁이공원은 전라남도 영광군에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 영광군"
+        },
+        {
+          "text": "주요 수종으로 팽나무와 서나무 등이 확인된다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "팽나무, 서나무 등"
+        },
+        {
+          "text": "역사 기록에는 국가재정 중추기관인 조창과 관련이 있다고 적혀 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "국가재정 중추기관인 조창"
+        },
+        {
+          "text": "문헌은 이곳을 1000년 역사의 고도로 표기하고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1000년 역사의 고도"
+        },
+        {
+          "text": "기록은 또한 숲쟁이(자연림)공원이라 칭하며 해상의 안전과 재수대통의 소원을 비는 공간이라 언급한다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "숲쟁이(자연림)공원"
+        },
+        {
+          "text": "법성포 단오제는 1637년 경부터 개최되었다고 전해지며 현재 많은 관광객이 찾고 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "1637년 경부터 개최되었다고 전해 내려오고 있으며"
+        }
+      ]
+    },
+    "find": {
+      "text": "팽나무를 찾아볼까요?",
+      "target": "팽나무",
+      "source_quote": "팽나무, 서나무 등"
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "id": "mf654042e4",
+  "name": "대상마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "대상마을숲은 전라북도 남원시 산동면에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 산동면 대상리"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲에는 느티나무가 주로 자라요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "1950년 6·25사변으로 마을이 모두 전소되었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1950년 6·25사변으로 마을이 모두 전소되고"
+            },
+            {
+              "text": "1953년 장흥고씨가 들어와 살면서 대상천을 중심으로 마을이 남북으로 형성되었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "대상천을 중심으로 남북으로 형성됨"
+            },
+            {
+              "text": "마을 북쪽에는 천황봉이 있다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 북쪽에는 천황봉 위치하여 있다."
+            },
+            {
+              "text": "설과 정월 대보름과 백중의 화전놀이가 이어진대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "설과 정월 대보름, 24절기 중 백중의 화전놀이가 있으며"
+            },
+            {
+              "text": "천황봉 끝자락 부근에 귀정사라는 절이 있고 삼일왕정 전설이 전해진대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "천황봉 끝자락 부근에 귀정사라는 절이 있는데 삼일왕정(三日王政)의 전설이 내려오고 있다."
+            },
+            {
+              "text": "차 안에서 천천히 들려줄게요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "눈으로 천천히 둘러보아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "자, 숲에 가면 느티나무를 찾아볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "대상마을숲은 전라북도 남원시 산동면 대상리에 위치한 숲입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 산동면 대상리"
+            },
+            {
+              "text": "주요 수종은 느티나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "1950년 6·25사변으로 마을이 모두 전소되었습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1950년 6·25사변으로 마을이 모두 전소되고"
+            },
+            {
+              "text": "1953년 장흥고씨가 들어와 살게 되면서 마을은 대상천을 중심으로 남북으로 형성되었습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1953년 장흥고씨(長興高氏)가 들어와 살게 되면서 마을 앞 소하천인 대상천을 중심으로 남북으로 형성됨"
+            },
+            {
+              "text": "마을 북쪽에는 천황봉이 위치합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 북쪽에는 천황봉 위치하여 있다."
+            },
+            {
+              "text": "설과 정월 대보름, 24절기 중 백중의 화전놀이가 전해집니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "설과 정월 대보름, 24절기 중 백중의 화전놀이가 있으며"
+            },
+            {
+              "text": "천황봉 끝자락 부근에는 귀정사라는 절이 있고 삼일왕정의 전설이 전해집니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "천황봉 끝자락 부근에 귀정사라는 절이 있는데 삼일왕정(三日王政)의 전설이 내려오고 있다."
+            },
+            {
+              "text": "기록에 있는 내용을 차분히 정리해 드립니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "현장을 둘러보실 때 차분히 살펴보시면 좋겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라북도 남원시 산동면 대상리 1074-141'로 되어 있어 동일한 의미로 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '주요 나무(species): 느티나무'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 항목에 '1950년 6·25사변으로 마을이 모두 전소되고'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '1953년 장흥고씨가 들어와 살게 되면서 ... 대상천을 중심으로 남북으로 형성됨'이라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '마을 북쪽에는 천황봉 위치하여 있다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '설과 정월 대보름, 24절기 중 백중의 화전놀이가 있다'고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '천황봉 끝자락 부근에 귀정사라는 절이 있는데 삼일왕정의 전설이 내려오고 있다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 위치에 대상리(대상리 1074-141)가 명시되어 있어 동일한 의미로 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '주요 나무: 느티나무'로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 역사에 '1950년 6·25사변으로 마을이 모두 전소되고'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '1953년 장흥고씨가 들어와 살게 되면서 마을 ... 대상천을 중심으로 남북으로 형성됨'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '마을 북쪽에는 천황봉 위치하여 있다'고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '설과 정월 대보름, 24절기 중 백중의 화전놀이가 있다'고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '천황봉 끝자락 부근에 귀정사라는 절이 있는데 삼일왕정의 전설이 내려오고 있다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 적혀 있어 '느티나무를 찾아볼까요?'라는 권유의 대상이 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "대상마을숲은 전라북도 남원시 산동면에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시 산동면 대상리"
+        },
+        {
+          "text": "이 숲에는 느티나무가 주로 자라요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "1950년 6·25사변으로 마을이 모두 전소되었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1950년 6·25사변으로 마을이 모두 전소되고"
+        },
+        {
+          "text": "1953년 장흥고씨가 들어와 살면서 대상천을 중심으로 마을이 남북으로 형성되었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "대상천을 중심으로 남북으로 형성됨"
+        },
+        {
+          "text": "마을 북쪽에는 천황봉이 있다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을 북쪽에는 천황봉 위치하여 있다."
+        },
+        {
+          "text": "설과 정월 대보름과 백중의 화전놀이가 이어진대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "설과 정월 대보름, 24절기 중 백중의 화전놀이가 있으며"
+        },
+        {
+          "text": "천황봉 끝자락 부근에 귀정사라는 절이 있고 삼일왕정 전설이 전해진대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "천황봉 끝자락 부근에 귀정사라는 절이 있는데 삼일왕정(三日王政)의 전설이 내려오고 있다."
+        },
+        {
+          "text": "차 안에서 천천히 들려줄게요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "눈으로 천천히 둘러보아요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "자, 숲에 가면 느티나무를 찾아볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "대상마을숲은 전라북도 남원시 산동면 대상리에 위치한 숲입니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시 산동면 대상리"
+        },
+        {
+          "text": "주요 수종은 느티나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "1950년 6·25사변으로 마을이 모두 전소되었습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1950년 6·25사변으로 마을이 모두 전소되고"
+        },
+        {
+          "text": "1953년 장흥고씨가 들어와 살게 되면서 마을은 대상천을 중심으로 남북으로 형성되었습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1953년 장흥고씨(長興高氏)가 들어와 살게 되면서 마을 앞 소하천인 대상천을 중심으로 남북으로 형성됨"
+        },
+        {
+          "text": "마을 북쪽에는 천황봉이 위치합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을 북쪽에는 천황봉 위치하여 있다."
+        },
+        {
+          "text": "설과 정월 대보름, 24절기 중 백중의 화전놀이가 전해집니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "설과 정월 대보름, 24절기 중 백중의 화전놀이가 있으며"
+        },
+        {
+          "text": "천황봉 끝자락 부근에는 귀정사라는 절이 있고 삼일왕정의 전설이 전해집니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "천황봉 끝자락 부근에 귀정사라는 절이 있는데 삼일왕정(三日王政)의 전설이 내려오고 있다."
+        },
+        {
+          "text": "기록에 있는 내용을 차분히 정리해 드립니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "현장을 둘러보실 때 차분히 살펴보시면 좋겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  },
+  "opener_removed": true
+}

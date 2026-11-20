@@ -1,0 +1,254 @@
+{
+  "id": "mf2c413983",
+  "name": "마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "마을숲은 충청남도 금산군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "충청남도 금산군"
+            },
+            {
+              "text": "막현리는 볕이 잘 들고 땅이 기름지대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "양지바르고 토지가 비옥하여"
+            },
+            {
+              "text": "마을은 동서로 뚫려 있어서 숲정이들을 막지 않으면 재물이 나간다고 했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲정이들을 막지 않으면 재물이 나간다고 하여"
+            },
+            {
+              "text": "그래서 나무를 심어 숲을 만들고 마을의 복이 나가지 않도록 잘 지켰대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲정이들을 막아 마을의 복이 나가지 않도록 관리하였음"
+            },
+            {
+              "text": "이 숲의 주요 나무는 느티나무래요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "옛날에는 채봉을 하던 장소였대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "옛날에 채봉(덕장)을 하던 장소로"
+            },
+            {
+              "text": "지금은 매현쉼터가 있어서 매현천과 숲정이숲을 보며 찾아오는 사람들과 마을 사람들이 쉬는 곳이 되었대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "내방객들과 마을 주민들이 휴식을 취할 수 있는 곳이 되었음"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "마을숲은 충청남도 금산군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "충청남도 금산군"
+            },
+            {
+              "text": "막현리는 양지바르고 토지가 비옥하여 보리맥 자를 써 맥키미라 부렸으나",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "양지바르고 토지가 비옥하여"
+            },
+            {
+              "text": "마을위치가 동서로 뚫려 있어서 숲정이들을 막지 않으면 재물이 나간다고 하여",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을위치가 동서로 뚫려 있어서"
+            },
+            {
+              "text": "그래서 나무를 심어 숲을 조성하여 숲정이들을 막아 마을의 복이 나가지 않도록 관리하였다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "나무를 심어 숲을 조성하여"
+            },
+            {
+              "text": "옛날에는 채봉을 하던 장소였고 현재는 매현쉼터를 조성하여 매현천과 숲정이숲을 보며 방문객과 마을 주민들이 휴식하는 곳이 되었다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매현쉼터를 조성하여 매현천과 숲정이숲을 보며"
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '충청남도 금산군'으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '양지바르고 토지가 비옥'하다고 되어 있어 같은 뜻으로 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '마을위치가 동서로 뚫려 있어서... 재물이 나간다고 하여'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 나무를 심어 숲을 조성하고 마을의 복이 나가지 않도록 관리했다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '옛날에 채봉을 하던 장소'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 현재 매현쉼터를 조성해 내방객과 마을 주민들이 매현천과 숲정이숲을 보며 휴식한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 위치가 '충청남도 금산군'으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '양지바르고 토지가 비옥하여 보리맥 자를 써 맥키미라 부렸으나'라고 직접 서술되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '마을위치가 동서로 뚫려 있어서 숲정이들을 막지 않으면 재물이 나간다고 하여'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '나무를 심어 숲을 조성하여... 마을의 복이 나가지 않도록 관리하였다'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '옛날에는 채봉을 하던 장소로 현재는 매현쉼터를 조성하여... 방문객과 마을 주민들이 휴식'한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 명시되어 있어 '느티나무를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "마을숲은 충청남도 금산군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "충청남도 금산군"
+        },
+        {
+          "text": "막현리는 볕이 잘 들고 땅이 기름지대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "양지바르고 토지가 비옥하여"
+        },
+        {
+          "text": "마을은 동서로 뚫려 있어서 숲정이들을 막지 않으면 재물이 나간다고 했대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "숲정이들을 막지 않으면 재물이 나간다고 하여"
+        },
+        {
+          "text": "그래서 나무를 심어 숲을 만들고 마을의 복이 나가지 않도록 잘 지켰대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "숲정이들을 막아 마을의 복이 나가지 않도록 관리하였음"
+        },
+        {
+          "text": "이 숲의 주요 나무는 느티나무래요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "옛날에는 채봉을 하던 장소였대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "옛날에 채봉(덕장)을 하던 장소로"
+        },
+        {
+          "text": "지금은 매현쉼터가 있어서 매현천과 숲정이숲을 보며 찾아오는 사람들과 마을 사람들이 쉬는 곳이 되었대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "내방객들과 마을 주민들이 휴식을 취할 수 있는 곳이 되었음"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "마을숲은 충청남도 금산군에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "충청남도 금산군"
+        },
+        {
+          "text": "막현리는 양지바르고 토지가 비옥하여 보리맥 자를 써 맥키미라 부렸으나",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "양지바르고 토지가 비옥하여"
+        },
+        {
+          "text": "마을위치가 동서로 뚫려 있어서 숲정이들을 막지 않으면 재물이 나간다고 하여",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을위치가 동서로 뚫려 있어서"
+        },
+        {
+          "text": "그래서 나무를 심어 숲을 조성하여 숲정이들을 막아 마을의 복이 나가지 않도록 관리하였다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "나무를 심어 숲을 조성하여"
+        },
+        {
+          "text": "옛날에는 채봉을 하던 장소였고 현재는 매현쉼터를 조성하여 매현천과 숲정이숲을 보며 방문객과 마을 주민들이 휴식하는 곳이 되었다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매현쉼터를 조성하여 매현천과 숲정이숲을 보며"
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  }
+}

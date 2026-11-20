@@ -1,0 +1,493 @@
+{
+  "id": "mf7e137578",
+  "name": "운교소재지마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "운교소재지마을숲은 남원시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 대산면 운교리 604-4 (전북특별자치도 남원시)"
+            },
+            {
+              "text": "숲의 주요 나무는 소나무와 느티나무예요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "주요 나무(species): 소나무, 느티나무"
+            },
+            {
+              "text": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보인대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보인다."
+            },
+            {
+              "text": "그래서 이곳을 천상을 연결하는 구름다리 또는 운교라고 불렀대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천상을 연결하는 구름다리 또는 운교라고 하였으며,"
+            },
+            {
+              "text": "이곳은 우리나라 농협운동의 발상지래요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "우리나라 농협운동의 발상지 이다"
+            },
+            {
+              "text": "천상을 연결하는 구름다리 였다는 전설을 뒷받침 하듯 과거에는 소재지를 중심으로 오래된 소나무와 느티나무가 많아 운치를 더하여 주었으나 다리공사와 길내기 등으로 숲이 많이 훼손되었다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "천상을 연결하는 구름다리 였다는 전설을 뒷받침 하듯 과거에는 소재지를 중심으로 오래된 소나무와 느티나무가 많아 운치를 더하여 주었으나 다리공사와 길내기 등으로 숲이 많이 훼손되었다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "운교소재지마을숲은 남원시에 위치해 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 대산면 운교리 604-4 (전북특별자치도 남원시)"
+            },
+            {
+              "text": "주요 수종은 소나무와 느티나무다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "주요 나무(species): 소나무, 느티나무"
+            },
+            {
+              "text": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보인다고 기록되어 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보인다."
+            },
+            {
+              "text": "그래서 이곳을 천상을 연결하는 구름다리 또는 운교라고 불렀다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천상을 연결하는 구름다리 또는 운교라고 하였으며,"
+            },
+            {
+              "text": "또한 이곳은 우리나라 농협운동의 발상지라고 기록되어 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "우리나라 농협운동의 발상지 이다"
+            },
+            {
+              "text": "과거에는 소재지를 중심으로 오래된 소나무와 느티나무가 많아 운치를 더했으나 다리공사와 길내기 등으로 숲이 많이 훼손되었다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "천상을 연결하는 구름다리 였다는 전설을 뒷받침 하듯 과거에는 소재지를 중심으로 오래된 소나무와 느티나무가 많아 운치를 더하여 주었으나 다리공사와 길내기 등으로 숲이 많이 훼손되었다."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "주요 나무(species): 소나무, 느티나무"
+        }
+      },
+      "problems": [
+        "child 2번 문장: 근거 구절이 원문에 없음 '주요 나무(species): 소나무, 느티나무'",
+        "adult 2번 문장: 근거 구절이 원문에 없음 '주요 나무(species): 소나무, 느티나무'",
+        "찾아볼 것: 근거 구절이 원문에 없음"
+      ],
+      "verdicts": null,
+      "hard_words": []
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "운교소재지마을숲은 전라북도 남원시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시"
+            },
+            {
+              "text": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보인대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보인다."
+            },
+            {
+              "text": "사람들은 이곳을 천상을 연결하는 구름다리 또는 운교라고 불렀대요, 또 우리나라 농협운동의 발상지였대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천상을 연결하는 구름다리 또는 운교라고 하였으며, 우리나라 농협운동의 발상지 이다"
+            },
+            {
+              "text": "예전에는 소재지를 중심으로 오래된 소나무와 느티나무가 많아 운치를 더해 주었대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "오래된 소나무와 느티나무가 많아 운치를 더하여 주었으나"
+            },
+            {
+              "text": "그런데 다리공사와 길내기 등으로 숲이 많이 훼손되었다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "다리공사와 길내기 등으로 숲이 많이 훼손되었다."
+            },
+            {
+              "text": "정말 특별한 숲이에요, 이야기를 들으면 숲의 모습이 더 잘 떠오른대요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "운교소재지마을숲은 전라북도 남원시에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시"
+            },
+            {
+              "text": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보인다."
+            },
+            {
+              "text": "이 때문에 이곳을 천상을 연결하는 구름다리 또는 운교라고 하였으며, 우리나라 농협운동의 발상지입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천상을 연결하는 구름다리 또는 운교라고 하였으며, 우리나라 농협운동의 발상지 이다"
+            },
+            {
+              "text": "과거에는 소재지를 중심으로 오래된 소나무와 느티나무가 많아 운치를 더해 주었습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "오래된 소나무와 느티나무가 많아 운치를 더하여 주었으나"
+            },
+            {
+              "text": "그러나 다리공사와 길내기 등으로 숲이 많이 훼손되었습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "다리공사와 길내기 등으로 숲이 많이 훼손되었다."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무, 느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 전라북도 남원시로 명시되어 있어 문장이 원문으로 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 동일하게 교룡산에서 내려다보면 동쪽과 서쪽 산이 연결되어 다리처럼 보인다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 이곳을 '천상을 연결하는 구름다리 또는 운교'라 불렀고 우리나라 농협운동의 발상지라 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 과거에 오래된 소나무와 느티나무가 많아 운치를 더했다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 다리공사와 길내기 등으로 숲이 훼손되었다고 적혀 있어 문장이 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "문장 0과 동일하게 원문에 남원시에 위치한다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 역사 내용과 동일한 서술로, 교룡산에서 내려다보면 다리처럼 보인다고 적힌 부분에 근거합니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '그래서 이곳을 ... 운교라고 하였으며, 우리나라 농협운동의 발상지'라 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 문화 기록에 과거에 소나무와 느티나무가 많아 운치를 더했다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '다리공사와 길내기 등으로 숲이 많이 훼손되었다'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 주요 나무로 소나무가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "소재"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "운교소재지마을숲은 남원시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시"
+            },
+            {
+              "text": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산이 연결되어 보인대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "동쪽의 교룡산과 서쪽의 풍악산을 연결하여"
+            },
+            {
+              "text": "그래서 마치 다리를 놓은 것처럼 보인대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마치 다리를 놓은 것처럼 보인다."
+            },
+            {
+              "text": "사람들은 이곳을 천상을 연결하는 구름다리, 즉 운교라고 불렀대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천상을 연결하는 구름다리"
+            },
+            {
+              "text": "여기는 우리나라 농협운동의 발상지였대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "우리나라 농협운동의 발상지 이다"
+            },
+            {
+              "text": "예전에는 소재지를 중심으로 오래된 소나무와 느티나무가 많아 운치를 더해 주었대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "오래된 소나무와 느티나무가 많아"
+            },
+            {
+              "text": "그런데 다리공사와 길내기 등으로 숲이 많이 훼손되었대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "다리공사와 길내기 등으로 숲이 많이 훼손되었다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "운교소재지마을숲은 남원시에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시"
+            },
+            {
+              "text": "교룡산에서 마을을 내려다보면 동쪽의 교룡산과 서쪽의 풍악산이 연결되어 마치 다리처럼 보인다고 기록되어 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마치 다리를 놓은 것처럼 보인다."
+            },
+            {
+              "text": "기록은 이곳을 천상을 연결하는 구름다리, 즉 운교라고 불렀고",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천상을 연결하는 구름다리"
+            },
+            {
+              "text": "또 우리나라 농협운동의 발상지라고 적어 놓았다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "우리나라 농협운동의 발상지 이다"
+            },
+            {
+              "text": "과거에는 소재지를 중심으로 오래된 소나무와 느티나무가 많았으나 다리공사와 길내기 등으로 숲이 많이 훼손되었다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "다리공사와 길내기 등으로 숲이 많이 훼손되었다."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무, 느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 '전북특별자치도 남원시'로 되어 있어 남원시에 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사 기록에 동일하게 '교룡산에서 이 마을을 내려다 보면 ... 연결하여 ... 보인다'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '마치 다리를 놓은 것처럼 보인다'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '천상을 연결하는 구름다리 또는 운교라고 하였으며'라고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '우리나라 농협운동의 발상지 이다'라고 명시되어 있어 해당 주장(발상지였다는 표현 포함)이 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 과거에 오래된 소나무와 느티나무가 많아 운치를 더하였다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '다리공사와 길내기 등으로 숲이 많이 훼손되었다'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "(0)과 동일하게 원문 주소에 남원시로 표기되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록에 그 내용이 기록되어 있다고 표현되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '이곳을 천상을 연결하는 구름다리 또는 운교라고 하였으며'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 우리나라 농협운동의 발상지라고 명시되어 있어 '적어 놓았다'는 표현으로도 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 문화 기록에 과거에는 소나무와 느티나무가 많았으나 다리공사 등으로 숲이 훼손되었다고 동일하게 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '소나무'가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "소재"
+      ]
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "운교소재지마을숲은 전라북도 남원시에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시"
+        },
+        {
+          "text": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보인대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보인다."
+        },
+        {
+          "text": "사람들은 이곳을 천상을 연결하는 구름다리 또는 운교라고 불렀대요, 또 우리나라 농협운동의 발상지였대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "천상을 연결하는 구름다리 또는 운교라고 하였으며, 우리나라 농협운동의 발상지 이다"
+        },
+        {
+          "text": "예전에는 소재지를 중심으로 오래된 소나무와 느티나무가 많아 운치를 더해 주었대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "오래된 소나무와 느티나무가 많아 운치를 더하여 주었으나"
+        },
+        {
+          "text": "그런데 다리공사와 길내기 등으로 숲이 많이 훼손되었다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "다리공사와 길내기 등으로 숲이 많이 훼손되었다."
+        },
+        {
+          "text": "정말 특별한 숲이에요, 이야기를 들으면 숲의 모습이 더 잘 떠오른대요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "운교소재지마을숲은 전라북도 남원시에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시"
+        },
+        {
+          "text": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보입니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "교룡산에서 이 마을을 내려다 보면 동쪽의 교룡산과 서쪽의 풍악산을 연결하여 마치 다리를 놓은 것처럼 보인다."
+        },
+        {
+          "text": "이 때문에 이곳을 천상을 연결하는 구름다리 또는 운교라고 하였으며, 우리나라 농협운동의 발상지입니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "천상을 연결하는 구름다리 또는 운교라고 하였으며, 우리나라 농협운동의 발상지 이다"
+        },
+        {
+          "text": "과거에는 소재지를 중심으로 오래된 소나무와 느티나무가 많아 운치를 더해 주었습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "오래된 소나무와 느티나무가 많아 운치를 더하여 주었으나"
+        },
+        {
+          "text": "그러나 다리공사와 길내기 등으로 숲이 많이 훼손되었습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "다리공사와 길내기 등으로 숲이 많이 훼손되었다."
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무, 느티나무"
+    }
+  },
+  "hard_words_left": [
+    "소재"
+  ]
+}

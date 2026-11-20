@@ -1,0 +1,420 @@
+{
+  "id": "mfa9d05d27",
+  "name": "이사마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "이사마을숲은 대전광역시 동구에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "대전광역시 동구"
+            },
+            {
+              "text": "이 숲 이름은 이사마을숲이에요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "이사마을숲"
+            },
+            {
+              "text": "숲에는 소나무가 주로 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "숲 안에는 송국전의 묘를 비롯한 다수의 묘가 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲 내에는 송국전(1595~1649)의 묘를 비롯한 다수의 묘가 있으며,"
+            },
+            {
+              "text": "수령 100년 이상된 소나무가 골고루 많이 자라고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+            },
+            {
+              "text": "예전에는 인근 학교와 단체에서 즐겨 찾던 소풍명소였대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "진귀한 소나무 숲으로 인하여 80년대까지만 하여도 인근 학교 및 단체에서 즐겨 찾던 소풍명소로 각광 받아온 곳임"
+            },
+            {
+              "text": "천천히 둘러보며 알아보아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "이사마을숲은 대전광역시 동구에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "대전광역시 동구"
+            },
+            {
+              "text": "주요 수종은 소나무다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "숲 내에는 송국전의 묘를 비롯한 다수의 묘가 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲 내에는 송국전(1595~1649)의 묘를 비롯한 다수의 묘가 있으며,"
+            },
+            {
+              "text": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+            },
+            {
+              "text": "면적은 2ha이며 넓고 나지막한 야산에 위치한다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "면적 2ha, 넓고 나지막한 야산에 위치하고 있고"
+            },
+            {
+              "text": "진귀한 소나무 숲으로 80년대까지만 하여도 인근 학교 및 단체에서 즐겨 찾던 소풍명소였다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "진귀한 소나무 숲으로 인하여 80년대까지만 하여도 인근 학교 및 단체에서 즐겨 찾던 소풍명소로 각광 받아온 곳임"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "수령 100년 이상된 소나무 1,000여 그루",
+          "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 '대전광역시 동구'로 표기되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 숲 이름이 '이사마을숲'으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 주요 수종이 '소나무'라고 되어 있어 주로 소나무가 자란다고 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 숲 내에 '송국전의 묘를 비롯한 다수의 묘'가 있다고 명시되어 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포'한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 80년대까지 인근 학교·단체가 즐겨 찾던 소풍명소였다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 주소에 '대전광역시 동구'로 표기되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 수종이 '소나무'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 숲 내에 '송국전의 묘를 비롯한 다수의 묘'가 있다고 명시되어 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포'한다고 구체적으로 적혀 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 면적이 '2ha'이고 '넓고 나지막한 야산에 위치'한다고 명시되어 있습니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '진귀한 소나무 숲으로 80년대까지만 하여도 인근 학교 및 단체에서 즐겨 찾던 소풍명소'라고 적혀 있습니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 대상인 '소나무'가 주요 수종으로 명시되어 있어 찾아보자고 권하는 표현은 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "수령"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "이사마을숲은 대전광역시 동구에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "대전광역시 동구"
+            },
+            {
+              "text": "숲에는 소나무가 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "숲 안에는 송국전의 묘를 비롯한 여러 묘가 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "송국전(1595~1649)의 묘를 비롯한 다수의 묘가 있으며,"
+            },
+            {
+              "text": "인근 산과 같이 나이가 많은 소나무가 전면적에 걸쳐 골고루 퍼져 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+            },
+            {
+              "text": "넓고 낮은 야산에 자리해 있다고 알려져 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "넓고 나지막한 야산에 위치하고 있고"
+            },
+            {
+              "text": "이 숲은 진귀한 소나무 숲이라 사람들이 좋아했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "진귀한 소나무 숲"
+            },
+            {
+              "text": "예전에는 학교와 단체가 소풍으로 즐겨 찾던 명소였대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "인근 학교 및 단체에서 즐겨 찾던 소풍명소로 각광 받아온 곳임"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "이사마을숲은 대전광역시 동구에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "대전광역시 동구"
+            },
+            {
+              "text": "주요 수종은 소나무다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "숲 내에는 송국전(1595~1649)의 묘를 비롯한 다수의 묘가 위치한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "송국전(1595~1649)의 묘를 비롯한 다수의 묘가 있으며,"
+            },
+            {
+              "text": "인근의 산3번지와 같이 수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+            },
+            {
+              "text": "넓고 나지막한 야산에 위치하며, 진귀한 소나무 숲으로 80년대까지 인근 학교 및 단체의 소풍명소로 각광받았다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "넓고 나지막한 야산에 위치하고 있고 진귀한 소나무 숲으로 인하여 80년대까지만 하여도 인근 학교 및 단체에서 즐겨 찾던 소풍명소로 각광 받아온 곳임"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '대전광역시 동구 이사동 산17번지 (대전광역시 동구)'로 명시되어 있음."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문의 '주요 나무: 소나무'로 뒷받침됨."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '송국전(1595~1649)의 묘를 비롯한 다수의 묘가 있다'고 되어 있음."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '인근의 산3번지와 같이 수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포'한다고 되어 있어 같은 의미로 뒷받침됨."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '넓고 나지막한 야산에 위치하고 있고'라고 기재되어 있음."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '진귀한 소나무 숲으로 인하여... 각광 받아온 곳'이라고 적혀 있어 사람들이 좋아했다는 내용이 뒷받침됨."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '80년대까지 인근 학교 및 단체에서 즐겨 찾던 소풍명소'라고 명시되어 있음."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '대전광역시 동구'로 위치가 명시되어 있어 뒷받침됨."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '주요 나무: 소나무'라고 명시되어 있음."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '숲 내에는 송국전(1595~1649)의 묘를 비롯한 다수의 묘가 있으며'라고 명시되어 있음."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음'이라고 구체적으로 적혀 있음."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '넓고 나지막한 야산에 위치'하며 '진귀한 소나무 숲으로 80년대까지 인근 학교 및 단체의 소풍명소로 각광 받아온 곳'이라고 되어 있어 뒷받침됨."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '주요 나무: 소나무'로 적혀 있어 '소나무를 찾아볼까요?'라는 권유의 대상이 원문에 있음."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "이사마을숲은 대전광역시 동구에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "대전광역시 동구"
+        },
+        {
+          "text": "숲에는 소나무가 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "숲 안에는 송국전의 묘를 비롯한 여러 묘가 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "송국전(1595~1649)의 묘를 비롯한 다수의 묘가 있으며,"
+        },
+        {
+          "text": "인근 산과 같이 나이가 많은 소나무가 전면적에 걸쳐 골고루 퍼져 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+        },
+        {
+          "text": "넓고 낮은 야산에 자리해 있다고 알려져 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "넓고 나지막한 야산에 위치하고 있고"
+        },
+        {
+          "text": "이 숲은 진귀한 소나무 숲이라 사람들이 좋아했대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "진귀한 소나무 숲"
+        },
+        {
+          "text": "예전에는 학교와 단체가 소풍으로 즐겨 찾던 명소였대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "인근 학교 및 단체에서 즐겨 찾던 소풍명소로 각광 받아온 곳임"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "이사마을숲은 대전광역시 동구에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "대전광역시 동구"
+        },
+        {
+          "text": "주요 수종은 소나무다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "숲 내에는 송국전(1595~1649)의 묘를 비롯한 다수의 묘가 위치한다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "송국전(1595~1649)의 묘를 비롯한 다수의 묘가 있으며,"
+        },
+        {
+          "text": "인근의 산3번지와 같이 수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "수령 100년 이상된 소나무 1,000여 그루가 전면적에 걸쳐 골고루 분포하고 있음."
+        },
+        {
+          "text": "넓고 나지막한 야산에 위치하며, 진귀한 소나무 숲으로 80년대까지 인근 학교 및 단체의 소풍명소로 각광받았다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "넓고 나지막한 야산에 위치하고 있고 진귀한 소나무 숲으로 인하여 80년대까지만 하여도 인근 학교 및 단체에서 즐겨 찾던 소풍명소로 각광 받아온 곳임"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  }
+}

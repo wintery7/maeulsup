@@ -1,0 +1,264 @@
+{
+  "id": "mf7af3b651",
+  "name": "한천마을",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "한천마을은 전남 화순군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전남 화순군 동복면 한천리 426-1 (전라남도 화순군)"
+            },
+            {
+              "text": "자, 이제 숲 이야기를 들려줄게요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲의 큰 나무는 느티나무예요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "마을 입구 건너편에 도구대 바위가 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을입구 내 건너편에 도구대 바위가 있는데"
+            },
+            {
+              "text": "그 바위가 보이면 사람이 죽는다고 하여 바위를 가리려고 숲을 가꾸었다고 전해졌대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이 험석이 마을에 보이면 마을에 사람이 죽는다하여 바위를 가리고자 숲을 가꾸었다고 전해짐."
+            },
+            {
+              "text": "마을 앞 당산 나무와 숲에서 당산제를 지냈는데 1991년에 그만두었다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "당산제 : 매년 음력 정월 초엿세에 마을 앞에 있는 당산 나무와 마을 숲에서 당산제를 지냈으나 1991년 폐하였다."
+            },
+            {
+              "text": "당산나무 잎이 한꺼번에 피면 풍년이 들고 여러 차례 나누어 피면 물이 귀하다고 했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "당산나무 잎이 한꺼번에 피면 풍년이 들고 여러 차례 나누어 피면 물이 귀하다고 하였다함."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "한천마을은 전남 화순군에 위치해 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전남 화순군 동복면 한천리 426-1 (전라남도 화순군)"
+            },
+            {
+              "text": "주요 수목은 느티나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "마을입구 내 건너편에 도구대 바위가 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을입구 내 건너편에 도구대 바위가 있는데"
+            },
+            {
+              "text": "이 험석이 마을에 보이면 마을에 사람이 죽는다하여 바위를 가리고자 숲을 가꾸었다고 전해집니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이 험석이 마을에 보이면 마을에 사람이 죽는다하여 바위를 가리고자 숲을 가꾸었다고 전해짐."
+            },
+            {
+              "text": "마을 앞 당산나무와 마을 숲에서 당산제를 지냈으나 1991년 폐하였다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "당산제 : 매년 음력 정월 초엿세에 마을 앞에 있는 당산 나무와 마을 숲에서 당산제를 지냈으나 1991년 폐하였다."
+            },
+            {
+              "text": "당산나무 잎이 한꺼번에 피면 풍년이 들고 여러 차례 나누어 피면 물이 귀하다고 전해집니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "당산나무 잎이 한꺼번에 피면 풍년이 들고 여러 차례 나누어 피면 물이 귀하다고 하였다함."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 전라남도 화순군에 위치한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무(종)가 '느티나무'로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 마을입구 내 건너편에 도구대 바위가 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 그 바위가 보이면 사람이 죽는다고 하여 바위를 가리려고 숲을 가꾸었다고 전해진다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 문화 기록에 마을 앞 당산 나무와 마을 숲에서 당산제를 지냈고 1991년에 폐했다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 당산나무 잎이 한꺼번에 피면 풍년이 들고 여러 차례 나누어 피면 물이 귀하다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 전라남도 화순군에 위치한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 나무(수목)로 느티나무가 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '마을입구 내 건너편에 도구대 바위가 있다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 역사 기록과 동일하게 그 험석이 보이면 사람이 죽는다 하여 바위를 가리려고 숲을 가꾸었다고 전해진다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '마을 앞에 있는 당산 나무와 마을 숲에서 당산제를 지냈으나 1991년 폐하였다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 당산나무 잎의 피는 방식에 따른 민속적 징조(한꺼번에 피면 풍년, 여러 차례 나누어 피면 물이 귀하다)가 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 느티나무가 기재되어 있으므로 '느티나무를 찾아볼까요?'라는 제안은 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "한천마을은 전남 화순군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전남 화순군 동복면 한천리 426-1 (전라남도 화순군)"
+        },
+        {
+          "text": "자, 이제 숲 이야기를 들려줄게요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "이 숲의 큰 나무는 느티나무예요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "마을 입구 건너편에 도구대 바위가 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을입구 내 건너편에 도구대 바위가 있는데"
+        },
+        {
+          "text": "그 바위가 보이면 사람이 죽는다고 하여 바위를 가리려고 숲을 가꾸었다고 전해졌대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "이 험석이 마을에 보이면 마을에 사람이 죽는다하여 바위를 가리고자 숲을 가꾸었다고 전해짐."
+        },
+        {
+          "text": "마을 앞 당산 나무와 숲에서 당산제를 지냈는데 1991년에 그만두었다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "당산제 : 매년 음력 정월 초엿세에 마을 앞에 있는 당산 나무와 마을 숲에서 당산제를 지냈으나 1991년 폐하였다."
+        },
+        {
+          "text": "당산나무 잎이 한꺼번에 피면 풍년이 들고 여러 차례 나누어 피면 물이 귀하다고 했대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "당산나무 잎이 한꺼번에 피면 풍년이 들고 여러 차례 나누어 피면 물이 귀하다고 하였다함."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "한천마을은 전남 화순군에 위치해 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전남 화순군 동복면 한천리 426-1 (전라남도 화순군)"
+        },
+        {
+          "text": "주요 수목은 느티나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "마을입구 내 건너편에 도구대 바위가 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을입구 내 건너편에 도구대 바위가 있는데"
+        },
+        {
+          "text": "이 험석이 마을에 보이면 마을에 사람이 죽는다하여 바위를 가리고자 숲을 가꾸었다고 전해집니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "이 험석이 마을에 보이면 마을에 사람이 죽는다하여 바위를 가리고자 숲을 가꾸었다고 전해짐."
+        },
+        {
+          "text": "마을 앞 당산나무와 마을 숲에서 당산제를 지냈으나 1991년 폐하였다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "당산제 : 매년 음력 정월 초엿세에 마을 앞에 있는 당산 나무와 마을 숲에서 당산제를 지냈으나 1991년 폐하였다."
+        },
+        {
+          "text": "당산나무 잎이 한꺼번에 피면 풍년이 들고 여러 차례 나누어 피면 물이 귀하다고 전해집니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "당산나무 잎이 한꺼번에 피면 풍년이 들고 여러 차례 나누어 피면 물이 귀하다고 하였다함."
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  }
+}

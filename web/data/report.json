@@ -1,0 +1,240 @@
+{
+  "diagnosis": {
+    "records": 1106,
+    "empty_pct": {
+      "name": 0.0,
+      "address": 0.0,
+      "species": 1.1,
+      "forest_type": 3.7,
+      "area": 0.0,
+      "history": 63.2,
+      "culture": 73.1
+    },
+    "whitespace_only": {},
+    "truncated": {
+      "history": 118,
+      "culture": 24
+    },
+    "truncated_bytes_top": [
+      [
+        254,
+        105
+      ],
+      [
+        253,
+        36
+      ],
+      [
+        252,
+        1
+      ]
+    ],
+    "truncated_total": 142,
+    "truncated_end_with_period": 4,
+    "dup_groups": 18,
+    "dup_records": 72,
+    "dup_examples": [
+      [
+        "갈면리 마을숲",
+        "길곡리 마을숲"
+      ],
+      [
+        "개안 마을숲",
+        "장내리 소나무숲"
+      ],
+      [
+        "검덕마을숲",
+        "고금마을숲",
+        "광산마을숲",
+        "난평마을숲",
+        "당그래마을숲",
+        "대리마을숲",
+        "덕곡마을숲",
+        "동촌마을숲",
+        "두산마을숲",
+        "명덕마을숲",
+        "무농마을숲",
+        "반월마을숲",
+        "삼장마을숲",
+        "상중마을숲",
+        "송계마을숲",
+        "수분마을숲",
+        "신흥마을숲",
+        "안양마을숲",
+        "양지마을숲",
+        "오동마을숲",
+        "용계마을숲",
+        "용신마을숲",
+        "운곡마을숲",
+        "원대성마을숲",
+        "음선마을숲",
+        "음신마을숲",
+        "장척마을숲",
+        "중동마을숲",
+        "평신마을숲",
+        "필덕마을숲",
+        "하신마을숲"
+      ],
+      [
+        "계동마을 숲",
+        "방죽포 마을숲"
+      ],
+      [
+        "구담마을숲",
+        "노전마을"
+      ]
+    ],
+    "bad_names": [
+      "195 동일"
+    ],
+    "question_mark_corruption": 6,
+    "address_issues": {
+      "시도 약칭": 80,
+      "시군구 없음": 48,
+      "시도 없음": 10
+    },
+    "area_median": 0.24,
+    "area_max": 157.96,
+    "story_candidates": 104,
+    "story_candidates_by_sido": [
+      [
+        "전남",
+        38
+      ],
+      [
+        "경남",
+        21
+      ],
+      [
+        "전북",
+        15
+      ],
+      [
+        "경북",
+        14
+      ],
+      [
+        "충남",
+        4
+      ],
+      [
+        "충북",
+        3
+      ],
+      [
+        "강원",
+        3
+      ],
+      [
+        "경기",
+        3
+      ],
+      [
+        "대전",
+        3
+      ]
+    ],
+    "plants": 179,
+    "plant_story_bytes": [
+      [
+        50,
+        97
+      ],
+      [
+        49,
+        82
+      ]
+    ],
+    "plant_blank_english_name": 73,
+    "species_tokens": 1699,
+    "species_matched_plants": 1106,
+    "species_unmatched_top": [
+      [
+        "팽나무",
+        82
+      ],
+      [
+        "해송",
+        49
+      ],
+      [
+        "상수리나무",
+        21
+      ],
+      [
+        "상수리",
+        19
+      ],
+      [
+        "왕버들",
+        18
+      ],
+      [
+        "느티",
+        12
+      ],
+      [
+        "대나무",
+        12
+      ],
+      [
+        "리기다소나무",
+        11
+      ],
+      [
+        "등",
+        10
+      ],
+      [
+        "굴참나무",
+        9
+      ]
+    ]
+  },
+  "geocode": {
+    "override": 0,
+    "address": 726,
+    "address_village": 131,
+    "keyword": 25,
+    "fail": 224,
+    "region_mismatch": 4
+  },
+  "verify": {
+    "stories": 104,
+    "verified": 104,
+    "template": 0,
+    "passed_first_try": 69,
+    "regenerated": 35,
+    "total_attempts": 152,
+    "first_try_rule_check": {
+      "rule_pass": 96,
+      "rule_fail": 8
+    },
+    "problem_types": [
+      [
+        "근거 구절이 원문에 없음",
+        21
+      ],
+      [
+        "AI 판정",
+        13
+      ],
+      [
+        "어린이용에 괄호나 면적 단위가 있음",
+        3
+      ],
+      [
+        "근거 구절이 원문에 없음 \n위치(address):",
+        1
+      ],
+      [
+        "어린이용에 한자가 있음",
+        1
+      ]
+    ],
+    "mock": false
+  },
+  "human_review": null,
+  "stories_published": 104,
+  "stories_with_audio": 104
+}

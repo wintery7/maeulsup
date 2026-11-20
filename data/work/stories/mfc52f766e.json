@@ -1,0 +1,528 @@
+{
+  "id": "mfc52f766e",
+  "name": "내미로마을숲(천은사)",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "내미로마을숲은 삼척시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "강원도 삼척시 미로면"
+            },
+            {
+              "text": "이 숲은 절 천은사와 함께 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "내미로마을숲(천은사)"
+            },
+            {
+              "text": "숲에는 소나무, 느티나무, 갈참이 자라요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무,느티나무,갈참"
+            },
+            {
+              "text": "천은사는 758년에 두타삼선이 창건하면서 일대를 정비했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "758년(신라 경덕왕) 두타삼선이 창건하면서"
+            },
+            {
+              "text": "창건 당시 이름은 백련대였고 839년에 범일이 극락보전을 중창하면서 숲도 가꾸기 시작했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "839년(신라 문성왕) 범일이 극락보전을 중창하면서"
+            },
+            {
+              "text": "여기는 이승휴가 제왕운기를 저술한 곳으로 알려져 이 일대가 휴허지로 지정되었대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "이승휴가 한민족의 대서사시인 제왕운기를 저술한 곳으로 알려져"
+            },
+            {
+              "text": "또 그분을 기리는 제왕운기 문화제를 열어 주민들이 함께 어울리는 자리가 된대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "주민화합의 장으로서의 기능 또한더한다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "내미로마을숲(천은사)은 삼척시에 위치해 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "강원도 삼척시 미로면"
+            },
+            {
+              "text": "주요 수종으로는 소나무, 느티나무, 갈참이 언급되어 있다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무,느티나무,갈참"
+            },
+            {
+              "text": "기록에 따르면 천은사는 758년 두타삼선이 창건하면서 일대의 산림을 정비했다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "758년(신라 경덕왕) 두타삼선이 창건하면서"
+            },
+            {
+              "text": "창건 당시 이름은 백련대였고 839년에 범일이 극락보전을 중창하면서 숲도 가꾸기 시작했다고 전한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "839년(신라 문성왕) 범일이 극락보전을 중창하면서"
+            },
+            {
+              "text": "또한 이승휴가 제왕운기를 저술한 곳으로 알려져 이 일대가 휴허지로 지정되었고 제왕운기 문화제를 개최하여 주민화합의 장으로 기능한다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "이승휴 제왕운기 문화제를 개최하여 선양의 의미 뿐 만 아니라 주민화합의 장으로서의 기능 또한더한다."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무,느티나무,갈참"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 강원도 삼척시가 명시되어 있어 삼척시에 있다는 진술을 뒷받침한다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 이름에 '(천은사)'가 적혀 있고 역사·문화 항목에서 천은사가 이 숲과 연결되어 있어 함께 있다는 내용이 뒷받침된다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 '주요 나무(species)'에 소나무, 느티나무, 갈참이 명시되어 있어 그들이 자란다고 말한 것을 뒷받침한다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 역사에 758년 두타삼선이 창건하면서 일대를 정비했다는 기록이 직접 있다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 창건 당시 이름이 백련대였고 839년에 범일이 극락보전을 중창하면서 숲도 가꾸기 시작했다는 내용이 있다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 이승휴가 제왕운기를 저술한 곳으로 알려져 이 일대가 휴허지로 지정되었다고 되어 있다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 제왕운기 문화제를 개최하여 주민화합의 장으로서 기능한다고 명시되어 있어 같은 뜻이다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "문장 0과 동일하게 원문 주소에 삼척시가 명시되어 있어 삼척시에 위치한다는 진술을 뒷받침한다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에서 주요 나무로 소나무, 느티나무, 갈참이 언급되어 있어 주요 수종으로 언급되었다고 볼 수 있다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 기록에 758년 두타삼선이 창건하며 일대 산림을 정비했다는 내용이 직접 나온다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 창건 당시 이름이 백련대였고 839년에 범일이 극락보전을 중창하며 숲을 가꾸기 시작했다고 적혀 있다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 이승휴 관련 사실과 휴허지 지정, 제왕운기 문화제 개최 및 주민화합의 장으로서의 기능이 모두 언급되어 있다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '소나무'가 주요 나무로 명시되어 있어 소나무를 찾아보자는 권유는 원문으로 뒷받침된다."
+        }
+      ],
+      "hard_words": [
+        "지정"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "내미로마을숲은 삼척시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "강원도 삼척시"
+            },
+            {
+              "text": "이 숲 이름은 내미로마을숲 천은사예요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "내미로마을숲(천은사)"
+            },
+            {
+              "text": "숲에는 소나무랑 느티나무, 갈참이 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무,느티나무,갈참"
+            },
+            {
+              "text": "758년에 두타삼선이 창건하면서 일대의 산림을 정비했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "758년(신라 경덕왕) 두타삼선이 창건하면서"
+            },
+            {
+              "text": "창건 당시의 이름은 백련대였대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "창건 당시의 이름은 백련대였으며"
+            },
+            {
+              "text": "839년에 범일이 극락보전을 중창하면서 숲도 가꾸기 시작했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "범일이 극락보전을 중창하면서 숲 또한 가꾸기 시작하였다."
+            },
+            {
+              "text": "조용한 숲 이야기예요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "천은사는 이승휴가 제왕운기를 저술한 곳으로 알려져 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "이승휴가 한민족의 대서사시인 제왕운기를 저술한 곳으로 알려져"
+            },
+            {
+              "text": "제왕운기 문화제를 개최하여 주민화합의 장이 된대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "주민화합의 장으로서의 기능 또한더한다."
+            },
+            {
+              "text": "이 일대가 휴허지래요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "이 일대가 휴허지로 지정되었다."
+            },
+            {
+              "text": "문화제는 선양의 의미도 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "선양의 의미 뿐 만 아니라"
+            },
+            {
+              "text": "주민들이 함께하대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "주민화합의 장으로서의 기능 또한더한다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "내미로마을숲(천은사)은 삼척시에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "강원도 삼척시"
+            },
+            {
+              "text": "주요 수종은 소나무, 느티나무, 갈참입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무,느티나무,갈참"
+            },
+            {
+              "text": "천은사는 758년에 두타삼선이 창건하면서 일대의 산림을 정비했습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "758년(신라 경덕왕) 두타삼선이 창건하면서"
+            },
+            {
+              "text": "창건 당시의 이름은 백련대였습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "창건 당시의 이름은 백련대였으며"
+            },
+            {
+              "text": "839년에 범일이 극락보전을 중창하면서 숲 또한 가꾸기 시작했습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "범일이 극락보전을 중창하면서 숲 또한 가꾸기 시작하였다."
+            },
+            {
+              "text": "천은사는 이승휴가 한민족의 대서사시인 제왕운기를 저술한 곳으로 알려져 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "이승휴가 한민족의 대서사시인 제왕운기를 저술한 곳으로 알려져"
+            },
+            {
+              "text": "제왕운기 문화제를 개최하여 선양의 의미뿐 만 아니라 주민화합의 장으로서의 기능 또한더합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "제왕운기 문화제를 개최하여"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무,느티나무,갈참"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 강원도 삼척시로 되어 있어 삼척시에 있다는 내용으로 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 숲 이름이 내미로마을숲(천은사)로 표기되어 있어 같은 내용입니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 소나무, 느티나무, 갈참이 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 758년에 두타삼선이 창건하면서 일대의 산림을 정비했다고 되어 있어 일치합니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 창건 당시 이름이 백련대였다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 839년에 범일이 극락보전을 중창하면서 숲도 가꾸기 시작했다고 되어 있어 일치합니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 천은사가 이승휴가 제왕운기를 저술한 곳으로 알려져 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 문화제를 개최하여 주민화합의 장으로서의 기능을 한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 이 일대가 휴허지로 지정되었다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 문화제가 선양의 의미가 있다는 설명이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 문화제가 주민화합의 장 기능을 한다고 되어 있어 주민들이 함께한다는 의미로 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 내미로마을숲(천은사)의 위치가 삼척시로 표기되어 있어 같은 내용입니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 소나무, 느티나무, 갈참이 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 758년에 두타삼선이 창건하면서 산림을 정비했다고 되어 있어 일치합니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 창건 당시 이름이 백련대였다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 839년에 범일이 극락보전을 중창하면서 숲을 가꾸기 시작했다고 되어 있어 일치합니다."
+        },
+        {
+          "index": 16,
+          "label": "supported",
+          "reason": "원문에 천은사가 이승휴가 제왕운기를 저술한 곳으로 알려져 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 17,
+          "label": "supported",
+          "reason": "원문에 문화제가 선양의 의미뿐 아니라 주민화합의 장 기능도 한다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 18,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 소나무가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유의 대상이 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "내미로마을숲은 삼척시에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "강원도 삼척시"
+        },
+        {
+          "text": "이 숲 이름은 내미로마을숲 천은사예요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "내미로마을숲(천은사)"
+        },
+        {
+          "text": "숲에는 소나무랑 느티나무, 갈참이 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무,느티나무,갈참"
+        },
+        {
+          "text": "758년에 두타삼선이 창건하면서 일대의 산림을 정비했대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "758년(신라 경덕왕) 두타삼선이 창건하면서"
+        },
+        {
+          "text": "창건 당시의 이름은 백련대였대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "창건 당시의 이름은 백련대였으며"
+        },
+        {
+          "text": "839년에 범일이 극락보전을 중창하면서 숲도 가꾸기 시작했대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "범일이 극락보전을 중창하면서 숲 또한 가꾸기 시작하였다."
+        },
+        {
+          "text": "조용한 숲 이야기예요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "천은사는 이승휴가 제왕운기를 저술한 곳으로 알려져 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "이승휴가 한민족의 대서사시인 제왕운기를 저술한 곳으로 알려져"
+        },
+        {
+          "text": "제왕운기 문화제를 개최하여 주민화합의 장이 된대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "주민화합의 장으로서의 기능 또한더한다."
+        },
+        {
+          "text": "이 일대가 휴허지래요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "이 일대가 휴허지로 지정되었다."
+        },
+        {
+          "text": "문화제는 선양의 의미도 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "선양의 의미 뿐 만 아니라"
+        },
+        {
+          "text": "주민들이 함께하대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "주민화합의 장으로서의 기능 또한더한다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "내미로마을숲(천은사)은 삼척시에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "강원도 삼척시"
+        },
+        {
+          "text": "주요 수종은 소나무, 느티나무, 갈참입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무,느티나무,갈참"
+        },
+        {
+          "text": "천은사는 758년에 두타삼선이 창건하면서 일대의 산림을 정비했습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "758년(신라 경덕왕) 두타삼선이 창건하면서"
+        },
+        {
+          "text": "창건 당시의 이름은 백련대였습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "창건 당시의 이름은 백련대였으며"
+        },
+        {
+          "text": "839년에 범일이 극락보전을 중창하면서 숲 또한 가꾸기 시작했습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "범일이 극락보전을 중창하면서 숲 또한 가꾸기 시작하였다."
+        },
+        {
+          "text": "천은사는 이승휴가 한민족의 대서사시인 제왕운기를 저술한 곳으로 알려져 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "이승휴가 한민족의 대서사시인 제왕운기를 저술한 곳으로 알려져"
+        },
+        {
+          "text": "제왕운기 문화제를 개최하여 선양의 의미뿐 만 아니라 주민화합의 장으로서의 기능 또한더합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "제왕운기 문화제를 개최하여"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무,느티나무,갈참"
+    }
+  }
+}

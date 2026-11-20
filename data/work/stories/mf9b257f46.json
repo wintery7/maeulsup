@@ -1,0 +1,219 @@
+{
+  "id": "mf9b257f46",
+  "name": "갈전숲(조동숲)",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "갈전숲(조동숲)은 진주시에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "갈전숲(조동숲)"
+            },
+            {
+              "text": "이 숲에는 느티나무, 이팝나무, 서나무가 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 이팝나무, 서나무"
+            },
+            {
+              "text": "옛날에 마을 입구가 서쪽 강가로 트여 겨울에 서쪽 바람이 세게 불었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "서풍이 몰아치고 마을이 허전하여"
+            },
+            {
+              "text": "그래서 마을 사람들이 바람을 막고 마을 경치를 좋게 하려고 나무를 심었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "방풍 겸 마을 경관을 위해"
+            },
+            {
+              "text": "숲에는 큰 나무들이 많아 경치가 좋아 사람들이 계절 상관없이 찾아온대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "연중 유람객이 많고"
+            },
+            {
+              "text": "학생들은 공부하러 오고 어르신들은 쉬러 온다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "진주시내 학생들의 학습장으로 노인들의 쉼터로 이용되고 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "갈전숲(조동숲)은 경상남도 진주시 소재의 숲입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시"
+            },
+            {
+              "text": "주요 수종은 느티나무, 이팝나무, 서나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 이팝나무, 서나무"
+            },
+            {
+              "text": "기록에는 1585년경 마을 입구가 서쪽 남강 변으로 트여 서풍이 몰아쳐 방풍과 경관을 위해 나무를 심었다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "서풍이 몰아치고 마을이 허전하여 방풍 겸 마을 경관을 위해"
+            },
+            {
+              "text": "숲 내에는 오래된 고목이 무성하고 경치가 좋아 연중 유람객이 많으며 학생들의 학습장과 노인들의 쉼터로 이용되고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "연중 유람객이 많고 진주시내 학생들의 학습장으로 노인들의 쉼터로 이용되고 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무, 이팝나무, 서나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 경상남도 진주시로 표시되어 있어 진주시에 있다는 내용으로 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 느티나무, 이팝나무, 서나무가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 마을 입구가 서쪽 남강 변으로 트여 겨울철에 서풍이 몰아친다고 적혀 있어 같은 내용으로 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 방풍 겸 마을 경관을 위해 주민들이 나무를 심었다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 오래된 큰 나무들이 무성하고 경치가 좋아 연중 유람객이 많다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 진주시내 학생들의 학습장과 노인들의 쉼터로 이용된다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 위치가 경상남도 진주시로 표기되어 있어 같은 뜻으로 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 느티나무, 이팝나무, 서나무가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록에 1585년경 마을 입구가 서쪽 남강 변으로 트여 서풍이 몰아쳐 방풍과 경관을 위해 나무를 심었다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 문화 기록에 오래된 고목이 무성하고 경치가 좋아 연중 유람객이 많으며 학생들의 학습장과 노인들의 쉼터로 이용된다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 느티나무가 주요 수종으로 기재되어 있어 '느티나무를 찾아보자'는 권유는 원문 내용으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "prompt_version": 2,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "갈전숲(조동숲)은 진주시에 있어요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "갈전숲(조동숲)"
+        },
+        {
+          "text": "이 숲에는 느티나무, 이팝나무, 서나무가 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무, 이팝나무, 서나무"
+        },
+        {
+          "text": "옛날에 마을 입구가 서쪽 강가로 트여 겨울에 서쪽 바람이 세게 불었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "서풍이 몰아치고 마을이 허전하여"
+        },
+        {
+          "text": "그래서 마을 사람들이 바람을 막고 마을 경치를 좋게 하려고 나무를 심었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "방풍 겸 마을 경관을 위해"
+        },
+        {
+          "text": "숲에는 큰 나무들이 많아 경치가 좋아 사람들이 계절 상관없이 찾아온대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "연중 유람객이 많고"
+        },
+        {
+          "text": "학생들은 공부하러 오고 어르신들은 쉬러 온다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "진주시내 학생들의 학습장으로 노인들의 쉼터로 이용되고 있다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "갈전숲(조동숲)은 경상남도 진주시 소재의 숲입니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 진주시"
+        },
+        {
+          "text": "주요 수종은 느티나무, 이팝나무, 서나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무, 이팝나무, 서나무"
+        },
+        {
+          "text": "기록에는 1585년경 마을 입구가 서쪽 남강 변으로 트여 서풍이 몰아쳐 방풍과 경관을 위해 나무를 심었다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "서풍이 몰아치고 마을이 허전하여 방풍 겸 마을 경관을 위해"
+        },
+        {
+          "text": "숲 내에는 오래된 고목이 무성하고 경치가 좋아 연중 유람객이 많으며 학생들의 학습장과 노인들의 쉼터로 이용되고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "연중 유람객이 많고 진주시내 학생들의 학습장으로 노인들의 쉼터로 이용되고 있다."
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무, 이팝나무, 서나무"
+    }
+  }
+}

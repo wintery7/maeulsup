@@ -1,0 +1,373 @@
+{
+  "id": "mf4c632c14",
+  "name": "대월마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "대월마을숲은 전라남도 강진군 성전면 송월리 959에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 강진군 성전면 송월리 959"
+            },
+            {
+              "text": "주요 나무로 백일홍과 팽나무가 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "백일홍.팽나무"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "대명동과 큰골에서 흘러내린 세 갈래 물이 정자나무 앞에 함께 모였대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "대명동과 큰골에서 흘러내린 세갈래의 물줄기가 마을   정자나무 앞에 함께 모여지고"
+            },
+            {
+              "text": "그 물은 월각산의 불과 같은 모양이라 불을 끌 수 있는 물이었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "월각산의 불과 같은 형상이라  불을 끌 수  있는 물이었다 한다"
+            },
+            {
+              "text": "연못 옆에는 정자나무와 자연석으로 된 입석이 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "연못 옆에 정자나무와 자연석으로 된 입석이 있는데"
+            },
+            {
+              "text": "그것들은 마을 어귀를 지키고 제사를 모시는 역할을 했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을어귀의 역할과 수호를 함께하며 제사를 모신다."
+            },
+            {
+              "text": "마을 입구 연못과 정자에서는 사람들이 모여 토론도 하고 쉬는 곳으로 오래 사용했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 입구연못과 정자에서는 주민들이 모여"
+            },
+            {
+              "text": "정자나무 아래에서 마당밟기 농악놀이를 했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정자나무 아래에서 마당밟기 농악놀이일 하였으며"
+            },
+            {
+              "text": "1981년 군민의날 행사시 농악부문에서 우수상을 받았대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "1981년 군민의날 행사시 농악부문에서 우수상을 받은바 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "대월마을숲은 전라남도 강진군 성전면 송월리 959에 위치해 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 강진군 성전면 송월리 959"
+            },
+            {
+              "text": "주요 수목은 백일홍과 팽나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "백일홍.팽나무"
+            },
+            {
+              "text": "이제 내용을 살펴보겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "대명동과 큰골에서 흘러내린 세갈래의 물줄기가 마을 정자나무 앞에 함께 모여들었다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "대명동과 큰골에서 흘러내린 세갈래의 물줄기가 마을   정자나무 앞에 함께 모여지고"
+            },
+            {
+              "text": "그 흐름은 월각산의 불과 같은 형상이라 불을 끌 수 있는 물이었다고 합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "월각산의 불과 같은 형상이라  불을 끌 수  있는 물이었다 한다"
+            },
+            {
+              "text": "연못 옆에는 정자나무와 자연석으로 된 입석이 놓여 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "연못 옆에 정자나무와 자연석으로 된 입석이 있는데"
+            },
+            {
+              "text": "그것들은 마을 어귀의 역할과 수호를 함께하며 제사를 모신다고 전해집니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을어귀의 역할과 수호를 함께하며 제사를 모신다."
+            },
+            {
+              "text": "마을 입구 연못과 정자에서는 주민들이 모여 토론 장소이자 쉼터로 오래 사용해 왔습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 입구연못과 정자에서는 주민들이 모여"
+            },
+            {
+              "text": "정자나무 아래에서는 마당밟기 농악놀이를 하였다고 합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정자나무 아래에서 마당밟기 농악놀이일 하였으며"
+            },
+            {
+              "text": "1981년 군민의날 행사시 농악부문에서 우수상을 받은 바 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "1981년 군민의날 행사시 농악부문에서 우수상을 받은바 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "정자나무를 찾아볼까요?",
+          "target": "정자나무",
+          "source_quote": "연못 옆에 정자나무와 자연석으로 된 입석이 있는데"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소(address)에 '전라남도 강진군 성전면 송월리 959'로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문의 주요 나무(species)에 '백일홍'과 '팽나무'로 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 history에 '대명동과 큰골에서 흘러내린 세갈래의 물줄기가 마을 정자나무 앞에 함께 모여지고'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '월각산의 불과 같은 형상이라 불을 끌 수 있는 물이었다 한다'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '연못 옆에 정자나무와 자연석으로 된 입석이 있는데'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '마을어귀의 역할과 수호를 함께하며 제사를 모신다'라고 되어 있어 같은 의미로 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 culture에 '마을 입구연못과 정자에서는 주민들이 모여 ... 토론장소 및 쉼터장소로 오래세월동안 사용'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '정자나무 아래에서 마당밟기 농악놀이... 하였으며'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '1981년 군민의날 행사시 농악부문에서 우수상을 받은바 있다'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 주소와 동일한 표현으로 '전라남도 강진군 성전면 송월리 959'에 위치한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문의 주요 나무 항목에 '백일홍'과 '팽나무'로 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 history에 세갈래의 물줄기가 정자나무 앞에 함께 모였다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 그 흐름이 '월각산의 불과 같은 형상이라 불을 끌 수 있는 물이었다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '연못 옆에는 정자나무와 자연석으로 된 입석이 있다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 그것들이 '마을 어귀의 역할과 수호를 함께하며 제사를 모신다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 '마을 입구연못과 정자에서는 주민들이 모여 ... 토론장소 및 쉼터장소로 오래세월동안 사용'했다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 16,
+          "label": "supported",
+          "reason": "원문에 '정자나무 아래에서 마당밟기 농악놀이를 하였'다고 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 17,
+          "label": "supported",
+          "reason": "원문에 1981년 군민의날 행사에서 농악부문 우수상을 받았다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 18,
+          "label": "supported",
+          "reason": "원문에 정자나무가 여러 차례 언급되어 있어 '정자나무를 찾아볼까요?'라는 권유 문장은 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "대월마을숲은 전라남도 강진군 성전면 송월리 959에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 강진군 성전면 송월리 959"
+        },
+        {
+          "text": "주요 나무로 백일홍과 팽나무가 자라고 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "백일홍.팽나무"
+        },
+        {
+          "text": "대명동과 큰골에서 흘러내린 세 갈래 물이 정자나무 앞에 함께 모였대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "대명동과 큰골에서 흘러내린 세갈래의 물줄기가 마을   정자나무 앞에 함께 모여지고"
+        },
+        {
+          "text": "그 물은 월각산의 불과 같은 모양이라 불을 끌 수 있는 물이었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "월각산의 불과 같은 형상이라  불을 끌 수  있는 물이었다 한다"
+        },
+        {
+          "text": "연못 옆에는 정자나무와 자연석으로 된 입석이 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "연못 옆에 정자나무와 자연석으로 된 입석이 있는데"
+        },
+        {
+          "text": "그것들은 마을 어귀를 지키고 제사를 모시는 역할을 했대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을어귀의 역할과 수호를 함께하며 제사를 모신다."
+        },
+        {
+          "text": "마을 입구 연못과 정자에서는 사람들이 모여 토론도 하고 쉬는 곳으로 오래 사용했대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 입구연못과 정자에서는 주민들이 모여"
+        },
+        {
+          "text": "정자나무 아래에서 마당밟기 농악놀이를 했대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정자나무 아래에서 마당밟기 농악놀이일 하였으며"
+        },
+        {
+          "text": "1981년 군민의날 행사시 농악부문에서 우수상을 받았대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "1981년 군민의날 행사시 농악부문에서 우수상을 받은바 있다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "대월마을숲은 전라남도 강진군 성전면 송월리 959에 위치해 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 강진군 성전면 송월리 959"
+        },
+        {
+          "text": "주요 수목은 백일홍과 팽나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "백일홍.팽나무"
+        },
+        {
+          "text": "이제 내용을 살펴보겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "대명동과 큰골에서 흘러내린 세갈래의 물줄기가 마을 정자나무 앞에 함께 모여들었다고 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "대명동과 큰골에서 흘러내린 세갈래의 물줄기가 마을   정자나무 앞에 함께 모여지고"
+        },
+        {
+          "text": "그 흐름은 월각산의 불과 같은 형상이라 불을 끌 수 있는 물이었다고 합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "월각산의 불과 같은 형상이라  불을 끌 수  있는 물이었다 한다"
+        },
+        {
+          "text": "연못 옆에는 정자나무와 자연석으로 된 입석이 놓여 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "연못 옆에 정자나무와 자연석으로 된 입석이 있는데"
+        },
+        {
+          "text": "그것들은 마을 어귀의 역할과 수호를 함께하며 제사를 모신다고 전해집니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을어귀의 역할과 수호를 함께하며 제사를 모신다."
+        },
+        {
+          "text": "마을 입구 연못과 정자에서는 주민들이 모여 토론 장소이자 쉼터로 오래 사용해 왔습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 입구연못과 정자에서는 주민들이 모여"
+        },
+        {
+          "text": "정자나무 아래에서는 마당밟기 농악놀이를 하였다고 합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정자나무 아래에서 마당밟기 농악놀이일 하였으며"
+        },
+        {
+          "text": "1981년 군민의날 행사시 농악부문에서 우수상을 받은 바 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "1981년 군민의날 행사시 농악부문에서 우수상을 받은바 있다."
+        }
+      ]
+    },
+    "find": {
+      "text": "정자나무를 찾아볼까요?",
+      "target": "정자나무",
+      "source_quote": "연못 옆에 정자나무와 자연석으로 된 입석이 있는데"
+    }
+  },
+  "opener_removed": true
+}

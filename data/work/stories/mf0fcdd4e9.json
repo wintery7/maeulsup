@@ -1,0 +1,215 @@
+{
+  "id": "mf0fcdd4e9",
+  "name": "미라리 상록수림",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "미라리 상록수림은 전라남도 완도군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 완도군"
+            },
+            {
+              "text": "숲에는 후박나무, 동백, 잣밤나무 같은 나무들이 자라고 있어요, 여러 나무가 모여 숲을 이루고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "후박나무, 동백, 잣밤나무"
+            },
+            {
+              "text": "숲은 길이 400m로 길게 펼쳐저 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "길이 400m로 펼쳐저 있다."
+            },
+            {
+              "text": "음력 정초에는 마을사람들이 이곳에 모여 동제를 올리고 마을을 지켜 달라고 비는 제사를 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "음력 정초에는 마을사람들이 이곳에 모여 동제를 올리고"
+            },
+            {
+              "text": "그때는 마을의 길복과 농사가 잘될 것과 바닷일의 무사를 비는 습속이 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을의 길복과 농사가 잘될 것과 바닷일의 무사를 비는 습속이 있다."
+            },
+            {
+              "text": "참으로 정겹고 특별한 숲이래요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "미라리 상록수림은 전라남도 완도군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 완도군"
+            },
+            {
+              "text": "주요 수종으로는 후박나무, 동백, 잣밤나무가 있다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "후박나무, 동백, 잣밤나무"
+            },
+            {
+              "text": "완도 미라리의 상록수림은 완도 앞바다에 있는 소안도의 해안가를 따라 길이 400m로 펼쳐저 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "소안도의 해안가를 따라 길이 400m로 펼쳐저 있다."
+            },
+            {
+              "text": "음력 정초에는 마을사람들이 모여 동제를 올리고 마을의 길복과 농사가 잘될 것과 바닷일의 무사를 비는 습속이 있으며, 이러한 상록수림은 보존의 가치가 강조된다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "보존의 가치가 강조된다."
+            }
+          ]
+        },
+        "find": {
+          "text": "동백을 찾아볼까요?",
+          "target": "동백",
+          "source_quote": "동백"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 전라남도 완도군으로 명시되어 있음."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 후박나무·동백·잣밤나무가 주요 나무로 적혀 있고 여러 나무가 모여 숲을 이룬다고 볼 수 있음."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 숲이 길이 400m로 펼쳐져 있다고 명시되어 있음."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 음력 정초에 마을사람들이 모여 동제를 올린다고 적혀 있고 마을을 위해 비는 제사라는 내용은 그 맥락의 풀어쓰기임."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 마을의 길복과 농사의 풍년, 바닷일의 무사를 비는 습속이 있다고 명시되어 있음."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 위치가 전라남도 완도군으로 명시되어 있음."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 후박나무·동백·잣밤나무가 명시되어 있음."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 완도 앞바다의 소안도 해안가를 따라 길이 400m로 펼쳐져 있다고 되어 있음."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 음력 정초의 습속과 이러한 상록수림의 보존 가치 강조가 함께 언급되어 있음."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 동백이 주요 나무로 적혀 있어 ‘동백을 찾아볼까요?’는 원문으로 뒷받침됨."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "미라리 상록수림은 전라남도 완도군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 완도군"
+        },
+        {
+          "text": "숲에는 후박나무, 동백, 잣밤나무 같은 나무들이 자라고 있어요, 여러 나무가 모여 숲을 이루고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "후박나무, 동백, 잣밤나무"
+        },
+        {
+          "text": "숲은 길이 400m로 길게 펼쳐저 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "길이 400m로 펼쳐저 있다."
+        },
+        {
+          "text": "음력 정초에는 마을사람들이 이곳에 모여 동제를 올리고 마을을 지켜 달라고 비는 제사를 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "음력 정초에는 마을사람들이 이곳에 모여 동제를 올리고"
+        },
+        {
+          "text": "그때는 마을의 길복과 농사가 잘될 것과 바닷일의 무사를 비는 습속이 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을의 길복과 농사가 잘될 것과 바닷일의 무사를 비는 습속이 있다."
+        },
+        {
+          "text": "참으로 정겹고 특별한 숲이래요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "미라리 상록수림은 전라남도 완도군에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 완도군"
+        },
+        {
+          "text": "주요 수종으로는 후박나무, 동백, 잣밤나무가 있다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "후박나무, 동백, 잣밤나무"
+        },
+        {
+          "text": "완도 미라리의 상록수림은 완도 앞바다에 있는 소안도의 해안가를 따라 길이 400m로 펼쳐저 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "소안도의 해안가를 따라 길이 400m로 펼쳐저 있다."
+        },
+        {
+          "text": "음력 정초에는 마을사람들이 모여 동제를 올리고 마을의 길복과 농사가 잘될 것과 바닷일의 무사를 비는 습속이 있으며, 이러한 상록수림은 보존의 가치가 강조된다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "보존의 가치가 강조된다."
+        }
+      ]
+    },
+    "find": {
+      "text": "동백을 찾아볼까요?",
+      "target": "동백",
+      "source_quote": "동백"
+    }
+  }
+}

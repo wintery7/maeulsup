@@ -1,0 +1,293 @@
+{
+  "id": "mf532e4717",
+  "name": "용은리숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "용은리숲은 남원시에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 운봉읍 공안리 939-112"
+            },
+            {
+              "text": "이 숲의 주요 나무는 소나무예요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "옛날 어느 도사가 이곳을 지나다가 마을터를 유심히 살펴보고는 했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "옛날 어느 도사가 이곳을 지나다가 마을터를 유심히 살펴보고는"
+            },
+            {
+              "text": "그는 이 마을에 언젠가는 용이 나타나 승천하지 못하고 숨어버릴 형국이라고 말했다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이 마을에 언젠가는 용이 나타나 승천하지 못하고 숨어버릴 형국이다"
+            },
+            {
+              "text": "그 뒤 수년 뒤 과연발산에서 짙은 안개와 함께 마을 어딘가에 숨었다고 전해진대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "그후 수년 후 과연발산에서 짙은 안개와 함께 마을 어딘가에 숨었다고 한다."
+            },
+            {
+              "text": "사람들은 지리산 기운이 모여 향교의 준산이라고 일컫는 발산을 이룬 곳이라고 말해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "향교의 준산이라고 일컫는 발산을 이룬 곳이다."
+            },
+            {
+              "text": "또 풍수지리설에 따르면 마을터가 용이 숨은 형국이라고 전해진대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을터가 용이 숨은 형국이라고 전해지고 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "용은리숲은 전라북도 남원시 운봉읍 공안리에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 운봉읍 공안리 939-112"
+            },
+            {
+              "text": "주요 수종은 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "기록에는 옛날 어느 도사가 이곳을 지나다가 마을터를 유심히 살펴보았다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "옛날 어느 도사가 이곳을 지나다가 마을터를 유심히 살펴보고는"
+            },
+            {
+              "text": "그는 이 마을에 언젠가는 용이 나타나 승천하지 못하고 숨어버릴 형국이라고 언급했습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이 마을에 언젠가는 용이 나타나 승천하지 못하고 숨어버릴 형국이다"
+            },
+            {
+              "text": "기록은 그 후 수년 뒤 과연발산에서 짙은 안개와 함께 마을 어딘가에 숨었다고 전한다고 적고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "그후 수년 후 과연발산에서 짙은 안개와 함께 마을 어딘가에 숨었다고 한다."
+            },
+            {
+              "text": "또 지리산 기운이 모여 향교의 준산이라고 일컫는 발산을 이룬 곳이라고 설명합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "향교의 준산이라고 일컫는 발산을 이룬 곳이다."
+            },
+            {
+              "text": "풍수지리설에 의하면 마을터가 용이 숨은 형국이라고 전해진다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을터가 용이 숨은 형국이라고 전해지고 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 전라북도 남원시 운봉읍 공안리로 명시되어 있어 남원시에 있다는 진술을 뒷받침합니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무(species)로 '소나무'가 명시되어 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '옛날 어느 도사가 이곳을 지나다가 마을터를 유심히 살펴보고는...'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '언젠가는 용이 나타나 승천하지 못하고 숨어버릴 형국이다 하였다'라고 직접 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '그후 수년 후 과연발산에서 짙은 안개와 함께 마을 어딘가에 숨었다고 한다'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 지리산 정기가 모여 '향교의 준산이라고 일컫는 발산을 이룬 곳'이라고 표현되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '풍수지리설에 의하면 마을터가 용이 숨은 형국이라고 전해지고 있다'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 주소에 '전라북도 남원시 운봉읍 공안리'로 위치가 적혀 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 소나무가 기재되어 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 기록에 '옛날 어느 도사가 이곳을 지나다가 마을터를 유심히 살펴보았다'고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 동일한 전설 문구가 있어 그가 그런 언급을 했다는 점이 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 그 후 수년 뒤 발산에서 짙은 안개와 함께 숨었다고 전해진다고 기록돼 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 지리산 정기가 모여 향교의 준산이라고 일컫는 발산을 이룬 곳이라고 설명되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '풍수지리설에 의하면 마을터가 용이 숨은 형국이라고 전해지고 있다'라고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 소나무가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유 내용이 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "용은리숲은 남원시에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시 운봉읍 공안리 939-112"
+        },
+        {
+          "text": "이 숲의 주요 나무는 소나무예요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "옛날 어느 도사가 이곳을 지나다가 마을터를 유심히 살펴보고는 했대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "옛날 어느 도사가 이곳을 지나다가 마을터를 유심히 살펴보고는"
+        },
+        {
+          "text": "그는 이 마을에 언젠가는 용이 나타나 승천하지 못하고 숨어버릴 형국이라고 말했다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "이 마을에 언젠가는 용이 나타나 승천하지 못하고 숨어버릴 형국이다"
+        },
+        {
+          "text": "그 뒤 수년 뒤 과연발산에서 짙은 안개와 함께 마을 어딘가에 숨었다고 전해진대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "그후 수년 후 과연발산에서 짙은 안개와 함께 마을 어딘가에 숨었다고 한다."
+        },
+        {
+          "text": "사람들은 지리산 기운이 모여 향교의 준산이라고 일컫는 발산을 이룬 곳이라고 말해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "향교의 준산이라고 일컫는 발산을 이룬 곳이다."
+        },
+        {
+          "text": "또 풍수지리설에 따르면 마을터가 용이 숨은 형국이라고 전해진대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을터가 용이 숨은 형국이라고 전해지고 있다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "용은리숲은 전라북도 남원시 운봉읍 공안리에 위치합니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시 운봉읍 공안리 939-112"
+        },
+        {
+          "text": "주요 수종은 소나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "기록에는 옛날 어느 도사가 이곳을 지나다가 마을터를 유심히 살펴보았다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "옛날 어느 도사가 이곳을 지나다가 마을터를 유심히 살펴보고는"
+        },
+        {
+          "text": "그는 이 마을에 언젠가는 용이 나타나 승천하지 못하고 숨어버릴 형국이라고 언급했습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "이 마을에 언젠가는 용이 나타나 승천하지 못하고 숨어버릴 형국이다"
+        },
+        {
+          "text": "기록은 그 후 수년 뒤 과연발산에서 짙은 안개와 함께 마을 어딘가에 숨었다고 전한다고 적고 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "그후 수년 후 과연발산에서 짙은 안개와 함께 마을 어딘가에 숨었다고 한다."
+        },
+        {
+          "text": "또 지리산 기운이 모여 향교의 준산이라고 일컫는 발산을 이룬 곳이라고 설명합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "향교의 준산이라고 일컫는 발산을 이룬 곳이다."
+        },
+        {
+          "text": "풍수지리설에 의하면 마을터가 용이 숨은 형국이라고 전해진다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을터가 용이 숨은 형국이라고 전해지고 있다."
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  },
+  "opener_removed": true
+}

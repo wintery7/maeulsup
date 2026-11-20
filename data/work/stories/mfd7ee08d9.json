@@ -1,0 +1,555 @@
+{
+  "id": "mfd7ee08d9",
+  "name": "제슬숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "제슬숲은 전라남도 함평군에 있대요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "숲에는 느티나무, 팽나무, 왕버들이 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무, 왕버들"
+            },
+            {
+              "text": "약 500년전에는 자양산 아래 주자를 모신 사당이 있었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 500년전 자양산 아래 주자를 모신 사당이 있었는데"
+            },
+            {
+              "text": "사람들은 서쪽으로부터 불어오는 바람을 막고 주변을 예쁘게 하려고 숲을 만들었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여"
+            },
+            {
+              "text": "그 숲은 이웃 마을까지 이어졌대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이웃 성대마을까지 이어졌다고 함"
+            },
+            {
+              "text": "1993년에 산림유전자보호림으로 지정되어 지금은 보호받고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있음"
+            },
+            {
+              "text": "또 한옥마을을 만들고 있어서 주변 경치를 함께 볼 수 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "주변의 아름다운 경관을 볼 수 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "제슬숲은 전라남도 함평군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "주요 수종은 느티나무, 팽나무, 왕버들이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무, 왕버들"
+            },
+            {
+              "text": "약 500년전 자양산 아래 주자를 모신 사당이 있었는데,",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 500년전 자양산 아래 주자를 모신 사당이 있었는데"
+            },
+            {
+              "text": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여 이웃 성대마을까지 이어졌다고 한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여 이웃 성대마을까지 이어졌다고 함"
+            },
+            {
+              "text": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있음"
+            },
+            {
+              "text": "한옥마을 조성과 함께 주변의 아름다운 경관을 볼 수 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "주변의 아름다운 경관을 볼 수 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무, 팽나무, 왕버들"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라남도 함평군 해보면 상곡리 635 (전라남도 함평군)'로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 느티나무, 팽나무, 왕버들이 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '약 500년전 자양산 아래 주자를 모신 사당이 있었는데'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성'했다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '이웃 성대마을까지 이어졌다고 함'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '1993년에 산림유전자보호림으로 지정되어 보호되고 있음'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '한옥마을조성중이며 … 주변의 아름다운 경관을 볼 수 있다'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문에 함평군 위치가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 느티나무, 팽나무, 왕버들이 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 동일한 문구('약 500년전 자양산 아래 주자를 모신 사당이 있었는데')가 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여 이웃 성대마을까지 이어졌다고 함'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있음'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '한옥마을조성중이며 … 주변의 아름다운 경관을 볼 수 있다'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 느티나무가 주요 나무로 기재되어 있어 '느티나무를 찾아볼까요?'라는 권유는 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "지정"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "제슬숲은 전라남도 함평군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "숲에는 느티나무, 팽나무, 왕버들이 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무, 왕버들"
+            },
+            {
+              "text": "옛날에 약 500년전 자양산 아래 주자를 모신 사당이 있었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 500년전 자양산 아래 주자를 모신 사당이 있었는데"
+            },
+            {
+              "text": "그 사당 때문에 서쪽으로부터 불어오는 바람을 막고 경치를 좋게 하려고 숲을 만들었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여"
+            },
+            {
+              "text": "그 숲은 이웃 성대마을까지 이어졌대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이웃 성대마을까지 이어졌다고 함"
+            },
+            {
+              "text": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있음"
+            },
+            {
+              "text": "해보면 상곡리 한옥마을을 만들고 있어서 주변 풍경을 함께 볼 수 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "해보면 상곡리 한옥마을조성중이며"
+            },
+            {
+              "text": "산림유전자원보호림과 함께 주변의 아름다운 경관을 볼 수 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "주변의 아름다운 경관을 볼 수 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "제슬숲은 전라남도 함평군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "주요 수종은 느티나무, 팽나무, 왕버들이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무, 왕버들"
+            },
+            {
+              "text": "역사적으로 약 500년전 자양산 아래 주자를 모신 사당이 있었고, 서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여 이웃 성대마을까지 이어졌다고 한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여 이웃 성대마을까지 이어졌다고 함"
+            },
+            {
+              "text": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있음"
+            },
+            {
+              "text": "해보면 상곡리 한옥마을이 조성 중이며, 산림유전자원보호림과 함께 주변의 아름다운 경관을 볼 수 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "해보면 상곡리 한옥마을조성중이며 산림유전자원보호림과 함께 주변의 아름다운 경관을 볼 수 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무, 팽나무, 왕버들"
+        }
+      },
+      "problems": [
+        "child 6번 문장: 어린이용에 괄호나 면적 단위가 있음 '('"
+      ],
+      "verdicts": null,
+      "hard_words": []
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "제슬숲은 함평군에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "천천히 걸어 보면 옛 이야기가 떠오를 거예요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "숲에는 느티나무, 팽나무, 왕버들이 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무, 왕버들"
+            },
+            {
+              "text": "약 500년전 자양산 아래에 주자를 모신 사당이 있었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 500년전 자양산 아래 주자를 모신 사당이 있었는데"
+            },
+            {
+              "text": "서쪽으로 부는 바람을 막고 조경을 위해 숲을 만든 것이라고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여"
+            },
+            {
+              "text": "1993년에 산림유전자보호림으로 지정되어 보호되고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있음"
+            },
+            {
+              "text": "상곡리 한옥마을이 조성 중이라 숲과 함께 경치를 볼 수 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "해보면 상곡리 한옥마을조성중이며"
+            },
+            {
+              "text": "주변이 참 아름답다고들 해요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "우리 함께 느티나무도 찾아볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "제슬숲은 함평군에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 함평군"
+            },
+            {
+              "text": "주요 수종은 느티나무, 팽나무, 왕버들입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무, 팽나무, 왕버들"
+            },
+            {
+              "text": "약 500년전 자양산 아래에 주자를 모신 사당이 있었던 곳과 관련된 숲입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 500년전 자양산 아래 주자를 모신 사당이 있었는데"
+            },
+            {
+              "text": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여 이웃 마을까지 이어졌습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여"
+            },
+            {
+              "text": "1993년에 산림유전자보호림으로 지정되어 보호되고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있음"
+            },
+            {
+              "text": "인근에 상곡리 한옥마을 조성 중이며 숲과 함께 주변의 아름다운 경관을 볼 수 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "해보면 상곡리 한옥마을조성중이며 산림유전자원보호림과 함께 주변의 아름다운 경관을 볼 수 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 제슬숲의 위치가 전라남도 함평군으로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 느티나무, 팽나무, 왕버들이 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 약 500년 전 자양산 아래에 주자를 모신 사당이 있었다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성했다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 1993년에 산림유전자보호림으로 지정되어 보호되고 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 상곡리 한옥마을이 조성 중이며 숲과 함께 경관을 볼 수 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 제슬숲의 위치가 전라남도 함평군으로 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 느티나무, 팽나무, 왕버들이 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 약 500년 전 자양산 아래에 주자를 모신 사당이 있었고 그와 관련된 숲이 조성되었다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여 이웃 성대마을까지 이어졌다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 1993년에 산림유전자보호림으로 지정되어 보호되고 있다고 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 인근에 상곡리 한옥마을이 조성 중이며 숲과 함께 주변의 아름다운 경관을 볼 수 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 느티나무가 주요 수종으로 언급되어 있어 '느티나무를 찾아보자'는 권유문도 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "조성",
+        "지정"
+      ]
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "제슬숲은 전라남도 함평군에 있대요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 함평군"
+        },
+        {
+          "text": "숲에는 느티나무, 팽나무, 왕버들이 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무, 팽나무, 왕버들"
+        },
+        {
+          "text": "약 500년전에는 자양산 아래 주자를 모신 사당이 있었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약 500년전 자양산 아래 주자를 모신 사당이 있었는데"
+        },
+        {
+          "text": "사람들은 서쪽으로부터 불어오는 바람을 막고 주변을 예쁘게 하려고 숲을 만들었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여"
+        },
+        {
+          "text": "그 숲은 이웃 마을까지 이어졌대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "이웃 성대마을까지 이어졌다고 함"
+        },
+        {
+          "text": "1993년에 산림유전자보호림으로 지정되어 지금은 보호받고 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있음"
+        },
+        {
+          "text": "또 한옥마을을 만들고 있어서 주변 경치를 함께 볼 수 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "주변의 아름다운 경관을 볼 수 있다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "제슬숲은 전라남도 함평군에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 함평군"
+        },
+        {
+          "text": "주요 수종은 느티나무, 팽나무, 왕버들이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무, 팽나무, 왕버들"
+        },
+        {
+          "text": "약 500년전 자양산 아래 주자를 모신 사당이 있었는데,",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약 500년전 자양산 아래 주자를 모신 사당이 있었는데"
+        },
+        {
+          "text": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여 이웃 성대마을까지 이어졌다고 한다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "서쪽으로부터 불어오는 바람을 막고 조경을 위해 풍치림을 조성하여 이웃 성대마을까지 이어졌다고 함"
+        },
+        {
+          "text": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1993년에 산림유전자보호림(10-8호)로 지정되어 보호되고 있음"
+        },
+        {
+          "text": "한옥마을 조성과 함께 주변의 아름다운 경관을 볼 수 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "주변의 아름다운 경관을 볼 수 있다."
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무, 팽나무, 왕버들"
+    }
+  },
+  "hard_words_left": [
+    "지정"
+  ]
+}

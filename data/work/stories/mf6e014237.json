@@ -1,0 +1,305 @@
+{
+  "id": "mf6e014237",
+  "name": "산길마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "산길마을숲은 전라남도 무안군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 무안군"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲에는 소나무가 많이 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "옛날에 양곡공동창고가 있어 창골이라 부르다가 그랬대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "양곡공동창고가 있어 창골이라 부르다가"
+            },
+            {
+              "text": "그 뒤에 산에 오르면 길하다고 해서 등길이라고 불렀대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "등길이라 불렀다."
+            },
+            {
+              "text": "옛날 뒷산에서 큰바위가 굴러오다가 나무에 걸려 다친 사람이 없었다고 해서 그 바위를 신성하게 여겼대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "뒷산에서 큰바위가 굴러오다가 나무에 걸려 인명피해가 없었다하여 신성시하였음."
+            },
+            {
+              "text": "예전에는 당산제와 농악, 줄다리기로 마을 사람들이 함께 어울렸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "당산제, 농악 줄다리기 등을 하여 마을 단합 및 결속을 다졌으나"
+            },
+            {
+              "text": "지금은 정월 대보름이나 2월 초하루에 마을회관에서 주민들과 음식을 나누고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정월 대보름이나 2월 초하루에 마을회관에서 주민들과 음식을 나누고 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "산길마을숲은 전라남도 무안군에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 무안군"
+            },
+            {
+              "text": "먼저 간단히 둘러본 이야기를 들려드리겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "주요 수종은 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "역사 기록에는 조선시대에 양곡공동창고가 있어 창골이라 불렀다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "양곡공동창고가 있어 창골이라 부르다가"
+            },
+            {
+              "text": "이후 산에 오르면 길하다고 하여 등길이라 불렀다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "등길이라 불렀다."
+            },
+            {
+              "text": "또 뒷산에서 큰바위가 굴러오다 나무에 걸려 인명피해가 없었다 하여 그 바위를 신성시했다고 합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "뒷산에서 큰바위가 굴러오다가 나무에 걸려 인명피해가 없었다하여 신성시하였음."
+            },
+            {
+              "text": "문화적으로는 예전에 당산제와 농악, 줄다리기 등으로 마을 단합을 다졌고",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "당산제, 농악 줄다리기 등을 하여 마을 단합 및 결속을 다졌으나"
+            },
+            {
+              "text": "현재는 정월 대보름이나 2월 초하루에 마을회관에서 주민들과 음식을 나눈다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정월 대보름이나 2월 초하루에 마을회관에서 주민들과 음식을 나누고 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 전라남도 무안군으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '소나무'가 적혀 있어 해당 문장으로 표현한 것이 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 조선시대에 양곡공동창고가 있어 창골이라고 불렀다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 산에 오르면 길하다고 하여 등길이라 불렀다고 적혀 있어 그 표현이 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 뒷산에서 큰바위가 굴러오다 나무에 걸려 인명피해가 없었다고 하여 신성시했다는 내용이 그대로 있습니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 예전에 당산제·농악·줄다리기로 마을 단합을 다졌다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 현재 정월 대보름이나 2월 초하루에 마을회관에서 주민들과 음식을 나눈다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "(0)과 동일하게 원문 주소에 전라남도 무안군으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 소나무가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 역사 기록에 조선시대에 양곡공동창고가 있어 창골이라 불렀다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 이후 산에 오르면 길하다고 하여 등길이라 불렀다고 전한다는 내용이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 뒷산에서 큰바위가 굴러오다 나무에 걸려 인명피해가 없었다 하여 그 바위를 신성시했다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 예전에 당산제·농악·줄다리기 등으로 마을 단합을 다졌다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 현재 정월 대보름이나 2월 초하루에 마을회관에서 주민들과 음식을 나눈다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '소나무'가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "산길마을숲은 전라남도 무안군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 무안군"
+        },
+        {
+          "text": "이 숲에는 소나무가 많이 자라고 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "옛날에 양곡공동창고가 있어 창골이라 부르다가 그랬대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "양곡공동창고가 있어 창골이라 부르다가"
+        },
+        {
+          "text": "그 뒤에 산에 오르면 길하다고 해서 등길이라고 불렀대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "등길이라 불렀다."
+        },
+        {
+          "text": "옛날 뒷산에서 큰바위가 굴러오다가 나무에 걸려 다친 사람이 없었다고 해서 그 바위를 신성하게 여겼대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "뒷산에서 큰바위가 굴러오다가 나무에 걸려 인명피해가 없었다하여 신성시하였음."
+        },
+        {
+          "text": "예전에는 당산제와 농악, 줄다리기로 마을 사람들이 함께 어울렸대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "당산제, 농악 줄다리기 등을 하여 마을 단합 및 결속을 다졌으나"
+        },
+        {
+          "text": "지금은 정월 대보름이나 2월 초하루에 마을회관에서 주민들과 음식을 나누고 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정월 대보름이나 2월 초하루에 마을회관에서 주민들과 음식을 나누고 있다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "산길마을숲은 전라남도 무안군에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 무안군"
+        },
+        {
+          "text": "먼저 간단히 둘러본 이야기를 들려드리겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "주요 수종은 소나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "역사 기록에는 조선시대에 양곡공동창고가 있어 창골이라 불렀다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "양곡공동창고가 있어 창골이라 부르다가"
+        },
+        {
+          "text": "이후 산에 오르면 길하다고 하여 등길이라 불렀다고 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "등길이라 불렀다."
+        },
+        {
+          "text": "또 뒷산에서 큰바위가 굴러오다 나무에 걸려 인명피해가 없었다 하여 그 바위를 신성시했다고 합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "뒷산에서 큰바위가 굴러오다가 나무에 걸려 인명피해가 없었다하여 신성시하였음."
+        },
+        {
+          "text": "문화적으로는 예전에 당산제와 농악, 줄다리기 등으로 마을 단합을 다졌고",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "당산제, 농악 줄다리기 등을 하여 마을 단합 및 결속을 다졌으나"
+        },
+        {
+          "text": "현재는 정월 대보름이나 2월 초하루에 마을회관에서 주민들과 음식을 나눈다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정월 대보름이나 2월 초하루에 마을회관에서 주민들과 음식을 나누고 있다."
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  },
+  "opener_removed": true
+}

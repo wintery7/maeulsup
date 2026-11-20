@@ -1,0 +1,448 @@
+{
+  "id": "mf846a8e4b",
+  "name": "구소석",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "구소석 숲은 경상남도 양산시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 양산시"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲은 주로 소나무로 이루어져 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "음력 3. 3에는 마을의 안영을 기원하는 제를 지낸대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "음력 3. 3 마을의 안영을 기원하는 제를 지냄"
+            },
+            {
+              "text": "마을 중앙의 계곡을 덮으면서 가장자리에 나무를 남겨 마을의 휴식공간으로 썼대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을중앙부의 계곡를 복개하면서 가장자리에 나무를 원형으로 존치하여 마을의 휴식공간으로 존치하였음."
+            },
+            {
+              "text": "마을 상류에 있던 천연기념물 나무가 고사했지만 비석을 세우고 제를 함께 지낸대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 상류에 자생하던 나무(천연기념물)가 고사하였으나, 현재에도 비석을 세워두고 제를 동시에 지냄."
+            },
+            {
+              "text": "들어가는 길이 불편해 구거를 덮어 길로 쓰지만, 마을 사람들과 가까운 나무는 최대한 남겨 쉬는 곳으로 쓰고 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을의 진·출입로가 불편하여 구거를 복개하여 진입로로 활용하고 있으나,  주민 생활과 밀접한 나무를 최대한 존치하여 현재에도 휴식공간으로 활용하고 있고"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "구소석 숲은 경상남도 양산시에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 양산시"
+            },
+            {
+              "text": "주요 수종은 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "음력 3. 3에는 마을의 안영을 기원하는 제를 지내고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "음력 3. 3 마을의 안영을 기원하는 제를 지냄"
+            },
+            {
+              "text": "마을 중앙부의 계곡을 복개하면서 가장자리에 나무를 원형으로 존치하여 휴식공간으로 남겨두었다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을중앙부의 계곡를 복개하면서 가장자리에 나무를 원형으로 존치하여 마을의 휴식공간으로 존치하였음."
+            },
+            {
+              "text": "마을 상류에 있던 천연기념물 나무가 고사했지만 비석을 세워두고 제를 동시에 지내고 있다고 전해집니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 상류에 자생하던 나무(천연기념물)가 고사하였으나, 현재에도 비석을 세워두고 제를 동시에 지냄."
+            },
+            {
+              "text": "진·출입로가 불편하여 구거를 복개해 진입로로 활용하면서도 주민 생활과 밀접한 나무는 최대한 존치해 휴식공간으로 활용하고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을의 진·출입로가 불편하여 구거를 복개하여 진입로로 활용하고 있으나,  주민 생활과 밀접한 나무를 최대한 존치하여 현재에도 휴식공간으로 활용하고 있고"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [
+        "찾아볼 것: AI 판정 unsupported - 소나무를 찾아보자는 권유는 있지만, 원문에 찾아볼 것에 대한 언급이 없다."
+      ],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "위치 정보가 원문에 포함되어 있다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "주요 나무가 소나무로 명시되어 있어 맞다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "제사를 지내는 내용이 원문에 명시되어 있다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "계곡을 복개하여 나무를 남기는 내용이 원문에 포함되어 있다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "천연기념물 나무의 고사와 비석 관련 내용이 원문에 포함되어 있다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "구거 관련 내용과 나무 존치에 대한 설명이 원문에서 확인된다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "위치 정보가 원문에 포함되어 있다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "주요 나무가 소나무로 명시되어 있어 맞다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "제사를 지내는 내용이 원문에 명시되어 있다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "계곡을 복개하여 나무를 존치한 내용이 원문에 포함되어 있다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "천연기념물 나무의 고사와 비석 관련 내용이 원문에 포함되어 있다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "구거 복개와 나무 존치 관련 내용이 원문에 확인된다."
+        },
+        {
+          "index": 12,
+          "label": "unsupported",
+          "reason": "소나무를 찾아보자는 권유는 있지만, 원문에 찾아볼 것에 대한 언급이 없다."
+        }
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "구소석 숲은 경상남도 양산시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 양산시 상북면 석계리 1089-1번지 (경상남도 양산시)"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲의 주요 나무는 소나무래요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "음력 3. 3에는 마을의 안영을 기원하는 제를 지낸대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "음력 3. 3 마을의 안영을 기원하는 제를 지냄"
+            },
+            {
+              "text": "마을 가운데 계곡을 덮을 때 가장자리에 나무를 둬 마을 사람들이 쉬는 곳으로 남겨 두었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을중앙부의 계곡를 복개하면서 가장자리에 나무를 원형으로 존치하여 마을의 휴식공간으로 존치하였음."
+            },
+            {
+              "text": "마을 상류에 있던 나무가 죽었지만, 비석을 세워두고 제를 함께 지낸대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 상류에 자생하던 나무(천연기념물)가 고사하였으나, 현재에도 비석을 세워두고 제를 동시에 지냄."
+            },
+            {
+              "text": "마을 길이 불편해 구거를 덮어 길로 쓰게 되었대요. 그래도 주민 생활과 가까운 나무는 최대한 남겨 지금도 쉬는 공간으로 쓰고 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을의 진·출입로가 불편하여 구거를 복개하여 진입로로 활용하고 있으나,  주민 생활과 밀접한 나무를 최대한 존치하여 현재에도 휴식공간으로 활용하고 있고"
+            },
+            {
+              "text": "차 안에서 가만히 듣다가 도착하면 찾아볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "구소석 숲은 경상남도 양산시에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 양산시 상북면 석계리 1089-1번지 (경상남도 양산시)"
+            },
+            {
+              "text": "이제 숲 이야기를 차분히 들려드리겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "주요 나무는 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "음력 3. 3 마을의 안영을 기원하는 제를 지냄이라고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "음력 3. 3 마을의 안영을 기원하는 제를 지냄"
+            },
+            {
+              "text": "마을중앙부의 계곡를 복개하면서 가장자리에 나무를 원형으로 존치하여 마을의 휴식공간으로 존치하였음이라고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을중앙부의 계곡를 복개하면서 가장자리에 나무를 원형으로 존치하여 마을의 휴식공간으로 존치하였음."
+            },
+            {
+              "text": "마을 상류에 자생하던 나무가 고사하였으나, 현재에도 비석을 세워두고 제를 동시에 지냄으로 관리하고 있음을 알 수 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 상류에 자생하던 나무(천연기념물)가 고사하였으나, 현재에도 비석을 세워두고 제를 동시에 지냄."
+            },
+            {
+              "text": "마을의 진·출입로가 불편하여 구거를 복개하여 진입로로 활용하고 있으나, 주민 생활과 밀접한 나무를 최대한 존치하여 현재에도 휴식공간으로 활용하고 있다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을의 진·출입로가 불편하여 구거를 복개하여 진입로로 활용하고 있으나,  주민 생활과 밀접한 나무를 최대한 존치하여 현재에도 휴식공간으로 활용하고 있고"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문의 위치와 동일하게 경상남도 양산시에 있다고 적혀 있습니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 소나무가 명시되어 있습니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 음력 3. 3에 제를 지낸다고 기록되어 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 계곡을 복개하면서 나무를 남겨두었다고 적혀 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 나무가 고사하였으나 비석을 세워두고 제를 지낸다고 이미 기록되어 있습니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 마을 길이 불편하여 구거를 복개하여 진입로로 활용한다고 적혀 있으며, 나무를 최대한 존치한다고 되어 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문의 내용과 동일하게 경상남도 양산시에 있다고 적혀 있습니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 소나무가 명시되어 있습니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원본문에 음력 3. 3 제를 지낸다는 내용이 그대로 반복되고 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 계곡을 복개하면서 나무를 원형으로 존치했다고 적혀 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 자생하던 나무가 죽었다고 기록되어 있으며 비석 이야기도 포함되어 있습니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 마을의 진·출입로 문제와 구거 복개 내용이 포함되어 있습니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에서 소나무가 주요 나무로 적혀 있어 소나무를 찾자는 권유와 일치합니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "구소석 숲은 경상남도 양산시에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 양산시 상북면 석계리 1089-1번지 (경상남도 양산시)"
+        },
+        {
+          "text": "이 숲의 주요 나무는 소나무래요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "음력 3. 3에는 마을의 안영을 기원하는 제를 지낸대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "음력 3. 3 마을의 안영을 기원하는 제를 지냄"
+        },
+        {
+          "text": "마을 가운데 계곡을 덮을 때 가장자리에 나무를 둬 마을 사람들이 쉬는 곳으로 남겨 두었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을중앙부의 계곡를 복개하면서 가장자리에 나무를 원형으로 존치하여 마을의 휴식공간으로 존치하였음."
+        },
+        {
+          "text": "마을 상류에 있던 나무가 죽었지만, 비석을 세워두고 제를 함께 지낸대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을 상류에 자생하던 나무(천연기념물)가 고사하였으나, 현재에도 비석을 세워두고 제를 동시에 지냄."
+        },
+        {
+          "text": "마을 길이 불편해 구거를 덮어 길로 쓰게 되었대요. 그래도 주민 생활과 가까운 나무는 최대한 남겨 지금도 쉬는 공간으로 쓰고 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을의 진·출입로가 불편하여 구거를 복개하여 진입로로 활용하고 있으나,  주민 생활과 밀접한 나무를 최대한 존치하여 현재에도 휴식공간으로 활용하고 있고"
+        },
+        {
+          "text": "차 안에서 가만히 듣다가 도착하면 찾아볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "구소석 숲은 경상남도 양산시에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 양산시 상북면 석계리 1089-1번지 (경상남도 양산시)"
+        },
+        {
+          "text": "이제 숲 이야기를 차분히 들려드리겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "주요 나무는 소나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "음력 3. 3 마을의 안영을 기원하는 제를 지냄이라고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "음력 3. 3 마을의 안영을 기원하는 제를 지냄"
+        },
+        {
+          "text": "마을중앙부의 계곡를 복개하면서 가장자리에 나무를 원형으로 존치하여 마을의 휴식공간으로 존치하였음이라고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을중앙부의 계곡를 복개하면서 가장자리에 나무를 원형으로 존치하여 마을의 휴식공간으로 존치하였음."
+        },
+        {
+          "text": "마을 상류에 자생하던 나무가 고사하였으나, 현재에도 비석을 세워두고 제를 동시에 지냄으로 관리하고 있음을 알 수 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을 상류에 자생하던 나무(천연기념물)가 고사하였으나, 현재에도 비석을 세워두고 제를 동시에 지냄."
+        },
+        {
+          "text": "마을의 진·출입로가 불편하여 구거를 복개하여 진입로로 활용하고 있으나, 주민 생활과 밀접한 나무를 최대한 존치하여 현재에도 휴식공간으로 활용하고 있다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을의 진·출입로가 불편하여 구거를 복개하여 진입로로 활용하고 있으나,  주민 생활과 밀접한 나무를 최대한 존치하여 현재에도 휴식공간으로 활용하고 있고"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  },
+  "opener_removed": true
+}

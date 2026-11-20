@@ -1,0 +1,259 @@
+{
+  "id": "mfe58eb996",
+  "name": "율림마을 밤 숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "율림마을 밤 숲은 경상남도 함양군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 함양군"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "옛날에 신라때 최치원 태수가 이곳에 밤나무를 심었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "신라때 최치원 태수가"
+            },
+            {
+              "text": "밤나무 품질이 좋아서 향교 제율로 쓰였고 그래서 밤숲, 즉 율림이라고 불렸대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이를 한자로 율림이라 하였다."
+            },
+            {
+              "text": "지금은 밤나무가 많은 것이 아니라 솔숲으로 우거져 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "밤숲은 지금은 밤나무가 많은 것이 아니라 솔숲으로 우거져 있다."
+            },
+            {
+              "text": "사람들이 쉬는 곳이고 학생들의 야외 학습장이나 야영장으로도 많이 이용된대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "휴식공간이나 학생들의 야외 학습장, 야영장으로도 많이 이용되는 곳이다."
+            },
+            {
+              "text": "앞에 흐르는 남계천에서는 물고기 잡이도 즐긴대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "앞에 흐르는 남계천에는 천렵을 즐길 수 있는 곳이기도 하다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "율림마을 밤 숲은 경상남도 함양군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 함양군"
+            },
+            {
+              "text": "신라때 최치원 태수가 이곳에 밤나무를 심었다고 전해진다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "이곳 밤 숲 밤나무를 심어"
+            },
+            {
+              "text": "밤나무 품질이 좋아 향교 제율로 사용되었고, 그리하여 율림이라 불리게 되었다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "품질이 좋아서 향교 제율로 사용하여"
+            },
+            {
+              "text": "현재는 밤나무가 많은 것이 아니라 솔숲으로 우거져 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "밤숲은 지금은 밤나무가 많은 것이 아니라 솔숲으로 우거져 있다."
+            },
+            {
+              "text": "휴식공간이자 학생들의 야외 학습장과 야영장으로 많이 이용되며, 앞의 남계천에서는 천렵을 즐길 수 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "휴식공간이나 학생들의 야외 학습장, 야영장으로도 많이 이용되는 곳이다."
+            },
+            {
+              "text": "앞에 흐르는 남계천에는 천렵을 즐길 수 있는 곳이기도 하다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "앞에 흐르는 남계천에는 천렵을 즐길 수 있는 곳이기도 하다."
+            }
+          ]
+        },
+        "find": {
+          "text": "밤나무를 찾아볼까요?",
+          "target": "밤나무",
+          "source_quote": "밤나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 ‘경상남도 함양군’으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사 기록에 신라 때 최치원 태수가 이곳에 밤나무를 심었다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 밤나무 품질이 좋아 향교 제율로 사용되어 밤숲(율림)이라 불리게 되었다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 현재는 밤나무가 많은 것이 아니라 솔숲으로 우거져 있다고 직접 서술되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 문화 기록에 휴식공간·학생들의 야외 학습장·야영장으로 많이 이용된다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 앞에 흐르는 남계천에서는 천렵을 즐길 수 있다고 하여 ‘물고기 잡이’를 즐긴다는 표현과 내용이 일치합니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "문장 0과 동일하게 원문에 경상남도 함양군에 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 역사 기록과 같은 내용으로 ‘신라때 최치원 태수가 이곳에 밤나무를 심었다고 전해진다’가 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 밤나무 품질이 좋아 향교 제율로 사용되었고 그리하여 율림이라 불리게 되었다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 ‘현재는 밤나무가 많은 것이 아니라 솔숲으로 우거져 있다’고 직접 서술되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 문화 기록에 휴식공간·학생들의 야외 학습장·야영장으로 이용된다고 하고 남계천에서 천렵을 즐길 수 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 동일한 문장 ‘앞에 흐르는 남계천에는 천렵을 즐길 수 있는 곳이기도 하다’가 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 주요 나무가 ‘밤나무’로 명시되어 있어 ‘밤나무를 찾아볼까요?’라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "율림마을 밤 숲은 경상남도 함양군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 함양군"
+        },
+        {
+          "text": "옛날에 신라때 최치원 태수가 이곳에 밤나무를 심었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "신라때 최치원 태수가"
+        },
+        {
+          "text": "밤나무 품질이 좋아서 향교 제율로 쓰였고 그래서 밤숲, 즉 율림이라고 불렸대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "이를 한자로 율림이라 하였다."
+        },
+        {
+          "text": "지금은 밤나무가 많은 것이 아니라 솔숲으로 우거져 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "밤숲은 지금은 밤나무가 많은 것이 아니라 솔숲으로 우거져 있다."
+        },
+        {
+          "text": "사람들이 쉬는 곳이고 학생들의 야외 학습장이나 야영장으로도 많이 이용된대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "휴식공간이나 학생들의 야외 학습장, 야영장으로도 많이 이용되는 곳이다."
+        },
+        {
+          "text": "앞에 흐르는 남계천에서는 물고기 잡이도 즐긴대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "앞에 흐르는 남계천에는 천렵을 즐길 수 있는 곳이기도 하다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "율림마을 밤 숲은 경상남도 함양군에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 함양군"
+        },
+        {
+          "text": "신라때 최치원 태수가 이곳에 밤나무를 심었다고 전해진다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "이곳 밤 숲 밤나무를 심어"
+        },
+        {
+          "text": "밤나무 품질이 좋아 향교 제율로 사용되었고, 그리하여 율림이라 불리게 되었다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "품질이 좋아서 향교 제율로 사용하여"
+        },
+        {
+          "text": "현재는 밤나무가 많은 것이 아니라 솔숲으로 우거져 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "밤숲은 지금은 밤나무가 많은 것이 아니라 솔숲으로 우거져 있다."
+        },
+        {
+          "text": "휴식공간이자 학생들의 야외 학습장과 야영장으로 많이 이용되며, 앞의 남계천에서는 천렵을 즐길 수 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "휴식공간이나 학생들의 야외 학습장, 야영장으로도 많이 이용되는 곳이다."
+        },
+        {
+          "text": "앞에 흐르는 남계천에는 천렵을 즐길 수 있는 곳이기도 하다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "앞에 흐르는 남계천에는 천렵을 즐길 수 있는 곳이기도 하다."
+        }
+      ]
+    },
+    "find": {
+      "text": "밤나무를 찾아볼까요?",
+      "target": "밤나무",
+      "source_quote": "밤나무"
+    }
+  },
+  "opener_removed": true
+}

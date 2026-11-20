@@ -1,0 +1,402 @@
+{
+  "id": "mf2b2dd6b7",
+  "name": "냉림 동신나무숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "냉림 동신나무숲은 경상북도 상주시예요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "냉림 동신나무숲"
+            },
+            {
+              "text": "숲에는 느티나무가 주요 나무로 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "주요 나무(species): 느티나무"
+            },
+            {
+              "text": "숲이 도시 학교의 교정이고 그 규모 또한 500여 평에 불과하대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲이 도시 학교의 교정이고 그 규모 또한 500여 평에 불과하나"
+            },
+            {
+              "text": "숲이 얼마나 우거지고 시원했는지 '냉림'이라는 동명이 붙었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲이 얼마나 우거지고 시원했으면 “냉(冷) 림(林)” 이라는 동명이 붙여졌다."
+            },
+            {
+              "text": "냉림동에서는 매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올린대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "냉림동에서는 매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올린다."
+            },
+            {
+              "text": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈으나"
+            },
+            {
+              "text": "지금은 편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "냉림 동신나무숲은 경상북도 상주시의 숲입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시"
+            },
+            {
+              "text": "주요 수종은 느티나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "주요 나무(species): 느티나무"
+            },
+            {
+              "text": "숲은 도시 학교의 교정이고 그 규모 또한 500여 평에 불과합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲이 도시 학교의 교정이고 그 규모 또한 500여 평에 불과하나"
+            },
+            {
+              "text": "숲이 우거지고 시원하여 '냉림'이라는 동명이 붙었습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲이 얼마나 우거지고 시원했으면 “냉(冷) 림(林)” 이라는 동명이 붙여졌다."
+            },
+            {
+              "text": "냉림동에서는 매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올립니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "냉림동에서는 매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올린다."
+            },
+            {
+              "text": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지내다가 편의상 시간과 장소를 옮겨 전 동민이 참여해 엄숙히 거행하고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈으나 편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "주요 나무(species): 느티나무"
+        }
+      },
+      "problems": [
+        "child 2번 문장: 근거 구절이 원문에 없음 '주요 나무(species): 느티나무'",
+        "adult 2번 문장: 근거 구절이 원문에 없음 '주요 나무(species): 느티나무'",
+        "찾아볼 것: 근거 구절이 원문에 없음"
+      ],
+      "verdicts": null,
+      "hard_words": []
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "냉림 동신나무숲은 경상북도 상주시예요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "냉림 동신나무숲"
+            },
+            {
+              "text": "이 숲은 도시 학교의 교정이에요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲이 도시 학교의 교정이고"
+            },
+            {
+              "text": "숲이 얼마나 우거지고 시원했으면 사람들이 '냉림'이라고 불렀대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲이 얼마나 우거지고 시원했으면"
+            },
+            {
+              "text": "숲에 있는 큰 나무는 느티나무예요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "냉림동에서는 매년 정월 초이튿날 아침에 숲과 이어진 노인 회관에서 마을 제사를 올린대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "냉림동에서는 매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올린다."
+            },
+            {
+              "text": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈으나"
+            },
+            {
+              "text": "지금은 편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한다."
+            },
+            {
+              "text": "참 신기하죠?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "냉림 동신나무숲은 경상북도 상주시입니다.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "냉림 동신나무숲"
+            },
+            {
+              "text": "숲은 도시 학교의 교정이고 그 규모 또한 500여 평에 불과하나.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲이 도시 학교의 교정이고 그 규모 또한 500여 평에 불과하나"
+            },
+            {
+              "text": "숲이 우거지고 시원하여 “냉(冷) 림(林)” 이라는 동명이 붙여졌습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "“냉(冷) 림(林)” 이라는 동명이 붙여졌다."
+            },
+            {
+              "text": "주요 수종은 느티나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "냉림동에서는 매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올립니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "냉림동에서는 매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올린다."
+            },
+            {
+              "text": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈으나"
+            },
+            {
+              "text": "편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '경상북도 상주시 냉림동 206 (경상북도 상주시)'로 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '숲이 도시 학교의 교정'이라고 직접 기술되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 숲이 매우 우거지고 시원하여 '냉림'이라는 동명이 붙었다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 주요 나무가 '느티나무'로 명시되어 있어 해당 진술을 뒷받침합니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올린다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈다'고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "문장 0과 동일하게 원문에 위치가 경상북도 상주시로 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '숲이 도시 학교의 교정이고 그 규모 또한 500여 평에 불과하다'고 직접 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 숲이 우거지고 시원하여 '냉(冷) 림(林)'이라는 동명이 붙었다고 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 주요 나무(수종)로 '느티나무'가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 문장과 동일하게 '매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올린다'고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈다'고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 '느티나무'가 적혀 있어 '느티나무를 찾아볼까요?'라는 권유 내용은 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "냉림 동신나무숲은 경상북도 상주시예요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "냉림 동신나무숲"
+        },
+        {
+          "text": "이 숲은 도시 학교의 교정이에요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "숲이 도시 학교의 교정이고"
+        },
+        {
+          "text": "숲이 얼마나 우거지고 시원했으면 사람들이 '냉림'이라고 불렀대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "숲이 얼마나 우거지고 시원했으면"
+        },
+        {
+          "text": "숲에 있는 큰 나무는 느티나무예요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "냉림동에서는 매년 정월 초이튿날 아침에 숲과 이어진 노인 회관에서 마을 제사를 올린대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "냉림동에서는 매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올린다."
+        },
+        {
+          "text": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈으나"
+        },
+        {
+          "text": "지금은 편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한다."
+        },
+        {
+          "text": "참 신기하죠?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "냉림 동신나무숲은 경상북도 상주시입니다.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "냉림 동신나무숲"
+        },
+        {
+          "text": "숲은 도시 학교의 교정이고 그 규모 또한 500여 평에 불과하나.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "숲이 도시 학교의 교정이고 그 규모 또한 500여 평에 불과하나"
+        },
+        {
+          "text": "숲이 우거지고 시원하여 “냉(冷) 림(林)” 이라는 동명이 붙여졌습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "“냉(冷) 림(林)” 이라는 동명이 붙여졌다."
+        },
+        {
+          "text": "주요 수종은 느티나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "냉림동에서는 매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올립니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "냉림동에서는 매년 정월 초이튿날 오전에 숲과 연접한 노인 회관에서 동제사를 올린다."
+        },
+        {
+          "text": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "5년 전까지는 숲 안 느티나무 노거수에서 정월 보름날 제를 지냈으나"
+        },
+        {
+          "text": "편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "편의상 시간과 장소를 옮겨 전 동민이 참여하여 엄숙히 거행한다."
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  }
+}

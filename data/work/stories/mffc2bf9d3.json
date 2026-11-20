@@ -1,0 +1,454 @@
+{
+  "id": "mffc2bf9d3",
+  "name": "왈길마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "왈길마을숲은 전라북도 남원시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 대산면 길곡리"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "산림청이 아름다운 숲으로 정한 왈길숲이래요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "산림청 지정 아름다운 숲인 '왈길숲'은"
+            },
+            {
+              "text": "남원시에서 약 9㎞ 떨어져 있고, 면소재지에서는 약 1㎞ 북쪽에 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "남원시에서 약 9㎞에 위치하여 있고 면소재지에서는 약 1㎞ 북쪽에 위치하고"
+            },
+            {
+              "text": "마을로 들어가는 길 양쪽에 아름드리 소나무와 느티나무가 서 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "길양쪽으로 아름드리 소나무와 느티나무가"
+            },
+            {
+              "text": "나무들이 고풍스럽게 펼쳐져 마을 수호신처럼 아름답대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "고풍스럽게 펼쳐져 마을 수호신처럼 아름다운 자태를 연출하고 있다"
+            },
+            {
+              "text": "옛날에는 마을 이름이 칡이 많은 길이라서 갈거리였대요, 그게 왈길로 바뀌었대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "칡이 많은 길이라 하여 갈거리라고 했는데 왈길로 바뀌었다"
+            },
+            {
+              "text": "마을을 감싸안고 있는 풍악산 줄기와 함께 숲이 마을을 둘러싼대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을을 감싸안고 있는 풍악산 줄기와 함께"
+            },
+            {
+              "text": "그럼 숲에 가면 무엇을 찾아볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "왈길마을숲은 전라북도 남원시에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 대산면 길곡리"
+            },
+            {
+              "text": "산림청 지정 아름다운 숲인 '왈길숲'입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "산림청 지정 아름다운 숲인 '왈길숲'은"
+            },
+            {
+              "text": "남원시에서 약 9㎞, 면소재지에서는 약 1㎞ 북쪽에 위치합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "남원시에서 약 9㎞에 위치하여 있고 면소재지에서는 약 1㎞ 북쪽에 위치하고"
+            },
+            {
+              "text": "마을로 들어가는 입구 길 양쪽에 아름드리 소나무와 느티나무가 늘어서 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을로 들어가는 입구에 길양쪽으로 아름드리 소나무와 느티나무가"
+            },
+            {
+              "text": "나무들이 고풍스럽게 펼쳐져 마을 수호신처럼 아름다운 자태를 연출합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "고풍스럽게 펼쳐져 마을 수호신처럼 아름다운 자태를 연출하고 있다"
+            },
+            {
+              "text": "본래 마을 이름은 칡이 많은 길이라 하여 갈거리였고, 왈길로 바뀌었다고 합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "칡이 많은 길이라 하여 갈거리라고 했는데 왈길로 바뀌었다"
+            },
+            {
+              "text": "마을을 감싸안고 있는 풍악산 줄기와 함께 마을 앞의 숲은 입구를 상큼하게 해줍니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을을 감싸안고 있는 풍악산 줄기와 함께 마을앞의 숲은 마을로 들어가는 입구를 상큼하게 해준다"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "아름드리 소나무와 느티나무가"
+        }
+      },
+      "problems": [
+        "child 8번 문장: AI 판정 unsupported - 원문은 풍악산 줄기가 마을을 감싸안고 숲은 마을 앞에 있다고만 하며 '숲이 마을을 둘러싼다'고 직접 말하지 않아 원문으로 뒷받침되지 않습니다."
+      ],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 전라북도 남원시로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '산림청 지정 아름다운 숲인 왈길숲'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 남원시에서 약 9km, 면소재지에서 약 1km 북쪽에 위치한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '마을로 들어가는 입구에 길양쪽으로 아름드리 소나무와 느티나무'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 나무들이 '고풍스럽게 펼쳐져 마을 수호신처럼 아름다운 자태를 연출'한다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 본래 마을 이름이 칡이 많은 길이라 해서 갈거리였고 왈길로 바뀌었다고 나와 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "unsupported",
+          "reason": "원문은 풍악산 줄기가 마을을 감싸안고 숲은 마을 앞에 있다고만 하며 '숲이 마을을 둘러싼다'고 직접 말하지 않아 원문으로 뒷받침되지 않습니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 주소에 전라북도 남원시로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '산림청 지정 아름다운 숲'이라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 남원시에서 약 9km, 면소재지에서는 약 1km 북쪽에 위치한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '길양쪽으로 아름드리 소나무와 느티나무'가 있다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 나무들이 '고풍스럽게 펼쳐져 마을 수호신처럼 아름다운 자태를 연출'한다고 나와 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 본래 마을 이름이 칡이 많은 길이라 하여 갈거리였고 왈길로 바뀌었다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '마을을 감싸안고 있는 풍악산 줄기와 함께 마을앞의 숲은 입구를 상큼하게 해준다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 소나무가 주요 나무로 명시되어 있어 '소나무를 찾아볼까요?'라는 권유 문장의 대상이 뒷받침됩니다."
+        }
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "왈길마을숲은 남원시에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시"
+            },
+            {
+              "text": "숲은 마을 앞에 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을앞의 숲"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "숲으로 들어가는 길 양쪽에는 아름드리 소나무와 느티나무가 서 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "길양쪽으로 아름드리 소나무와 느티나무가"
+            },
+            {
+              "text": "그 나무들이 마을로 들어가는 입구를 상큼하게 해준대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을로 들어가는 입구를 상큼하게 해준다"
+            },
+            {
+              "text": "나무들을 조용히 바라보며 걸어봐요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "원래 마을이름은 갈거리였는데 왈길로 바뀌었다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "갈거리라고 했는데 왈길로 바뀌었다"
+            },
+            {
+              "text": "이곳은 전형적인 농촌마을이에요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전형적인 농촌마을로서"
+            },
+            {
+              "text": "그럼 차에서 내려 나무 하나를 찾아볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "왈길마을숲은 남원시에 위치한 숲입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시"
+            },
+            {
+              "text": "마을앞의 숲으로, 마을로 들어가는 입구를 상큼하게 해준다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을앞의 숲은 마을로 들어가는 입구를 상큼하게 해준다"
+            },
+            {
+              "text": "길 양쪽에는 아름드리 소나무와 느티나무가 고풍스럽게 펼쳐져 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "길양쪽으로 아름드리 소나무와 느티나무가 고풍스럽게 펼쳐져"
+            },
+            {
+              "text": "한번 천천히 둘러보며 걸어 보시기 바랍니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "기록에는 마을 이름이 갈거리에서 왈길로 바뀌었다고 전하고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "갈거리라고 했는데 왈길로 바뀌었다"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 전북 남원시로 표기되어 있어 남원시에 있는 숲이라는 진술을 뒷받침합니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '마을앞의 숲'이라고 명시되어 있어 숲이 마을 앞에 있다는 내용을 지지합니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '마을로 들어가는 입구에 길양쪽으로 아름드리 소나무와 느티나무가... 펼쳐져'라고 되어 있어 해당 진술을 뒷받침합니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '마을앞의 숲은 ... 마을로 들어가는 입구를 상큼하게 해준다'라고 되어 있어 나무들이 입구를 상큼하게 해준다는 풀어쓰기도 원문으로 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 문화 기록에 본래 마을이름이 '갈거리'였고 왈길로 바뀌었다고 되어 있어 그 진술을 지지합니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '전형적인 농촌마을로서'라고 되어 있어 이곳이 전형적인 농촌마을이라는 진술을 뒷받침합니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 숲 이름과 위치가 남원시로 표기되어 있어 왈길마을숲이 남원시에 위치한다는 진술을 지지합니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '마을앞의 숲'이며 '마을로 들어가는 입구를 상큼하게 해준다'고 기록되어 있어 그 진술을 뒷받침합니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '길양쪽으로 아름드리 소나무와 느티나무가 고풍스럽게 펼쳐져'라고 명시되어 있어 해당 진술을 지지합니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 기록에 마을 이름이 갈거리에서 왈길로 바뀌었다고 전하고 있어 그 진술을 뒷받침합니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 주요 나무 목록에 '소나무'가 포함되어 있어 '소나무를 찾아볼까요?'라는 권유에 대한 대상은 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "왈길마을숲은 남원시에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시"
+        },
+        {
+          "text": "숲은 마을 앞에 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을앞의 숲"
+        },
+        {
+          "text": "숲으로 들어가는 길 양쪽에는 아름드리 소나무와 느티나무가 서 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "길양쪽으로 아름드리 소나무와 느티나무가"
+        },
+        {
+          "text": "그 나무들이 마을로 들어가는 입구를 상큼하게 해준대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을로 들어가는 입구를 상큼하게 해준다"
+        },
+        {
+          "text": "나무들을 조용히 바라보며 걸어봐요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "원래 마을이름은 갈거리였는데 왈길로 바뀌었다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "갈거리라고 했는데 왈길로 바뀌었다"
+        },
+        {
+          "text": "이곳은 전형적인 농촌마을이에요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "전형적인 농촌마을로서"
+        },
+        {
+          "text": "그럼 차에서 내려 나무 하나를 찾아볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "왈길마을숲은 남원시에 위치한 숲입니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시"
+        },
+        {
+          "text": "마을앞의 숲으로, 마을로 들어가는 입구를 상큼하게 해준다고 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을앞의 숲은 마을로 들어가는 입구를 상큼하게 해준다"
+        },
+        {
+          "text": "길 양쪽에는 아름드리 소나무와 느티나무가 고풍스럽게 펼쳐져 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "길양쪽으로 아름드리 소나무와 느티나무가 고풍스럽게 펼쳐져"
+        },
+        {
+          "text": "한번 천천히 둘러보며 걸어 보시기 바랍니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "기록에는 마을 이름이 갈거리에서 왈길로 바뀌었다고 전하고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "갈거리라고 했는데 왈길로 바뀌었다"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  },
+  "opener_removed": true
+}

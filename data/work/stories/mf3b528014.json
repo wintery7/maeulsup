@@ -1,0 +1,676 @@
+{
+  "id": "mf3b528014",
+  "name": "강주연못",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "강주연못은 경상남도 진주시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시"
+            },
+            {
+              "text": "이 못은 약 90~100년전에 만들어진 못이에요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 90~100년전에 만들어진 못"
+            },
+            {
+              "text": "원래 농업용수를 공급하려고 만든 못이었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "농업용수 공급이 목적이었으나"
+            },
+            {
+              "text": "지금은 못 전체에 연꽃이 가득해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "지금은 못 전체에 연꽃이 가득하고"
+            },
+            {
+              "text": "못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리잡고 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "커다란 이팝나무 아래 아담한 정자가 자리잡고"
+            },
+            {
+              "text": "강주연못은 고려시대 강주진이 있었던 곳으로 전해지는 유서 깊은 곳이에요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "고려시대 강주진(康州鎭)이 있었던 곳"
+            },
+            {
+              "text": "숲에는 나무 나이가 3~400여년 된 소나무와 이팝나무, 팽나무가 함께 자라고 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "수령이 3~400여년 된 소나무"
+            },
+            {
+              "text": "연꽃단지가 양호해서 꽃이 잘 자라고 철새와 텃새들이 일부 서식하고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있음"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "강주연못은 경상남도 진주시 소재입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시"
+            },
+            {
+              "text": "이 못은 약 90~100년전에 만들어진 못으로 농업용수 공급이 목적이었습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 90~100년전에 만들어진 못"
+            },
+            {
+              "text": "현재는 못 전체에 연꽃이 가득합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "지금은 못 전체에 연꽃이 가득하고"
+            },
+            {
+              "text": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있음"
+            },
+            {
+              "text": "못 둑 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리하고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "커다란 이팝나무 아래 아담한 정자가 자리잡고"
+            },
+            {
+              "text": "숲에는 수령이 3~400여년 된 소나무를 비롯해 이팝나무와 팽나무 등이 분포합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "수령이 3~400여년 된 소나무를 비롯 이팝나무와 팽나무 등이 숲을 이루고"
+            }
+          ]
+        },
+        "find": {
+          "text": "연꽃을 찾아볼까요?",
+          "target": "연꽃",
+          "source_quote": "지금은 못 전체에 연꽃이 가득하고"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "주소에 경상남도 진주시로 표기되어 있어 진주시에 있다는 내용이 원문에 있음."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 약 90~100년 전에 만들어진 못이라고 명시되어 있음."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 농업용수 공급이 목적이었다고 기록되어 있어 뒷받침됨."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 지금은 못 전체에 연꽃이 가득하다고 직접 적혀 있음."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 못 둑의 동남쪽에 큰 이팝나무 아래 아담한 정자가 자리잡고 있다고 되어 있음."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 고려시대 강주진이 있었던 곳으로 전해지는 유서 깊은 곳이라고 명시되어 있음."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 수령이 3~400여년 된 소나무를 비롯해 이팝나무와 팽나무 등이 숲을 이룬다고 적혀 있음."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있다고 되어 있어 '꽃이 잘 자란다'는 표현으로 풀이 가능함."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "주소 정보가 경상남도 진주시로 되어 있어 해당 소재지라는 내용이 원문에 있음."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 약 90~100년 전에 만들어졌고 농업용수 공급이 목적이었다고 같이 서술되어 있음."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '지금은 못 전체에 연꽃이 가득'하다고 명시되어 있어 현재 상태를 지지함."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 연꽃단지가 양호하며 철새와 텃새들이 일부 서식한다고 직접 서술되어 있음."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 못 둑 동남쪽에 큰 이팝나무 아래 아담한 정자가 자리하고 있다고 되어 있음."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 수령 3~400여년 된 소나무를 비롯해 이팝나무와 팽나무 등이 분포한다고 되어 있음."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 연꽃이 못 전체에 가득하다고 되어 있어 연꽃을 찾아보자는 권유 대상이 원문으로 뒷받침됨."
+        }
+      ],
+      "hard_words": [
+        "양호",
+        "서식"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "강주연못은 경상남도 진주시의 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시"
+            },
+            {
+              "text": "강주연못은 약 90~100년전에 농사에 쓰는 물을 대려고 만들어졌대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 90~100년전에 만들어진 못으로"
+            },
+            {
+              "text": "지금은 못 전체에 연꽃이 가득하고 연꽃단지가 잘 되어 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "못 전체에 연꽃이 가득하고"
+            },
+            {
+              "text": "못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리잡고 있으며"
+            },
+            {
+              "text": "강주연못은 전하여지는 유서 깊은 곳이라고 전해진대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전하여지는 유서 깊은 곳"
+            },
+            {
+              "text": "숲에는 나무 나이가 3~400여년 된 소나무도 있고 이팝나무와 팽나무도 함께 숲을 이루고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "수령이 3~400여년 된 소나무"
+            },
+            {
+              "text": "철새와 텃새들이 일부 살고 있어 새 소리도 들린대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "철새와 텃새들이 일부 서식하고 있음."
+            },
+            {
+              "text": "천천히 둘러보면 여러 나무와 연꽃을 볼 수 있대요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "강주연못은 경상남도 진주시의 연못 숲입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시"
+            },
+            {
+              "text": "이 못은 지금부터 약 90~100년전에 농업용수 공급을 목적으로 만들어졌습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 90~100년전에 만들어진 못으로 농업용수 공급이 목적이었으나"
+            },
+            {
+              "text": "현재는 못 전체에 연꽃이 가득하고 못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리잡고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "못 전체에 연꽃이 가득하고 못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리잡고 있으며"
+            },
+            {
+              "text": "강주연못은 전하여지는 유서 깊은 곳이며 수령이 3~400여년 된 소나무를 비롯해 이팝나무와 팽나무 등이 숲을 이루고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "수령이 3~400여년 된 소나무를 비롯 이팝나무와 팽나무 등이 숲을 이루고"
+            },
+            {
+              "text": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있음."
+            }
+          ]
+        },
+        "find": {
+          "text": "연꽃을 찾아볼까요?",
+          "target": "연꽃",
+          "source_quote": "못 전체에 연꽃이 가득하고"
+        }
+      },
+      "problems": [
+        "child 7번 문장: AI 판정 unsupported - 원문은 철새와 텃새 일부 서식한다고만 적혀 있고 ‘새 소리도 들린다’는 내용은 없어 원문으로 뒷받침되지 않습니다."
+      ],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 강주연못의 소재지가 경상남도 진주시로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사 기록에 ‘약 90~100년 전에 농업용수 공급 목적으로 만들어진 못’이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 ‘못 전체에 연꽃이 가득’하고 ‘연꽃단지가 양호’하다고 모두 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 ‘못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리잡고 있다’고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 ‘유서 깊은 곳으로 전하여진다’고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 ‘수령 3~400여년 된 소나무를 비롯 이팝나무와 팽나무 등이 숲을 이룬다’고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "unsupported",
+          "reason": "원문은 철새와 텃새 일부 서식한다고만 적혀 있고 ‘새 소리도 들린다’는 내용은 없어 원문으로 뒷받침되지 않습니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 위치가 경상남도 진주시로 되어 있고 강주연못이 숲 이름으로 제시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록에 같은 연대와 농업용수 목적이 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 못 전체의 연꽃과 못 둑 동남쪽의 이팝나무 아래 정자 위치가 그대로 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 문화 기록에 유서 깊은 곳이라는 내용과 수령 3~400년 소나무 및 이팝나무·팽나무가 숲을 이룬다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 ‘연꽃단지가 양호’하고 ‘철새와 텃새들이 일부 서식’하고 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "권유 형식 자체는 문제없고 원문에 연꽃이 온 곳에 가득하다고 되어 있어 ‘연꽃을 찾아보자’라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "강주연못은 진주시예요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시"
+            },
+            {
+              "text": "이 못은 약 90~100년전에 농업용수를 공급하려고 만들어졌대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 90~100년전에 만들어진 못으로"
+            },
+            {
+              "text": "지금은 못 전체에 연꽃이 가득하대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "지금은 못 전체에 연꽃이 가득하고"
+            },
+            {
+              "text": "못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리잡고 있으며"
+            },
+            {
+              "text": "숲에는 소나무와 이팝나무, 팽나무 같은 나무들이 자라요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "소나무를 비롯 이팝나무와 팽나무 등이 숲을 이루고"
+            },
+            {
+              "text": "소나무 중에는 수령이 3~400여년 된 나무도 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "수령이 3~400여년 된 소나무를 비롯"
+            },
+            {
+              "text": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있음."
+            },
+            {
+              "text": "여기는 고려시대 강주진이 있었던 곳으로 전해지는 유서 깊은 곳이래요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "강주연못은 고려시대 강주진(康州鎭)이 있었던 곳으로 전하여지는 유서 깊은 곳이며"
+            },
+            {
+              "text": "주요 나무로는 소나무, 벗나무와 각종 연 종류도 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무, 벗나무, 각종 연 종류"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "강주연못은 경상남도 진주시 정촌면 예하리 강주마을에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시 정촌면 예하리 911-11번지 일원(강주마을)"
+            },
+            {
+              "text": "이 못은 약 90~100년전에 농업용수 공급이 목적이었으나 조성된 못입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 90~100년전에 만들어진 못으로 농업용수 공급이 목적이었으나,"
+            },
+            {
+              "text": "현재는 못 전체에 연꽃이 가득하며 주변 경관이 형성되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "지금은 못 전체에 연꽃이 가득하고"
+            },
+            {
+              "text": "못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리잡고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리잡고 있으며"
+            },
+            {
+              "text": "숲은 소나무를 비롯해 이팝나무와 팽나무 등이 어우러져 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "소나무를 비롯 이팝나무와 팽나무 등이 숲을 이루고"
+            },
+            {
+              "text": "소나무 중에는 수령이 3~400여년 된 개체도 포함되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "수령이 3~400여년 된 소나무를 비롯"
+            },
+            {
+              "text": "강주연못은 고려시대 강주진이 있었던 곳으로 전하여지는 유서 깊은 장소입니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "강주연못은 고려시대 강주진(康州鎭)이 있었던 곳으로 전하여지는 유서 깊은 곳이며"
+            },
+            {
+              "text": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있음."
+            }
+          ]
+        },
+        "find": {
+          "text": "연꽃을 찾아볼까요?",
+          "target": "연꽃",
+          "source_quote": "지금은 못 전체에 연꽃이 가득하고"
+        }
+      },
+      "problems": [
+        "adult 3번 문장: AI 판정 unsupported - 원문에는 연꽃이 가득하다는 내용은 있지만 '주변 경관이 형성되어 있다'는 표현은 포함되어 있지 않아요."
+      ],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "주소에 경상남도 진주시라고 명확히 적혀 있어요."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "역사 기록에 못이 약 90~100년 전에 농업용수 공급 목적으로 만들어졌다고 나와 있어요."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "역사 기록에 지금은 못 전체에 연꽃이 가득하다고 명시돼 있어요."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "역사 기록에 못 둑의 동남쪽에 큰 이팝나무 아래 아담한 정자가 자리잡고 있다고 적혀 있어요."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "문화 기록에 소나무, 이팝나무, 팽나무 등이 숲을 이루고 있다고 나와 있어요."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "문화 기록에 수령이 3~400여년 된 소나무가 있다고 명시돼 있어요."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "문화 기록에 연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있다고 적혀 있어요."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "문화 기록에 고려시대 강주진이 있었던 곳으로 전해지는 유서 깊은 곳이라고 적혀 있어요."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "주요 나무 목록에 소나무, 벗나무와 각종 연 종류가 기재돼 있어요."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "주소에 경상남도 진주시 정촌면 예하리 강주마을이라고 구체적으로 적혀 있어요."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "역사 기록에 그 못은 약 90~100년 전에 농업용수 공급을 목적으로 조성되었다고 나와 있어요."
+        },
+        {
+          "index": 11,
+          "label": "unsupported",
+          "reason": "원문에는 연꽃이 가득하다는 내용은 있지만 '주변 경관이 형성되어 있다'는 표현은 포함되어 있지 않아요."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "역사 기록에 못 둑 동남쪽 큰 이팝나무 아래 아담한 정자가 자리잡고 있다고 적혀 있어요."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "문화 기록에 소나무를 비롯해 이팝나무와 팽나무 등이 어우러져 있다고 나와 있어요."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "문화 기록에 소나무 중 수령이 3~400여년 된 개체가 포함된다고 명시돼 있어요."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "문화 기록에 강주연못이 고려시대 강주진이 있었던 곳으로 전해지는 유서 깊은 장소라고 적혀 있어요."
+        },
+        {
+          "index": 16,
+          "label": "supported",
+          "reason": "문화 기록에 연꽃단지가 양호하며 철새와 텃새들이 일부 서식한다고 적혀 있어요."
+        },
+        {
+          "index": 17,
+          "label": "supported",
+          "reason": "원문에 연꽃이 가득하다고 적혀 있어 연꽃을 찾아보자고 권하는 문장은 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "강주연못은 경상남도 진주시에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 진주시"
+        },
+        {
+          "text": "이 못은 약 90~100년전에 만들어진 못이에요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약 90~100년전에 만들어진 못"
+        },
+        {
+          "text": "원래 농업용수를 공급하려고 만든 못이었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "농업용수 공급이 목적이었으나"
+        },
+        {
+          "text": "지금은 못 전체에 연꽃이 가득해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "지금은 못 전체에 연꽃이 가득하고"
+        },
+        {
+          "text": "못 둑의 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리잡고 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "커다란 이팝나무 아래 아담한 정자가 자리잡고"
+        },
+        {
+          "text": "강주연못은 고려시대 강주진이 있었던 곳으로 전해지는 유서 깊은 곳이에요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "고려시대 강주진(康州鎭)이 있었던 곳"
+        },
+        {
+          "text": "숲에는 나무 나이가 3~400여년 된 소나무와 이팝나무, 팽나무가 함께 자라고 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "수령이 3~400여년 된 소나무"
+        },
+        {
+          "text": "연꽃단지가 양호해서 꽃이 잘 자라고 철새와 텃새들이 일부 서식하고 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있음"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "강주연못은 경상남도 진주시 소재입니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 진주시"
+        },
+        {
+          "text": "이 못은 약 90~100년전에 만들어진 못으로 농업용수 공급이 목적이었습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약 90~100년전에 만들어진 못"
+        },
+        {
+          "text": "현재는 못 전체에 연꽃이 가득합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "지금은 못 전체에 연꽃이 가득하고"
+        },
+        {
+          "text": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "연꽃단지가 양호하고 철새와 텃새들이 일부 서식하고 있음"
+        },
+        {
+          "text": "못 둑 동남쪽에는 커다란 이팝나무 아래 아담한 정자가 자리하고 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "커다란 이팝나무 아래 아담한 정자가 자리잡고"
+        },
+        {
+          "text": "숲에는 수령이 3~400여년 된 소나무를 비롯해 이팝나무와 팽나무 등이 분포합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "수령이 3~400여년 된 소나무를 비롯 이팝나무와 팽나무 등이 숲을 이루고"
+        }
+      ]
+    },
+    "find": {
+      "text": "연꽃을 찾아볼까요?",
+      "target": "연꽃",
+      "source_quote": "지금은 못 전체에 연꽃이 가득하고"
+    }
+  },
+  "hard_words_left": [
+    "양호",
+    "서식"
+  ]
+}

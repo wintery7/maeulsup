@@ -1,0 +1,322 @@
+{
+  "id": "mfd46d3f24",
+  "name": "원외숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "원외숲은 경상남도 진주시 수곡면 원외리에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시 수곡면 원외리"
+            },
+            {
+              "text": "이 숲에는 소나무가 주로 자라요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "250여년전 소나무 숲을 일부 만들었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "소나무 숲을 일부 조성"
+            },
+            {
+              "text": "허허들판에 녹음을 제공하게 되어 농사를 짓는 주민들의 쉼터가 되었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "허허들판에 녹음을 제공하게 되어"
+            },
+            {
+              "text": "이곳은 덕천강으로 연결되어 지리적인 특성이 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "덕천강으로 연결되어 지리적인 특성이 있는 곳"
+            },
+            {
+              "text": "원외리는 원외, 신천, 광명 세개의 행정리가 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "원외리는 원외, 신천, 광명 세개의 행정리가 있다."
+            },
+            {
+              "text": "신촌에는 병자년 대홍수 때 일부 주민들이 이주하여 새로 촌락이 생겼대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "신촌에는 병자년 대홍수 때 원외리에서 일부 주민들이 이주하여 새로 촌락이 형성되었다."
+            },
+            {
+              "text": "덕천영농조합에서는 산골딸기와 친황경 딸기를 생산한다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "산골딸기, 친황경 딸기 등이 생산되는 덕천영농조합이 소재해 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "원외숲은 경상남도 진주시 수곡면 원외리에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 진주시 수곡면 원외리"
+            },
+            {
+              "text": "주요 수종은 소나무이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "250여년전 2,000여평 규모에 소나무 숲을 일부 조성했다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "250여년전 2,000여평 규모에 소나무 숲을 일부 조성"
+            },
+            {
+              "text": "허허들판에 녹음을 제공하게 되어 농사를 짓는 주민들의 쉼터로 활용되었다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "허허들판에 녹음을 제공하게 되어"
+            },
+            {
+              "text": "지형적으로 덕천강으로 연결되는 특성이 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "덕천강으로 연결되어 지리적인 특성이 있는 곳"
+            },
+            {
+              "text": "원외리는 원외, 신천, 광명 세개의 행정리가 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "원외리는 원외, 신천, 광명 세개의 행정리가 있다."
+            },
+            {
+              "text": "신촌은 병자년 대홍수 때 일부 주민들이 이주하여 형성된 촌락이다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "신촌에는 병자년 대홍수 때 원외리에서 일부 주민들이 이주하여 새로 촌락이 형성되었다."
+            },
+            {
+              "text": "덕천영농조합에서는 산골딸기와 친황경 딸기를 생산한다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "산골딸기, 친황경 딸기 등이 생산되는 덕천영농조합이 소재해 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 원외숲의 위치가 '경상남도 진주시 수곡면 원외리'로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무(species)로 '소나무'가 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사에 '250여년전 ... 소나무 숲을 일부 조성'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '허허들판에 녹음을 제공하게 되어 농사를 짓는 주민들의 쉼터로 활용되어 오다가'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '덕천강으로 연결되어 지리적인 특성이 있는 곳'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '원외리는 원외, 신천, 광명 세개의 행정리가 있다'고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '신촌에는 병자년 대홍수 때 원외리에서 일부 주민들이 이주하여 새로 촌락이 형성되었다'고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '산골딸기, 친황경 딸기 등이 생산되는 덕천영농조합이 소재해 있다'고 하여 해당 품목과 조합의 연관이 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문에 위치가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 '소나무'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 역사에 '250여년전 2,000여평 규모에 소나무 숲을 일부 조성'이라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '허허들판에 녹음을 제공하게 되어 농사를 짓는 주민들의 쉼터로 활용되어 오다가'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '덕천강으로 연결되어 지리적인 특성이 있는 곳'이라고 되어 있어 지형적 특성 연결이 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "문장(5)과 동일하게 원문에 세 개의 행정리가 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 '신촌에는 병자년 대홍수 때 ... 일부 주민들이 이주하여 새로 촌락이 형성되었다'고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 '산골딸기, 친황경 딸기 등이 생산되는 덕천영농조합'이라고 적혀 있어 해당 품목 생산이 연관되어 뒷받침됩니다."
+        },
+        {
+          "index": 16,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '소나무'가 명시되어 있어 '소나무를 찾아보자'는 권유의 대상이 원문에 있습니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "원외숲은 경상남도 진주시 수곡면 원외리에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 진주시 수곡면 원외리"
+        },
+        {
+          "text": "이 숲에는 소나무가 주로 자라요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "250여년전 소나무 숲을 일부 만들었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "소나무 숲을 일부 조성"
+        },
+        {
+          "text": "허허들판에 녹음을 제공하게 되어 농사를 짓는 주민들의 쉼터가 되었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "허허들판에 녹음을 제공하게 되어"
+        },
+        {
+          "text": "이곳은 덕천강으로 연결되어 지리적인 특성이 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "덕천강으로 연결되어 지리적인 특성이 있는 곳"
+        },
+        {
+          "text": "원외리는 원외, 신천, 광명 세개의 행정리가 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "원외리는 원외, 신천, 광명 세개의 행정리가 있다."
+        },
+        {
+          "text": "신촌에는 병자년 대홍수 때 일부 주민들이 이주하여 새로 촌락이 생겼대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "신촌에는 병자년 대홍수 때 원외리에서 일부 주민들이 이주하여 새로 촌락이 형성되었다."
+        },
+        {
+          "text": "덕천영농조합에서는 산골딸기와 친황경 딸기를 생산한다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "산골딸기, 친황경 딸기 등이 생산되는 덕천영농조합이 소재해 있다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "원외숲은 경상남도 진주시 수곡면 원외리에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 진주시 수곡면 원외리"
+        },
+        {
+          "text": "주요 수종은 소나무이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "250여년전 2,000여평 규모에 소나무 숲을 일부 조성했다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "250여년전 2,000여평 규모에 소나무 숲을 일부 조성"
+        },
+        {
+          "text": "허허들판에 녹음을 제공하게 되어 농사를 짓는 주민들의 쉼터로 활용되었다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "허허들판에 녹음을 제공하게 되어"
+        },
+        {
+          "text": "지형적으로 덕천강으로 연결되는 특성이 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "덕천강으로 연결되어 지리적인 특성이 있는 곳"
+        },
+        {
+          "text": "원외리는 원외, 신천, 광명 세개의 행정리가 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "원외리는 원외, 신천, 광명 세개의 행정리가 있다."
+        },
+        {
+          "text": "신촌은 병자년 대홍수 때 일부 주민들이 이주하여 형성된 촌락이다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "신촌에는 병자년 대홍수 때 원외리에서 일부 주민들이 이주하여 새로 촌락이 형성되었다."
+        },
+        {
+          "text": "덕천영농조합에서는 산골딸기와 친황경 딸기를 생산한다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "산골딸기, 친황경 딸기 등이 생산되는 덕천영농조합이 소재해 있다."
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  }
+}

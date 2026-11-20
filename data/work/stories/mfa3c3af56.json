@@ -1,0 +1,271 @@
+{
+  "id": "mfa3c3af56",
+  "name": "백옥정 노송나무숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "백옥정 노송나무숲은 경상북도 상주시에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "백옥정 노송나무숲"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "주소는 경상북도 상주시 모동면 수봉리 산72-1이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시 모동면 수봉리 산72-1"
+            },
+            {
+              "text": "이 숲의 주요 나무는 참나무래요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "참나무"
+            },
+            {
+              "text": "숲 주변의 여러 곳에 남아 있는 유적들 가운데 옥동서원이 첫 번째래요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "옥동서원이 첫 번째이다."
+            },
+            {
+              "text": "모동면과 모서면 사람들이 모여 백화산을 사랑하는 모임을 만들었대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "백화산을 사랑하는 모임을 결성하고"
+            },
+            {
+              "text": "그리고 2007년 12월 27일에는 한성봉으로 지명이 공식적으로 바뀌었다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "한성봉으로 지명을 공식적으로 변경하였다."
+            },
+            {
+              "text": "조용히 걸으며 눈으로 찾아볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "백옥정 노송나무숲은 경상북도 상주시에 위치한 숲입니다.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "백옥정 노송나무숲"
+            },
+            {
+              "text": "주소는 경상북도 상주시 모동면 수봉리 산72-1로 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시 모동면 수봉리 산72-1"
+            },
+            {
+              "text": "주요 나무는 참나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "참나무"
+            },
+            {
+              "text": "숲 주변의 유형문화유적 중 옥동서원이 첫 번째로 소개되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "옥동서원이 첫 번째이다."
+            },
+            {
+              "text": "모동면과 모서면을 중심으로 한 인사들이 백화산을 사랑하는 모임을 결성한 기록이 보입니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "백화산을 사랑하는 모임을 결성하고"
+            },
+            {
+              "text": "또한 2007년 12월 27일에 한성봉으로 지명이 공식적으로 변경되었다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "한성봉으로 지명을 공식적으로 변경하였다."
+            }
+          ]
+        },
+        "find": {
+          "text": "참나무를 찾아볼까요?",
+          "target": "참나무",
+          "source_quote": "참나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 숲의 위치가 경상북도 상주시로 명시되어 있어 문장이 원문으로 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주소가 '경상북도 상주시 모동면 수봉리 산72-1'로 적혀 있어 일치합니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 주요 나무(species)로 '참나무'가 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '숲의 주변 여러 곳의 유형문화유적 중에 옥동서원이 첫 번째'라고 되어 있어 같은 내용입니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문은 '모동면과 모서면을 중심으로 한 뜻있는 인사들이 ... 모임을 결성'했다고 하므로 '모동면과 모서면 사람들이 모여 ... 만들었대요'는 허용되는 풀어쓰기입니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 2007년 12월 27일에 국토지리정보원에서 한성봉으로 지명을 공식 변경했다고 적혀 있어 일치합니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "문장 (0)과 같은 내용으로 원문의 위치 정보와 일치합니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "문장 (1)과 같은 주소 표기로 원문에 명시된 내용과 일치합니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "문장 (2)와 동일하게 원문에 '참나무'가 주요 나무로 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '유형문화유적 중에 옥동서원이 첫 번째'라고 되어 있으므로 소개되어 있다는 표현은 원문으로 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '모동면과 모서면을 중심으로 한 뜻있는 인사들이 ... 모임을 결성'했다고 적혀 있어 해당 문장은 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 같은 날짜에 한성봉으로 지명이 공식적으로 변경되었다고 적혀 있어 일치합니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '참나무'가 명시되어 있어 '참나무를 찾아볼까요?'라는 권유 문장은 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "백옥정 노송나무숲은 경상북도 상주시에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "백옥정 노송나무숲"
+        },
+        {
+          "text": "주소는 경상북도 상주시 모동면 수봉리 산72-1이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상북도 상주시 모동면 수봉리 산72-1"
+        },
+        {
+          "text": "이 숲의 주요 나무는 참나무래요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "참나무"
+        },
+        {
+          "text": "숲 주변의 여러 곳에 남아 있는 유적들 가운데 옥동서원이 첫 번째래요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "옥동서원이 첫 번째이다."
+        },
+        {
+          "text": "모동면과 모서면 사람들이 모여 백화산을 사랑하는 모임을 만들었대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "백화산을 사랑하는 모임을 결성하고"
+        },
+        {
+          "text": "그리고 2007년 12월 27일에는 한성봉으로 지명이 공식적으로 바뀌었다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "한성봉으로 지명을 공식적으로 변경하였다."
+        },
+        {
+          "text": "조용히 걸으며 눈으로 찾아볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "백옥정 노송나무숲은 경상북도 상주시에 위치한 숲입니다.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "백옥정 노송나무숲"
+        },
+        {
+          "text": "주소는 경상북도 상주시 모동면 수봉리 산72-1로 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상북도 상주시 모동면 수봉리 산72-1"
+        },
+        {
+          "text": "주요 나무는 참나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "참나무"
+        },
+        {
+          "text": "숲 주변의 유형문화유적 중 옥동서원이 첫 번째로 소개되어 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "옥동서원이 첫 번째이다."
+        },
+        {
+          "text": "모동면과 모서면을 중심으로 한 인사들이 백화산을 사랑하는 모임을 결성한 기록이 보입니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "백화산을 사랑하는 모임을 결성하고"
+        },
+        {
+          "text": "또한 2007년 12월 27일에 한성봉으로 지명이 공식적으로 변경되었다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "한성봉으로 지명을 공식적으로 변경하였다."
+        }
+      ]
+    },
+    "find": {
+      "text": "참나무를 찾아볼까요?",
+      "target": "참나무",
+      "source_quote": "참나무"
+    }
+  },
+  "opener_removed": true
+}

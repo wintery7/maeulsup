@@ -1,0 +1,283 @@
+{
+  "id": "mf37f95b91",
+  "name": "향양들판숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "향양들판숲은 전라남도 장흥군에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 장흥군 장흥읍 향양리 562-2"
+            },
+            {
+              "text": "자, 차 안에서 천천히 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲에는 소나무가 주로 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "마을 이름에는 달이 떨어졌다가 해가 먼저 볕을 비춰 생양이라 불렀다는 전설이 전해진대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "생양이라 불렀다는 전설이 있으며"
+            },
+            {
+              "text": "또 고려 중엽에 생양사라는 절이 마을 뒷등에 있어 여기에 연유하여 생양리라 부른 듯하대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "생양사란 절이 마을 뒷등에 있어"
+            },
+            {
+              "text": "절이 있던 흔적으로 밭이나 대밭에서 주춧돌이 많이 발견된대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "밭이나 대밭에 주춧돌이 많이 발견된다"
+            },
+            {
+              "text": "절터에는 3층 석탑이 문화유적으로 남아 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "문화유적으로는 생양사 터에 있는 3층 석탑이 있다"
+            },
+            {
+              "text": "차에 앉아 천천히 둘러보며 하나씩 찾아볼게요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "향양들판숲은 전라남도 장흥군에 위치해 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 장흥군 장흥읍 향양리 562-2"
+            },
+            {
+              "text": "숲의 주요 나무는 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "생양리라는 이름에는 달이 떨어지고 해가 솟아 제일 먼저 볕에 비추어 생양이라 불렀다는 전설이 전해집니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "생양이라 불렀다는 전설이 있으며"
+            },
+            {
+              "text": "고려 중엽에 생양사라는 절이 마을 뒷등에 있어 여기에 연유하여 생양리라 부른 듯합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "생양사란 절이 마을 뒷등에 있어 여기에 연유하여 생양리라 부른 듯 하다."
+            },
+            {
+              "text": "절터의 흔적으로 밭이나 대밭에서 주춧돌이 많이 발견됩니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "밭이나 대밭에 주춧돌이 많이 발견된다"
+            },
+            {
+              "text": "문화유적으로는 생양사 터에 있는 3층 석탑이 남아 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "문화유적으로는 생양사 터에 있는 3층 석탑이 있다"
+            },
+            {
+              "text": "현장에서 차분히 둘러보시면 흔적을 확인하실 수 있습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "find": {
+          "text": "3층 석탑을 찾아볼까요?",
+          "target": "3층 석탑",
+          "source_quote": "문화유적으로는 생양사 터에 있는 3층 석탑이 있다"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라남도 장흥군 장흥읍 향양리 562-2 (전라남도 장흥군)'로 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무(species)로 '소나무'가 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 달이 떨어지고 해가 솟아 제일 먼저 볕에 비추어 생양이라 불렀다는 전설이 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '고려 중엽에 생양사라는 절이 마을 뒷등에 있어 여기에 연유하여 생양리라 부른 듯 하다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 절이 있던 흔적으로 밭이나 대밭에 주춧돌이 많이 발견된다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '생양사 터에 있는 3층 석탑'이 문화유적으로 있다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 위치가 전라남도 장흥군으로 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 나무가 소나무라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문의 전설 내용(달이 떨어지고 해가 솟아 제일 먼저 볕에 비췄다는 이야기)을 그대로 담고 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 고려 중엽에 생양사가 마을 뒷등에 있었고 그 연유로 생양리라 불렸다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 절터의 흔적으로 밭이나 대밭에서 주춧돌이 많이 발견된다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 문화유적으로 생양사 터의 3층 석탑이 있다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 생양사 터에 3층 석탑이 있다고 되어 있어 '3층 석탑을 찾아보자'는 권유 문장은 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "향양들판숲은 전라남도 장흥군에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 장흥군 장흥읍 향양리 562-2"
+        },
+        {
+          "text": "이 숲에는 소나무가 주로 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "마을 이름에는 달이 떨어졌다가 해가 먼저 볕을 비춰 생양이라 불렀다는 전설이 전해진대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "생양이라 불렀다는 전설이 있으며"
+        },
+        {
+          "text": "또 고려 중엽에 생양사라는 절이 마을 뒷등에 있어 여기에 연유하여 생양리라 부른 듯하대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "생양사란 절이 마을 뒷등에 있어"
+        },
+        {
+          "text": "절이 있던 흔적으로 밭이나 대밭에서 주춧돌이 많이 발견된대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "밭이나 대밭에 주춧돌이 많이 발견된다"
+        },
+        {
+          "text": "절터에는 3층 석탑이 문화유적으로 남아 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "문화유적으로는 생양사 터에 있는 3층 석탑이 있다"
+        },
+        {
+          "text": "차에 앉아 천천히 둘러보며 하나씩 찾아볼게요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "향양들판숲은 전라남도 장흥군에 위치해 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 장흥군 장흥읍 향양리 562-2"
+        },
+        {
+          "text": "숲의 주요 나무는 소나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "생양리라는 이름에는 달이 떨어지고 해가 솟아 제일 먼저 볕에 비추어 생양이라 불렀다는 전설이 전해집니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "생양이라 불렀다는 전설이 있으며"
+        },
+        {
+          "text": "고려 중엽에 생양사라는 절이 마을 뒷등에 있어 여기에 연유하여 생양리라 부른 듯합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "생양사란 절이 마을 뒷등에 있어 여기에 연유하여 생양리라 부른 듯 하다."
+        },
+        {
+          "text": "절터의 흔적으로 밭이나 대밭에서 주춧돌이 많이 발견됩니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "밭이나 대밭에 주춧돌이 많이 발견된다"
+        },
+        {
+          "text": "문화유적으로는 생양사 터에 있는 3층 석탑이 남아 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "문화유적으로는 생양사 터에 있는 3층 석탑이 있다"
+        },
+        {
+          "text": "현장에서 차분히 둘러보시면 흔적을 확인하실 수 있습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "find": {
+      "text": "3층 석탑을 찾아볼까요?",
+      "target": "3층 석탑",
+      "source_quote": "문화유적으로는 생양사 터에 있는 3층 석탑이 있다"
+    }
+  },
+  "opener_removed": true
+}

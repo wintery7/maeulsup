@@ -1,0 +1,322 @@
+{
+  "id": "mf97b4eeea",
+  "name": "성내마을숲(죽서루)",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "성내마을숲(죽서루)은 강원도 삼척시에서 만나는 숲이에요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "성내마을숲(죽서루)"
+            },
+            {
+              "text": "주요 나무로는 회화나무,벚나무,대나무가 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "회화나무,벚나무,대나무"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이곳 이름은 누의 동쪽에 대나무숲이 있었기 때문이라는 이야기가 전해져요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "누의 동쪽에 대나무숲이 있었고,"
+            },
+            {
+              "text": "또 그 죽림 안에 죽장사라는 절이 있었다고도 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "그 죽림안에 죽장사란 절있었다는 이유로"
+            },
+            {
+              "text": "다른 이야기로는 죽서루 동편에 죽죽선녀의 유희소가 있었다는 설도 전한다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "죽서루 동편에 죽죽선녀의 유희소가 있었다는데서 유래한다는 설도 전한다."
+            },
+            {
+              "text": "정월 대보름과 추석에는 웃마을과 아랫마을이 편을 갈라 기줄다리기, 달집태우기, 쥐불놀이를 즐겼다고 전해져요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "웃마을과 아랫마을이 편을 갈라 기줄다리기, 달집태우기, 쥐불놀이를 즐겼다고 전해지고 있으며"
+            },
+            {
+              "text": "그 놀이는 또한 지금까지도 전승되고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "또한 지금까지도 전승되고 있음."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "성내마을숲(죽서루)은 강원도 삼척시에 있는 숲입니다.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "성내마을숲(죽서루)"
+            },
+            {
+              "text": "위치는 강원도 삼척시 성내동 9-3입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "강원도 삼척시 성내동 9-3 (강원특별자치도 삼척시)"
+            },
+            {
+              "text": "주요 수목은 회화나무,벚나무,대나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "회화나무,벚나무,대나무"
+            },
+            {
+              "text": "간단히 살펴보겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이름 유래로는 누의 동쪽에 대나무숲이 있었기 때문이라는 설명이 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "누의 동쪽에 대나무숲이 있었고,"
+            },
+            {
+              "text": "또한 그 죽림 안에 죽장사라는 절이 있었다는 점에서 명명되었다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "그 죽림안에 죽장사란 절있었다는 이유로"
+            },
+            {
+              "text": "다른 설로는 죽서루 동편에 죽죽선녀의 유희소가 있었다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "죽서루 동편에 죽죽선녀의 유희소가 있었다는데서 유래한다는 설도 전한다."
+            },
+            {
+              "text": "정월 대보름과 추석에는 기줄다리기, 달집태우기, 쥐불놀이를 했다 하고, 이러한 민속은 지금까지도 전승되고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "웃마을과 아랫마을이 편을 갈라 기줄다리기, 달집태우기, 쥐불놀이를 즐겼다고 전해지고 있으며"
+            },
+            {
+              "text": "또한 지금까지도 전승되고 있음이 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "또한 지금까지도 전승되고 있음."
+            }
+          ]
+        },
+        "find": {
+          "text": "대나무를 찾아볼까요?",
+          "target": "대나무",
+          "source_quote": "대나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문의 위치 항목에 강원도 삼척시로 표기되어 있어 같은 내용을 말합니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문의 주요 나무 항목에 회화나무, 벚나무, 대나무가 명시되어 있습니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '누의 동쪽에 대나무숲이 있었기 때문'이라는 이름 유래가 적혀 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '그 죽림안에 죽장사란 절이 있었다'고 기록되어 있어 일치합니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '죽서루 동편에 죽죽선녀의 유희소가 있었다'는 설이 전한다고 되어 있습니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 정월 대보름과 추석에 웃마을과 아랫마을이 편을 갈라 그 놀이들을 즐겼다고 전해진다고 명시되어 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '또한 지금까지도 전승되고 있음'이라고 적혀 있어 동일한 내용을 담고 있습니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문의 위치 항목에 강원도 삼척시로 나와 있어 같은 사실을 서술한 문장입니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 정확한 주소 '강원도 삼척시 성내동 9-3'이 기재되어 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 회화나무, 벚나무, 대나무가 명시되어 있어 일치합니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 역사 기록이 이름 유래로 '누의 동쪽에 대나무숲이 있었기 때문'이라고 설명하고 있습니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에는 '그 죽림안에 죽장사란 절있었다는 이유로 죽서루로 명명되었다'고 되어 있어 같은 내용입니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 다른 설로 '죽서루 동편에 죽죽선녀의 유희소가 있었다'고 전한다고 적혀 있습니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 정월 대보름과 추석에 기줄다리기·달집태우기·쥐불놀이를 했고 그 민속이 지금까지 전승되고 있다고 나옵니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 '또한 지금까지도 전승되고 있음'이라는 기록이 있어 동일하게 근거됩니다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문 주요 나무에 '대나무'가 포함되어 있어 '대나무를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "성내마을숲(죽서루)은 강원도 삼척시에서 만나는 숲이에요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "성내마을숲(죽서루)"
+        },
+        {
+          "text": "주요 나무로는 회화나무,벚나무,대나무가 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "회화나무,벚나무,대나무"
+        },
+        {
+          "text": "이곳 이름은 누의 동쪽에 대나무숲이 있었기 때문이라는 이야기가 전해져요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "누의 동쪽에 대나무숲이 있었고,"
+        },
+        {
+          "text": "또 그 죽림 안에 죽장사라는 절이 있었다고도 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "그 죽림안에 죽장사란 절있었다는 이유로"
+        },
+        {
+          "text": "다른 이야기로는 죽서루 동편에 죽죽선녀의 유희소가 있었다는 설도 전한다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "죽서루 동편에 죽죽선녀의 유희소가 있었다는데서 유래한다는 설도 전한다."
+        },
+        {
+          "text": "정월 대보름과 추석에는 웃마을과 아랫마을이 편을 갈라 기줄다리기, 달집태우기, 쥐불놀이를 즐겼다고 전해져요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "웃마을과 아랫마을이 편을 갈라 기줄다리기, 달집태우기, 쥐불놀이를 즐겼다고 전해지고 있으며"
+        },
+        {
+          "text": "그 놀이는 또한 지금까지도 전승되고 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "또한 지금까지도 전승되고 있음."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "성내마을숲(죽서루)은 강원도 삼척시에 있는 숲입니다.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "성내마을숲(죽서루)"
+        },
+        {
+          "text": "위치는 강원도 삼척시 성내동 9-3입니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "강원도 삼척시 성내동 9-3 (강원특별자치도 삼척시)"
+        },
+        {
+          "text": "주요 수목은 회화나무,벚나무,대나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "회화나무,벚나무,대나무"
+        },
+        {
+          "text": "간단히 살펴보겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "이름 유래로는 누의 동쪽에 대나무숲이 있었기 때문이라는 설명이 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "누의 동쪽에 대나무숲이 있었고,"
+        },
+        {
+          "text": "또한 그 죽림 안에 죽장사라는 절이 있었다는 점에서 명명되었다고 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "그 죽림안에 죽장사란 절있었다는 이유로"
+        },
+        {
+          "text": "다른 설로는 죽서루 동편에 죽죽선녀의 유희소가 있었다고 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "죽서루 동편에 죽죽선녀의 유희소가 있었다는데서 유래한다는 설도 전한다."
+        },
+        {
+          "text": "정월 대보름과 추석에는 기줄다리기, 달집태우기, 쥐불놀이를 했다 하고, 이러한 민속은 지금까지도 전승되고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "웃마을과 아랫마을이 편을 갈라 기줄다리기, 달집태우기, 쥐불놀이를 즐겼다고 전해지고 있으며"
+        },
+        {
+          "text": "또한 지금까지도 전승되고 있음이 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "또한 지금까지도 전승되고 있음."
+        }
+      ]
+    },
+    "find": {
+      "text": "대나무를 찾아볼까요?",
+      "target": "대나무",
+      "source_quote": "대나무"
+    }
+  },
+  "opener_removed": true
+}

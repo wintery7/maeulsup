@@ -1,0 +1,387 @@
+{
+  "id": "mf01b985cc",
+  "name": "송곡리전통마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "송곡리전통마을숲은 신안군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군"
+            },
+            {
+              "text": "마을 어귀에는 길다란 담장이 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 어귀에 길다란 담장이 있는데"
+            },
+            {
+              "text": "1905년 지나가던 스님이 마을 번창과 우환을 막으려면 이 곳에 담을 쌓아야 한다고 했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1905년 지나가던 스님이"
+            },
+            {
+              "text": "그래서 돌을 이용하여 우실을 만들었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "돌을 이용하여 우실을 만들었다고 함."
+            },
+            {
+              "text": "옛 조상들이 바람을 막기 위해 팽나무를 심고 돌담을 쌓아 울타리를 만들었다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "옛 조상들이 팽나무를 심고 돌담을 쌓아 울타리를 만들었다."
+            },
+            {
+              "text": "돌담은 원형에 가깝게 보존되고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "돌담은 원형에 가깝게 보존되고 있으며"
+            },
+            {
+              "text": "팽나무는 수령이 수백년이 넘는 고목이 되어 마을의 아름다운 경관과 시원한 휴식공간이 되고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "팽나무는 수령이 수백년이 넘는 고목이 되어 마을의 아름다운 경관과 시원한 휴식공간이 되고 있음."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "송곡리전통마을숲은 전라남도 신안군에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군"
+            },
+            {
+              "text": "마을 어귀의 길다란 담장은 1905년 지나가던 스님이 마을 번창과 우환을 막으려면 이 곳에 담을 쌓아야 한다고 하여 돌을 이용하여 우실을 만들었다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 번창과 우환을 막으려면 이 곳에 담을 쌓아야 한다고 하여"
+            },
+            {
+              "text": "송곡리 우실은 바람을 막기 위해 옛 조상들이 팽나무를 심고 돌담을 쌓아 울타리를 만든 곳입니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "옛 조상들이 팽나무를 심고 돌담을 쌓아 울타리를 만들었다."
+            },
+            {
+              "text": "돌담은 원형에 가깝게 보존되고 있으며 팽나무는 수령이 수백년이 넘는 고목으로 마을의 아름다운 경관과 시원한 휴식공간이 되고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "팽나무는 수령이 수백년이 넘는 고목이 되어 마을의 아름다운 경관과 시원한 휴식공간이 되고 있음."
+            }
+          ]
+        },
+        "find": {
+          "text": "팽나무를 찾아볼까요?",
+          "target": "팽나무",
+          "source_quote": "팽나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 주소가 전라남도 신안군으로 되어 있어 신안군에 있다고 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '마을 어귀에 길다란 담장이 있다'고 명시되어 있습니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 1905년 지나가던 스님이 그렇게 말했다고 기록되어 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 역사 기록에 돌을 이용하여 우실을 만들었다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 문화 기록에 옛 조상들이 바람을 막기 위해 팽나무를 심고 돌담을 쌓아 울타리를 만들었다고 적혀 있습니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 돌담은 원형에 가깝게 보존되고 있다고 명시되어 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 문화 기록에 팽나무가 수령이 수백년이 넘는 고목이 되어 마을의 경관과 휴식공간이 되고 있다고 적혀 있습니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 주소에 '전라남도 신안군'으로 되어 있어 같은 내용을 반복한 문장도 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록이 마을 어귀 담장과 1905년 스님의 언급 및 돌로 우실을 만들었다는 내용을 함께 전하고 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 문화 기록에서 송곡리 우실이 바람을 막기 위해 팽나무를 심고 돌담을 쌓아 울타리를 만든 곳이라고 되어 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 문화 기록에 돌담의 보존 상태와 팽나무의 수령 및 경관·휴식공간 기능이 그대로 기술되어 있습니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 팽나무가 주요 나무로 소개되어 있어 팽나무를 찾아보자는 권유는 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "보존",
+        "수령"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "송곡리전통마을숲은 신안군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군"
+            },
+            {
+              "text": "이 숲에는 팽나무가 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무"
+            },
+            {
+              "text": "마을 어귀에 길다란 돌담이 있는데, 1905년 지나가던 스님이 마을 번창과 우환을 막으려 돌을 이용하여 우실을 만들었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "돌을 이용하여 우실을 만들었다고 함."
+            },
+            {
+              "text": "옛 조상들이 바람을 막으려고 팽나무를 심고 돌담으로 울타리를 만들었다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "옛 조상들이 팽나무를 심고 돌담을 쌓아 울타리를 만들었다."
+            },
+            {
+              "text": "돌담은 둥근 모양에 가깝게 남아 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "돌담은 원형에 가깝게 보존되고 있으며"
+            },
+            {
+              "text": "팽나무는 나이가 수백년이 넘는 큰 나무가 되어 마을을 아름답게 하고 그늘도 만들어 준대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "수령이 수백년이 넘는 고목이 되어"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "송곡리전통마을숲은 신안군에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 신안군"
+            },
+            {
+              "text": "주요 수종은 팽나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무"
+            },
+            {
+              "text": "마을 어귀의 길다란 돌담은 1905년 지나가던 스님이 마을 번창과 우환을 막으려면 이 곳에 담을 쌓아야 한다고 하여 조성되었고, 돌을 이용하여 우실을 만들었다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1905년 지나가던 스님이 마을 번창과 우환을 막으려면 이 곳에 담을 쌓아야 한다고 하여"
+            },
+            {
+              "text": "송곡리 우실은 바람을 막기 위해 옛 조상들이 팽나무를 심고 돌담을 쌓아 울타리를 만든 곳입니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "송곡리 우실은 바람을 막기 위해 옛 조상들이 팽나무를 심고 돌담을 쌓아 울타리를 만들었다."
+            },
+            {
+              "text": "돌담은 원형에 가깝게 보존되고 있으며 팽나무는 수령이 수백년이 넘는 고목이 되어 마을의 경관과 휴식공간 역할을 하고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "팽나무는 수령이 수백년이 넘는 고목이 되어 마을의 아름다운 경관과 시원한 휴식공간이 되고 있음."
+            }
+          ]
+        },
+        "find": {
+          "text": "팽나무를 찾아볼까요?",
+          "target": "팽나무",
+          "source_quote": "팽나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라남도 신안군...'으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '팽나무'가 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사에 1905년 지나가던 스님이 돌을 이용해 우실을 만들었다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 문화 기록에 옛 조상들이 바람을 막기 위해 팽나무를 심고 돌담으로 울타리를 만들었다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 돌담이 '원형에 가깝게 보존'되어 있다고 되어 있어 '둥근 모양에 가깝게 남아 있다'는 표현이 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 팽나무가 '수령이 수백년이 넘는 고목'이라 마을 경관과 시원한 휴식공간이 된다고 하여 '큰 나무'와 '그늘을 만들어 준다'는 해석이 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 위치가 신안군으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '주요 나무(species): 팽나무'로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사에 같은 연도와 스님이 돌을 이용해 우실을 만들었다고 전한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '송곡리 우실은 바람을 막기 위해 ... 팽나무를 심고 돌담을 쌓아 울타리를 만들었다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 돌담이 원형에 가깝게 보존되고 팽나무가 수령 수백년의 고목이 되어 마을의 경관과 휴식공간 역할을 한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 팽나무가 주요 수종으로 언급되어 있어 '팽나무를 찾아볼까요?'라는 권유 문장은 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "송곡리전통마을숲은 신안군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 신안군"
+        },
+        {
+          "text": "이 숲에는 팽나무가 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "팽나무"
+        },
+        {
+          "text": "마을 어귀에 길다란 돌담이 있는데, 1905년 지나가던 스님이 마을 번창과 우환을 막으려 돌을 이용하여 우실을 만들었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "돌을 이용하여 우실을 만들었다고 함."
+        },
+        {
+          "text": "옛 조상들이 바람을 막으려고 팽나무를 심고 돌담으로 울타리를 만들었다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "옛 조상들이 팽나무를 심고 돌담을 쌓아 울타리를 만들었다."
+        },
+        {
+          "text": "돌담은 둥근 모양에 가깝게 남아 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "돌담은 원형에 가깝게 보존되고 있으며"
+        },
+        {
+          "text": "팽나무는 나이가 수백년이 넘는 큰 나무가 되어 마을을 아름답게 하고 그늘도 만들어 준대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "수령이 수백년이 넘는 고목이 되어"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "송곡리전통마을숲은 신안군에 위치합니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 신안군"
+        },
+        {
+          "text": "주요 수종은 팽나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "팽나무"
+        },
+        {
+          "text": "마을 어귀의 길다란 돌담은 1905년 지나가던 스님이 마을 번창과 우환을 막으려면 이 곳에 담을 쌓아야 한다고 하여 조성되었고, 돌을 이용하여 우실을 만들었다고 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1905년 지나가던 스님이 마을 번창과 우환을 막으려면 이 곳에 담을 쌓아야 한다고 하여"
+        },
+        {
+          "text": "송곡리 우실은 바람을 막기 위해 옛 조상들이 팽나무를 심고 돌담을 쌓아 울타리를 만든 곳입니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "송곡리 우실은 바람을 막기 위해 옛 조상들이 팽나무를 심고 돌담을 쌓아 울타리를 만들었다."
+        },
+        {
+          "text": "돌담은 원형에 가깝게 보존되고 있으며 팽나무는 수령이 수백년이 넘는 고목이 되어 마을의 경관과 휴식공간 역할을 하고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "팽나무는 수령이 수백년이 넘는 고목이 되어 마을의 아름다운 경관과 시원한 휴식공간이 되고 있음."
+        }
+      ]
+    },
+    "find": {
+      "text": "팽나무를 찾아볼까요?",
+      "target": "팽나무",
+      "source_quote": "팽나무"
+    }
+  }
+}

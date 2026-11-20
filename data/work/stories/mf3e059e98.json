@@ -1,0 +1,310 @@
+{
+  "id": "mf3e059e98",
+  "name": "우암마을 골맥이숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "우암마을 골맥이숲은 경상북도 상주시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시 인평동 482번지"
+            },
+            {
+              "text": "숲의 나무는 느티나무예요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "마을 이름이 우암인 것은 뒷산이 우암산이라서래요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "뒷산이 우암산이라는 것을"
+            },
+            {
+              "text": "산이 마을을 감싸안고 있어 동구에 들어서기 전에는 마을인지 모를 정도였대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "산이 마을을 감싸안고 있어"
+            },
+            {
+              "text": "예전에는 숲의 나무를 꺾거나 해치면 벌금을 냈대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲의 나무를 꺾거나 해치면 벌금을 냈다고 한다."
+            },
+            {
+              "text": "마을에서는 매년 정월 보름 새벽에 정성스러운 동제사를 올렸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월 보름 새벽에 정성스러운 동제사를 올리는데"
+            },
+            {
+              "text": "원래는 마을 뒤 산제당에 먼저 지내고, 할배, 할매 나무에 차례로 지냈대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 뒤 산제당에 먼저 지내고, 할배, 할매 나무에 차례로 지냈지만"
+            },
+            {
+              "text": "그런데 몇 년 전부터는 제를 지내지 않는다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "몇 년 전부터는 제를 지내지 않는다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "우암마을 골맥이숲은 경상북도 상주시에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시 인평동 482번지"
+            },
+            {
+              "text": "주요 수종은 느티나무다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "마을 이름 '우암'은 뒷산이 우암산이라는 것에서 유래한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "뒷산이 우암산이라는 것을"
+            },
+            {
+              "text": "산이 마을을 감싸안고 있어 동구에 들어서기 전에는 마을이 있는지조차 잘 모른다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "산이 마을을 감싸안고 있어"
+            },
+            {
+              "text": "한때는 숲의 나무를 꺾거나 해치면 벌금을 냈다고 한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲의 나무를 꺾거나 해치면 벌금을 냈다고 한다."
+            },
+            {
+              "text": "마을에서는 매년 정월 보름 새벽에 정성스러운 동제사를 올렸고, 산제당과 할배·할매 나무에 차례로 제를 지냈다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 뒤 산제당에 먼저 지내고, 할배, 할매 나무에 차례로 지냈지만"
+            },
+            {
+              "text": "그러나 몇 년 전부터는 제를 지내지 않는다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "몇 년 전부터는 제를 지내지 않는다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 경상북도 상주시로 명시되어 있어 그곳에 있다고 뒷받침됨."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 마을 이름 '우암'이 뒷산이 우암산이라는 것을 취한 것이라고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 산이 마을을 감싸안아 동구에 들어서기 전에는 마을이 있는지조차 잘 모른다고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 몇 년 전까지만 하더라도 숲의 나무를 꺾거나 해치면 벌금을 냈다고 기록되어 있어 뒷받침됨."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 매년 정월 보름 새벽에 정성스러운 동제사를 올린다고 적혀 있어 과거에 올렸음을 뒷받침함."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 마을 뒤 산제당에 먼저 지내고 할배·할매 나무에 차례로 지냈다고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 몇 년 전부터는 제를 지내지 않는다고 명시되어 있어 뒷받침됨."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "(0)과 동일하게 원문 주소에 경상북도 상주시로 기재되어 있어 뒷받침됨."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 느티나무가 기재되어 있어 뒷받침됨."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 마을 이름 '우암'이 뒷산이 우암산이라는 것에서 유래했다고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "문장이 원문과 동일하며 산이 마을을 감싸안아 동구에 들어서기 전에는 마을 존재를 알기 어렵다고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 한때(몇 년 전까지만 하더라도) 나무를 꺾거나 해치면 벌금을 냈다고 기록되어 있어 뒷받침됨."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 매년 정월 보름 새벽에 동제사를 올리고 산제당과 할배·할매 나무에 차례로 제를 지냈다고 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 몇 년 전부터는 제를 지내지 않는다고 명확히 적혀 있어 뒷받침됨."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 주요 나무가 느티나무라고 되어 있어 '느티나무를 찾아볼까요?'라는 권유는 원문 정보에 기반함."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "우암마을 골맥이숲은 경상북도 상주시에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상북도 상주시 인평동 482번지"
+        },
+        {
+          "text": "숲의 나무는 느티나무예요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "마을 이름이 우암인 것은 뒷산이 우암산이라서래요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "뒷산이 우암산이라는 것을"
+        },
+        {
+          "text": "산이 마을을 감싸안고 있어 동구에 들어서기 전에는 마을인지 모를 정도였대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "산이 마을을 감싸안고 있어"
+        },
+        {
+          "text": "예전에는 숲의 나무를 꺾거나 해치면 벌금을 냈대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "숲의 나무를 꺾거나 해치면 벌금을 냈다고 한다."
+        },
+        {
+          "text": "마을에서는 매년 정월 보름 새벽에 정성스러운 동제사를 올렸대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 정월 보름 새벽에 정성스러운 동제사를 올리는데"
+        },
+        {
+          "text": "원래는 마을 뒤 산제당에 먼저 지내고, 할배, 할매 나무에 차례로 지냈대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 뒤 산제당에 먼저 지내고, 할배, 할매 나무에 차례로 지냈지만"
+        },
+        {
+          "text": "그런데 몇 년 전부터는 제를 지내지 않는다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "몇 년 전부터는 제를 지내지 않는다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "우암마을 골맥이숲은 경상북도 상주시에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상북도 상주시 인평동 482번지"
+        },
+        {
+          "text": "주요 수종은 느티나무다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "마을 이름 '우암'은 뒷산이 우암산이라는 것에서 유래한다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "뒷산이 우암산이라는 것을"
+        },
+        {
+          "text": "산이 마을을 감싸안고 있어 동구에 들어서기 전에는 마을이 있는지조차 잘 모른다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "산이 마을을 감싸안고 있어"
+        },
+        {
+          "text": "한때는 숲의 나무를 꺾거나 해치면 벌금을 냈다고 한다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "숲의 나무를 꺾거나 해치면 벌금을 냈다고 한다."
+        },
+        {
+          "text": "마을에서는 매년 정월 보름 새벽에 정성스러운 동제사를 올렸고, 산제당과 할배·할매 나무에 차례로 제를 지냈다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 뒤 산제당에 먼저 지내고, 할배, 할매 나무에 차례로 지냈지만"
+        },
+        {
+          "text": "그러나 몇 년 전부터는 제를 지내지 않는다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "몇 년 전부터는 제를 지내지 않는다."
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  },
+  "opener_removed": true
+}

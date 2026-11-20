@@ -1,0 +1,455 @@
+{
+  "id": "mffe4815cd",
+  "name": "남포마을 해맞이숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "남포마을 해맞이숲은 전라남도 장흥군에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 장흥군"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "숲은 남포마을 안에 있는 마을숲이에요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "남포마을내 위치한 마을숲"
+            },
+            {
+              "text": "주요 나무는 소나무(해송, 육송)이래요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무(해송, 육송)"
+            },
+            {
+              "text": "400여년전 마을사람 꿈에 예쁜 색시가 나타났대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "400여년전 마을사람 꿈에 예쁜 색시가 나타나"
+            },
+            {
+              "text": "배들이 길을 찾게 하려고 등불을 밝혀 소등섬이라 이름이 붙었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "등불을 밝혔다하여 소등섬이라 이름이 붙여졌으며"
+            },
+            {
+              "text": "전국 관광진흥협회가 뽑은 해맞이 명소 중 하나래요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전국 관광진흥협회가 뽑은 해맞이 명소 중 하나이다."
+            },
+            {
+              "text": "바람 소리도 듣고 나무 냄새도 맡아 보세요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "천천히 걸으며 들려준 이야기를 떠올려 보세요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "남포마을 해맞이숲은 전라남도 장흥군에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 장흥군"
+            },
+            {
+              "text": "마을숲으로 남포마을내 위치해 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "남포마을내 위치한 마을숲"
+            },
+            {
+              "text": "주요 수목은 소나무(해송, 육송)입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무(해송, 육송)"
+            },
+            {
+              "text": "넓은 남해바다를 항해하는 선박들의 길잡이 역할을 하기 위하여 등불을 밝혔다하여 소등섬이라 이름이 붙여졌습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "등불을 밝혔다하여 소등섬이라 이름이 붙여졌으며"
+            },
+            {
+              "text": "400여년전 마을사람 꿈에 예쁜 색시가 나타나 전해지는 이야기가 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "400여년전 마을사람 꿈에 예쁜 색시가 나타나"
+            },
+            {
+              "text": "전국 관광진흥협회가 뽑은 해맞이 명소 중 하나입니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "전국 관광진흥협회가 뽑은 해맞이 명소 중 하나이다."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무(해송, 육송)를 찾아볼까요?",
+          "target": "소나무(해송, 육송)",
+          "source_quote": "소나무(해송, 육송)"
+        }
+      },
+      "problems": [
+        "찾아볼 것: AI 판정 unsupported - 소나무(해송, 육송)를 찾아보자는 권유는 원문에 있는 내용이지만, '찾아볼 것'으로 지정된 대상은 원문에 없고 조사 내용도 덧붙임."
+      ],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "남포마을 해맞이숲이 전라남도 장흥군에 위치한다는 내용은 원문에서 확인됨."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "숲이 남포마을 안에 위치한다는 내용은 원문과 일치함."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "주요 나무가 소나무(해송, 육송)라는 내용은 원문에 명시되어 있음."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "마을사람 꿈에 예쁜 색시가 나타났다는 내용은 원문에서 확인됨."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "배들이 길을 찾게 하려고 등불을 밝혀 소등섬이라 이름이 붙었다는 내용은 원문에 포함됨."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "전국 관광진흥협회가 뽑은 해맞이 명소 중 하나라는 내용은 원문에서 확인됨."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "남포마을 해맞이숲이 전라남도 장흥군에 있다는 정보가 원문과 일치함."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "마을숲으로 남포마을내 위치한다는 내용은 원문에 부합함."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "주요 수목이 소나무(해송, 육송)라는 내용은 원문에서 확인됨."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "넓은 남해바다를 항해하는 선박들의 길잡이 역할을 하기 위해서 등불이 밝혀졌다는 내용은 원문에 그대로 있음."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "400여년전 마을사람 꿈에 예쁜 색시가 나타났다는 내용의 형식적 변화가 있지만, 원문의 의미를 그대로 전달하고 있음."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "전국 관광진흥협회가 뽑은 해맞이 명소 중 하나라는 내용은 원문에 포함되어 있음."
+        },
+        {
+          "index": 12,
+          "label": "unsupported",
+          "reason": "소나무(해송, 육송)를 찾아보자는 권유는 원문에 있는 내용이지만, '찾아볼 것'으로 지정된 대상은 원문에 없고 조사 내용도 덧붙임."
+        }
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "남포마을 해맞이숲은 전라남도 장흥군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 장흥군"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "숲에는 소나무가 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무(해송, 육송)"
+            },
+            {
+              "text": "이곳은 해맞이 명소 중 하나로 꼽혔다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "해맞이 명소 중 하나이다"
+            },
+            {
+              "text": "옛 기록에는 배들을 위해 등불을 밝혀 소등섬이라 불렀다고 적혀 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "등불을 밝혔다하여 소등섬이라 이름이 붙여졌으며"
+            },
+            {
+              "text": "기록엔 400여년전 마을사람 꿈에 예쁜 색시가 나타났다고도 적혀 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "400여년전 마을사람 꿈에 예쁜 색시가 나타나"
+            },
+            {
+              "text": "그 색시는 소등섬을 가리켰다고 기록되어 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "소등섬을 가리키며"
+            },
+            {
+              "text": "차 안에서 조용히 창밖을 보며 상상해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "바라보다 보면 마음이 차분해질 거예요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "남포마을 해맞이숲은 전라남도 장흥군에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 장흥군"
+            },
+            {
+              "text": "간단히 설명해 드리겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "주요 수종은 소나무(해송, 육송)입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무(해송, 육송)"
+            },
+            {
+              "text": "문화 기록에는 이 마을숲이 해맞이 명소 중 하나로 소개되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "해맞이 명소 중 하나이다"
+            },
+            {
+              "text": "역사 기록에는 등불을 밝혀 소등섬이라 이름을 붙였다고 전하고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "등불을 밝혔다하여 소등섬이라 이름이 붙여졌으며"
+            },
+            {
+              "text": "같은 기록에 400여년전 마을사람 꿈에 예쁜 색시가 나타났다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "400여년전 마을사람 꿈에 예쁜 색시가 나타나"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무(해송, 육송)",
+          "source_quote": "소나무(해송, 육송)"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 있는 위치 정보와 일치합니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 소나무가 언급되어 있습니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 해맞이 명소로 소개된 내용이 포함되어 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 배들을 위해 등불을 밝혔다는 내용이 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 400여년전 마을사람의 꿈에 관한 내용이 있습니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 색시가 소등섬을 가리켰다는 내용이 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 있는 위치 정보와 일치합니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 소나무가 언급되어 있습니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 해맞이 명소로 소개된 내용이 포함되어 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 등불을 밝혀 소등섬이라는 이름이 붙었다고 기록되어 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 400여년전 마을사람의 꿈에 관한 내용이 있습니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "소나무라는 주요 나무 species가 원문에 명시되어 있습니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "남포마을 해맞이숲은 전라남도 장흥군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 장흥군"
+        },
+        {
+          "text": "숲에는 소나무가 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무(해송, 육송)"
+        },
+        {
+          "text": "이곳은 해맞이 명소 중 하나로 꼽혔다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "해맞이 명소 중 하나이다"
+        },
+        {
+          "text": "옛 기록에는 배들을 위해 등불을 밝혀 소등섬이라 불렀다고 적혀 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "등불을 밝혔다하여 소등섬이라 이름이 붙여졌으며"
+        },
+        {
+          "text": "기록엔 400여년전 마을사람 꿈에 예쁜 색시가 나타났다고도 적혀 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "400여년전 마을사람 꿈에 예쁜 색시가 나타나"
+        },
+        {
+          "text": "그 색시는 소등섬을 가리켰다고 기록되어 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "소등섬을 가리키며"
+        },
+        {
+          "text": "차 안에서 조용히 창밖을 보며 상상해 볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "바라보다 보면 마음이 차분해질 거예요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "남포마을 해맞이숲은 전라남도 장흥군에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 장흥군"
+        },
+        {
+          "text": "간단히 설명해 드리겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "주요 수종은 소나무(해송, 육송)입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무(해송, 육송)"
+        },
+        {
+          "text": "문화 기록에는 이 마을숲이 해맞이 명소 중 하나로 소개되어 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "해맞이 명소 중 하나이다"
+        },
+        {
+          "text": "역사 기록에는 등불을 밝혀 소등섬이라 이름을 붙였다고 전하고 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "등불을 밝혔다하여 소등섬이라 이름이 붙여졌으며"
+        },
+        {
+          "text": "같은 기록에 400여년전 마을사람 꿈에 예쁜 색시가 나타났다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "400여년전 마을사람 꿈에 예쁜 색시가 나타나"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무(해송, 육송)",
+      "source_quote": "소나무(해송, 육송)"
+    }
+  },
+  "opener_removed": true
+}

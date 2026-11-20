@@ -1,0 +1,329 @@
+{
+  "id": "mf8cddda73",
+  "name": "상산마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "상산마을숲은 전라북도 무주군에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 무주군 안성면 덕산리 1488-5"
+            },
+            {
+              "text": "이 숲에는 느티나무가 주로 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "마을은 칠연계곡으로 들어가는 길목이고 양지바른 밭으로 불렸대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "칠연계곡으로 들어가는 길목이며 양지바른 밭으로 불리다"
+            },
+            {
+              "text": "1914년 행정구역 개편으로 상산이란 지명을 갖게 되었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1914년 행정구역 개편으로 상산이란 지명을 갖고 있으며"
+            },
+            {
+              "text": "또한 마을 사람들이 쉬는 곳으로 활용했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "또한 마을 휴식 공간으로 활용하고 있음"
+            },
+            {
+              "text": "정월 대보름과 추석에는 마을의 행운을 빌며 기원재를 드렸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정월 대보름, 추석에는 마을 행운을 기원하는 기원재를 드리며"
+            },
+            {
+              "text": "여름에는 논,밭에서 일을 하기 전에 잠깐 쉬던 곳이었다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "여름에 논,밭에서 일을 하기 전 잠시 여가선용을 하던 곳으로 추정됨"
+            },
+            {
+              "text": "손잡고 갈까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "천천히 걸으며 들려줄게요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "신나게 구경해요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "상산마을숲은 전라북도 무주군에 위치한 숲이다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 무주군 안성면 덕산리 1488-5"
+            },
+            {
+              "text": "주요 수종은 느티나무이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "안성면 덕산리 마을은 칠연계곡으로 들어가는 길목이며 양지바른 밭으로 불렸다고 기록되어 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "칠연계곡으로 들어가는 길목이며 양지바른 밭으로 불리다"
+            },
+            {
+              "text": "1914년 행정구역 개편으로 상산이라는 지명을 갖게 되었다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1914년 행정구역 개편으로 상산이란 지명을 갖고 있으며"
+            },
+            {
+              "text": "또한 마을의 휴식 공간으로 활용되고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "또한 마을 휴식 공간으로 활용하고 있음"
+            },
+            {
+              "text": "정월 대보름과 추석에는 마을 행운을 기원하는 기원재를 드리며, 여름에는 논,밭에서 일을 하기 전 잠시 여가선용을 하던 곳으로 전해진다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정월 대보름, 추석에는 마을 행운을 기원하는 기원재를 드리며"
+            },
+            {
+              "text": "여름에 논,밭에서 일을 하기 전 잠시 여가선용을 하던 곳으로 추정된다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "여름에 논,밭에서 일을 하기 전 잠시 여가선용을 하던 곳으로 추정됨"
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 전라북도 무주군(안성면 덕산리 ...)으로 되어 있어 위치 정보가 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 '주요 나무(species)'에 느티나무로 기재되어 있어 주 수종임이 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 '역사 기록'에 마을이 칠연계곡으로 들어가는 길목이며 양지바른 밭으로 불렸다고 적혀 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 1914년 행정구역 개편으로 상산이라는 지명을 갖게 되었다고 명시되어 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '또한 마을 휴식 공간으로 활용하고 있음'이라고 적혀 있어 마을 사람들이 쉬는 곳으로 활용되었다는 내용을 뒷받침합니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 '문화 기록'에 정월 대보름과 추석에 마을 행운을 기원하는 기원재를 드린다고 기록되어 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '여름에 논,밭에서 일을 하기 전 잠시 여가선용을 하던 곳으로 추정됨'이라고 있어 '잠깐 쉬던 곳이었다고 해요'와 부합합니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문 주소로 전라북도 무주군에 위치한 숲임이 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 주요 수종이 느티나무로 명시되어 있어 해당 진술을 지지합니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 역사 기록에 안성면 덕산리 마을이 칠연계곡으로 들어가는 길목이고 양지바른 밭으로 불렸다고 적혀 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 1914년 행정구역 개편으로 상산이라는 지명을 갖게 되었다고 기록되어 있습니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '마을 휴식 공간으로 활용하고 있음'이라고 현재형으로 적혀 있어 해당 문장을 지지합니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문 문화 기록에 정월 대보름·추석의 기원재와 여름의 논·밭 일 전 잠시 여가선용을 하던 곳이라는 내용이 함께 기록되어 있습니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '여름에 논,밭에서 일을 하기 전 잠시 여가선용을 하던 곳으로 추정됨'이라고 명시되어 있어 동일하게 추정된다고 말한 문장입니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 느티나무가 적혀 있어 '느티나무를 찾아볼까요?'라는 권유에 필요한 정보가 포함되어 있습니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "상산마을숲은 전라북도 무주군에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 무주군 안성면 덕산리 1488-5"
+        },
+        {
+          "text": "이 숲에는 느티나무가 주로 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "마을은 칠연계곡으로 들어가는 길목이고 양지바른 밭으로 불렸대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "칠연계곡으로 들어가는 길목이며 양지바른 밭으로 불리다"
+        },
+        {
+          "text": "1914년 행정구역 개편으로 상산이란 지명을 갖게 되었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1914년 행정구역 개편으로 상산이란 지명을 갖고 있으며"
+        },
+        {
+          "text": "또한 마을 사람들이 쉬는 곳으로 활용했대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "또한 마을 휴식 공간으로 활용하고 있음"
+        },
+        {
+          "text": "정월 대보름과 추석에는 마을의 행운을 빌며 기원재를 드렸대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정월 대보름, 추석에는 마을 행운을 기원하는 기원재를 드리며"
+        },
+        {
+          "text": "여름에는 논,밭에서 일을 하기 전에 잠깐 쉬던 곳이었다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "여름에 논,밭에서 일을 하기 전 잠시 여가선용을 하던 곳으로 추정됨"
+        },
+        {
+          "text": "손잡고 갈까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "천천히 걸으며 들려줄게요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "신나게 구경해요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "상산마을숲은 전라북도 무주군에 위치한 숲이다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 무주군 안성면 덕산리 1488-5"
+        },
+        {
+          "text": "주요 수종은 느티나무이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "안성면 덕산리 마을은 칠연계곡으로 들어가는 길목이며 양지바른 밭으로 불렸다고 기록되어 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "칠연계곡으로 들어가는 길목이며 양지바른 밭으로 불리다"
+        },
+        {
+          "text": "1914년 행정구역 개편으로 상산이라는 지명을 갖게 되었다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1914년 행정구역 개편으로 상산이란 지명을 갖고 있으며"
+        },
+        {
+          "text": "또한 마을의 휴식 공간으로 활용되고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "또한 마을 휴식 공간으로 활용하고 있음"
+        },
+        {
+          "text": "정월 대보름과 추석에는 마을 행운을 기원하는 기원재를 드리며, 여름에는 논,밭에서 일을 하기 전 잠시 여가선용을 하던 곳으로 전해진다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정월 대보름, 추석에는 마을 행운을 기원하는 기원재를 드리며"
+        },
+        {
+          "text": "여름에 논,밭에서 일을 하기 전 잠시 여가선용을 하던 곳으로 추정된다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "여름에 논,밭에서 일을 하기 전 잠시 여가선용을 하던 곳으로 추정됨"
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  },
+  "opener_removed": true
+}

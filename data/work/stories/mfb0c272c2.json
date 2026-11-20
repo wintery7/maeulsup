@@ -1,0 +1,442 @@
+{
+  "id": "mfb0c272c2",
+  "name": "통사마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "통사마을숲은 광양시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 광양시"
+            },
+            {
+              "text": "이 숲은 마을의 입구에 만들어져서 바다에서 불어오는 해풍과 외침으로부터 마을을 지키려고 조성된 것으로 추측된대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 입구에 조성되어 바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위하여 조성된"
+            },
+            {
+              "text": "지금은 마을 진입도로 양쪽에 숲이 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "현재에는 마을 진입도로 좌우측에 숲을 조성하고 있음."
+            },
+            {
+              "text": "오른쪽에는 해송들이 모여 자라고 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "우측에는 해송림이 조성되어 있으며"
+            },
+            {
+              "text": "왼쪽에는 느티나무 같은 큰 나무들이 자라고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "좌측에는 느티나무 등 노거수가 생육하고 있음."
+            },
+            {
+              "text": "마을에서는 매년 섣달 그믐날에 제사를 지낸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 섣달 그믐날에 마을에서 제사를 지내고 있으며"
+            },
+            {
+              "text": "흉사가 있으면 정월 보름날에도 제사를 지낸다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을에 흉사가 있으면, 정월 보름날에도 제사를 지낸다."
+            },
+            {
+              "text": "사람들은 봄에 잎이 푸르고 무성하면 그해에 풍년이 든다고 전해 내려온대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해 내려오고 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "통사마을숲은 전라남도 광양시에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 광양시"
+            },
+            {
+              "text": "숲은 마을의 입구에 조성되어 바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위하여 조성된 것으로 추측된다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 입구에 조성되어 바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위하여 조성된"
+            },
+            {
+              "text": "현재에는 마을 진입도로 좌우측에 숲을 조성하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "현재에는 마을 진입도로 좌우측에 숲을 조성하고 있음."
+            },
+            {
+              "text": "우측에는 해송림이 조성되어 있으며 좌측에는 느티나무 등 노거수가 생육하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "우측에는 해송림이 조성되어 있으며, 좌측에는 느티나무 등 노거수가 생육하고 있음."
+            },
+            {
+              "text": "지역에서는 매년 섣달 그믐날에 제사를 지내고 흉사가 있으면 정월 보름날에도 제사를 지내며, 봄에 잎이 푸르고 무성하면 그해에 풍년이 든다고 전해진다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 섣달 그믐날에 마을에서 제사를 지내고 있으며, 마을에 흉사가 있으면, 정월 보름날에도 제사를 지낸다."
+            }
+          ]
+        },
+        "find": {
+          "text": "해송을 찾아볼까요?",
+          "target": "해송",
+          "source_quote": "해송, 느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 전라남도 광양시로 되어 있어 광양시에 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사 기록에 마을 입구에 조성되어 해풍과 외침으로부터 마을을 보호하려 조성된 것으로 추정된다고 되어 있습니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '현재에는 마을 진입도로 좌우측에 숲을 조성하고 있음'이라고 되어 있어 같은 내용입니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '우측에는 해송림이 조성되어 있으며'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '좌측에는 느티나무 등 노거수가 생육하고 있음'이라고 되어 있어 '느티나무 같은 큰 나무들이 자란다'는 표현이 원문으로 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 매년 섣달 그믐날에 마을에서 제사를 지낸다고 되어 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '마을에 흉사가 있으면, 정월 보름날에도 제사를 지낸다'고 명시되어 있습니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '봄에 잎이 푸르고 무성하면 그해에 풍년이 든다'고 전해 내려온다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 주소가 전라남도 광양시로 되어 있어 통사마을숲이 전라남도 광양시에 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 역사 기록에 동일하게 '마을의 입구에 조성되어 바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위하여 조성된 것으로 추정된다'고 나와 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '현재에는 마을 진입도로 좌우측에 숲을 조성하고 있음'이라고 되어 있어 같은 내용입니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '우측에는 해송림이 조성되어 있으며 좌측에는 느티나무 등 노거수가 생육하고 있다'고 그대로 기술되어 있습니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문 문화 기록에 매년 섣달 그믐날 제사, 흉사가 있으면 정월 보름 제사, 봄 잎 상태와 풍년 관련 전승이 모두 포함되어 있습니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 해송이 기재되어 있고 우측에 해송림이 조성되어 있다고 되어 있어 '해송을 찾아보자'는 권유 대상이 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "조성"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "통사마을숲은 광양시에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "통사마을숲"
+            },
+            {
+              "text": "숲은 마을 입구에 있어서 바다에서 불어오는 해풍과 외침으로부터 마을을 지키려고 만든 것으로 생각한대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위하여 조성된 것으로 추측되며"
+            },
+            {
+              "text": "지금은 마을 진입도로 양쪽에 숲이 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "현재에는 마을 진입도로 좌우측에 숲을 조성하고 있음."
+            },
+            {
+              "text": "오른쪽에는 해송이 숲을 이루고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "우측에는 해송림이 조성되어 있으며,"
+            },
+            {
+              "text": "왼쪽에는 느티나무 같은 나무들이 자라고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "좌측에는 느티나무 등 노거수가 생육하고 있음."
+            },
+            {
+              "text": "마을에서는 매년 섣달 그믐날에 제사를 지내고, 마을에 흉사가 있으면 정월 보름에도 제사를 지낸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 섣달 그믐날에 마을에서 제사를 지내고 있으며, 마을에 흉사가 있으면, 정월 보름날에도 제사를 지낸다."
+            },
+            {
+              "text": "또 봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해 내려온대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해 내려오고 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "통사마을숲은 광양시에 있다.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "통사마을숲"
+            },
+            {
+              "text": "숲은 마을의 입구에 조성되어 바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위하여 조성된 것으로 추측된다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을의 입구에 조성되어 바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위하여 조성된 것으로 추측되며"
+            },
+            {
+              "text": "현재 마을 진입도로 좌우측에 숲이 조성되어 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "현재에는 마을 진입도로 좌우측에 숲을 조성하고 있음."
+            },
+            {
+              "text": "우측에는 해송림이 조성되어 있고, 좌측에는 느티나무 등 노거수가 생육하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "우측에는 해송림이 조성되어 있으며, 좌측에는 느티나무 등 노거수가 생육하고 있음."
+            },
+            {
+              "text": "마을에서는 매년 섣달 그믐날에 제사를 지내고, 흉사가 있으면 정월 보름에도 제사를 지낸다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 섣달 그믐날에 마을에서 제사를 지내고 있으며, 마을에 흉사가 있으면, 정월 보름날에도 제사를 지낸다."
+            },
+            {
+              "text": "봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해 내려온다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해 내려오고 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "해송을 찾아볼까요?",
+          "target": "해송",
+          "source_quote": "해송, 느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 전라남도 광양시로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 숲이 마을 입구에 조성되어 바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위해 조성된 것으로 추측된다고 되어 있어 같은 내용의 풀어쓰기입니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 현재 마을 진입도로 좌우측에 숲이 조성되어 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 우측에는 해송림이 조성되어 있다고 되어 있어 같은 의미의 표현입니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 좌측에는 느티나무 등 노거수가 생육하고 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 매년 섣달 그믐날 제사를 지내고 흉사가 있으면 정월 보름에도 제사한다는 내용이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해진다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문에 광양시로 위치가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 숲이 마을 입구에 조성되어 바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위해 조성된 것으로 추측된다고 명시되어 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 현재 마을 진입도로 좌우측에 숲이 조성되어 있다고 직접 기술되어 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 우측에 해송림이 조성되어 있고 좌측에 느티나무 등 노거수가 생육하고 있다고 되어 있어 동일한 내용입니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 매년 섣달 그믐날 제사를 지내고 흉사가 있으면 정월 보름에도 제사한다는 내용이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해진다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 해송이 기재되어 있고 우측에 해송림이 조성되어 있다고 되어 있어 '해송을 찾아보자'는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "통사마을숲은 광양시에 있어요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "통사마을숲"
+        },
+        {
+          "text": "숲은 마을 입구에 있어서 바다에서 불어오는 해풍과 외침으로부터 마을을 지키려고 만든 것으로 생각한대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위하여 조성된 것으로 추측되며"
+        },
+        {
+          "text": "지금은 마을 진입도로 양쪽에 숲이 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "현재에는 마을 진입도로 좌우측에 숲을 조성하고 있음."
+        },
+        {
+          "text": "오른쪽에는 해송이 숲을 이루고 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "우측에는 해송림이 조성되어 있으며,"
+        },
+        {
+          "text": "왼쪽에는 느티나무 같은 나무들이 자라고 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "좌측에는 느티나무 등 노거수가 생육하고 있음."
+        },
+        {
+          "text": "마을에서는 매년 섣달 그믐날에 제사를 지내고, 마을에 흉사가 있으면 정월 보름에도 제사를 지낸대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 섣달 그믐날에 마을에서 제사를 지내고 있으며, 마을에 흉사가 있으면, 정월 보름날에도 제사를 지낸다."
+        },
+        {
+          "text": "또 봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해 내려온대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해 내려오고 있다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "통사마을숲은 광양시에 있다.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "통사마을숲"
+        },
+        {
+          "text": "숲은 마을의 입구에 조성되어 바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위하여 조성된 것으로 추측된다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을의 입구에 조성되어 바다에서 불어오는 해풍과 외침으로부터 마을을 보호하기 위하여 조성된 것으로 추측되며"
+        },
+        {
+          "text": "현재 마을 진입도로 좌우측에 숲이 조성되어 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "현재에는 마을 진입도로 좌우측에 숲을 조성하고 있음."
+        },
+        {
+          "text": "우측에는 해송림이 조성되어 있고, 좌측에는 느티나무 등 노거수가 생육하고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "우측에는 해송림이 조성되어 있으며, 좌측에는 느티나무 등 노거수가 생육하고 있음."
+        },
+        {
+          "text": "마을에서는 매년 섣달 그믐날에 제사를 지내고, 흉사가 있으면 정월 보름에도 제사를 지낸다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 섣달 그믐날에 마을에서 제사를 지내고 있으며, 마을에 흉사가 있으면, 정월 보름날에도 제사를 지낸다."
+        },
+        {
+          "text": "봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해 내려온다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "봄에 잎이 푸르고 무성하면 그해에 풍년이 들고 그렇지 않으면 흉년이 든다고 전해 내려오고 있다."
+        }
+      ]
+    },
+    "find": {
+      "text": "해송을 찾아볼까요?",
+      "target": "해송",
+      "source_quote": "해송, 느티나무"
+    }
+  }
+}

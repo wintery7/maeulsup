@@ -1,0 +1,339 @@
+{
+  "id": "mf318ff847",
+  "name": "석정마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "석정마을숲은 경상남도 창녕군에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 창녕군"
+            },
+            {
+              "text": "위치는 냉천리 879번지에 있다고 해요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "냉천리 879번지"
+            },
+            {
+              "text": "이 숲은 지방도 도로변 양측에 위치한 마을숲이에요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "지방도 도로변 양측에 위치한 마을숲"
+            },
+            {
+              "text": "돌무정 또는 회무정이라고도 불린대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "돌무정 또는 회무정(回舞亭)으로 지칭하는데"
+            },
+            {
+              "text": "옛 기록에는 창녕성씨가 약300년전 이곳에 와서 살게 되었다고 전해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약300년전"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "숲에는 느티나무가 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "마을숲에는 300년된 보호수 2본과 함께 총 8본의 느티나무가 생육하고 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "300년된 보호수 2본과 함께 총 8본의 느티나무가 생육하고 있으며"
+            },
+            {
+              "text": "나무 잎이 한꺼번에 많이 피면 물이 많아 모심기를 잘하여 풍년이 든다고도 전해 내려온대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "본 나무의 잎이 한꺼번에 많이 피면 물이 많아 모심기를 잘하여 풍년이 든다고 하며"
+            },
+            {
+              "text": "정자와 쉼터가 있어 주민들이 쉬는 곳으로 사용된대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정자와 쉼터가 조성되어 있어 주민들의 휴식공간으로 활용되고 있음"
+            },
+            {
+              "text": "천천히 둘러보며 잎을 살펴볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "석정마을숲은 경상남도 창녕군 성산면 냉천리 879번지에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 창녕군 성산면 냉천리 879번지"
+            },
+            {
+              "text": "마을숲은 지방도 도로변 양측에 위치한 곳입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "지방도 도로변 양측에 위치한 마을숲"
+            },
+            {
+              "text": "마을숲은 돌무정 또는 회무정(回舞亭)으로 지칭됩니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "돌무정 또는 회무정(回舞亭)으로 지칭하는데"
+            },
+            {
+              "text": "기록에는 창녕성씨가 약300년전 이곳에 와서 살게 되었다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약300년전"
+            },
+            {
+              "text": "숲에는 300년된 보호수 2본을 포함해 총 8본의 느티나무가 생육하고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "300년된 보호수 2본과 함께 총 8본의 느티나무가 생육하고 있으며"
+            },
+            {
+              "text": "본 나무의 잎이 한꺼번에 많이 피면 물이 많아 모심기를 잘하여 풍년이 든다고 전해집니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "본 나무의 잎이 한꺼번에 많이 피면 물이 많아 모심기를 잘하여 풍년이 든다고 하며"
+            },
+            {
+              "text": "정자와 쉼터가 조성되어 주민들의 휴식공간으로 활용되고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정자와 쉼터가 조성되어 있어 주민들의 휴식공간으로 활용되고 있음"
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "총 8본의 느티나무가 생육하고 있으며"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '경상남도 창녕군'으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주소가 '냉천리 879번지'로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '지방도 도로변 양측에 위치한 마을숲'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '돌무정 또는 회무정(回舞亭)으로 지칭'된다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '약300년전 창녕성씨가 이곳에 와서 살게 되었'다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '300년된 보호수 2본과 함께 총 8본의 느티나무가 생육'한다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '잎이 한꺼번에 많이 피면 물이 많아 모심기를 잘하여 풍년이 든다'고 전해진다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '정자와 쉼터가 조성되어 있어 주민들의 휴식공간으로 활용'된다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 전체 주소가 '경상남도 창녕군 성산면 냉천리 879번지'로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '지방도 도로변 양측에 위치'한다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '돌무정 또는 회무정(回舞亭)으로 지칭'된다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문 기록에 '약300년전 창녕성씨가 이곳에 와서 살게 되었다'고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '300년된 보호수 2본을 포함해 총 8본의 느티나무가 생육'한다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 동일한 전승 내용('잎이 한꺼번에 많이 피면…풍년')이 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 '정자와 쉼터가 조성되어 주민들의 휴식공간으로 활용되고 있음'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 16,
+          "label": "supported",
+          "reason": "원문에 '느티나무'가 주요 나무로 명시되어 있어 '[찾아볼 것] 느티나무를 찾아볼까요?'라는 권유 문장도 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "석정마을숲은 경상남도 창녕군에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 창녕군"
+        },
+        {
+          "text": "위치는 냉천리 879번지에 있다고 해요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "냉천리 879번지"
+        },
+        {
+          "text": "이 숲은 지방도 도로변 양측에 위치한 마을숲이에요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "지방도 도로변 양측에 위치한 마을숲"
+        },
+        {
+          "text": "돌무정 또는 회무정이라고도 불린대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "돌무정 또는 회무정(回舞亭)으로 지칭하는데"
+        },
+        {
+          "text": "옛 기록에는 창녕성씨가 약300년전 이곳에 와서 살게 되었다고 전해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약300년전"
+        },
+        {
+          "text": "숲에는 느티나무가 자라고 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "마을숲에는 300년된 보호수 2본과 함께 총 8본의 느티나무가 생육하고 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "300년된 보호수 2본과 함께 총 8본의 느티나무가 생육하고 있으며"
+        },
+        {
+          "text": "나무 잎이 한꺼번에 많이 피면 물이 많아 모심기를 잘하여 풍년이 든다고도 전해 내려온대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "본 나무의 잎이 한꺼번에 많이 피면 물이 많아 모심기를 잘하여 풍년이 든다고 하며"
+        },
+        {
+          "text": "정자와 쉼터가 있어 주민들이 쉬는 곳으로 사용된대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정자와 쉼터가 조성되어 있어 주민들의 휴식공간으로 활용되고 있음"
+        },
+        {
+          "text": "천천히 둘러보며 잎을 살펴볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "석정마을숲은 경상남도 창녕군 성산면 냉천리 879번지에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 창녕군 성산면 냉천리 879번지"
+        },
+        {
+          "text": "마을숲은 지방도 도로변 양측에 위치한 곳입니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "지방도 도로변 양측에 위치한 마을숲"
+        },
+        {
+          "text": "마을숲은 돌무정 또는 회무정(回舞亭)으로 지칭됩니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "돌무정 또는 회무정(回舞亭)으로 지칭하는데"
+        },
+        {
+          "text": "기록에는 창녕성씨가 약300년전 이곳에 와서 살게 되었다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약300년전"
+        },
+        {
+          "text": "숲에는 300년된 보호수 2본을 포함해 총 8본의 느티나무가 생육하고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "300년된 보호수 2본과 함께 총 8본의 느티나무가 생육하고 있으며"
+        },
+        {
+          "text": "본 나무의 잎이 한꺼번에 많이 피면 물이 많아 모심기를 잘하여 풍년이 든다고 전해집니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "본 나무의 잎이 한꺼번에 많이 피면 물이 많아 모심기를 잘하여 풍년이 든다고 하며"
+        },
+        {
+          "text": "정자와 쉼터가 조성되어 주민들의 휴식공간으로 활용되고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정자와 쉼터가 조성되어 있어 주민들의 휴식공간으로 활용되고 있음"
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "총 8본의 느티나무가 생육하고 있으며"
+    }
+  },
+  "opener_removed": true
+}

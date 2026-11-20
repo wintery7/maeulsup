@@ -1,0 +1,388 @@
+{
+  "id": "mfe9efc816",
+  "name": "성진마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "성진마을숲은 전라남도 해남군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 해남군"
+            },
+            {
+              "text": "숲에는 팽나무가 주요 나무로 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무"
+            },
+            {
+              "text": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 전형적인 배산임수형이에요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 전형적인 배산임수형이다."
+            },
+            {
+              "text": "마을 앞에는 수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 지덩되어 자리를 지키고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 지덩되어 자리를 지키고 있으며,"
+            },
+            {
+              "text": "굵은 줄기와 넓은 가지를 천천히 떠올려 보세요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "친구와 함께 와서 나무 곁에 서 보는 상상도 해 보세요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "성진마을숲은 전라남도 해남군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 해남군"
+            },
+            {
+              "text": "주요 수종은 팽나무다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무"
+            },
+            {
+              "text": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 전형적인 배산임수형이다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 전형적인 배산임수형이다."
+            },
+            {
+              "text": "이 지역에는 지석묘(고인돌),효자방두선지각, 별진사터, 院)터 등의 문화유적이 남아있다고 한다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "지석묘(고인돌),효자방두선지각, 별진사터, 院)터 등의 문화유적이 남아있다고 한다."
+            },
+            {
+              "text": "마을 앞에는 수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 지덩되어 자리를 지키고 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 지덩되어 자리를 지키고 있으며,"
+            }
+          ]
+        },
+        "find": {
+          "text": "팽나무를 찾아볼까요?",
+          "target": "팽나무",
+          "source_quote": "팽나무가 보호수로 지덩되어"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치(address)로 '전라남도 해남군 계곡면 성진리 285-3 (전라남도 해남군)'이라고 적혀 있어요."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무(species)로 '팽나무'라고 되어 있어요."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문의 history에 '마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 전형적인 배산임수형이다'라고 그대로 나와 있어요."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문의 culture에 '수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 ... 자리를 지키고 있으며'라고 기재되어 있어요."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 성진마을숲의 소재지가 전라남도 해남군으로 명시되어 있어요."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 주요 수종(주요 나무)으로 팽나무가 기재되어 있어요."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문의 history 문장이 동일하게 '배산임수형'이라 서술되어 있어요."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 지석묘(고인돌), 효자방두선지각, 별진사터, 院)터 등 문화유적이 남아있다고 적혀 있어요."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문의 culture에 '수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 ... 자리를 지키고 있다'고 기재되어 있어요."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 팽나무가 주요 나무로 적혀 있어 '팽나무를 찾아볼까요?'라는 권유 대상은 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "수령"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "성진마을숲은 해남군에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "성진마을숲"
+            },
+            {
+              "text": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 모습이에요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는"
+            },
+            {
+              "text": "앞에는 물이 흐르고 뒤에는 산이 있어 마을을 둘러싸고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는"
+            },
+            {
+              "text": "둘러싸인 모습이 참 특별해요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "마을 앞에는 오래된 팽나무가 보호수로 자리를 지키고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 앞에는 수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 지덩되어 자리를 지키고 있으며,"
+            },
+            {
+              "text": "이 지역에는 고인돌과 옛 절터 같은 문화유적도 남아 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "지석묘(고인돌),효자방두선지각, 별진사터, 院)터 등의 문화유적이 남아있다고 한다."
+            },
+            {
+              "text": "이곳은 고려조부터 역이 있던 곳이라고 알려져 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "고려조부터 역이 설치되어 있던 것으로 알려진"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "성진마을숲은 전라남도 해남군에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 해남군 계곡면 성진리 285-3 (전라남도 해남군)"
+            },
+            {
+              "text": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 전형적인 배산임수형입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 전형적인 배산임수형이다."
+            },
+            {
+              "text": "주요 나무는 팽나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "팽나무"
+            },
+            {
+              "text": "마을 앞의 팽나무는 수령이 600년이 넘었을 것으로 추측되며 보호수로 자리를 지키고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 앞에는 수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 지덩되어 자리를 지키고 있으며,"
+            },
+            {
+              "text": "또한 지석묘 등 여러 문화유적이 남아 있다고 전해집니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "지석묘(고인돌),효자방두선지각, 별진사터, 院)터 등의 문화유적이 남아있다고 한다."
+            }
+          ]
+        },
+        "find": {
+          "text": "팽나무를 찾아볼까요?",
+          "target": "팽나무",
+          "source_quote": "팽나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 전라남도 해남군으로 되어 있어 해남군에 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 전형적인 배산임수형'이라고 적혀 있어 같은 내용입니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문의 '앞에 하천'과 '뒤쪽으로는 가학산'이라는 표현을 쉬운 말로 풀어 쓴 것으로 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 마을 앞의 팽나무가 보호수로 자리를 지키고 있다고 명시되어 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 지석묘(고인돌)과 별진사터 등 문화유적이 남아있다고 되어 있어 해당 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '고려조부터 역이 설치되어 있던 것으로 알려진'이라고 명시되어 있어 같은 내용입니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문의 주소에 전라남도 해남군이 포함되어 있어 동일한 사실을 전달합니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 그대로 '전형적인 배산임수형'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 주요 나무(species)로 팽나무가 명시되어 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 자리하고 있다고 적혀 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '지석묘 등 ... 문화유적이 남아있다'고 되어 있어 해당 표현을 뒷받침합니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 팽나무가 언급되어 있어 '팽나무를 찾아볼까요?'라는 권유 문장은 원문 내용과 일치합니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "성진마을숲은 해남군에 있어요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "성진마을숲"
+        },
+        {
+          "text": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 모습이에요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는"
+        },
+        {
+          "text": "앞에는 물이 흐르고 뒤에는 산이 있어 마을을 둘러싸고 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는"
+        },
+        {
+          "text": "둘러싸인 모습이 참 특별해요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "마을 앞에는 오래된 팽나무가 보호수로 자리를 지키고 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 앞에는 수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 지덩되어 자리를 지키고 있으며,"
+        },
+        {
+          "text": "이 지역에는 고인돌과 옛 절터 같은 문화유적도 남아 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "지석묘(고인돌),효자방두선지각, 별진사터, 院)터 등의 문화유적이 남아있다고 한다."
+        },
+        {
+          "text": "이곳은 고려조부터 역이 있던 곳이라고 알려져 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "고려조부터 역이 설치되어 있던 것으로 알려진"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "성진마을숲은 전라남도 해남군에 위치합니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 해남군 계곡면 성진리 285-3 (전라남도 해남군)"
+        },
+        {
+          "text": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 전형적인 배산임수형입니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을은 앞에 하천이 있고 뒤쪽으로는 가학산을 등지는 전형적인 배산임수형이다."
+        },
+        {
+          "text": "주요 나무는 팽나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "팽나무"
+        },
+        {
+          "text": "마을 앞의 팽나무는 수령이 600년이 넘었을 것으로 추측되며 보호수로 자리를 지키고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 앞에는 수령이 600년이 넘었을 것으로 추측되는 팽나무가 보호수로 지덩되어 자리를 지키고 있으며,"
+        },
+        {
+          "text": "또한 지석묘 등 여러 문화유적이 남아 있다고 전해집니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "지석묘(고인돌),효자방두선지각, 별진사터, 院)터 등의 문화유적이 남아있다고 한다."
+        }
+      ]
+    },
+    "find": {
+      "text": "팽나무를 찾아볼까요?",
+      "target": "팽나무",
+      "source_quote": "팽나무"
+    }
+  }
+}

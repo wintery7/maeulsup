@@ -1,0 +1,276 @@
+{
+  "id": "mfc4135d83",
+  "name": "마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "마을숲은 충청남도 아산시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "충청남도 아산시"
+            },
+            {
+              "text": "이 숲에는 느티나무가 주요 나무로 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "종곡리라는 마을 이름은 마을 모양이 북처럼 생겨서 종곡 또는 북실이라고 불렸대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "종곡리는 마을 지형이 북처럼 생겼다해서 종곡 또는 북실로 불리운다."
+            },
+            {
+              "text": "마을 주변의 산이 병풍처럼 둘러싸여 있다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 주변의 산이 병풍처럼 둘러싸여 있고"
+            },
+            {
+              "text": "계곡 풍경이 아름답고 물이 깨끗해서 여름에 사람들이 많이 찾는대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "계곡의 경치가 수려하고 물이 깨끗하여 여름이면 계곡을 찾는 사람이 늘고 있다."
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 마을에서는 매년 정월초하루에 장승제를 지내고 이날만큼은 몸을 깨끗이 하고 정성을 드린대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월초하루에 장승제를 지내고 있으며 이날만큼은 몸을 깨끗이 하고 정성을 드린다."
+            },
+            {
+              "text": "시루떡과 간단한 제물을 준비하여 제를 지낸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "시루떡과 간단한 제물을 준비하여 제를 지내고"
+            },
+            {
+              "text": "장승제와 더불어 산제를 지내는 때가 많대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "장승제와 더불어 산제를 지내는데 대부분 좋은 날을 선정하다보니 같은 날 지내는 때가 많다고 한다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "마을숲은 충청남도 아산시에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "충청남도 아산시"
+            },
+            {
+              "text": "주요 나무는 느티나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무"
+            },
+            {
+              "text": "종곡리는 마을 지형이 북처럼 생겼다해서 종곡 또는 북실로 불리운다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "종곡리는 마을 지형이 북처럼 생겼다해서 종곡 또는 북실로 불리운다."
+            },
+            {
+              "text": "마을 주변의 산이 병풍처럼 둘러싸여 있고 계곡의 경치가 수려하며 물이 깨끗하여 여름이면 계곡을 찾는 사람이 늘고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 주변의 산이 병풍처럼 둘러싸여 있고"
+            },
+            {
+              "text": "마을에서는 매년 정월초하루에 장승제를 지내고, 시루떡과 간단한 제물을 준비하여 제를 지냅니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월초하루에 장승제를 지내고 있으며"
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 '충청남도 아산시'로 명시되어 있다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 주요 나무에 '느티나무'가 기재되어 있다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '종곡리는 마을 지형이 북처럼 생겼다 해서 종곡 또는 북실로 불리운다'고 적혀 있다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '마을 주변의 산이 병풍처럼 둘러싸여 있다'고 적혀 있다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '계곡의 경치가 수려하고 물이 깨끗하여 여름이면 계곡을 찾는 사람이 늘고 있다'고 적혀 있다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '매년 정월초하루에 장승제를 지내고 있으며 이날만큼은 몸을 깨끗이 하고 정성을 드린다'고 적혀 있다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '시루떡과 간단한 제물을 준비하여 제를 지낸다'고 적혀 있다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '장승제와 더불어 산제를 지내는데… 같은 날 지내는 때가 많다'고 적혀 있다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 주소에 '충청남도 아산시'로 명시되어 있어 동일한 내용이다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 주요 나무로 '느티나무'가 기재되어 있어 동일한 내용이다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '종곡리는 마을 지형이 북처럼 생겼다 해서 종곡 또는 북실로 불리운다'고 전하고 있다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 동일하게 '마을 주변의 산이 병풍처럼 둘러싸여 있고 계곡의 경치가 수려하며 물이 깨끗하여 여름이면 계곡을 찾는 사람이 늘고 있다'고 서술되어 있다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 매년 정월초하루 장승제를 지내며 시루떡과 간단한 제물을 준비하여 제를 지낸다고 적혀 있다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 기재되어 있어 '느티나무를 찾아볼까요?'는 원문으로 뒷받침된다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "마을숲은 충청남도 아산시에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "충청남도 아산시"
+        },
+        {
+          "text": "이 숲에는 느티나무가 주요 나무로 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "종곡리라는 마을 이름은 마을 모양이 북처럼 생겨서 종곡 또는 북실이라고 불렸대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "종곡리는 마을 지형이 북처럼 생겼다해서 종곡 또는 북실로 불리운다."
+        },
+        {
+          "text": "마을 주변의 산이 병풍처럼 둘러싸여 있다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을 주변의 산이 병풍처럼 둘러싸여 있고"
+        },
+        {
+          "text": "계곡 풍경이 아름답고 물이 깨끗해서 여름에 사람들이 많이 찾는대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "계곡의 경치가 수려하고 물이 깨끗하여 여름이면 계곡을 찾는 사람이 늘고 있다."
+        },
+        {
+          "text": "이 마을에서는 매년 정월초하루에 장승제를 지내고 이날만큼은 몸을 깨끗이 하고 정성을 드린대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 정월초하루에 장승제를 지내고 있으며 이날만큼은 몸을 깨끗이 하고 정성을 드린다."
+        },
+        {
+          "text": "시루떡과 간단한 제물을 준비하여 제를 지낸대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "시루떡과 간단한 제물을 준비하여 제를 지내고"
+        },
+        {
+          "text": "장승제와 더불어 산제를 지내는 때가 많대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "장승제와 더불어 산제를 지내는데 대부분 좋은 날을 선정하다보니 같은 날 지내는 때가 많다고 한다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "마을숲은 충청남도 아산시에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "충청남도 아산시"
+        },
+        {
+          "text": "주요 나무는 느티나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무"
+        },
+        {
+          "text": "종곡리는 마을 지형이 북처럼 생겼다해서 종곡 또는 북실로 불리운다고 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "종곡리는 마을 지형이 북처럼 생겼다해서 종곡 또는 북실로 불리운다."
+        },
+        {
+          "text": "마을 주변의 산이 병풍처럼 둘러싸여 있고 계곡의 경치가 수려하며 물이 깨끗하여 여름이면 계곡을 찾는 사람이 늘고 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을 주변의 산이 병풍처럼 둘러싸여 있고"
+        },
+        {
+          "text": "마을에서는 매년 정월초하루에 장승제를 지내고, 시루떡과 간단한 제물을 준비하여 제를 지냅니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 정월초하루에 장승제를 지내고 있으며"
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무"
+    }
+  },
+  "opener_removed": true
+}

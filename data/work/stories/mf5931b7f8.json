@@ -1,0 +1,305 @@
+{
+  "id": "mf5931b7f8",
+  "name": "대초리전통마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "대초리전통마을숲은 전라남도 신안군에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "대초리전통마을숲"
+            },
+            {
+              "text": "숲에는 해송이 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "원래는 갯뻘에 모래가 덮인 황무지였는데 1960년대에 사방공사를 해서 숲을 만들었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1960년대에 본격적인 사방공사를 하여 조성된 숲으로"
+            },
+            {
+              "text": "숲 모양이 우리나라 한반도 모형이라 한반도 해송 숲이라고 불렸대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "형상이 우리나라 한반도 모형을 하고 있어"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "천천히 둘러볼게요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "숲 한가운데에는 국제규격 규모의 천연 잔디 축구장이 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "국제규격 규모의 천연 잔디 축구장이 있으며"
+            },
+            {
+              "text": "또 폭 200m, 길이 4km의 백사장이 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "폭 200m, 길이 4km의 백사장이 형성되어 있어"
+            },
+            {
+              "text": "갯벌축제, 송어축제, 자전거 섬 선포식 등 각종 행사가 이곳에서 열린대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "갯벌축제, 송어축제, 자전거 섬 선포식 등 각종 행사 개최지로 이용되고 있음"
+            },
+            {
+              "text": "엘도라도리조트와 어우러져 관광명소가 되었대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "엘도라도리조트와 어우러져 관광명소로 각광을 받고 있음"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "대초리전통마을숲은 전라남도 신안군에 있다.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "대초리전통마을숲"
+            },
+            {
+              "text": "원래 갯뻘에 모래가 덮인 황무지였으나 1960년대에 본격적인 사방공사를 통해 조성되었다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1960년대에 본격적인 사방공사를 하여 조성된 숲으로"
+            },
+            {
+              "text": "형상이 우리나라 한반도 모형을 하고 있어 한반도 해송 숲으로 불려지고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "한반도 해송 숲으로 불려지고 있으며"
+            },
+            {
+              "text": "숲 한가운데 국제규격 규모의 천연 잔디 축구장이 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "국제규격 규모의 천연 잔디 축구장이 있으며"
+            },
+            {
+              "text": "폭 200m, 길이 4km의 백사장이 형성되어 갯벌축제 등 각종 행사 개최지로 이용된다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "갯벌축제, 송어축제, 자전거 섬 선포식 등 각종 행사 개최지로 이용되고 있음"
+            },
+            {
+              "text": "엘도라도리조트와 어우러져 관광명소로 각광을 받고 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "엘도라도리조트와 어우러져 관광명소로 각광을 받고 있음"
+            }
+          ]
+        },
+        "find": {
+          "text": "국제규격 규모의 천연 잔디 축구장을 찾아볼까요?",
+          "target": "국제규격 규모의 천연 잔디 축구장",
+          "source_quote": "국제규격 규모의 천연 잔디 축구장이 있으며"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치(address)로 전라남도 신안군이 명시되어 있어 원문으로 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무(species)로 해송이 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사(history)에 갯뻘에 모래가 덮인 황무지였고 1960년대 사방공사로 조성되었다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 형상이 한반도 모형이라 한반도 해송 숲으로 불린다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 문화 기록에 숲 한가운데 국제규격 규모의 천연 잔디 축구장이 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 폭 200m, 길이 4km의 백사장이 형성되어 있다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 갯벌축제, 송어축제, 자전거 섬 선포식 등 각종 행사 개최지로 이용된다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 엘도라도리조트와 어우러져 관광명소로 각광받고 있다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "(0)과 동일하게 원문에 전라남도 신안군 위치가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 역사에 동일한 내용(갯뻘에 모래가 덮인 황무지였고 1960년대 본격적인 사방공사로 조성됨)이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 형상이 한반도 모형이라 한반도 해송 숲으로 불린다고 직접 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 문화 기록에 숲 한가운데 국제규격 규모의 천연 잔디 축구장이 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 폭 200m, 길이 4km의 백사장이 형성되어 갯벌축제 등 각종 행사 개최지로 이용된다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 엘도라도리조트와 어우러져 관광명소로 각광받고 있다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 숲 한가운데 국제규격 규모의 천연 잔디 축구장이 있다고 명시되어 있어 해당 대상을 찾아보자는 권유 문장도 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "대초리전통마을숲은 전라남도 신안군에 있어요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "대초리전통마을숲"
+        },
+        {
+          "text": "숲에는 해송이 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "해송"
+        },
+        {
+          "text": "원래는 갯뻘에 모래가 덮인 황무지였는데 1960년대에 사방공사를 해서 숲을 만들었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1960년대에 본격적인 사방공사를 하여 조성된 숲으로"
+        },
+        {
+          "text": "숲 모양이 우리나라 한반도 모형이라 한반도 해송 숲이라고 불렸대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "형상이 우리나라 한반도 모형을 하고 있어"
+        },
+        {
+          "text": "천천히 둘러볼게요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "숲 한가운데에는 국제규격 규모의 천연 잔디 축구장이 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "국제규격 규모의 천연 잔디 축구장이 있으며"
+        },
+        {
+          "text": "또 폭 200m, 길이 4km의 백사장이 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "폭 200m, 길이 4km의 백사장이 형성되어 있어"
+        },
+        {
+          "text": "갯벌축제, 송어축제, 자전거 섬 선포식 등 각종 행사가 이곳에서 열린대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "갯벌축제, 송어축제, 자전거 섬 선포식 등 각종 행사 개최지로 이용되고 있음"
+        },
+        {
+          "text": "엘도라도리조트와 어우러져 관광명소가 되었대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "엘도라도리조트와 어우러져 관광명소로 각광을 받고 있음"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "대초리전통마을숲은 전라남도 신안군에 있다.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "대초리전통마을숲"
+        },
+        {
+          "text": "원래 갯뻘에 모래가 덮인 황무지였으나 1960년대에 본격적인 사방공사를 통해 조성되었다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1960년대에 본격적인 사방공사를 하여 조성된 숲으로"
+        },
+        {
+          "text": "형상이 우리나라 한반도 모형을 하고 있어 한반도 해송 숲으로 불려지고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "한반도 해송 숲으로 불려지고 있으며"
+        },
+        {
+          "text": "숲 한가운데 국제규격 규모의 천연 잔디 축구장이 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "국제규격 규모의 천연 잔디 축구장이 있으며"
+        },
+        {
+          "text": "폭 200m, 길이 4km의 백사장이 형성되어 갯벌축제 등 각종 행사 개최지로 이용된다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "갯벌축제, 송어축제, 자전거 섬 선포식 등 각종 행사 개최지로 이용되고 있음"
+        },
+        {
+          "text": "엘도라도리조트와 어우러져 관광명소로 각광을 받고 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "엘도라도리조트와 어우러져 관광명소로 각광을 받고 있음"
+        }
+      ]
+    },
+    "find": {
+      "text": "국제규격 규모의 천연 잔디 축구장을 찾아볼까요?",
+      "target": "국제규격 규모의 천연 잔디 축구장",
+      "source_quote": "국제규격 규모의 천연 잔디 축구장이 있으며"
+    }
+  },
+  "opener_removed": true
+}

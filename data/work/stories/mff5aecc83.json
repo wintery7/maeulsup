@@ -1,0 +1,365 @@
+{
+  "id": "mff5aecc83",
+  "name": "소학당숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "소학당숲은 경상남도 합천군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 합천군"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "옛날에 김광필이 어린시절에 이곳에서 지냈대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "김광필이 어린시절에"
+            },
+            {
+              "text": "그는 여기서 독서와 수양에 전념했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "독서와 수양에 전념한 곳으로"
+            },
+            {
+              "text": "그러다 화재로 폐허가 되었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "화재에 의해 폐허가 된 것을"
+            },
+            {
+              "text": "이후 김광필을 추모해 사당을 짓고 소학당이라 이름했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "사당을 짓고 소학당이라 이름하였으며"
+            },
+            {
+              "text": "매년 음력 3월10일날 한휜당 김광필 선생 제사가 열린대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 음력 3월10일날 한휜당 김광필 선생 제사(참석인원 100명)"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "소학당숲은 경상남도 합천군에 위치해 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 합천군"
+            },
+            {
+              "text": "주요 나무는 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "주요 나무(species): 소나무"
+            },
+            {
+              "text": "기록에 따르면 김광필이 어린시절 이곳에서 독서와 수양에 전념했다고 합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "독서와 수양에 전념한 곳으로"
+            },
+            {
+              "text": "한때 화재로 폐허가 되었고, 김광필을 추모해 사당을 지어 소학당이라 이름했다고 전해집니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "사당을 짓고 소학당이라 이름하였으며"
+            },
+            {
+              "text": "매년 음력 3월10일에 한휜당 김광필 선생 제사가 봉행된다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 음력 3월10일날 한휜당 김광필 선생 제사(참석인원 100명)"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "주요 나무(species): 소나무"
+        }
+      },
+      "problems": [
+        "adult 2번 문장: 근거 구절이 원문에 없음 '주요 나무(species): 소나무'",
+        "찾아볼 것: 근거 구절이 원문에 없음"
+      ],
+      "verdicts": null
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "소학당숲은 경상남도 합천군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 합천군"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "숲은 가야면 매안리 991,989번지에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "가야면 매안리 991,989"
+            },
+            {
+              "text": "이 숲에는 소나무가 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "김광필이 어린시절에 독서와 수양에 전념한 곳이라고 전해져요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "독서와 수양에 전념한 곳으로"
+            },
+            {
+              "text": "한때는 화재에 의해 폐허가 되기도 했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "화재에 의해 폐허가 된 것을"
+            },
+            {
+              "text": "그를 추모하여 사당을 짓고 소학당이라 이름하였대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "김광필을 추모하여 사당을 짓고 소학당이라 이름하였으며"
+            },
+            {
+              "text": "매년 음력 3월10일날 한휜당 김광필 선생 제사가 열려요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 음력 3월10일날 한휜당 김광필 선생 제사(참석인원 100명)"
+            },
+            {
+              "text": "천천히 걸으며 소나무와 오래된 이야기를 함께 느껴 보아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "소학당숲은 경상남도 합천군에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 합천군"
+            },
+            {
+              "text": "주소는 가야면 매안리 991,989번지로 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "가야면 매안리 991,989"
+            },
+            {
+              "text": "주요 수종은 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "기록에는 김광필을 추모하여 사당을 짓고 소학당이라 이름하였으며",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "김광필을 추모하여 사당을 짓고 소학당이라 이름하였으며"
+            },
+            {
+              "text": "매년 음력 3월10일날 한휜당 김광필 선생 제사가 열린다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 음력 3월10일날 한휜당 김광필 선생 제사(참석인원 100명)"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 소학당숲의 위치가 '경상남도 합천군 가야면 매안리 ... (경상남도 합천군)'으로 되어 있어 해당 문장을 뒷받침합니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 주소 항목에 '가야면 매안리 991,989'로 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 '주요 나무(species): 소나무'로 해당 사실이 명시되어 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '김광필이 어린시절에 ... 에서 독서와 수양에 전념한 곳'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '화재에 의해 폐허가 된 것을'이라고 적혀 있어 해당 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '김광필을 추모하여 사당을 짓고 소학당이라 이름하였으며'라고 명시되어 있습니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '매년 음력 3월10일날 한휜당 김광필 선생 제사'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문의 위치 정보가 '경상남도 합천군'으로 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 주소란에 '가야면 매안리 991,989'로 기록되어 있어 해당 문장을 지지합니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '주요 나무: 소나무'라고 명시되어 있어 해당 문장과 일치합니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '김광필을 추모하여 사당을 짓고 소학당이라 이름하였으며'라는 문구가 그대로 있습니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 문화 기록에 동일하게 '매년 음력 3월10일날 한휜당 김광필 선생 제사'라고 적혀 있습니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 주요 수종으로 '소나무'가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유는 원문 정보로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "소학당숲은 경상남도 합천군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 합천군"
+        },
+        {
+          "text": "숲은 가야면 매안리 991,989번지에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "가야면 매안리 991,989"
+        },
+        {
+          "text": "이 숲에는 소나무가 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "김광필이 어린시절에 독서와 수양에 전념한 곳이라고 전해져요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "독서와 수양에 전념한 곳으로"
+        },
+        {
+          "text": "한때는 화재에 의해 폐허가 되기도 했대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "화재에 의해 폐허가 된 것을"
+        },
+        {
+          "text": "그를 추모하여 사당을 짓고 소학당이라 이름하였대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "김광필을 추모하여 사당을 짓고 소학당이라 이름하였으며"
+        },
+        {
+          "text": "매년 음력 3월10일날 한휜당 김광필 선생 제사가 열려요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 음력 3월10일날 한휜당 김광필 선생 제사(참석인원 100명)"
+        },
+        {
+          "text": "천천히 걸으며 소나무와 오래된 이야기를 함께 느껴 보아요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "소학당숲은 경상남도 합천군에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 합천군"
+        },
+        {
+          "text": "주소는 가야면 매안리 991,989번지로 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "가야면 매안리 991,989"
+        },
+        {
+          "text": "주요 수종은 소나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "기록에는 김광필을 추모하여 사당을 짓고 소학당이라 이름하였으며",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "김광필을 추모하여 사당을 짓고 소학당이라 이름하였으며"
+        },
+        {
+          "text": "매년 음력 3월10일날 한휜당 김광필 선생 제사가 열린다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "매년 음력 3월10일날 한휜당 김광필 선생 제사(참석인원 100명)"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  },
+  "opener_removed": true
+}

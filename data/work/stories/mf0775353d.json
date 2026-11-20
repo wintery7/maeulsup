@@ -1,0 +1,235 @@
+{
+  "id": "mf0775353d",
+  "name": "주도 상록수림",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "주도 상록수림은 전라남도 완도군에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 완도군"
+            },
+            {
+              "text": "이 숲은 우리나라 난대림의 모습을 가장 잘 유지하고 있는 곳이라서 문화재적인 가치가 무척 높대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "난대림의 모습을 가장 잘 유지하고 있는 곳"
+            },
+            {
+              "text": "주도는 완도 앞바다에 있고 해안선에서 100m쯤 떨어진 근거리에 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "해안선에서 100m쯤 떨어진 근거리에 있다."
+            },
+            {
+              "text": "섬 꼭대기에는 서낭당이 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "섬 꼭대기에는 서낭당이 있다."
+            },
+            {
+              "text": "그래서 이 섬에 신성이 부여되어서 그간 보호가 잘된 것으로 생각되고 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "신성이 부여되어서 그간 보호가 잘된 것으로 생각되고 있다."
+            },
+            {
+              "text": "조선시대에는 완도 일가가 봉산이라 해서 큰나무의 벌채가 금지 되었던 곳으로, 따라서 주도도 아울러 금역안이 있었을 거예요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "조선시대에는 완도 일가가 봉산이라 해서 큰나무의 벌채가 금지 되었던 곳으로"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "주도 상록수림은 전라남도 완도군에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 완도군"
+            },
+            {
+              "text": "주도의 상록수림은 우리나라 난대림의 모습을 가장 잘 유지하고 있는 곳으로 문화재적인 가치가 무척 높은 자원입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "난대림의 모습을 가장 잘 유지하고 있는 곳"
+            },
+            {
+              "text": "주도는 완도 앞바다에 있고 해안선에서 100m쯤 떨어진 근거리에 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "해안선에서 100m쯤 떨어진 근거리에 있다."
+            },
+            {
+              "text": "섬 꼭대기에는 서낭당이 있어 섬에 신성이 부여되어 그간 보호가 잘된 것으로 생각되고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "신성이 부여되어서 그간 보호가 잘된 것으로 생각되고 있다."
+            },
+            {
+              "text": "조선시대에는 완도 일가가 봉산이라 해서 큰나무의 벌채가 금지 되었던 곳으로, 따라서 주도도 아울러 금역안이 있었을 것이다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "따라서 주도도 아울러 금역안이 있었을 것이다."
+            }
+          ]
+        },
+        "find": {
+          "text": "붉가시나무를 찾아볼까요?",
+          "target": "붉가시나무",
+          "source_quote": "붉가시나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문의 위치란에 전라남도 완도군으로 되어 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 ‘우리나라 난대림의 모습을 가장 잘 유지하고 있는 곳으로 문화재적인 가치가 무척 높은 자원이다’라고 적혀 있어 같은 내용입니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 ‘주도는 완도 앞바다에 있고 해안선에서 100m쯤 떨어진 근거리에 있다’라고 그대로 나와 있습니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 문화 기록에 ‘섬 꼭대기에는 서낭당이 있다’고 명시되어 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 ‘신성이 부여되어서 그간 보호가 잘된 것으로 생각되고 있다’라고 동일하게 기술되어 있습니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 조선시대에 큰나무 벌채가 금지되었고 주도도 금역안이 있었을 것이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문 위치 정보가 전라남도 완도군으로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 ‘주도의 상록수림은 … 문화재적인 가치가 무척 높은 자원입니다’라고 동일하게 서술되어 있습니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "문장(2)과 동일하게 원문에 ‘완도 앞바다에 있고 해안선에서 100m쯤 떨어진’이라고 적혀 있습니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 ‘섬 꼭대기에는 서낭당이 있다’와 ‘신성이 부여되어… 보호가 잘된 것으로 생각되고 있다’가 함께 기재되어 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 조선시대의 벌채 금지와 주도의 금역 가능성이 그대로 기술되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 주요 나무 목록에 ‘붉가시나무’가 명시되어 있어 찾아보자는 권유를 뒷받침합니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "주도 상록수림은 전라남도 완도군에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 완도군"
+        },
+        {
+          "text": "이 숲은 우리나라 난대림의 모습을 가장 잘 유지하고 있는 곳이라서 문화재적인 가치가 무척 높대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "난대림의 모습을 가장 잘 유지하고 있는 곳"
+        },
+        {
+          "text": "주도는 완도 앞바다에 있고 해안선에서 100m쯤 떨어진 근거리에 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "해안선에서 100m쯤 떨어진 근거리에 있다."
+        },
+        {
+          "text": "섬 꼭대기에는 서낭당이 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "섬 꼭대기에는 서낭당이 있다."
+        },
+        {
+          "text": "그래서 이 섬에 신성이 부여되어서 그간 보호가 잘된 것으로 생각되고 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "신성이 부여되어서 그간 보호가 잘된 것으로 생각되고 있다."
+        },
+        {
+          "text": "조선시대에는 완도 일가가 봉산이라 해서 큰나무의 벌채가 금지 되었던 곳으로, 따라서 주도도 아울러 금역안이 있었을 거예요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "조선시대에는 완도 일가가 봉산이라 해서 큰나무의 벌채가 금지 되었던 곳으로"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "주도 상록수림은 전라남도 완도군에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 완도군"
+        },
+        {
+          "text": "주도의 상록수림은 우리나라 난대림의 모습을 가장 잘 유지하고 있는 곳으로 문화재적인 가치가 무척 높은 자원입니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "난대림의 모습을 가장 잘 유지하고 있는 곳"
+        },
+        {
+          "text": "주도는 완도 앞바다에 있고 해안선에서 100m쯤 떨어진 근거리에 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "해안선에서 100m쯤 떨어진 근거리에 있다."
+        },
+        {
+          "text": "섬 꼭대기에는 서낭당이 있어 섬에 신성이 부여되어 그간 보호가 잘된 것으로 생각되고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "신성이 부여되어서 그간 보호가 잘된 것으로 생각되고 있다."
+        },
+        {
+          "text": "조선시대에는 완도 일가가 봉산이라 해서 큰나무의 벌채가 금지 되었던 곳으로, 따라서 주도도 아울러 금역안이 있었을 것이다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "따라서 주도도 아울러 금역안이 있었을 것이다."
+        }
+      ]
+    },
+    "find": {
+      "text": "붉가시나무를 찾아볼까요?",
+      "target": "붉가시나무",
+      "source_quote": "붉가시나무"
+    }
+  }
+}

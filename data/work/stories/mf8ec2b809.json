@@ -1,0 +1,259 @@
+{
+  "id": "mf8ec2b809",
+  "name": "월남마을",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "월남마을 숲은 전라남도 강진군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 강진군"
+            },
+            {
+              "text": "이 숲은 국립공원 월출산 밑에 위치하며, 명승지로서 경관이 뛰어나다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "국립공원 월출산 밑에 위치하며"
+            },
+            {
+              "text": "과거에는 이곳에 큰 사찰 월남사지가 들어서 있었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "과거에는 큰 사찰 월남사지가 들어서있었으며"
+            },
+            {
+              "text": "월남사지 아래쪽에는 오래된 노송나무 3그루가 자라서, 마을주민들의 안녕을 지키고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "오래된 노송나무 3그루가 자라서"
+            },
+            {
+              "text": "노송아래 에서는 주민들이 모여 마을공동체와 협동심을 키우는 토론을 하거나 쉬는 장소로 오래 사용해 왔대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을공동체 및 협동심을 키우는 토론장소 및 쉼터장소로 오래세월동안 사용하고 있으며"
+            },
+            {
+              "text": "소나무 옆에는 서당이 있어 많은 학동들이 글을 배우고 예법을 몸으로 실천했다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "서당에서는 많은 학동들이 글을 배우고 예법을 몸서 실천하여"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "월남마을 숲은 전라남도 강진군에 위치합니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 강진군"
+            },
+            {
+              "text": "국립공원 월출산 밑에 있어 명승지로서 경관이 뛰어납니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "명승지로서 경관 뛰어나며"
+            },
+            {
+              "text": "과거에는 큰 사찰 월남사지가 들어서 있었고,",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "과거에는 큰 사찰 월남사지가 들어서있었으며"
+            },
+            {
+              "text": "월남사지 아래쪽에는 오래된 노송나무 3그루가 자라서 마을주민들의 안녕을 지켜왔습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "오래된 노송나무 3그루가 자라서"
+            },
+            {
+              "text": "노송 아래에서는 주민들이 모여 토론하고 쉬는 장소로 오랫동안 사용해 왔고,",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "노송아래 에서는 주민들이 모여 마을공동체 및 협동심을 키우는 토론장소 및 쉼터장소로 오래세월동안 사용하고 있으며"
+            },
+            {
+              "text": "소나무 옆의 서당에서는 학동들이 글을 배우고 예법을 실천했다고 전해집니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "서당에서는 많은 학동들이 글을 배우고 예법을 몸서 실천하여"
+            }
+          ]
+        },
+        "find": {
+          "text": "노송나무 3그루를 찾아볼까요?",
+          "target": "노송나무 3그루",
+          "source_quote": "오래된 노송나무 3그루가 자라서"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라남도 강진군 ... (전라남도 강진군)'으로 명시되어 있어 동일한 내용입니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사에 '국립공원 월출산 밑에 위치하며 명승지로서 경관 뛰어남'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '과거에는 큰 사찰 월남사지가 들어서있었으며'라고 되어 있어 동일합니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '월남사지 아래쪽에는 오래된 노송나무 3그루가 자라서 마을주민들의 안녕을 지키고 있으며'라고 명시되어 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '노송아래 에서는 주민들이 모여 마을공동체 및 협동심을 키우는 토론장소 및 쉼터장소로 오래세월동안 사용'했다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '소나무 옆에는 서당이 있었는데 서당에서는 많은 학동들이 글을 배우고 예법을 몸서 실천'이라고 되어 있어 동일한 내용입니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문에 강진군 위치가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '국립공원 월출산 밑에 위치하며 명승지로서 경관 뛰어남'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '과거에는 큰 사찰 월남사지가 들어서있었으며'라고 되어 있어 일치합니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '월남사지 아래쪽에는 오래된 노송나무 3그루가 자라서 마을주민들의 안녕을 지키고 있으며'라고 명시되어 있어 동일합니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '노송아래 ... 토론장소 및 쉼터장소로 오래세월동안 사용'했다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '소나무 옆에는 서당... 학동들이 글을 배우고 예법을 몸서 실천'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '오래된 노송나무 3그루'가 있다는 내용이 있어 '노송나무 3그루를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "월남마을 숲은 전라남도 강진군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 강진군"
+        },
+        {
+          "text": "이 숲은 국립공원 월출산 밑에 위치하며, 명승지로서 경관이 뛰어나다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "국립공원 월출산 밑에 위치하며"
+        },
+        {
+          "text": "과거에는 이곳에 큰 사찰 월남사지가 들어서 있었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "과거에는 큰 사찰 월남사지가 들어서있었으며"
+        },
+        {
+          "text": "월남사지 아래쪽에는 오래된 노송나무 3그루가 자라서, 마을주민들의 안녕을 지키고 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "오래된 노송나무 3그루가 자라서"
+        },
+        {
+          "text": "노송아래 에서는 주민들이 모여 마을공동체와 협동심을 키우는 토론을 하거나 쉬는 장소로 오래 사용해 왔대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을공동체 및 협동심을 키우는 토론장소 및 쉼터장소로 오래세월동안 사용하고 있으며"
+        },
+        {
+          "text": "소나무 옆에는 서당이 있어 많은 학동들이 글을 배우고 예법을 몸으로 실천했다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "서당에서는 많은 학동들이 글을 배우고 예법을 몸서 실천하여"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "월남마을 숲은 전라남도 강진군에 위치합니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 강진군"
+        },
+        {
+          "text": "국립공원 월출산 밑에 있어 명승지로서 경관이 뛰어납니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "명승지로서 경관 뛰어나며"
+        },
+        {
+          "text": "과거에는 큰 사찰 월남사지가 들어서 있었고,",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "과거에는 큰 사찰 월남사지가 들어서있었으며"
+        },
+        {
+          "text": "월남사지 아래쪽에는 오래된 노송나무 3그루가 자라서 마을주민들의 안녕을 지켜왔습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "오래된 노송나무 3그루가 자라서"
+        },
+        {
+          "text": "노송 아래에서는 주민들이 모여 토론하고 쉬는 장소로 오랫동안 사용해 왔고,",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "노송아래 에서는 주민들이 모여 마을공동체 및 협동심을 키우는 토론장소 및 쉼터장소로 오래세월동안 사용하고 있으며"
+        },
+        {
+          "text": "소나무 옆의 서당에서는 학동들이 글을 배우고 예법을 실천했다고 전해집니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "서당에서는 많은 학동들이 글을 배우고 예법을 몸서 실천하여"
+        }
+      ]
+    },
+    "find": {
+      "text": "노송나무 3그루를 찾아볼까요?",
+      "target": "노송나무 3그루",
+      "source_quote": "오래된 노송나무 3그루가 자라서"
+    }
+  },
+  "opener_removed": true
+}

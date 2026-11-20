@@ -1,0 +1,249 @@
+{
+  "id": "mffc35b613",
+  "name": "수계정숲2",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "수계정숲2는 경상남도 산청읍에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 산청읍 산청리 25번지(충혼탑)"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "기록에는 중국 남방 양자강 하류에 경호강이 있다고 했대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "중국 남방 양자강 하류,"
+            },
+            {
+              "text": "그 강변에 환아정과 수계정이 있다고 적혀 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "그 강변에 환아정과 수계정이 있는데"
+            },
+            {
+              "text": "그리고 그 풍경이 닮아서 경호강이라 불리어 왔다고 적혀 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "경호강이라 불리어 왔으며"
+            },
+            {
+              "text": "숲에는 느티나무와 참나무류가 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무,참나무류"
+            },
+            {
+              "text": "기록에는 홍학당 뒤편 고산지대에 숲이 우거져 그속에 수계정이 서 있었다고도 적혀 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "홍학당 뒤편 고산지대에 숲이 우거져"
+            },
+            {
+              "text": "조용히 둘러보며 숲의 이야기를 떠올려 보아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "수계정숲2는 경상남도 산청읍에 위치한 숲입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 산청읍 산청리 25번지(충혼탑)"
+            },
+            {
+              "text": "기록을 간단히 정리해 보겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "주요 수종으로 느티나무와 참나무류가 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "느티나무,참나무류"
+            },
+            {
+              "text": "역사 기록에는 그 강변에 환아정과 수계정이 있다고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "그 강변에 환아정과 수계정이 있는데"
+            },
+            {
+              "text": "또한 기록은 홍학당 뒤편 고산지대에 숲이 우거져 그속에 수계정이 서 있었다고 전합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "홍학당 뒤편 고산지대에 숲이 우거져"
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "느티나무,참나무류"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 '경상남도 산청읍 산청리 25번지'로 위치가 명시되어 있어요."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '중국 남방 양자강 하류... 경호강이 있으며'라고 적혀 있어요."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '그 강변에 환아정과 수계정이 있는데'라고 직접 적혀 있어요."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '아름다운 경관이 ... 비슷하다 하여 예부터 경호강이라 불리어 왔다'고 적혀 있어요."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 주요 나무 항목에 '느티나무, 참나무류'로 기록되어 있어요."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '홍학당 뒤편 고산지대에 숲이 우거져 그속에 수계정이 서 있었다'고 적혀 있어요."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 숲 이름과 주소로 경상남도 산청읍 위치가 명시되어 있어요."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 주요 나무 항목에 느티나무와 참나무류가 기록되어 있어요."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '그 강변에 환아정과 수계정이 있다'고 적혀 있어요."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '홍학당 뒤편 고산지대에 숲이 우거져 그속에 수계정이 서 있었다'고 기록되어 있어요."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 주요 나무로 느티나무가 명시되어 있어 '[찾아볼 것] 느티나무를 찾아볼까요?'는 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "수계정숲2는 경상남도 산청읍에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 산청읍 산청리 25번지(충혼탑)"
+        },
+        {
+          "text": "기록에는 중국 남방 양자강 하류에 경호강이 있다고 했대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "중국 남방 양자강 하류,"
+        },
+        {
+          "text": "그 강변에 환아정과 수계정이 있다고 적혀 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "그 강변에 환아정과 수계정이 있는데"
+        },
+        {
+          "text": "그리고 그 풍경이 닮아서 경호강이라 불리어 왔다고 적혀 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "경호강이라 불리어 왔으며"
+        },
+        {
+          "text": "숲에는 느티나무와 참나무류가 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무,참나무류"
+        },
+        {
+          "text": "기록에는 홍학당 뒤편 고산지대에 숲이 우거져 그속에 수계정이 서 있었다고도 적혀 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "홍학당 뒤편 고산지대에 숲이 우거져"
+        },
+        {
+          "text": "조용히 둘러보며 숲의 이야기를 떠올려 보아요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "수계정숲2는 경상남도 산청읍에 위치한 숲입니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 산청읍 산청리 25번지(충혼탑)"
+        },
+        {
+          "text": "기록을 간단히 정리해 보겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "주요 수종으로 느티나무와 참나무류가 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "느티나무,참나무류"
+        },
+        {
+          "text": "역사 기록에는 그 강변에 환아정과 수계정이 있다고 적혀 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "그 강변에 환아정과 수계정이 있는데"
+        },
+        {
+          "text": "또한 기록은 홍학당 뒤편 고산지대에 숲이 우거져 그속에 수계정이 서 있었다고 전합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "홍학당 뒤편 고산지대에 숲이 우거져"
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "느티나무,참나무류"
+    }
+  },
+  "opener_removed": true
+}

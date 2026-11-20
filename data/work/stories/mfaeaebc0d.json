@@ -1,0 +1,203 @@
+{
+  "id": "mfaeaebc0d",
+  "name": "새리 앞 천방 동신나무숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "새리 앞 천방 동신나무숲은 경상북도 상주시에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "새리 앞 천방 동신나무숲"
+            },
+            {
+              "text": "이 숲에는 회나무가 주요 나무로 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "회나무"
+            },
+            {
+              "text": "마을 모양을 닮았다고 하여 지내가 잘 가지 못하도록 하려고 지내마디 수와 같은 23그루의 버드나무를 심었다고 전해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "23그루의 버드나무를 심은 것이"
+            },
+            {
+              "text": "숲 옆에 마을 쉼터를 만들어 느티나무와 은행, 목련을 심고 원두막도 놓았대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을 쉼터를 조성하여 느티나무, 은행, 목련 등을 심고 원두막을 지어 놓았으며"
+            },
+            {
+              "text": "1992년도에는 마을 청년들이 “앞천방계”라는 계를 만들어 이 숲을 잘 보호하고 서로 화목하려 했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "1992년도에는 마을 청년들이 “앞천방계”라는 계를 조직하여"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "새리 앞 천방 동신나무숲은 경상북도 상주시에 위치합니다.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "새리 앞 천방 동신나무숲"
+            },
+            {
+              "text": "주요 나무는 회나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "회나무"
+            },
+            {
+              "text": "마을 형상을 닮아 지내가 닿지 못하도록 지내마디 수와 같은 23그루의 버드나무를 심은 것이 지금 남아있는 왕버들 나무의 시원이라고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "23그루의 버드나무를 심은 것이"
+            },
+            {
+              "text": "숲과 연하여 마을 쉼터를 조성해 느티나무와 은행, 목련을 심고 원두막을 세웠으며, 1992년도에는 마을 청년들이 “앞천방계”라는 계를 조직하여 이 천방숲을 잘 보호하고 계원 상호간 화목을 도모하고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "1992년도에는 마을 청년들이 “앞천방계”라는 계를 조직하여"
+            }
+          ]
+        },
+        "find": {
+          "text": "회나무를 찾아볼까요?",
+          "target": "회나무",
+          "source_quote": "회나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 '경상북도 상주시 ...'로 되어 있어 상주시에 위치함이 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '주요 나무(species): 회나무'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '마을이 지내를 닮은 형상이라 ... 지내마디의 수와 같은 23그루의 버드나무를 심은 것'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '마을 쉼터를 조성하여 느티나무, 은행, 목련 등을 심고 원두막을 지어 놓았으며'라고 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '1992년도에는 마을 청년들이 “앞천방계”라는 계를 조직하여 이 천방숲을 잘 보호하고 계원 상호간 화목을 도모하고 있으며'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 주소에 '경상북도 상주시 ...'로 되어 있어 상주시에 위치함이 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '주요 나무(species): 회나무'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '23그루의 버드나무를 심은 것이 지금 남아있는 왕버들 나무의 시원이라고' 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 문화 기록의 문장과 내용(쉼터 조성·나무 식재·원두막 설치 및 1992년 앞천방계 조직과 보호·화목 도모)이 일치하여 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '회나무'가 명시되어 있어 '회나무를 찾아볼까요?'라는 권유 내용이 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "새리 앞 천방 동신나무숲은 경상북도 상주시에 있어요.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "새리 앞 천방 동신나무숲"
+        },
+        {
+          "text": "이 숲에는 회나무가 주요 나무로 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "회나무"
+        },
+        {
+          "text": "마을 모양을 닮았다고 하여 지내가 잘 가지 못하도록 하려고 지내마디 수와 같은 23그루의 버드나무를 심었다고 전해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "23그루의 버드나무를 심은 것이"
+        },
+        {
+          "text": "숲 옆에 마을 쉼터를 만들어 느티나무와 은행, 목련을 심고 원두막도 놓았대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을 쉼터를 조성하여 느티나무, 은행, 목련 등을 심고 원두막을 지어 놓았으며"
+        },
+        {
+          "text": "1992년도에는 마을 청년들이 “앞천방계”라는 계를 만들어 이 숲을 잘 보호하고 서로 화목하려 했대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "1992년도에는 마을 청년들이 “앞천방계”라는 계를 조직하여"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "새리 앞 천방 동신나무숲은 경상북도 상주시에 위치합니다.",
+          "type": "fact",
+          "source_field": "name",
+          "source_quote": "새리 앞 천방 동신나무숲"
+        },
+        {
+          "text": "주요 나무는 회나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "회나무"
+        },
+        {
+          "text": "마을 형상을 닮아 지내가 닿지 못하도록 지내마디 수와 같은 23그루의 버드나무를 심은 것이 지금 남아있는 왕버들 나무의 시원이라고 전합니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "23그루의 버드나무를 심은 것이"
+        },
+        {
+          "text": "숲과 연하여 마을 쉼터를 조성해 느티나무와 은행, 목련을 심고 원두막을 세웠으며, 1992년도에는 마을 청년들이 “앞천방계”라는 계를 조직하여 이 천방숲을 잘 보호하고 계원 상호간 화목을 도모하고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "1992년도에는 마을 청년들이 “앞천방계”라는 계를 조직하여"
+        }
+      ]
+    },
+    "find": {
+      "text": "회나무를 찾아볼까요?",
+      "target": "회나무",
+      "source_quote": "회나무"
+    }
+  }
+}

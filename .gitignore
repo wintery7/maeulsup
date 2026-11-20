@@ -1,0 +1,27 @@
+.env
+__pycache__/
+data/work/geocode_cache.json
+data/work/tour_cache.json
+data/work/heritage_cache.json
+data/work/heritage_all.json
+data/work/review/
+data/work/stories_v1_backup/
+docs-private/
+node_modules/
+.vercel
+.DS_Store
+
+# 키가 들어갈 수 있는 다른 env 파일 (예시 파일만 올림)
+.env.*
+!.env.example
+
+# 파이썬 가상환경·캐시
+.venv/
+venv/
+*.pyc
+
+# 편집기·OS
+.vscode/
+.idea/
+Thumbs.db
+data/work/commons_cache.json

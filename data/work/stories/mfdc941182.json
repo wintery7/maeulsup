@@ -1,0 +1,531 @@
+{
+  "id": "mfdc941182",
+  "name": "두렁 골매기숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "두렁 골매기숲은 경상북도 상주시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시"
+            },
+            {
+              "text": "숲에는 아주 오래된 느티나무 5그루가 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "아주 오래된 느티나무 5그루로 수세가 양호한 편이다."
+            },
+            {
+              "text": "나무들은 수세가 양호해서 건강해 보인대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수세가 양호한 편이다."
+            },
+            {
+              "text": "두릉 마을은 앞산 모양 때문에 마을 이름이 생겼다는 이야기가 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 이름을 취하였다는 설이 있다."
+            },
+            {
+              "text": "마을에서는 매년 10월 1일에 동제사를 지냈대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 10월 1일에 동제사를 올렸으나"
+            },
+            {
+              "text": "동제사 때는 송아지를 바치고 당산샘물로 빚은 수과, 닭, 명태, 삼실과 백설기를 제물로 올렸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "송아지를 희생으로 하고 당산샘물로 빚은 수과 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행한다."
+            },
+            {
+              "text": "지금은 10여년 전부터 동제사를 하지 않는대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "10여년 전부터는 동제사를 지내지 않는다고 한다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "두렁 골매기숲은 경상북도 상주시 소재입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시"
+            },
+            {
+              "text": "기록에는 숲이 마을 입구 동쪽 200여 평에 아주 오래된 느티나무 5그루로 수세가 양호한 편이라고 적혀 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲은 마을 입구 동쪽 200여 평에 아주 오래된 느티나무 5그루로 수세가 양호한 편이다."
+            },
+            {
+              "text": "두릉 마을은 앞산의 형국 때문에 마을 이름을 취하였다는 설이 전해진다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 이름을 취하였다는 설이 있다."
+            },
+            {
+              "text": "마을에서는 3곳의 동제단에 매년 10월 1일에 동제사를 올렸습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을에서는 3곳의 동제단에 매년 10월 1일에 동제사를 올렸으나"
+            },
+            {
+              "text": "동제 때에는 송아지를 희생으로 하고 당산샘물로 빚은 수과, 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행했다고 전합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "송아지를 희생으로 하고 당산샘물로 빚은 수과 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행한다."
+            },
+            {
+              "text": "다만 세태 변화로 10여년 전부터는 동제사를 지내지 않는다고 합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "10여년 전부터는 동제사를 지내지 않는다고 한다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "주요 나무(species): 느티나무"
+        }
+      },
+      "problems": [
+        "찾아볼 것: 근거 구절이 원문에 없음"
+      ],
+      "verdicts": null,
+      "hard_words": []
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "두렁 골매기숲은 경상북도 상주시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시"
+            },
+            {
+              "text": "숲에는 아주 오래된 느티나무 다섯 그루가 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "아주 오래된 느티나무 5그루"
+            },
+            {
+              "text": "수세가 양호한 편이라 나무들이 건강하게 자란대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "수세가 양호한 편이다."
+            },
+            {
+              "text": "두릉 마을 이름은 앞산 모양과 관련된 이야기에서 왔다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "앞산의 형국이 능과 같아서"
+            },
+            {
+              "text": "마을에서는 매년 10월 1일에 동제를 올렸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 10월 1일에 동제사를 올렸으나"
+            },
+            {
+              "text": "하지만 세태 때문에 10여년 전부터 동제를 지내지 않는다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "10여년 전부터는 동제사를 지내지 않는다고 한다."
+            },
+            {
+              "text": "동제 때에는 송아지를 희생으로 하고 당산샘물로 빚은 수과와 닭, 명태, 삼실, 백설기를 제물로 올렸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "송아지를 희생으로 하고 당산샘물로 빚은 수과 닭, 명태, 삼실과 백설기를 제물로 하여"
+            },
+            {
+              "text": "제사는 제사 당일 12시 이후에 거행했다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "제사 당일 12시 이후에 거행한다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "두렁 골매기숲은 경상북도 상주시에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시"
+            },
+            {
+              "text": "숲은 마을 입구 동쪽 200여 평에 위치합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 입구 동쪽 200여 평에"
+            },
+            {
+              "text": "아주 오래된 느티나무 5그루로 구성되어 수세가 양호한 편입니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "아주 오래된 느티나무 5그루로 수세가 양호한 편이다."
+            },
+            {
+              "text": "두릉 마을에는 앞산의 형국이 능과 같아 마을 이름을 취하였다는 설이 전해집니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 이름을 취하였다는 설이 있다."
+            },
+            {
+              "text": "마을에서는 매년 10월 1일에 동제사를 올렸으나 세태에 따라 10여년 전부터는 동제사를 지내지 않는다고 합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 10월 1일에 동제사를 올렸으나 세태에 따라 10여년 전부터는 동제사를 지내지 않는다고 한다."
+            },
+            {
+              "text": "동제 때에는 송아지를 희생으로 하고 당산샘물로 빚은 수과, 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행했습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "동제사를 지낼때에는 송아지를 희생으로 하고 당산샘물로 빚은 수과 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행한다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "아주 오래된 느티나무 5그루"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '경상북도 상주시'로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '아주 오래된 느티나무 5그루'라고 적혀 있어 동일한 내용입니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '수세가 양호한 편이다'라고 되어 있어 '나무들이 건강하게 자란다'는 풀어쓰기로 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 마을 이름에 대해 앞산 형국과 관련된 설이 있다고 적혀 있어 해당 진술을 지지합니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '매년 10월 1일에 동제사를 올렸다'고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '세태에 따라 10여년 전부터는 동제사를 지내지 않는다'고 적혀 있어 해당 진술을 지지합니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 동제 때의 제물로 송아지 희생과 당산샘물로 빚은 수과, 닭, 명태, 삼실, 백설기가 언급되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '제사 당일 12시 이후에 거행한다'고 적혀 있어 동일한 내용입니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "(0)과 동일하게 원문에 상주시 위치가 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '마을 입구 동쪽 200여 평'에 위치한다고 정확히 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '아주 오래된 느티나무 5그루로 수세가 양호한 편'이라고 되어 있어 동일한 내용입니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '앞산의 형국이 능과 같아 마을 이름을 취하였다는 설'이 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 매년 10월 1일 동제사를 올렸으나 10여년 전부터 지내지 않는다고 함께 서술되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 동제 때의 제물과 '제사 당일 12시 이후에 거행'이라는 내용이 함께 적혀 있어 해당 문장을 지지합니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 적혀 있어 '느티나무를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "양호"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "두렁 골매기숲은 경상북도 상주시에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시"
+            },
+            {
+              "text": "숲에는 아주 오래된 느티나무 5그루가 있고 나무들이 잘 자라고 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "아주 오래된 느티나무 5그루로 수세가 양호한 편이다."
+            },
+            {
+              "text": "마을 이름이 생긴 이야기가 전해지는데, 능을 막았다고 해서 붙였다는 이야기가 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "능을 막았다고 하여 마을 이름을 취하였다는 설이 있다."
+            },
+            {
+              "text": "마을에서는 3곳의 동제단에서 매년 10월 1일에 동제사를 올렸대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "3곳의 동제단에 매년 10월 1일에 동제사를 올렸으나"
+            },
+            {
+              "text": "하지만 세태가 바뀌어 10여년 전부터는 동제사를 지내지 않는대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "10여년 전부터는 동제사를 지내지 않는다고 한다."
+            },
+            {
+              "text": "동제 때에는 송아지와 당산샘물로 빚은 수과, 닭, 명태, 삼실과 백설기를 제물로 바치고 제사 날 12시 이후에 했대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "송아지를 희생으로 하고 당산샘물로 빚은 수과 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행한다."
+            },
+            {
+              "text": "이야기가 마음에 남아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "두렁 골매기숲은 경상북도 상주시에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상북도 상주시"
+            },
+            {
+              "text": "숲은 마을 입구 동쪽 200여 평에 아주 오래된 느티나무 5그루로 수세가 양호한 편이다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "숲은 마을 입구 동쪽 200여 평에 아주 오래된 느티나무 5그루로 수세가 양호한 편이다."
+            },
+            {
+              "text": "두릉 마을의 명칭 유래로는 앞산의 형국이 능과 같아 능을 막아야 마을이 길하다는 설과 능을 막았다고 하여 마을 이름을 취하였다는 설이 전해진다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "앞산의 형국이 능과 같아서 능을 막아야 마을이 길하다는 설과 능을 막았다고 하여 마을 이름을 취하였다는 설이 있다."
+            },
+            {
+              "text": "마을에서는 3곳의 동제단에 매년 10월 1일에 동제사를 올렸으나 세태에 따라 10여년 전부터는 동제사를 지내지 않는다고 한다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "3곳의 동제단에 매년 10월 1일에 동제사를 올렸으나 세태에 따라 10여년 전부터는 동제사를 지내지 않는다고 한다."
+            },
+            {
+              "text": "동제 때에는 송아지를 희생으로 하고 당산샘물로 빚은 수과, 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행하였다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "송아지를 희생으로 하고 당산샘물로 빚은 수과 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행한다."
+            }
+          ]
+        },
+        "find": {
+          "text": "느티나무를 찾아볼까요?",
+          "target": "느티나무",
+          "source_quote": "아주 오래된 느티나무 5그루"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 주소가 '경상북도 상주시 ...'로 표기되어 있어 상주시에 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '아주 오래된 느티나무 5그루'와 '수세가 양호한 편'이라고 적혀 있어 '나무들이 잘 자라고 있다'는 표현이 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '능을 막았다고 하여 마을 이름을 취하였다는 설'이 명시되어 있어 해당 이야기가 전해진다는 표현이 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '마을에서는 3곳의 동제단에 매년 10월 1일에 동제사를 올렸'다고 적혀 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '세태에 따라 10여년 전부터는 동제사를 지내지 않는다고 한다'고 적혀 있어 해당 변화와 시점이 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 제물 목록(송아지, 당산샘물로 빚은 수과, 닭, 명태, 삼실, 백설기)과 '제사 당일 12시 이후에 거행'이라고 적혀 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 위치가 '경상북도 상주시'로 되어 있어 같은 내용으로 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '마을 입구 동쪽 200여 평에 아주 오래된 느티나무 5그루로 수세가 양호한 편'이라고 정확히 적혀 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 두릉 마을 명칭 유래로 두 가지 설(앞산 형국이 능과 같아 능을 막아야 길하다는 설과 능을 막았다고 하여 이름을 취했다는 설)이 모두 서술되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '마을에서는 3곳의 동제단에 매년 10월 1일에 동제사를 올렸으나 세태에 따라 10여년 전부터는 동제사를 지내지 않는다'고 적혀 있어 동일하게 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '송아지를 희생으로 하고 당산샘물로 빚은 수과, 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행한다'고 적혀 있어 같은 내용으로 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '느티나무'가 명시되어 있어 '느티나무를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "두렁 골매기숲은 경상북도 상주시에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상북도 상주시"
+        },
+        {
+          "text": "숲에는 아주 오래된 느티나무 5그루가 있고 나무들이 잘 자라고 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "아주 오래된 느티나무 5그루로 수세가 양호한 편이다."
+        },
+        {
+          "text": "마을 이름이 생긴 이야기가 전해지는데, 능을 막았다고 해서 붙였다는 이야기가 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "능을 막았다고 하여 마을 이름을 취하였다는 설이 있다."
+        },
+        {
+          "text": "마을에서는 3곳의 동제단에서 매년 10월 1일에 동제사를 올렸대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "3곳의 동제단에 매년 10월 1일에 동제사를 올렸으나"
+        },
+        {
+          "text": "하지만 세태가 바뀌어 10여년 전부터는 동제사를 지내지 않는대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "10여년 전부터는 동제사를 지내지 않는다고 한다."
+        },
+        {
+          "text": "동제 때에는 송아지와 당산샘물로 빚은 수과, 닭, 명태, 삼실과 백설기를 제물로 바치고 제사 날 12시 이후에 했대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "송아지를 희생으로 하고 당산샘물로 빚은 수과 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행한다."
+        },
+        {
+          "text": "이야기가 마음에 남아요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "두렁 골매기숲은 경상북도 상주시에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상북도 상주시"
+        },
+        {
+          "text": "숲은 마을 입구 동쪽 200여 평에 아주 오래된 느티나무 5그루로 수세가 양호한 편이다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "숲은 마을 입구 동쪽 200여 평에 아주 오래된 느티나무 5그루로 수세가 양호한 편이다."
+        },
+        {
+          "text": "두릉 마을의 명칭 유래로는 앞산의 형국이 능과 같아 능을 막아야 마을이 길하다는 설과 능을 막았다고 하여 마을 이름을 취하였다는 설이 전해진다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "앞산의 형국이 능과 같아서 능을 막아야 마을이 길하다는 설과 능을 막았다고 하여 마을 이름을 취하였다는 설이 있다."
+        },
+        {
+          "text": "마을에서는 3곳의 동제단에 매년 10월 1일에 동제사를 올렸으나 세태에 따라 10여년 전부터는 동제사를 지내지 않는다고 한다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "3곳의 동제단에 매년 10월 1일에 동제사를 올렸으나 세태에 따라 10여년 전부터는 동제사를 지내지 않는다고 한다."
+        },
+        {
+          "text": "동제 때에는 송아지를 희생으로 하고 당산샘물로 빚은 수과, 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행하였다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "송아지를 희생으로 하고 당산샘물로 빚은 수과 닭, 명태, 삼실과 백설기를 제물로 하여 제사 당일 12시 이후에 거행한다."
+        }
+      ]
+    },
+    "find": {
+      "text": "느티나무를 찾아볼까요?",
+      "target": "느티나무",
+      "source_quote": "아주 오래된 느티나무 5그루"
+    }
+  }
+}

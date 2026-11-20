@@ -1,0 +1,249 @@
+{
+  "id": "mf10106ce2",
+  "name": "취간림",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "취간림은 경상남도 하동군 악양면에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 하동군 악양면"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲은 약200여 년 전부터 악양천 모래톱에 자연적으로 만들어진 마을 소유의 숲이에요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약200여 년 전부터 악양천 모래톱에 자연적으로 만들어진 마을 소유의 숲"
+            },
+            {
+              "text": "마을주민들이 매년 기념식수 등을 통해 꾸준히 숲을 가꾸어왔다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을주민들이 매년 기념식수 등을 통해 꾸준히 숲을 가꾸어온 결과"
+            },
+            {
+              "text": "이 숲에는 왕버들이 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "왕버들"
+            },
+            {
+              "text": "근처에는 평사리 공원과 동정호가 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "평사리 공원과 동정호가 있는 고소성 군립공원"
+            },
+            {
+              "text": "차에서 내리면 큰 나무를 찾아볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "취간림은 경상남도 하동군 악양면에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 하동군 악양면"
+            },
+            {
+              "text": "간단히 살펴보겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "주요 나무는 왕버들이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "왕버들"
+            },
+            {
+              "text": "이 숲은 약200여 년 전부터 악양천 모래톱에 자연적으로 만들어진 마을 소유의 숲이다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약200여 년 전부터 악양천 모래톱에 자연적으로 만들어진 마을 소유의 숲"
+            },
+            {
+              "text": "마을주민들이 매년 기념식수 등을 통해 꾸준히 숲을 가꾸어왔다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을주민들이 매년 기념식수 등을 통해 꾸준히 숲을 가꾸어온 결과"
+            },
+            {
+              "text": "근처에 평사리 공원과 동정호가 있는 고소성 군립공원이 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "평사리 공원과 동정호가 있는 고소성 군립공원"
+            }
+          ]
+        },
+        "find": {
+          "text": "왕버들을 찾아볼까요?",
+          "target": "왕버들",
+          "source_quote": "왕버들"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소에 '경상남도 하동군 악양면'이라고 명시되어 있어요."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '약200여 년 전부터 악양천 모래톱에 자연적으로 만들어진 마을 소유의 숲'이라고 적혀 있어요."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '마을주민들이 매년 기념식수 등을 통해 꾸준히 숲을 가꾸어온'이라고 기록되어 있어요."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 주요 나무로 '왕버들'이 명시되어 있어요."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '평사리 공원과 동정호'가 근처 볼거리로 언급되어 있어요."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 주소에 '경상남도 하동군 악양면'이라고 명시되어 있어요."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 주요 나무가 '왕버들'이라고 적혀 있어요."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 역사 기록 문장이 동일하게 '약200여 년 전부터 악양천 모래톱에 자연적으로 만들어진 마을 소유의 숲'이라고 되어 있어요."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '마을주민들이 매년 기념식수 등을 통해 꾸준히 숲을 가꾸어온'이라고 기록되어 있어요."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 문화 기록에 '평사리 공원과 동정호가 있는 고소성 군립공원'이라고 언급되어 있어요."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '왕버들'이 명시되어 있어 권유 문장에 나온 대상이 원문에 있어요."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "취간림은 경상남도 하동군 악양면에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 하동군 악양면"
+        },
+        {
+          "text": "이 숲은 약200여 년 전부터 악양천 모래톱에 자연적으로 만들어진 마을 소유의 숲이에요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약200여 년 전부터 악양천 모래톱에 자연적으로 만들어진 마을 소유의 숲"
+        },
+        {
+          "text": "마을주민들이 매년 기념식수 등을 통해 꾸준히 숲을 가꾸어왔다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을주민들이 매년 기념식수 등을 통해 꾸준히 숲을 가꾸어온 결과"
+        },
+        {
+          "text": "이 숲에는 왕버들이 자라고 있어요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "왕버들"
+        },
+        {
+          "text": "근처에는 평사리 공원과 동정호가 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "평사리 공원과 동정호가 있는 고소성 군립공원"
+        },
+        {
+          "text": "차에서 내리면 큰 나무를 찾아볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "취간림은 경상남도 하동군 악양면에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 하동군 악양면"
+        },
+        {
+          "text": "간단히 살펴보겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "주요 나무는 왕버들이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "왕버들"
+        },
+        {
+          "text": "이 숲은 약200여 년 전부터 악양천 모래톱에 자연적으로 만들어진 마을 소유의 숲이다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약200여 년 전부터 악양천 모래톱에 자연적으로 만들어진 마을 소유의 숲"
+        },
+        {
+          "text": "마을주민들이 매년 기념식수 등을 통해 꾸준히 숲을 가꾸어왔다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을주민들이 매년 기념식수 등을 통해 꾸준히 숲을 가꾸어온 결과"
+        },
+        {
+          "text": "근처에 평사리 공원과 동정호가 있는 고소성 군립공원이 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "평사리 공원과 동정호가 있는 고소성 군립공원"
+        }
+      ]
+    },
+    "find": {
+      "text": "왕버들을 찾아볼까요?",
+      "target": "왕버들",
+      "source_quote": "왕버들"
+    }
+  },
+  "opener_removed": true
+}

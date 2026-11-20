@@ -1,0 +1,305 @@
+{
+  "id": "mfc70b00a2",
+  "name": "예송리 상록수림",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "예송리 상록수림은 전라남도 완도군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 완도군"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 숲은 보길도의 동남쪽 해안에 위치하고 있다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "보길도의 동남쪽 해안에 위치하고 있다."
+            },
+            {
+              "text": "약 300년 전에 마을 사람들이 태풍을 막기 위해 만든 숲이라고 전해져요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 300년 전에 태풍을 막기 위해 이곳 주민들이 마든 숲"
+            },
+            {
+              "text": "길이는 약 740m, 폭은 30m쯤 되는 반달모양이라고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "길이가 약 740m, 폭이 30m쯤 되는 반달모양의 매우 아름다운 숲이다."
+            },
+            {
+              "text": "나무로는 소나무, 해송, 동백이 주로 자란대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무, 해송, 동백"
+            },
+            {
+              "text": "겉보기에 상록활엽수림이지만 곰솔이 많이 있고 굵은 나무가 많대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "상록활엽수림이라고 하지만 상당수의 곰솔이 자라고 있고 굵은 나무가 많다."
+            },
+            {
+              "text": "마을사람들은 큰 곰솔을 당산목으로 정해 나무줄기를 시멘트 기둥으로 받쳐 놓았대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "곰솔중 큰나무를 골라 이 마을사람들은 당산목으로 하고 있고 나무줄기가 비스듬히 누워 있기 때문에 시멘트 기둥을 설치해서 보고하고 있다."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "예송리 상록수림은 전라남도 완도군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 완도군"
+            },
+            {
+              "text": "간단히 정리해 드리겠습니다.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "숲은 보길도의 동남쪽 해안에 위치하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "보길도의 동남쪽 해안에 위치하고 있다."
+            },
+            {
+              "text": "약 300년 전에 주민들이 태풍을 막기 위해 조성한 숲이다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "약 300년 전에 태풍을 막기 위해 이곳 주민들이 마든 숲"
+            },
+            {
+              "text": "길이는 약 740m, 폭이 30m쯤 되는 반달모양의 숲이다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "길이가 약 740m, 폭이 30m쯤 되는 반달모양의 매우 아름다운 숲이다."
+            },
+            {
+              "text": "주요 수종은 소나무, 해송, 동백이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무, 해송, 동백"
+            },
+            {
+              "text": "상록활엽수림으로 분류되지만 상당수의 곰솔이 자라고 굵은 나무가 많다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "상록활엽수림이라고 하지만 상당수의 곰솔이 자라고 있고 굵은 나무가 많다."
+            },
+            {
+              "text": "커다란 곰솔은 당산목으로 정하고, 나무줄기가 비스듬해 시멘트 기둥으로 지지하고 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "곰솔중 큰나무를 골라 이 마을사람들은 당산목으로 하고 있고 나무줄기가 비스듬히 누워 있기 때문에 시멘트 기둥을 설치해서 보고하고 있다."
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무, 해송, 동백"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 위치 정보에 전라남도 완도군으로 표기되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "역사 기록에 '보길도의 동남쪽 해안에 위치하고 있다'고 직접 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '약 300년 전에 태풍을 막기 위해 이곳 주민들이 만든 숲'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '길이가 약 740m, 폭이 30m쯤 되는 반달모양'이라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 주요 나무 항목에 소나무, 해송, 동백이 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "문화 기록에 '상록활엽수림이라고 하지만 상당수의 곰솔이 자라고 있고 굵은 나무가 많다'고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '곰솔중 큰나무를 골라 ... 당산목으로 하고 있고 ... 시멘트 기둥을 설치'했다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "위치 정보에 전라남도 완도군으로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "역사 기록에 보길도 동남쪽 해안 위치라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '약 300년 전에 주민들이 태풍을 막기 위해 만든 숲'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 길이 약 740m, 폭 30m의 반달모양이라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 주요 나무에 소나무·해송·동백이 기재되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "문화 기록에 상록활엽수림이지만 상당수의 곰솔과 굵은 나무가 많다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 큰 곰솔을 당산목으로 하고 나무줄기가 비스듬해 시멘트 기둥을 설치했다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문 주요 나무에 소나무가 포함되어 있어 '소나무를 찾아볼까요?'라는 권유는 원문으로 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "예송리 상록수림은 전라남도 완도군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 완도군"
+        },
+        {
+          "text": "이 숲은 보길도의 동남쪽 해안에 위치하고 있다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "보길도의 동남쪽 해안에 위치하고 있다."
+        },
+        {
+          "text": "약 300년 전에 마을 사람들이 태풍을 막기 위해 만든 숲이라고 전해져요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약 300년 전에 태풍을 막기 위해 이곳 주민들이 마든 숲"
+        },
+        {
+          "text": "길이는 약 740m, 폭은 30m쯤 되는 반달모양이라고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "길이가 약 740m, 폭이 30m쯤 되는 반달모양의 매우 아름다운 숲이다."
+        },
+        {
+          "text": "나무로는 소나무, 해송, 동백이 주로 자란대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무, 해송, 동백"
+        },
+        {
+          "text": "겉보기에 상록활엽수림이지만 곰솔이 많이 있고 굵은 나무가 많대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "상록활엽수림이라고 하지만 상당수의 곰솔이 자라고 있고 굵은 나무가 많다."
+        },
+        {
+          "text": "마을사람들은 큰 곰솔을 당산목으로 정해 나무줄기를 시멘트 기둥으로 받쳐 놓았대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "곰솔중 큰나무를 골라 이 마을사람들은 당산목으로 하고 있고 나무줄기가 비스듬히 누워 있기 때문에 시멘트 기둥을 설치해서 보고하고 있다."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "예송리 상록수림은 전라남도 완도군에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 완도군"
+        },
+        {
+          "text": "간단히 정리해 드리겠습니다.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "숲은 보길도의 동남쪽 해안에 위치하고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "보길도의 동남쪽 해안에 위치하고 있다."
+        },
+        {
+          "text": "약 300년 전에 주민들이 태풍을 막기 위해 조성한 숲이다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "약 300년 전에 태풍을 막기 위해 이곳 주민들이 마든 숲"
+        },
+        {
+          "text": "길이는 약 740m, 폭이 30m쯤 되는 반달모양의 숲이다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "길이가 약 740m, 폭이 30m쯤 되는 반달모양의 매우 아름다운 숲이다."
+        },
+        {
+          "text": "주요 수종은 소나무, 해송, 동백이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무, 해송, 동백"
+        },
+        {
+          "text": "상록활엽수림으로 분류되지만 상당수의 곰솔이 자라고 굵은 나무가 많다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "상록활엽수림이라고 하지만 상당수의 곰솔이 자라고 있고 굵은 나무가 많다."
+        },
+        {
+          "text": "커다란 곰솔은 당산목으로 정하고, 나무줄기가 비스듬해 시멘트 기둥으로 지지하고 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "곰솔중 큰나무를 골라 이 마을사람들은 당산목으로 하고 있고 나무줄기가 비스듬히 누워 있기 때문에 시멘트 기둥을 설치해서 보고하고 있다."
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무, 해송, 동백"
+    }
+  },
+  "opener_removed": true
+}

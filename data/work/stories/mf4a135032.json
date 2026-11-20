@@ -1,0 +1,237 @@
+{
+  "id": "mf4a135032",
+  "name": "용평마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "용평마을숲은 전라북도 남원시 보절면 도룡리 산71에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 보절면 도룡리 산71"
+            },
+            {
+              "text": "주요 나무는 소나무예요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "자, 숲 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "이 마을은 천황봉 아래 자락에 위치하여 마을 경관이 수려하고 농촌전통테마마을로 육성되고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천황봉 아래 자락에 위치하여 마을 경관이 수려하여"
+            },
+            {
+              "text": "마을 동편으로 마을숲이 형성되어 있어 주민들의 쉬는 곳이자 농촌체험관광객의 휴양처로 각광받고 있어요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 동편으로 마을숲이 형성되어 있어 주민의 휴식 공간"
+            },
+            {
+              "text": "정각 및 지압길, 간이 물놀이 시설 등이 주변에 설치되어 있어 농촌체험관광객이 연 1,000여명이상 방문하고 이용하고 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "정각 및 지압길, 간이 물놀이 시설 등이 주변에 설치되어 있어"
+            },
+            {
+              "text": "차 안에서 천천히 들려줄게요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "용평마을숲은 전라북도 남원시 보절면 도룡리 산71에 위치해 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 보절면 도룡리 산71"
+            },
+            {
+              "text": "주요 수종은 소나무이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "보절면 용평마을은 천황봉 아래 자락에 위치하여 마을 경관이 수려하여 농촌전통테마마을로 육성되고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "천황봉 아래 자락에 위치하여 마을 경관이 수려하여"
+            },
+            {
+              "text": "마을 동편으로 마을숲이 형성되어 있어 주민의 휴식 공간 및 농촌체험관광객의 휴양처로 각광받고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을 동편으로 마을숲이 형성되어 있어"
+            },
+            {
+              "text": "정각 및 지압길, 간이 물놀이 시설 등이 주변에 설치되어 있어 농촌체험관광객이 연 1,000여명이상 방문하고 이용하고 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "연 1,000여명이상 방문하고 이용하고 있음"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문 주소(address)에 '전라북도 남원시 보절면 도룡리 산71'로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문 주요 나무(species)에 '소나무'라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 history에 '천황봉 아래 자락에 위치', '마을 경관이 수려', '농촌전통테마마을로 육성'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문 history에 '마을 동편으로 마을숲이 형성되어 있어 주민의 휴식 공간 및 농촌체험관광객의 휴양처로 각광받고 있음'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문 culture에 '정각 및 지압길, 간이 물놀이 시설 등이 주변에 설치되어 있어 농촌체험관광객이 연 1,000여명이상 방문하고 이용하고 있음'이라고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문 주소에 '전라북도 남원시 보절면 도룡리 산71'로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 주요 수종(또는 주요 나무)으로 '소나무'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문 history의 내용과 동일하게 '천황봉 아래 자락에 위치', '마을 경관이 수려', '농촌전통테마마을로 육성되고 있다'가 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 history에 있는 '마을 동편으로 마을숲이 형성되어 있어 주민의 휴식 공간 및 농촌체험관광객의 휴양처로 각광받고 있음'과 일치해 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문 culture의 표현과 동일하게 '정각 및 지압길, 간이 물놀이 시설 등이 주변에 설치되어 있어 농촌체험관광객이 연 1,000여명이상 방문하고 이용하고 있음'으로 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '소나무'가 명시되어 있어 '소나무를 찾아볼까요?'라는 권유문은 원문에 근거합니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "용평마을숲은 전라북도 남원시 보절면 도룡리 산71에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시 보절면 도룡리 산71"
+        },
+        {
+          "text": "주요 나무는 소나무예요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "이 마을은 천황봉 아래 자락에 위치하여 마을 경관이 수려하고 농촌전통테마마을로 육성되고 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "천황봉 아래 자락에 위치하여 마을 경관이 수려하여"
+        },
+        {
+          "text": "마을 동편으로 마을숲이 형성되어 있어 주민들의 쉬는 곳이자 농촌체험관광객의 휴양처로 각광받고 있어요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을 동편으로 마을숲이 형성되어 있어 주민의 휴식 공간"
+        },
+        {
+          "text": "정각 및 지압길, 간이 물놀이 시설 등이 주변에 설치되어 있어 농촌체험관광객이 연 1,000여명이상 방문하고 이용하고 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "정각 및 지압길, 간이 물놀이 시설 등이 주변에 설치되어 있어"
+        },
+        {
+          "text": "차 안에서 천천히 들려줄게요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "용평마을숲은 전라북도 남원시 보절면 도룡리 산71에 위치해 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시 보절면 도룡리 산71"
+        },
+        {
+          "text": "주요 수종은 소나무이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "보절면 용평마을은 천황봉 아래 자락에 위치하여 마을 경관이 수려하여 농촌전통테마마을로 육성되고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "천황봉 아래 자락에 위치하여 마을 경관이 수려하여"
+        },
+        {
+          "text": "마을 동편으로 마을숲이 형성되어 있어 주민의 휴식 공간 및 농촌체험관광객의 휴양처로 각광받고 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을 동편으로 마을숲이 형성되어 있어"
+        },
+        {
+          "text": "정각 및 지압길, 간이 물놀이 시설 등이 주변에 설치되어 있어 농촌체험관광객이 연 1,000여명이상 방문하고 이용하고 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "연 1,000여명이상 방문하고 이용하고 있음"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  },
+  "opener_removed": true
+}

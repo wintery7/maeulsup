@@ -1,0 +1,513 @@
+{
+  "id": "mf2b227ccb",
+  "name": "덕병마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "덕병마을숲은 전라남도 진도군에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "숲 이름(name): 덕병마을숲\n위치(address): 전라남도 진도군"
+            },
+            {
+              "text": "숲에는 해송이 주요 나무로 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "주요 나무(species): 해송"
+            },
+            {
+              "text": "덕병리에 주민이 살기 시작한 것은 1400년 경이라고 전해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "덕병리에 주민이 살기 시작한 것은 1400년 경으로 시거 씨족은 마씨였다고 한다."
+            },
+            {
+              "text": "시거 씨족은 마씨였다고도 전해진대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "시거 씨족은 마씨였다고 한다."
+            },
+            {
+              "text": "마을숲 옆 동네 입구에 돌장승을 세워 마을의 액운을 막는다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을숲 옆 동네 입구에 돌장승을 만들어서 마을의 액운을 막고자"
+            },
+            {
+              "text": "마을청년회와 부녀회, 장승보존회가 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는"
+            },
+            {
+              "text": "방풍림 앞 농지에 백조도래지가 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "방풍림 앞 농지(구 해변)가 천염기념물로 지정된 백조도래지 임."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "덕병마을숲은 전라남도 진도군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "위치(address): 전라남도 진도군 군내면 덕병리 1144 (전라남도 진도군)"
+            },
+            {
+              "text": "주요 수종은 해송이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "주요 나무(species): 해송"
+            },
+            {
+              "text": "덕병리에 주민이 살기 시작한 것은 1400년 경이며 시거 씨족은 마씨였다고 전한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "덕병리에 주민이 살기 시작한 것은 1400년 경으로 시거 씨족은 마씨였다고 한다."
+            },
+            {
+              "text": "마을숲 옆 입구의 돌장승은 마을청년회·부녀회·장승보존회가 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등 장승제·당제·거리제 행사를 한다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을숲 옆 동네 입구에 돌장승을 만들어서 마을의 액운을 막고자 마을청년회, 부녀회, 장승보존회가 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등 마을 장승제, 당제, 거리제 행사를 함"
+            },
+            {
+              "text": "방풍림 앞 농지(구 해변)가 천염기념물로 지정된 백조도래지이다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "방풍림 앞 농지(구 해변)가 천염기념물로 지정된 백조도래지 임."
+            }
+          ]
+        },
+        "find": {
+          "text": "돌장승을 찾아볼까요?",
+          "target": "돌장승",
+          "source_quote": "마을숲 옆 동네 입구에 돌장승을 만들어서"
+        }
+      },
+      "problems": [
+        "child 1번 문장: 근거 구절이 원문에 없음 '숲 이름(name): 덕병마을숲\n위치(address):'",
+        "child 2번 문장: 근거 구절이 원문에 없음 '주요 나무(species): 해송'",
+        "adult 1번 문장: 근거 구절이 원문에 없음 '위치(address): 전라남도 진도군 군내면 덕병리 '",
+        "adult 2번 문장: 근거 구절이 원문에 없음 '주요 나무(species): 해송'"
+      ],
+      "verdicts": null,
+      "hard_words": []
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "덕병마을숲은 전라남도 진도군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 진도군"
+            },
+            {
+              "text": "이 숲에는 해송이 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "덕병리에는 1400년 경부터 주민이 살기 시작했다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "덕병리에 주민이 살기 시작한 것은 1400년 경"
+            },
+            {
+              "text": "기록에는 시거 씨족은 마씨였다고 적혀 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "시거 씨족은 마씨였다고 한다."
+            },
+            {
+              "text": "마을 입구에 돌장승이 있어요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을숲 옆 동네 입구에 돌장승을 만들어서"
+            },
+            {
+              "text": "돌장승은 마을의 액운을 막고자 만든 것이라고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을의 액운을 막고자"
+            },
+            {
+              "text": "마을 청년회와 부녀회 같은 단체가 매년 정월대보름에 장승 목에 소 턱뼈를 걸어 놓는다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을청년회, 부녀회, 장승보존회가 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등"
+            },
+            {
+              "text": "장승제와 당제 같은 행사를 함께 한다고 전해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "장승제, 당제, 거리제 행사를 함"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "덕병마을숲은 전라남도 진도군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 진도군"
+            },
+            {
+              "text": "주요 수목은 해송이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "기록에는 덕병리에 주민이 살기 시작한 것은 1400년 경이라고 적혀 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "덕병리에 주민이 살기 시작한 것은 1400년 경"
+            },
+            {
+              "text": "같은 기록에서 시거 씨족은 마씨였다고 전한다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "시거 씨족은 마씨였다고 한다."
+            },
+            {
+              "text": "마을숲 옆 동네 입구에 돌장승이 있고, 마을의 액운을 막고자 세운 것이라고 전해진다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을숲 옆 동네 입구에 돌장승을 만들어서"
+            },
+            {
+              "text": "마을청년회·부녀회 등이 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등 장승제와 당제·거리제 행사를 한다고 기록되어 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을청년회, 부녀회, 장승보존회가 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등"
+            },
+            {
+              "text": "방풍림 앞 농지에 백조도래지라는 기록이 함께 있다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "방풍림 앞 농지(구 해변)가 천염기념물로 지정된 백조도래지 임."
+            }
+          ]
+        },
+        "find": {
+          "text": "돌장승을 찾아볼까요?",
+          "target": "돌장승",
+          "source_quote": "마을숲 옆 동네 입구에 돌장승을 만들어서"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 전라남도 진도군 군내면 덕병리 1144(전라남도 진도군)로 적혀 있음."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '해송'이 명시되어 있음."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '덕병리에 주민이 살기 시작한 것은 1400년 경'이라고 기록되어 있음."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '시거 씨족은 마씨였다고 한다'고 적혀 있음."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '마을숲 옆 동네 입구에 돌장승을 만들어서'라고 되어 있어 마을 입구에 돌장승이 있음을 나타냄."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 돌장승을 '마을의 액운을 막고자 만들'었다고 명시되어 있음."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '마을청년회, 부녀회, 장승보존회가 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등'이라고 적혀 있음."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '마을 장승제, 당제, 거리제 행사를 함'이라고 기록되어 있음."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문에 전라남도 진도군으로 위치가 적혀 있음."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 주요 나무(수목)로 해송이 기재되어 있음."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 역사 기록에 '덕병리에 주민이 살기 시작한 것은 1400년 경'이라고 적혀 있음."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "같은 역사 기록에 '시거 씨족은 마씨였다고 한다'고 함께 적혀 있음."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '마을숲 옆 동네 입구에 돌장승을 만들어서 마을의 액운을 막고자'라고 되어 있어 해당 내용이 뒷받침됨."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 '마을청년회, 부녀회, 장승보존회가 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등 마을 장승제, 당제, 거리제 행사를 함'이라고 명시되어 있음."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 '방풍림 앞 농지(구 해변)가 ... 백조도래지'라고 기록되어 있어 관련 기록이 있음을 나타냄."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 돌장승이 마을 입구에 있다고 되어 있어 '돌장승을 찾아볼까요?'라는 권유는 원문으로 뒷받침됨."
+        }
+      ],
+      "hard_words": [
+        "액운"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "덕병마을숲은 전라남도 진도군에 있어요.",
+              "type": "fact",
+              "source_field": "name",
+              "source_quote": "덕병마을숲"
+            },
+            {
+              "text": "이 숲에는 해송이 주로 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "덕병리에 주민이 살기 시작한 것은 1400년 경이라고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "덕병리에 주민이 살기 시작한 것은 1400년 경으로"
+            },
+            {
+              "text": "그때 살던 씨족은 마씨였다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "시거 씨족은 마씨였다고 한다."
+            },
+            {
+              "text": "마을 옆 동네 입구에는 돌장승을 만들어 두었대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "옆 동네 입구에 돌장승을 만들어서"
+            },
+            {
+              "text": "마을청년회, 부녀회, 장승보존회가 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등 여러 행사를 한다고 해요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등"
+            },
+            {
+              "text": "바람을 막아 주는 숲 앞 농지(구 해변)는 천염기념물로 지정된 백조도래지래요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "방풍림 앞 농지(구 해변)가 천염기념물로 지정된 백조도래지 임."
+            },
+            {
+              "text": "천천히 둘러보며 눈으로 하나하나 찾아보아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "덕병마을숲은 전라남도 진도군에 위치해 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 진도군"
+            },
+            {
+              "text": "주요 수종은 해송입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "기록에는 덕병리에 주민이 살기 시작한 것은 1400년 경으로 적혀 있고,",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "덕병리에 주민이 살기 시작한 것은 1400년 경으로"
+            },
+            {
+              "text": "시거 씨족은 마씨였다고 전합니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "시거 씨족은 마씨였다고 한다."
+            },
+            {
+              "text": "마을 입구의 돌장승과 함께 마을청년회, 부녀회, 장승보존회가 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등 장승제·당제·거리제 행사를 열었다고 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을청년회, 부녀회, 장승보존회가 주관하여"
+            },
+            {
+              "text": "또 방풍림 앞 농지(구 해변)는 천염기념물로 지정된 백조도래지라고 전합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "방풍림 앞 농지(구 해변)가 천염기념물로 지정된 백조도래지 임."
+            }
+          ]
+        },
+        "find": {
+          "text": "돌장승을 찾아볼까요?",
+          "target": "돌장승",
+          "source_quote": "옆 동네 입구에 돌장승을 만들어서"
+        }
+      },
+      "problems": [
+        "child 7번 문장: 어린이용에 괄호나 면적 단위가 있음 '('"
+      ],
+      "verdicts": null,
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "덕병마을숲은 전라남도 진도군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 진도군"
+        },
+        {
+          "text": "이 숲에는 해송이 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "해송"
+        },
+        {
+          "text": "덕병리에는 1400년 경부터 주민이 살기 시작했다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "덕병리에 주민이 살기 시작한 것은 1400년 경"
+        },
+        {
+          "text": "기록에는 시거 씨족은 마씨였다고 적혀 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "시거 씨족은 마씨였다고 한다."
+        },
+        {
+          "text": "마을 입구에 돌장승이 있어요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을숲 옆 동네 입구에 돌장승을 만들어서"
+        },
+        {
+          "text": "돌장승은 마을의 액운을 막고자 만든 것이라고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을의 액운을 막고자"
+        },
+        {
+          "text": "마을 청년회와 부녀회 같은 단체가 매년 정월대보름에 장승 목에 소 턱뼈를 걸어 놓는다고 해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을청년회, 부녀회, 장승보존회가 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등"
+        },
+        {
+          "text": "장승제와 당제 같은 행사를 함께 한다고 전해요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "장승제, 당제, 거리제 행사를 함"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "덕병마을숲은 전라남도 진도군에 있다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 진도군"
+        },
+        {
+          "text": "주요 수목은 해송이다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "해송"
+        },
+        {
+          "text": "기록에는 덕병리에 주민이 살기 시작한 것은 1400년 경이라고 적혀 있다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "덕병리에 주민이 살기 시작한 것은 1400년 경"
+        },
+        {
+          "text": "같은 기록에서 시거 씨족은 마씨였다고 전한다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "시거 씨족은 마씨였다고 한다."
+        },
+        {
+          "text": "마을숲 옆 동네 입구에 돌장승이 있고, 마을의 액운을 막고자 세운 것이라고 전해진다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을숲 옆 동네 입구에 돌장승을 만들어서"
+        },
+        {
+          "text": "마을청년회·부녀회 등이 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등 장승제와 당제·거리제 행사를 한다고 기록되어 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을청년회, 부녀회, 장승보존회가 주관하여 매년 정월대보름에 장승 목에 소 턱뼈를 걸어놓는 등"
+        },
+        {
+          "text": "방풍림 앞 농지에 백조도래지라는 기록이 함께 있다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "방풍림 앞 농지(구 해변)가 천염기념물로 지정된 백조도래지 임."
+        }
+      ]
+    },
+    "find": {
+      "text": "돌장승을 찾아볼까요?",
+      "target": "돌장승",
+      "source_quote": "마을숲 옆 동네 입구에 돌장승을 만들어서"
+    }
+  },
+  "hard_words_left": [
+    "액운"
+  ]
+}

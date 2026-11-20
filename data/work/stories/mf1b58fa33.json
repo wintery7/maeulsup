@@ -1,0 +1,669 @@
+{
+  "id": "mf1b58fa33",
+  "name": "강계마을숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "강계마을숲은 전라남도 진도군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 진도군"
+            },
+            {
+              "text": "이 숲에는 주로 해송이 자라고 있어요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "옛날에 임씨 성을 가진 사람들이 이곳에 들어와 마을을 이루고 살았대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며"
+            },
+            {
+              "text": "400여년전에는 어업에 의존하다가, 마을 앞에 논을 만들면서 바람을 막아 주는 숲도 함께 만들었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여"
+            },
+            {
+              "text": "그 숲을 지금까지 주민 스스로가 잘 지켜 왔대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "지금까지 주민 스스로가 관리하고"
+            },
+            {
+              "text": "2005년도에 산림유전자원 보호림으로 지정되었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "2005년도에 산림유전자원 보호림으로 지정관리하고 있고"
+            },
+            {
+              "text": "마을 사람들은 상조계와 연말 주민결산총회로 서로 돕고 화합하는 자리를 만들었대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "상조계 및 연말 주민결산총회"
+            },
+            {
+              "text": "숲과 이어진 바닷가에서는 조개잡이 축제가 매년 열려 많은 관광객이 온대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "강계마을숲은 전라남도 진도군에 있다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 진도군"
+            },
+            {
+              "text": "주요 수종은 해송이다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며"
+            },
+            {
+              "text": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여 지금까지 주민 스스로가 관리하고 있다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여 지금까지 주민 스스로가 관리하고"
+            },
+            {
+              "text": "2005년도에 산림유전자원 보호림으로 지정관리되었다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "2005년도에 산림유전자원 보호림으로 지정관리하고 있고"
+            },
+            {
+              "text": "예전부터 상조계 및 연말 주민결산총회 등 주민화합의 장소이기도 하다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "주민들이 모여 마을주민의 단합을 꾀하는 장소이기도 함."
+            },
+            {
+              "text": "마을숲과 연접해있는 해변에서는 조개잡이 축제가 매년 열려 많은 관광객이 온다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴."
+            }
+          ]
+        },
+        "find": {
+          "text": "해송을 찾아볼까요?",
+          "target": "해송",
+          "source_quote": "해송"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 전라남도 진도군으로 표시되어 있어 직접 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '해송'이라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며'라고 되어 있어 동일한 내용입니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '지금까지 주민 스스로가 관리하고'라고 나와 있어 동일한 의미입니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '2005년도에 산림유전자원 보호림으로 지정관리'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 문화 기록에 상조계 및 연말 주민결산총회로 주민 화합과 부조를 도모한다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "(0)과 동일하게 원문에 진도군에 있다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 주요 나무(수종)로 해송이 적혀 있어 직접 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여 지금까지 주민 스스로가 관리하고'라고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '2005년도에 산림유전자원 보호림으로 지정관리'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 예전부터 상조계 및 연말 주민결산총회 등으로 주민 화합의 장소라는 설명이 있어 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 '마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 해송이 명시되어 있어 '해송을 찾아보자'는 권유는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "지정"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "강계마을숲은 전라남도 진도군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 진도군"
+            },
+            {
+              "text": "숲에는 해송이 자라요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "옛날에 임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며"
+            },
+            {
+              "text": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 바람을 막아 주는 숲을 만들었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여"
+            },
+            {
+              "text": "지금까지 마을 사람들이 스스로 가꿔왔대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "지금까지 주민 스스로가 관리하고"
+            },
+            {
+              "text": "2005년도에 산림유전자원 보호림으로 되었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "2005년도에 산림유전자원 보호림으로 지정관리하고 있고"
+            },
+            {
+              "text": "마을 사람들은 상조계와 연말 모임으로 서로 도우며 함께 모였대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "예전부터 마을의 대소상시 주민화합과 부조를 목적으로 하는 상조계 및 연말 주민결산총회 등 주민들이 모여 마을주민의 단합을 꾀하는 장소이기도 함."
+            },
+            {
+              "text": "마을숲과 연접해있는 해변에서 조개잡이 축제가 매년 열려 많은 관광객이 와요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "강계마을숲은 전라남도 진도군에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 진도군"
+            },
+            {
+              "text": "주요 수종은 해송입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았다고 전해집니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며"
+            },
+            {
+              "text": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하였습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여"
+            },
+            {
+              "text": "지금까지 주민 스스로가 관리하고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "지금까지 주민 스스로가 관리하고"
+            },
+            {
+              "text": "2005년도에 산림유전자원 보호림으로 지정관리하고 있고",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "2005년도에 산림유전자원 보호림으로 지정관리하고 있고"
+            },
+            {
+              "text": "예전부터 상조계와 연말 주민결산총회 등으로 주민 화합을 도모해 온 곳입니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "예전부터 마을의 대소상시 주민화합과 부조를 목적으로 하는 상조계 및 연말 주민결산총회 등 주민들이 모여 마을주민의 단합을 꾀하는 장소이기도 함."
+            },
+            {
+              "text": "마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옵니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴."
+            }
+          ]
+        },
+        "find": {
+          "text": "해송을 찾아볼까요?",
+          "target": "해송",
+          "source_quote": "해송"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라남도 진도군'으로 표기되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '주요 나무: 해송'으로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '400여년전...마을앞에 논을 조성하면서 방풍림을 조성하여'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 '지금까지 주민 스스로가 관리하고'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '2005년도에 산림유전자원 보호림으로 지정관리'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 '상조계 및 연말 주민결산총회 등...주민의 단합을 꾀하는 장소'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 '마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "문장(0)과 동일하게 원문에 전라남도 진도군으로 표기되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '주요 나무: 해송'으로 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 '400여년전...논을 조성하면서 방풍림을 조성'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '지금까지 주민 스스로가 관리하고'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "문장 내용이 원문의 '2005년도에 산림유전자원 보호림으로 지정관리하고 있고'와 동일하여 뒷받침됩니다."
+        },
+        {
+          "index": 14,
+          "label": "supported",
+          "reason": "원문에 '예전부터...주민화합과 부조를 목적으로 하는 상조계 및 연말 주민결산총회 등'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 15,
+          "label": "supported",
+          "reason": "원문에 '마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 16,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '해송'이 명시되어 있어 '해송을 찾아볼까요?'라는 권유가 뒷받침됩니다."
+        }
+      ],
+      "hard_words": [
+        "조성",
+        "연접"
+      ]
+    },
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "강계마을숲은 전라남도 진도군에 있어요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 진도군"
+            },
+            {
+              "text": "이 마을은 임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며"
+            },
+            {
+              "text": "400여년전에는 어업을 주로 하다가 마을 앞에 논을 만들면서 바람을 막아 주는 숲도 만들었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여"
+            },
+            {
+              "text": "사람들이 스스로 숲을 잘 돌봐 왔고 2005년도에 산림유전자원 보호림으로 정해졌대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "주민 스스로가 관리하고 2005년도에 산림유전자원 보호림으로 지정관리하고 있고"
+            },
+            {
+              "text": "마을 사람들이 서로 도우려고 모이는 상조계와 연말 모임도 이 숲과 관련된 곳이래요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "상조계 및 연말 주민결산총회 등 주민들이 모여 마을주민의 단합을 꾀하는 장소이기도 함."
+            },
+            {
+              "text": "마을숲 옆 바닷가에서는 조개잡이 축제가 매년 열려 많은 관광객이 왔대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴."
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "강계마을숲은 전라남도 진도군에 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라남도 진도군"
+            },
+            {
+              "text": "주요 나무는 해송입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "해송"
+            },
+            {
+              "text": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며"
+            },
+            {
+              "text": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하였습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여"
+            },
+            {
+              "text": "주민 스스로가 관리해 왔고 2005년도에 산림유전자원 보호림으로 지정관리되었습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "주민 스스로가 관리하고 2005년도에 산림유전자원 보호림으로 지정관리하고 있고"
+            },
+            {
+              "text": "상조계 및 연말 주민결산총회 등 주민들이 모여 마을주민의 단합을 꾀하는 장소이기도 합니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "상조계 및 연말 주민결산총회 등 주민들이 모여 마을주민의 단합을 꾀하는 장소이기도 함."
+            },
+            {
+              "text": "마을숲과 연접해있는 해변에서는 조개잡이 축제가 매년 열려 많은 관광객이 왔습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴."
+            }
+          ]
+        },
+        "find": {
+          "text": "해송을 찾아볼까요?",
+          "target": "해송",
+          "source_quote": "해송"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라남도 진도군'으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 '임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 '400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성'했다고 되어 있어 의미상 동일하게 풀어쓴 표현입니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 '주민 스스로가 관리하고 2005년도에 산림유전자원 보호림으로 지정관리'되었다고 명시되어 있습니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 상조계 및 연말 주민결산총회 등 주민들이 모여 단합을 꾀하는 장소라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문에 '마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문에 위치가 '전라남도 진도군'으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 나무가 '해송'으로 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 '임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며'라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 '400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성'했다고 명시되어 있습니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문에 '주민 스스로가 관리해 왔고 2005년도에 산림유전자원 보호림으로 지정관리'되었다고 되어 있습니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문 문장과 동일하게 상조계 및 연말 주민결산총회 등이 이 숲의 기능으로 언급되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 '마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴'이라고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 13,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 '해송'이 명시되어 있어 '해송을 찾아볼까요?'는 원문으로 뒷받침됩니다."
+        }
+      ],
+      "hard_words": []
+    }
+  ],
+  "mock": false,
+  "prompt_version": 3,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "강계마을숲은 전라남도 진도군에 있어요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 진도군"
+        },
+        {
+          "text": "이 마을은 임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며"
+        },
+        {
+          "text": "400여년전에는 어업을 주로 하다가 마을 앞에 논을 만들면서 바람을 막아 주는 숲도 만들었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여"
+        },
+        {
+          "text": "사람들이 스스로 숲을 잘 돌봐 왔고 2005년도에 산림유전자원 보호림으로 정해졌대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "주민 스스로가 관리하고 2005년도에 산림유전자원 보호림으로 지정관리하고 있고"
+        },
+        {
+          "text": "마을 사람들이 서로 도우려고 모이는 상조계와 연말 모임도 이 숲과 관련된 곳이래요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "상조계 및 연말 주민결산총회 등 주민들이 모여 마을주민의 단합을 꾀하는 장소이기도 함."
+        },
+        {
+          "text": "마을숲 옆 바닷가에서는 조개잡이 축제가 매년 열려 많은 관광객이 왔대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴."
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "강계마을숲은 전라남도 진도군에 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라남도 진도군"
+        },
+        {
+          "text": "주요 나무는 해송입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "해송"
+        },
+        {
+          "text": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "임씨성을 가진 사람들이 처음 들어와 마을을 이루고 살았으며"
+        },
+        {
+          "text": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하였습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "400여년전 어업에 의존하다 마을앞에 논을 조성하면서 방풍림을 조성하여"
+        },
+        {
+          "text": "주민 스스로가 관리해 왔고 2005년도에 산림유전자원 보호림으로 지정관리되었습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "주민 스스로가 관리하고 2005년도에 산림유전자원 보호림으로 지정관리하고 있고"
+        },
+        {
+          "text": "상조계 및 연말 주민결산총회 등 주민들이 모여 마을주민의 단합을 꾀하는 장소이기도 합니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "상조계 및 연말 주민결산총회 등 주민들이 모여 마을주민의 단합을 꾀하는 장소이기도 함."
+        },
+        {
+          "text": "마을숲과 연접해있는 해변에서는 조개잡이 축제가 매년 열려 많은 관광객이 왔습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "마을숲과 연접해있는 해변에서 조개잡이 축제등이 매년 열려 많은 관광객이 옴."
+        }
+      ]
+    },
+    "find": {
+      "text": "해송을 찾아볼까요?",
+      "target": "해송",
+      "source_quote": "해송"
+    }
+  }
+}

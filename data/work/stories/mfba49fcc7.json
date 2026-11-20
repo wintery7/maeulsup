@@ -1,0 +1,278 @@
+{
+  "id": "mfba49fcc7",
+  "name": "신포숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "신포숲은 경상남도 의령군 칠곡면 신포리 340-1, 의령군에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 의령군 칠곡면 신포리 340-1"
+            },
+            {
+              "text": "숲에는 소나무가 주로 자라고 있대요.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "숲 앞에는 7개의? 선돌이 있다고 하네요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "7개의? 선돌"
+            },
+            {
+              "text": "그 선돌은 북두칠성의 모양을 하고 있는 것이라고 전해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "북두칠성의 모양을 하고 있는"
+            },
+            {
+              "text": "마을사람들은 선돌을 하나의 수호신처럼 생각하고 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을사람들은 하나의 수호신처럼 생각하고"
+            },
+            {
+              "text": "지금은 국도와 지방도변에 위치하고 있어 군민들이 쉬는 곳으로 이용되고 있대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "군민의 휴식공간으로 이용되고 있음"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "눈을 크게 뜨고 숲을 잘 살펴봐요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "조용히 귀 기울여 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "천천히 차창 밖을 바라보아요.",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "신포숲은 경상남도 의령군 칠곡면 신포리 340-1, 의령군에 위치한 숲입니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "경상남도 의령군 칠곡면 신포리 340-1"
+            },
+            {
+              "text": "주요 수종은 소나무입니다.",
+              "type": "fact",
+              "source_field": "species",
+              "source_quote": "소나무"
+            },
+            {
+              "text": "이곳 앞의 선돌들은 북두칠성의 모양을 하고 있는 것으로 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "북두칠성의 모양을 하고 있는"
+            },
+            {
+              "text": "마을사람들은 그것을 하나의 수호신처럼 생각하고 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "마을사람들은 하나의 수호신처럼 생각하고"
+            },
+            {
+              "text": "현재 국도와 지방도변에 위치하고 있어 군민의 휴식공간으로 이용되고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "현재 국도와 지방도변에 위치하고 있어 군민의 휴식공간으로 이용되고 있음"
+            }
+          ]
+        },
+        "find": {
+          "text": "선돌을 찾아볼까요?",
+          "target": "선돌",
+          "source_quote": "7개의? 선돌"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "주소가 원문의 신포리 340-1, 의령군 위치와 일치함."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 주요 나무(species)가 소나무로 되어 있음."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문 역사 기록에 ‘앞에 7개의? 선돌’이라고 되어 있어 같은 내용을 담고 있음."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 선돌이 북두칠성 모양을 하고 있다고 전해진다고 적혀 있음."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 마을사람들이 선돌을 하나의 수호신처럼 생각한다고 기록되어 있음."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 현재 국도와 지방도변에 위치해 군민의 휴식공간으로 이용된다고 나와 있음."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "문장 (0)과 동일하게 원문의 주소 정보를 그대로 서술하고 있음."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 주요 수종이 소나무라고 명시되어 있음."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문 역사 기록에서 이곳 앞의 선돌들이 북두칠성 모양이라고 적혀 있음."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 마을사람들이 그것을 하나의 수호신처럼 생각한다고 기록되어 있음."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 문화 기록과 동일하게 국도·지방도변에 위치해 군민 휴식공간으로 이용된다고 되어 있음."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 선돌이 앞에 있다고 적혀 있으므로 ‘선돌을 찾아볼까요?’라는 권유는 원문으로 뒷받침됨."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "신포숲은 경상남도 의령군 칠곡면 신포리 340-1, 의령군에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 의령군 칠곡면 신포리 340-1"
+        },
+        {
+          "text": "숲에는 소나무가 주로 자라고 있대요.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "숲 앞에는 7개의? 선돌이 있다고 하네요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "7개의? 선돌"
+        },
+        {
+          "text": "그 선돌은 북두칠성의 모양을 하고 있는 것이라고 전해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "북두칠성의 모양을 하고 있는"
+        },
+        {
+          "text": "마을사람들은 선돌을 하나의 수호신처럼 생각하고 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을사람들은 하나의 수호신처럼 생각하고"
+        },
+        {
+          "text": "지금은 국도와 지방도변에 위치하고 있어 군민들이 쉬는 곳으로 이용되고 있대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "군민의 휴식공간으로 이용되고 있음"
+        },
+        {
+          "text": "눈을 크게 뜨고 숲을 잘 살펴봐요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "조용히 귀 기울여 볼까요?",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        },
+        {
+          "text": "천천히 차창 밖을 바라보아요.",
+          "type": "narration",
+          "source_field": "none",
+          "source_quote": ""
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "신포숲은 경상남도 의령군 칠곡면 신포리 340-1, 의령군에 위치한 숲입니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "경상남도 의령군 칠곡면 신포리 340-1"
+        },
+        {
+          "text": "주요 수종은 소나무입니다.",
+          "type": "fact",
+          "source_field": "species",
+          "source_quote": "소나무"
+        },
+        {
+          "text": "이곳 앞의 선돌들은 북두칠성의 모양을 하고 있는 것으로 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "북두칠성의 모양을 하고 있는"
+        },
+        {
+          "text": "마을사람들은 그것을 하나의 수호신처럼 생각하고 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "마을사람들은 하나의 수호신처럼 생각하고"
+        },
+        {
+          "text": "현재 국도와 지방도변에 위치하고 있어 군민의 휴식공간으로 이용되고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "현재 국도와 지방도변에 위치하고 있어 군민의 휴식공간으로 이용되고 있음"
+        }
+      ]
+    },
+    "find": {
+      "text": "선돌을 찾아볼까요?",
+      "target": "선돌",
+      "source_quote": "7개의? 선돌"
+    }
+  },
+  "opener_removed": true
+}

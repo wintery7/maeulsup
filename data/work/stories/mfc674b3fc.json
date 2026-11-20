@@ -1,0 +1,259 @@
+{
+  "id": "mfc674b3fc",
+  "name": "주생초교 송림숲",
+  "attempts": [
+    {
+      "story": {
+        "child": {
+          "sentences": [
+            {
+              "text": "주생초교 송림숲은 남원시에 있는 숲이에요.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 주생면 지당리 480-9"
+            },
+            {
+              "text": "자, 이야기를 시작해 볼까요?",
+              "type": "narration",
+              "source_field": "none",
+              "source_quote": ""
+            },
+            {
+              "text": "1929년에 개교할 때 여러 땅을 모아 학교로 내어주었대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1929년 개교당시 임야 8,128평, 밭4,125평 논525평 등 12,778평을"
+            },
+            {
+              "text": "그 땅은 남강 방해규 옹께서 학교부지로 희사하였다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "남강 방해규(1869-1950)옹께서 학교부지로 희사하였음"
+            },
+            {
+              "text": "개교할 때 방해규 옹이 손수 가꾼 소나무 약 2천여 그루가 있었다고 해요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "개교당시에는 방해규옹께서 손수 가꾼 소나무 약 2천여 그루가 있었음"
+            },
+            {
+              "text": "그런데 6·25전쟁 때 폭격으로 많은 나무가 없어져 지금은 116주만 남아 있대요.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "6.25전쟁때 폭격으로 인해 많은 나무가 소실되고 현재는 116주가 있음"
+            },
+            {
+              "text": "면사무소 주관 행사나 주민들의 운동 장소, 그리고 학교 학생들의 교육 장소로도 쓰인대요.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "학교 학생들의 교육 장소로 활용"
+            }
+          ]
+        },
+        "adult": {
+          "sentences": [
+            {
+              "text": "주생초교 송림숲은 전라북도 남원시에 위치해 있습니다.",
+              "type": "fact",
+              "source_field": "address",
+              "source_quote": "전라북도 남원시 주생면 지당리 480-9"
+            },
+            {
+              "text": "1929년 개교 당시 임야와 밭, 논을 합쳐 12,778평을 남강 방해규 옹이 학교 부지로 희사했습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "1929년 개교당시 임야 8,128평, 밭4,125평 논525평 등 12,778평을 남강 방해규(1869-1950)옹께서 학교부지로 희사하였음"
+            },
+            {
+              "text": "개교 당시 방해규 옹이 손수 가꾼 소나무 약 2천여 그루가 있었던 것으로 기록되어 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "개교당시에는 방해규옹께서 손수 가꾼 소나무 약 2천여 그루가 있었음"
+            },
+            {
+              "text": "그러나 6·25전쟁 때 폭격으로 많은 나무가 소실되었고 현재는 116주가 남아 있습니다.",
+              "type": "fact",
+              "source_field": "history",
+              "source_quote": "6.25전쟁때 폭격으로 인해 많은 나무가 소실되고 현재는 116주가 있음"
+            },
+            {
+              "text": "면사무소 주관의 면민체육대회나 광복절 행사 등 지역 행사가 매년 이곳에서 열립니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "면사무소 주관 행사- 면민체육대회, 광복절행사 등 매년 활용"
+            },
+            {
+              "text": "또 지역 주민들의 체력단련과 소공원 역할, 학교 학생들의 교육 장소로 활용되고 있습니다.",
+              "type": "fact",
+              "source_field": "culture",
+              "source_quote": "학교 학생들의 교육 장소로 활용"
+            }
+          ]
+        },
+        "find": {
+          "text": "소나무를 찾아볼까요?",
+          "target": "소나무",
+          "source_quote": "소나무"
+        }
+      },
+      "problems": [],
+      "verdicts": [
+        {
+          "index": 0,
+          "label": "supported",
+          "reason": "원문에 주소가 ‘전라북도 남원시 …’로 표기되어 있어 남원시에 있다는 내용이 뒷받침됩니다."
+        },
+        {
+          "index": 1,
+          "label": "supported",
+          "reason": "원문에 1929년 개교 당시 임야·밭·논 등 여러 땅을 학교로 희사했다는 기록이 있어 그 진술을 뒷받침합니다."
+        },
+        {
+          "index": 2,
+          "label": "supported",
+          "reason": "원문에 해당 토지가 ‘남강 방해규 옹’이 학교부지로 희사했다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 3,
+          "label": "supported",
+          "reason": "원문에 ‘개교당시 … 소나무 약 2천여 그루가 있었음’이라고 적혀 있어 그 진술을 뒷받침합니다."
+        },
+        {
+          "index": 4,
+          "label": "supported",
+          "reason": "원문에 ‘6.25전쟁때 폭격으로 인해 많은 나무가 소실되고 현재는 116주가 있음’이라고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 5,
+          "label": "supported",
+          "reason": "원문 문화 기록에 면사무소 주관 행사, 주민들의 체력단련 장소 및 학교 학생들의 교육 장소로 활용된다고 되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 6,
+          "label": "supported",
+          "reason": "원문 주소에 전라북도 남원시로 명시되어 있어 해당 위치 진술을 뒷받침합니다."
+        },
+        {
+          "index": 7,
+          "label": "supported",
+          "reason": "원문에 ‘임야 8,128평, 밭4,125평, 논525평 등 12,778평을 … 희사하였음’이라고 나와 있어 그 합계와 기부자 정보를 뒷받침합니다."
+        },
+        {
+          "index": 8,
+          "label": "supported",
+          "reason": "원문에 개교 당시 방해규 옹이 손수 가꾼 소나무 약 2천여 그루가 있었다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 9,
+          "label": "supported",
+          "reason": "원문에 6·25전쟁 때 폭격으로 많은 나무가 소실되어 현재 116주가 남아 있다고 기록되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 10,
+          "label": "supported",
+          "reason": "원문 문화 기록에 면사무소 주관의 면민체육대회와 광복절행사 등이 매년 활용된다고 적혀 있어 뒷받침됩니다."
+        },
+        {
+          "index": 11,
+          "label": "supported",
+          "reason": "원문에 지역주민들의 체력단련과 소공원 역할, 학교 학생들의 교육 장소로 활용된다고 명시되어 있어 뒷받침됩니다."
+        },
+        {
+          "index": 12,
+          "label": "supported",
+          "reason": "원문에 주요 나무로 ‘소나무’가 명시되어 있어 소나무를 찾아보자고 권하는 내용은 뒷받침됩니다."
+        }
+      ]
+    }
+  ],
+  "mock": false,
+  "status": "verified",
+  "final": {
+    "child": {
+      "sentences": [
+        {
+          "text": "주생초교 송림숲은 남원시에 있는 숲이에요.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시 주생면 지당리 480-9"
+        },
+        {
+          "text": "1929년에 개교할 때 여러 땅을 모아 학교로 내어주었대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1929년 개교당시 임야 8,128평, 밭4,125평 논525평 등 12,778평을"
+        },
+        {
+          "text": "그 땅은 남강 방해규 옹께서 학교부지로 희사하였다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "남강 방해규(1869-1950)옹께서 학교부지로 희사하였음"
+        },
+        {
+          "text": "개교할 때 방해규 옹이 손수 가꾼 소나무 약 2천여 그루가 있었다고 해요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "개교당시에는 방해규옹께서 손수 가꾼 소나무 약 2천여 그루가 있었음"
+        },
+        {
+          "text": "그런데 6·25전쟁 때 폭격으로 많은 나무가 없어져 지금은 116주만 남아 있대요.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "6.25전쟁때 폭격으로 인해 많은 나무가 소실되고 현재는 116주가 있음"
+        },
+        {
+          "text": "면사무소 주관 행사나 주민들의 운동 장소, 그리고 학교 학생들의 교육 장소로도 쓰인대요.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "학교 학생들의 교육 장소로 활용"
+        }
+      ]
+    },
+    "adult": {
+      "sentences": [
+        {
+          "text": "주생초교 송림숲은 전라북도 남원시에 위치해 있습니다.",
+          "type": "fact",
+          "source_field": "address",
+          "source_quote": "전라북도 남원시 주생면 지당리 480-9"
+        },
+        {
+          "text": "1929년 개교 당시 임야와 밭, 논을 합쳐 12,778평을 남강 방해규 옹이 학교 부지로 희사했습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "1929년 개교당시 임야 8,128평, 밭4,125평 논525평 등 12,778평을 남강 방해규(1869-1950)옹께서 학교부지로 희사하였음"
+        },
+        {
+          "text": "개교 당시 방해규 옹이 손수 가꾼 소나무 약 2천여 그루가 있었던 것으로 기록되어 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "개교당시에는 방해규옹께서 손수 가꾼 소나무 약 2천여 그루가 있었음"
+        },
+        {
+          "text": "그러나 6·25전쟁 때 폭격으로 많은 나무가 소실되었고 현재는 116주가 남아 있습니다.",
+          "type": "fact",
+          "source_field": "history",
+          "source_quote": "6.25전쟁때 폭격으로 인해 많은 나무가 소실되고 현재는 116주가 있음"
+        },
+        {
+          "text": "면사무소 주관의 면민체육대회나 광복절 행사 등 지역 행사가 매년 이곳에서 열립니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "면사무소 주관 행사- 면민체육대회, 광복절행사 등 매년 활용"
+        },
+        {
+          "text": "또 지역 주민들의 체력단련과 소공원 역할, 학교 학생들의 교육 장소로 활용되고 있습니다.",
+          "type": "fact",
+          "source_field": "culture",
+          "source_quote": "학교 학생들의 교육 장소로 활용"
+        }
+      ]
+    },
+    "find": {
+      "text": "소나무를 찾아볼까요?",
+      "target": "소나무",
+      "source_quote": "소나무"
+    }
+  },
+  "opener_removed": true
+}
