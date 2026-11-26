@@ -128,20 +128,17 @@ python -m http.server 8000
 
 ## 9. 배포
 
-`web` 폴더만 올리면 된다. 서버 코드가 없는 정적 사이트라 아무 정적 호스팅이나 된다.
+`web` 폴더만 올리면 된다. 서버 코드가 없는 정적 사이트라 아무 정적 호스팅이나 된다. 지금 서비스(https://maeulsup.vercel.app)는 Vercel CLI로 올렸다.
 
-**가장 쉬운 방법: Netlify Drop**
-app.netlify.com/drop 에 로그인하고 `web` 폴더를 끌어다 놓는다. 주소가 바로 나온다. 사이트 설정에서 이름을 `maeulsup` 같은 걸로 바꿀 수 있다.
+```bash
+cd ../web
+npx vercel deploy          # 미리보기 배포. Vercel에 로그인한 사람만 열 수 있음
+npx vercel deploy --prod   # 공개 주소에 반영
+```
 
-**GitHub + Vercel**
-1. 이 프로젝트를 GitHub에 올린다 (`.env`가 안 올라갔는지 꼭 확인).
-2. vercel.com → Add New → Project → 저장소 선택
-3. Root Directory를 `web`으로, Framework Preset은 Other, Build Command는 비워 둔다.
-4. Deploy
+`web/.vercelignore`가 키 파일 같은 것을 업로드에서 뺀다. `web` 폴더는 음성 208개와 사진을 합쳐 37MB쯤 된다. 다른 호스팅을 쓸 때는 업로드 용량 제한을 먼저 확인한다.
 
-어느 쪽이든 업로드 용량 제한이 있으니 `web` 폴더 크기를 먼저 확인하고, 크면 어른용 음성을 빼거나 각 서비스의 제한을 확인한다.
-
-배포 후 `web/assets/config.js`의 `githubUrl`에 저장소 주소를 넣고 다시 배포하면 '개발자 키트' 페이지에 링크가 생긴다.
+`web/assets/config.js`의 `githubUrl`에 저장소 주소를 넣고 다시 배포하면 '개발자 키트' 페이지에 링크가 생긴다.
 
 ## 10. 배포 후 확인 (세림 담당)
 
